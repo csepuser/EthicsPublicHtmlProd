@@ -1,0 +1,21 @@
+<?php
+// $Id: biblio_facets.install,v 1.6.2.1 2009/12/17 20:59:52 rjerome Exp $
+
+/**
+ * Implementation of hook_enable().
+ */
+function biblio_facets_enable() {
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function biblio_facets_uninstall() {
+  if (db_table_exists('faceted_search_filters')) {
+    db_query("DELETE FROM {faceted_search_filters} WHERE filter_key = 'biblio_field'");
+  }
+}
+
+/**
+ * Remove abandoned variable.
+ */

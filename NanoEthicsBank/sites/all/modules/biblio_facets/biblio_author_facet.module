@@ -1,0 +1,241 @@
+<?php
+// $Id: biblio_author_facet.module,v 1.1.2.1 2009/12/17 20:59:52 rjerome Exp $
+
+/**
+ * @file
+ * Provides a facet for content authors.
+ */
+
+require_once('./'. drupal_get_path('module', 'faceted_search') .'/faceted_search.inc');
+
+/**
+ * Implementation of hook_form_alter().
+ */
+
+/**
+ * Implementation of hook_faceted_search_collect().
+ */
+function biblio_author_facet_faceted_search_collect(&$facets, $domain, $env, $selection, $arg = NULL) {
+  switch ($domain) {
+    case 'facets':
+      // If the author facet is allowed.
+      if (!isset($selection) || isset($selection['biblio_author'][1])) {
+        $facets[] = new biblio_author_facet();
+      }
+      break;
+
+    case 'text':
+      // If the author facet is allowed.
+      if (!isset($selection) || isset($selection['biblio_author'][1])) {
+        // Scan the search text for a 'author:uid' token, and extract a
+        // facet from it.
+        $cid = search_query_extract($arg, 'biblio_author');
+        if (is_numeric($cid)) {
+          if ($name = biblio_author_facet_get_user_name($env, $cid)) {
+            // Create a facet with the user found in the search text as the
+            // active category.
+            $facets[] = new biblio_author_facet($cid, $name);
+
+          }
+        }
+        // Remove the parsed token from the search text, based
+        // upon search_query_insert().
+        if (search_query_extract($arg, 'biblio_author') !== FALSE) {
+          $arg = trim(preg_replace('/(^| )biblio_author:[^ ]*/i', '', $arg));
+        }
+      }
+      return $arg;
+
+    case 'node':
+      // If the author facet is allowed.
+      if (is_numeric($arg->cid) && (!isset($selection) || isset($selection['biblio_author'][1]))) {
+        if ($name = biblio_author_facet_get_user_name($env, $arg->cid)) {
+          // Create a facet with the node's author as the active category.
+          $facets[] = new biblio_author_facet($arg->cid, $name);
+        }
+      }
+      break;
+  }
+}
+
+/**
+ * Implementation of hook_faceted_search_init().
+ */
+function biblio_author_facet_faceted_search_init(&$env) {
+  $env->settings['biblio_author_facet_excluded_roles'] = array();
+}
+
+/**
+ * Return the name of a user.
+ *
+ * @return The user's name, or FALSE if not found or if the user's role is not
+ * allowed in the facet.
+ */
+function biblio_author_facet_get_user_name($env, $cid) {
+    $author = db_fetch_array(db_query('SELECT * FROM {biblio_contributor_data} bcd WHERE bcd.cid = %d', $cid));
+    return _biblio_author_facet_format_author($author);
+}
+
+function _biblio_author_facet_format_author($author) {
+  static $author_options = array();
+  $inline = FALSE;
+  if (empty($author_options)) {
+    $style_name = biblio_get_style();
+    module_load_include('inc', 'biblio', "biblio_style_$style_name");
+    $style_function = "biblio_style_$style_name"."_author_options";
+    $author_options = $style_function();
+  }
+  return theme('biblio_format_authors', array($author), $author_options, $inline);
+}
+
+
+/**
+ * A facet for node authors.
+ */
+class biblio_author_facet extends faceted_search_facet {
+
+
+  /**
+   * Constructor. Optionally assigns the active user of the facet.
+   */
+  function biblio_author_facet($cid = 0, $name = '') {
+    $active_path = array();
+    if (is_numeric($cid) && $name) {
+      $active_path[] = new biblio_author_facet_category($cid, $name);
+    }
+    parent::faceted_search_facet('biblio_author', $active_path);
+  }
+
+  function get_id() {
+    return 1; // This module provides only one facet.
+  }
+
+  function get_label() {
+    return t('Biblio Author');
+  }
+
+  /**
+   * Returns the available sort options for this facet.
+   */
+  function get_sort_options() {
+    $options = parent::get_sort_options();
+    $options['name'] = t('Name');
+    return $options;
+  }
+
+  /**
+   * Handler for the 'count' sort criteria.
+   */
+  function build_sort_query_count(&$query) {
+    $query->add_orderby('count', 'DESC');
+    $query->add_orderby('lastname', 'ASC');
+  }
+
+  /**
+   * Handler for the 'name' sort criteria.
+   */
+  function build_sort_query_name(&$query) {
+    $query->add_orderby('lastname', 'ASC');
+  }
+
+  /**
+   * Returns the search text for this facet, taking into account this facet's
+   * active path.
+   */
+  function get_text() {
+    if ($category = $this->get_active_category()) {
+      return $category->_cid;
+    }
+    return '';
+  }
+
+  /**
+   * Updates a query for retrieving the root categories of this facet and their
+   * associated nodes within the current search results.
+   *
+   * @param $query
+   *   The query object to update.
+   *
+   * @return
+   *   FALSE if this facet can't have root categories.
+   */
+  function build_root_categories_query(&$query) {
+    $query->add_table('biblio_contributor', 'nid', 'n', 'nid');
+    $query->add_table('biblio_contributor_data', 'cid', 'biblio_contributor', 'cid');
+    $query->add_field('biblio_contributor_data', 'cid');
+    $query->add_field('biblio_contributor_data', 'name');
+    $query->add_field('biblio_contributor_data', 'lastname');
+    $query->add_field('biblio_contributor_data', 'firstname');
+    $query->add_field('biblio_contributor_data', 'initials');
+    $query->add_groupby('biblio_contributor_data_cid');
+    return TRUE;
+  }
+
+  /**
+   * This factory method creates categories given query results that include the
+   * fields selected in get_root_categories_query() or get_subcategories_query().
+   *
+   * @param $results
+   *   $results A database query result resource.
+   *
+   * @return
+   *   Array of categories.
+   */
+  function build_categories($results) {
+    $categories = array();
+    while ($result = db_fetch_object($results)) {
+      $author = array('cid' => $result->biblio_contributor_data_cid,
+                      'name' =>$result->biblio_contributor_data_name,
+                      'lastname' => $result->biblio_contributor_data_lastname,
+                      'firstname' => $result->biblio_contributor_data_firstname,
+                      'initials' => $result->biblio_contributor_data_initials);
+      $authorname = _biblio_author_facet_format_author($author);
+      $categories[] = new biblio_author_facet_category($result->biblio_contributor_data_cid, $authorname, $result->count);
+    }
+    return $categories;
+  }
+}
+
+/**
+ * A node-type based facet category.
+ */
+class biblio_author_facet_category extends faceted_search_category {
+  var $_cid = 0;
+  var $_name = '';
+
+  function biblio_author_facet_category($cid, $name, $count = NULL) {
+    parent::faceted_search_category($count);
+    $this->_cid = $cid;
+    $this->_name = $name;
+  }
+
+  /**
+   * Return the label of this category.
+   *
+   * @param $html
+   *   TRUE when HTML is allowed in the label, FALSE otherwise. Checking this
+   *   flag allows implementors to provide a rich-text label if desired, and an
+   *   alternate plain text version for cases where HTML cannot be used. The
+   *   implementor is responsible to ensure adequate security filtering.
+   */
+  function get_label($html = TRUE) {
+    if ($html) {
+      return $this->_name;
+    }
+    else {
+      return check_plain($this->_name);
+    }
+  }
+
+  /**
+   * Updates a query for selecting nodes matching this category.
+   *
+   * @param $query
+   *   The query object to update.
+   */
+  function build_results_query(&$query) {
+    $query->add_table('biblio_contributor', 'nid', 'n', 'nid');
+    $query->add_table('biblio_contributor_data', 'cid', 'biblio_contributor', 'cid');
+    $query->add_where('biblio_contributor_data.cid = %d', $this->_cid);
+  }
+}

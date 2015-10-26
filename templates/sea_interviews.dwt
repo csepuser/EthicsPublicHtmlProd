@@ -1,0 +1,87 @@
+<html>
+<head>
+
+<!-- #BeginEditable "doctitle" -->
+<title>Software Engineering Archive</title>
+<!-- #EndEditable --> 
+
+<link href="../templates/csep.css" rel="stylesheet" type="text/css">
+<meta name="Center for the Study of Ethics in the Professions">
+</head>
+
+<body>
+<div align="center"> <img src="../images/sea_banner.gif" width="583" height="119" border="0" usemap="#Map"> 
+  <map name="Map">
+    <area shape="rect" coords="80,37,507,63" href="http://www.iit.edu" target="_blank">
+    <area shape="rect" coords="384,100,460,115" href="mailto:csep@iit.edu">
+    <area shape="rect" coords="7,6,578,35" href="../index.html">
+    <area shape="rect" coords="148,66,455,87" href="../sea/index.html">
+  </map>
+  <p>&nbsp;</p>
+  <table border="0" width="85%">
+    <tr>
+      <td> 
+	  <div align="right"></div>
+
+        <div align="left">
+          <table width="100%" border="0">
+
+            <tr> 
+              <td width="21%" height="19" bgcolor="#E5E5E5"> <div class="datafield">Interviewer(s):</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillertext"><!-- TemplateBeginEditable name="Interviewer" --> 
+                  [Person's name(s)- Michael Davis/ Anthony Spencer]<!-- TemplateEndEditable --></div></td>
+            </tr>
+            <tr> 
+              <td width="21%" bgcolor="#E5E5E5"> <div class="datafield">Interviewee:</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillertext"><!-- TemplateBeginEditable name="Interviewee" --> 
+                  Person's name<!-- TemplateEndEditable --></div></td>
+            </tr>
+            <tr> 
+              <td width="21%" bgcolor="#E5E5E5"> <div class="datafield">Date Approved:</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillertext"><!-- TemplateBeginEditable name="Date" --> 
+                  Date - Month/Date/Year<!-- TemplateEndEditable --></div></td>
+            </tr>
+            <tr> 
+              <td width="21%" height="22" bgcolor="#E5E5E5"> <div class="datafield">Location:</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillertext"><!-- TemplateBeginEditable name="Location" --> 
+                  Location <!-- TemplateEndEditable --></div></td>
+            </tr>
+			
+          </table>
+          <p>&nbsp;</p><table width="100%" border="0" align="center">
+
+            <tr> 
+              <td> <div align="left"> <!-- TemplateBeginEditable name="Questionnaire" --> 
+                  Enter the Correspondence here <!-- TemplateEndEditable --> </div></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+        </div>
+
+
+  <table width="100%" border="0">
+    <tr bgcolor="#E5E5E5"> 
+      <td width="50%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../sea/html/archive_list.html">SEA 
+                INDEX</a></div></td>
+      <td width="50%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../search.php?site=sea">SEA 
+                SEARCH</a></div></td>
+    </tr>
+  </table>
+  <table width="100%" border="0">
+    <tr bgcolor="#E5E5E5"> 
+      <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../sea/index.html">SEA 
+                HOME</a></div></td>
+      <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../index.html">CSEP HOME</a></div></td>
+      <td width="33%%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a href="http://www.iit.edu" target="_blank" class="bottom">IIT 
+                HOME</a> </div></td>
+    </tr>
+  </table>
+
+       
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>

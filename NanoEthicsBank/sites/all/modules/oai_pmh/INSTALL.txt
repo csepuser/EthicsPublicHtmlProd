@@ -1,0 +1,18 @@
+INSTALL
+
+$Id: INSTALL.txt,v 1.1 2008/11/24 13:02:45 pletcher Exp $
+
+Installation is a bit hairy at the moment. Currently you need to create a new Content type named 'oai_pmh_record', with the following fields/types
+
+Creator   Text  
+ 
+Date    Date  
+ 
+Identifier  Text  
+ 
+Language  Text  
+ 
+Record Type Text
+
+This all needs to be automated in an install, but this is still a pre-release. If you have any questions, first try reading the source (its not too complex), then shoot me an email, pletcher@longsight.com
+

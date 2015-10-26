@@ -1,0 +1,219 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the default font size on small devices */
+/*
+html {
+  font-size: 112.5%;
+}
+*/
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'smartphone_portrait';
+}
+
+
+/* Department Footer */
+#footer #iit-department-footer {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#footer #iit-department-footer h5 {
+  font-size: 1.25em;
+  margin: 6px 0 0 0;
+}
+/* end Department Footer */
+
+
+/* Home Page Header */
+#header .iit-page-header h2 {
+  padding-bottom: 0.20588235294118em;
+}
+/* end Home Page Header */
+
+/* Department Page Header */
+#header .lewis-dept-header a h2 {
+    margin: 0 0 0 0.22857142857143em;
+    font-size: 2em;
+}
+/* end Department Page Header */
+
+
+/* Department Homepages */
+
+/* Row */
+#content .panel-flexible.dept-home .dept-home-row .one-column {
+    width: 48.214285714286%;
+    margin: 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .two-column {
+    width: 98.214285714286%;
+    margin: 0.892857142857%;
+}
+
+/* end Row */
+
+/* end Department Homepages */
+
+
+/* header menu */
+#header .block-menu-block {
+  border-top: 1px solid #888;
+}
+/* end header menu */
+
+
+/* header top 3 menu */
+#header #block-menu-block-3 {
+    margin-top: 0.9em;
+}
+
+#header #block-menu-block-3 ul li {
+    margin: 4px 0;
+}
+/* end header top 3 menu*/
+
+
+/* Sidebar Icon Links */
+#block-block-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: inherit;
+}
+/* end Sidebar Icon Links */
+
+
+/* Lewis Hompage Hero Nav */
+#content .lewis-home .hero-row .hero-right {
+    display: none;
+}
+
+#content .lewis-home .hero-row .block {
+    margin: 0;
+}
+
+#content .lewis-home .hero-row .hero-left {
+    width: 100%
+}
+
+#content .lewis-home .hero-row .hero-left .inside {
+    padding: 0;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav {
+    margin-bottom: 10px;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav a {
+    display: block;
+    color: #fff;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav a span {
+    position: relative;
+    left: 8px;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav::after {
+    content: "";
+    background-color: #295F6C;
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 6px;
+    margin-top: 2px;
+    
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-hum::after {
+    background-color: #a6a89c;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-psy::after {
+    background-color: #302e2f;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-soc::after {
+    background-color: #b84e46;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-hum a {
+    background-color: #89b3c1;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-psy a {
+    background-color: #7d9395;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-soc a {
+    background-color: #6291a5;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-app a {
+    background-color: #8ead52;
+}
+/* end Lewis Hompage Hero Nav */
+
+
+/* HS_Admission Buttons Peter Made */
+#HS_Admission div { 
+    float:none; 
+    width:inherit; 
+    margin: 2% 0; 
+}
+/* end HS_Admission Buttons Peter Made */
+
+
+/* Profile Page */
+.node-type-profile .field-name-profile-intext-sidebar {
+  float: none;
+  margin: 0 0 20px 0;
+  width: inherit;
+}
+/* end Profile Page */
+
+/* Full Body Slideshow */
+.full-body-slideshow .flexslider .slideshow-item .slide-image .slide-show-more {
+    display: none;
+}
+
+.full-body-slideshow .flexslider .flex-control-nav {
+    bottom: 3px;
+    padding: 0;
+    line-height: 11px;
+}
+
+.full-body-slideshow .flexslider .flex-control-nav li {
+    margin: 0 2px;
+}
+
+.full-body-slideshow .flexslider .slideshow-item .slide-caption {
+    height: 0;
+    padding-bottom: 25%;
+    width: 100%;
+}
+
+.full-body-slideshow .slide-title {
+    margin: 15px 15px 8px;
+    font-size: 22px;
+    line-height: 1.25em;
+}
+
+.full-body-slideshow .slide-body {
+    display: none;
+}
+/* end Full Body Slideshow */

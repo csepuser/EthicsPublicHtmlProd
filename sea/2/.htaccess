@@ -1,0 +1,17 @@
+#
+#           HEADERS and CACHING
+#
+# 1 MIN
+#<FilesMatch "\.(html|htm|pdf)$">
+#Header set Cache-Control "no-cache, must-revalidate"
+#</FilesMatch>
+
+
+#
+#           AUTHENTICATION
+#
+### BASIC PASSWORD PROTECTION
+AuthType Basic
+AuthName "LvL 2 Archive"
+AuthUserFile /home/ethics/.htpasswds/.lvl2pwd
+Require valid-user

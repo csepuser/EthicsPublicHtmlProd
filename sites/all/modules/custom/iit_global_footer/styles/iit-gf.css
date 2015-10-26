@@ -1,0 +1,227 @@
+/* =============================================================================
+ *   IIT Global Footer - Global Styles
+ * ========================================================================== */
+/** /
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
+/**/
+#iit-gf-wrapper {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #666;
+    border-top: 4px solid #cc0000;
+    min-height: 125px;
+}
+
+#iit-gf-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#iit-gf-branding {
+    display: block;
+    width: 300px;
+    outline: none;
+    color: transparent;
+}
+
+#iit-gf-contact {
+    font-size: .875em;
+    line-height: 1.285714286em;
+}
+
+#iit-gf-contact div.org {
+    font-weight: bold;
+}
+
+#iit-gf-contact abbr {
+    border: 0;
+}
+
+#iit-gf-links ul {
+    font-size: .75em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#iit-gf-links a {
+    color: #fff;
+    outline: none;
+}
+
+#iit-gf-links a:hover {
+    text-decoration: underline;
+}
+
+#iit-gf-links a.emergency-info-link {
+    color: #e80000;
+    font-weight: bold;
+}
+/* end IIT Global Footer - Global Styles ==================================== */
+
+
+
+/* Standard layout */
+@media only screen and (min-width:1025px) {
+#iit-gf-branding-wrapper {
+    float: left;
+    margin: 1.125em 0 1.25em .625em;
+}
+
+#iit-gf-branding {
+    float: left;
+    margin: .125em 0 0 0;
+}
+
+#iit-gf-contact {
+    float: left;
+    margin: 0 0 0 1.857em;
+}
+
+#iit-gf-links {
+    float: right;
+    margin: 1.125em .625em 1.125em 0;
+}
+
+#iit-gf-links ul li {
+    text-align: right;
+}
+} /* end Standard Layout */
+
+
+
+/* Tablet landscape */
+@media only screen and (min-width:800px) and (max-width:1024px) {
+#iit-gf-branding-wrapper {
+    float: left;
+    margin: 1.125em 0 1.25em .625em;
+}
+
+#iit-gf-branding {
+    float: left;
+    margin: .125em 0 0 0;
+}
+
+#iit-gf-contact {
+    float: left;
+    margin: 0 0 0 1.875em;
+}
+
+#iit-gf-links {
+    float: right;
+    margin: 1.125em .625em 1.125em 0;
+}
+
+#iit-gf-links ul li {
+    text-align: right;
+}
+} /* end Tablet landscape */
+
+
+
+/* Tablet portrait */
+@media only screen and (min-width:600px) and (max-width:799px) {
+#iit-gf-branding-wrapper {
+    float: left;
+    margin: 1.125em 0 1.25em 0;
+    position: relative;
+    left: 50%;
+}
+
+#iit-gf-branding {
+    float: left;
+    margin: .125em 0 0 0;
+    position: relative;
+    right: 50%;
+}
+
+#iit-gf-contact {
+    float: left;
+    margin: 0 0 0 1.875em;
+    position: relative;
+    right: 50%;
+}
+
+#iit-gf-links {
+    clear: both;
+    margin: 1.125em 0 1.125em 0;
+    overflow: hidden;
+}
+
+#iit-gf-links ul {
+    text-align: center;
+}
+
+#iit-gf-links ul li {
+    border-left: 1px solid #fff;
+    padding: 0 .625em;
+    display: inline-block;
+}
+
+#iit-gf-links ul li:first-child {
+    border: 0;
+}
+} /* end Tablet portrait */
+
+
+
+/* Smartphone landscape */
+@media only screen and (min-width:400px) and (max-width:599px) {
+#iit-gf-branding-wrapper {
+    margin: 1.125em 0 1.25em 0; 
+}
+
+#iit-gf-branding {
+    margin: 0 auto .625em;
+}
+
+#iit-gf-contact {
+    text-align: center;
+}
+
+#iit-gf-links {
+    margin: 1.125em 0 1.125em 0;
+}
+
+#iit-gf-links ul {
+    text-align: center;
+}
+
+#iit-gf-links ul li {
+    border-left: 1px solid #fff;
+    padding: 0 .66666666666em;
+    display: inline-block;
+}
+
+#iit-gf-links ul li:first-child {
+    border: 0;
+}
+} /* end Smartphone landscape */
+
+
+
+
+/* Smartphone portrait */
+@media only screen and (max-width:399px) {
+#iit-gf-branding-wrapper {
+    margin: 1.125em 0 1.25em 0; 
+}
+
+#iit-gf-branding {
+    margin: 0 auto .625em;
+}
+
+#iit-gf-contact {
+    text-align: center;
+}
+
+#iit-gf-links {
+    margin: 1.125em 0 1.125em 0;
+}
+
+#iit-gf-links ul {
+    text-align: center;
+}
+} /* end Smartphone portrait */

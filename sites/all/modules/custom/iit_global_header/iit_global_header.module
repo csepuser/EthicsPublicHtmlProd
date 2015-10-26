@@ -1,0 +1,595 @@
+<?php
+
+/**
+* @file
+* Provides IIT Global Header block with menu data provided from JSON menu service located in main install.
+*/
+
+define('IIT_GH_PRIMARY_MENU_SERVICE_URL', 'http://web.iit.edu/api/v1/public/menu/menu-iit-global-menu.json');
+define('IIT_GH_SECONDARY_MENU_SERVICE_URL', 'http://web.iit.edu/api/v1/public/menu/menu-iit-global-secondary-menu.json');
+define('IIT_GH_WEB_ROOT', 'http://web.iit.edu/');
+// Cache Time in Seconds
+define('IIT_GH_CACHE_INTERVAL', 86400);
+
+
+/* ***************************************** */
+/* Hook Implementations                      */
+/* ***************************************** */
+
+/**
+ * Implements hook_help.
+ *
+ * Displays help and module information.
+ *
+ * @param path 
+ *   Which path of the site we're using to display help
+ * @param arg 
+ *   Array that holds the current path as returned from arg() function
+ */
+function iit_global_header_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#iit_global_header':
+      return '<p>' . t('Provides an IIT Global Header block for use in IIT sites. This block pulls info from a JSON Rest service located in the main IIT install. The URL of the menu service and other options can be set in the configuration page. This module requires the Drupal install providing the menu service to use the Drupal Services module and Menu Services module to provide the web service.') . '</p>';
+      break;
+  }
+}
+
+/**
+ * Implements hook_permission().
+ */
+function iit_global_header_permission() {
+  return array(
+    'administer iit_global_header' => array(
+      'title' => t('Administer IIT Global Header module'),
+      'description' => t('Perform administration tasks and configure IIT Global Header module'),
+      'restrict access' => TRUE,
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function iit_global_header_menu() {
+  $items = array();
+
+  $items['admin/config/content/iit_global_header'] = array(
+    'title' => 'IIT Global Header',
+    'description' => 'Configuration for the IIT Global Header module.',
+    'type' => MENU_NORMAL_ITEM,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('iit_global_header_config_form'),
+    'access arguments' => array('administer iit_global_header'),
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function iit_global_header_block_info() {
+  $blocks['iit_global_header'] = array(
+    'info' => t('IIT Global Header'),
+    'cache' => DRUPAL_CACHE_CUSTOM,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ * 
+ * Prepares the contents of the block.
+ */
+function iit_global_header_block_view($delta = '') {
+  // Get block contents from cache if possible.
+  $cache = cache_get($delta, 'cache_block');
+  if (!empty($cache) && isset($cache->data) && !empty($cache->data) && $cache->expire > REQUEST_TIME && !empty($cache->data['content'])) {
+    return $cache->data;
+  }
+
+  // No cache, generate the block output.
+  $block = array();
+
+  switch ($delta) {
+    case 'iit_global_header':
+      if (user_access('access content')) {
+        //$block['subject'] = t('IIT Global Header');
+        $block['content'] = iit_global_header_build_contents();
+      }
+      break;
+  }
+
+  // Set block contents in cache.
+  cache_set($delta, $block, 'cache_block', REQUEST_TIME + IIT_GH_CACHE_INTERVAL);
+
+  return $block;
+}
+
+
+/* ***************************************** */
+/* Form Builders                             */
+/* ***************************************** */
+
+/**
+ * Form builder; Create and display the IIT Global Header configuration settings form.
+ */
+function iit_global_header_config_form($form, &$form_state) {
+  $form = array();
+
+  // Text field for URL path to menu service
+  $form['iit_global_header_primary_menu_service_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('IIT Global Header Primary Menu JSON Service URL'),
+    '#size' => 100,
+    '#description' => t('Full URL to server that provides the primary menu JSON data. This URL should be provided by the Drupal Services module and the Services Menu module.'),
+    '#required' => TRUE,
+    '#default_value' => variable_get('iit_global_header_primary_menu_service_url', IIT_GH_PRIMARY_MENU_SERVICE_URL),
+  );
+
+  $form['iit_global_header_secondary_menu_service_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('IIT Global Header Secondary Menu JSON Service URL'),
+    '#size' => 100,
+    '#description' => t('Full URL to server that provides the secondary menu JSON data. This URL should be provided by the Drupal Services module and the Services Menu module.'),
+    '#required' => TRUE,
+    '#default_value' => variable_get('iit_global_header_secondary_menu_service_url', IIT_GH_SECONDARY_MENU_SERVICE_URL),
+  );
+
+  $form['iit_global_header_web_root'] = array(
+    '#type' => 'textfield',
+    '#title' => t('IIT Global Header Web Root for Relative Paths'),
+    '#size' => 100,
+    '#description' => t('Full URL including protocol to the domain root for relative paths in the main navigation. These relative paths would be to pages in the main IIT web domain that were not put in the menu structure as fully qualified paths. Typical default for this would be http://web.iit.edu/ including the trailing slash.'),
+    '#required' => TRUE,
+    '#default_value' => variable_get('iit_global_header_web_root', IIT_GH_WEB_ROOT),
+  );
+
+  return system_settings_form($form);
+}
+
+
+/* ***************************************** */
+/* API FUNCTIONS                             */
+/* ***************************************** */
+
+/**
+ * Primary IIT Global Header Build Content Function
+ *
+ * Returns the HTML block content for the IIT Global Header block.
+ * Uses the JSON menu services specified in module configuration or defaults.
+ *
+ * @return
+ *   A String of HTML formatted content for the block content variable.
+ */
+function iit_global_header_build_contents() {
+  $html_output = '';
+
+  // Get JSON data from service for menus using Drupals drupal_http_request function
+  $primary_menu_response = drupal_http_request(variable_get('iit_global_header_primary_menu_service_url', IIT_GH_PRIMARY_MENU_SERVICE_URL));
+  $secondary_menu_response = drupal_http_request(variable_get('iit_global_header_secondary_menu_service_url', IIT_GH_SECONDARY_MENU_SERVICE_URL));
+
+  if ($primary_menu_response->code != 200 || $secondary_menu_response->code != 200) {
+    // Return empty string if there is an error
+    return $html_output;
+  }
+
+  // Decode JSON data response to associative array
+  $primary_menu_contents = json_decode(utf8_encode($primary_menu_response->data), TRUE);
+  $secondary_menu_contents = json_decode(utf8_encode($secondary_menu_response->data), TRUE);
+  $primary_menu_items = $primary_menu_contents['tree'];
+  $secondary_menu_items = $secondary_menu_contents['tree'];
+
+  // Start main wrapper
+  $html_output .= '<header id="iit-gh-wrapper">';
+
+  // Build header element content
+  $html_output .= '<div id="iit-gh-header-wrapper" class="clearfix">';
+  $html_output .= iit_global_header_print_topbar();
+  //$html_output .= iit_global_header_print_mobile_search();
+  $html_output .= iit_global_header_build_header($secondary_menu_items);
+  $html_output .= iit_global_header_print_primary_nav($primary_menu_items);
+  $html_output .= '</div><!-- end #iit-gh-header-wrapper -->';
+
+  // Build menu area content
+  $html_output .= '<div id="iit-gh-menu-wrapper" class="iit-gh-menu-wrapper-closed">';
+  $html_output .= '<div id="iit-gh-menu-container" class="container clearfix">';
+  $html_output .= iit_global_header_build_menus($primary_menu_items);
+  $html_output .= '</div><!-- end #iit-gh-menu-container -->';
+  $html_output .= '<div id="iit-gh-menu-exit" class="container">Close Menu</div>';
+  $html_output .= '<div id="iit-gh-query-check"></div>';
+  $html_output .= '</div><!-- end #iit-gh-menu-wrapper -->';
+
+  // Close main wrapper
+  $html_output .= '</header><!-- end #iit-gh-wrapper -->';
+
+  return $html_output;
+}
+
+/**
+ * IIT Global Header Build Header Content Function
+ *
+ * Returns the HTML content for the IIT Global Header header section.
+ * For use inside the iit_global_header_build_contents function.
+ *
+ * @param primary_menu_items
+ *  Associative array of primary menu items.
+ *
+ * @param secondary_menu_items
+ *  Associative array of secondary menu items.
+ *
+ * @return
+ *   A String of HTML formatted content for the header element.
+ */
+function iit_global_header_build_header($secondary_menu_items) {
+  $output = '';
+
+  // Start header wrapper
+  $output .= '<div id="iit-gh-header" class="container clearfix">';
+
+  // Build header content
+  $output .= '<a id="iit-gh-header-branding" title="Illinois Institute of Technology" href="//web.iit.edu">Illinois Institute of Technology</a>';
+
+  // Secondary Nav
+  $output .= iit_global_header_print_secondary_nav($secondary_menu_items);
+
+  // End header wrapper
+  $output .= '</div><!-- end #iit-gh-header -->';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header Build Menus Content Function
+ *
+ * Returns the HTML content for the IIT Global Header menu section.
+ * For use inside the iit_global_header_build_contents function.
+ *
+ * @param primary_menu_items
+ *  Associative array of primary menu items.
+ *
+ * @return
+ *   A String of HTML formatted content for the menu section.
+ */
+function iit_global_header_build_menus($primary_menu_items) {
+  $output = '';
+
+  foreach ($primary_menu_items as  $item) {
+    if ($item['link']['has_children'] == '1') {
+      $thisMenuId = 'iit-gh-menu-' . substr($item['link']['localized_options']['attributes']['id'], 11);
+      $output .= iit_global_header_print_menu_nav($item, $thisMenuId);
+    }
+  }
+  
+  return $output;
+}
+
+/**
+ * IIT Global Header Print Primary Nav Function
+ *
+ * Returns the HTML content for the IIT Global Header Primary Nav.
+ * For use inside the iit_global_header_build_header function.
+ *
+ * @param primary_menu_items
+ *  Associative array of primary menu items.
+ *
+ * @return
+ *   A String of HTML formatted content for the nav element.
+ */
+function iit_global_header_print_primary_nav($primary_menu_items) {
+  $output = '';
+  $output .= '<nav id="iit-gh-primary-nav" class="clearfix">';
+  $output .= '<ul>';
+
+  foreach ($primary_menu_items as $item) {
+    // If it is an internal page there will be a path_alias
+    if ($item['link']['external'] == '0') {
+      $href = IIT_GH_WEB_ROOT . $item['link']['path_alias'];
+    } else {
+      $href = $item['link']['href'];
+    }
+
+    // Set variables from item array keys
+    $linkText = $item['link']['title'];
+    $title = ( array_key_exists('title', $item['link']['localized_options']['attributes']) ) ? $item['link']['localized_options']['attributes']['title'] : '';
+    $id = ( array_key_exists('id', $item['link']['localized_options']['attributes']) ) ? $item['link']['localized_options']['attributes']['id'] : '';
+    $name = ( array_key_exists('name', $item['link']['localized_options']['attributes']) ) ? $item['link']['localized_options']['attributes']['name'] : '';
+    $rel = ( array_key_exists('rel', $item['link']['localized_options']['attributes']) ) ? $item['link']['localized_options']['attributes']['rel'] : '';
+    $style = ( array_key_exists('style', $item['link']['localized_options']['attributes']) ) ? $item['link']['localized_options']['attributes']['style'] : '';
+    $target = ( array_key_exists('target', $item['link']['localized_options']['attributes']) ) ? $item['link']['localized_options']['attributes']['target'] : '';
+
+    // Class key is an array need to flatten to space seperated list
+    $class = '';
+    // If nav item has no children add special class
+    if ($item['link']['has_children'] == '0') {
+      $class .= 'iit-gh-primary-nav-nochild';
+    }
+    if ( array_key_exists('class', $item['link']['localized_options']['attributes'])) {
+      $class .= ' ' . implode(' ', $item['link']['localized_options']['attributes']['class']);
+    }
+
+    // Build link attributes
+    $attr = '';
+    $attr .= (!empty($title)) ? 'title="' . $title . '" ' : '';
+    $attr .= (!empty($id)) ? 'id="' . $id . '" ' : '';
+    $attr .= (!empty($name)) ? 'name="' . $name . '" ' : '';
+    $attr .= (!empty($rel)) ? 'rel="' . $rel . '" ' : '';
+    $attr .= (!empty($style)) ? 'style="' . $style . '" ' : '';
+    $attr .= (!empty($target)) ? 'target="' . $target . '" ' : '';
+    $attr .= (!empty($class)) ? 'class="' . $class . '" ' : '';
+
+    // Output List Item
+    $output .= '<li>';
+    $output .= '<a href="' . $href . '" ' . $attr . '>' . $linkText . '</a>';
+    $output .= '</li>';
+  }
+
+  $output .= '</ul>';
+  $output .= '</nav>';
+  return $output;
+}
+
+/**
+ * IIT Global Header Print Secondary Nav Function
+ *
+ * Returns the HTML content for the IIT Global Header Secondary Nav.
+ * For use inside the iit_global_header_build_header function.
+ *
+ * @param secondary_menu_items
+ *  Associative array of secondary menu items.
+ *
+ * @return
+ *   A String of HTML formatted content for the nav element.
+ */
+function iit_global_header_print_secondary_nav($secondary_menu_items) {
+  $output = '';
+  $output .= '<nav id="iit-gh-secondary-nav">';
+  $output .= '<ul>';
+
+  foreach ($secondary_menu_items as $item) {
+    // Output list item including link
+    $output .= '<li>';
+    $output .= iit_global_header_print_anchor($item);
+    $output .= '</li>';
+  }
+
+  $output .= '</ul>';
+  $output .= '</nav>';
+  return $output;
+}
+
+/**
+ * IIT Global Header print menu nav function
+ *
+ * Returns the HTML content for the IIT Global Header menu nav element.
+ * This prints the HTML nav element that corresponds to a primary nav element.
+ *
+ * @param item
+ *  Associative array representing one primary nav item.
+ *
+ * @param id
+ *  String representing the value of the id attribute for the nav element.
+ *
+ * @return
+ *   A String of HTML formatted content for the nav element.
+ */
+function iit_global_header_print_menu_nav($item, $id) {
+  $output = '';
+  $column_counter = 0;
+  // Build menu nav for given primary nav item
+  $output .= '<nav id="' . $id . '" class="clearfix">';
+  foreach ($item['children'] as $child) {
+    if ($child['link']['href'] == 'http://<menu-column>') {
+      $column_counter++;
+      $output .= iit_global_header_print_menu_column($child, $column_counter);
+    }
+  }
+  $output .= '</nav>';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header print menu column function
+ *
+ * Returns the HTML content for an IIT Global Header menu column.
+ * This pulls class information for the Drupal menu configuration.
+ *
+ * @param column
+ *  Associative array representing one menu column.
+ *
+ * @return
+ *   A String of HTML formatted content for a menu column.
+ */
+function iit_global_header_print_menu_column($column, $number) {
+  $output = '';
+
+  // Class key is an array need to flatten to space seperated list
+  $class = 'iit-gh-menu-column iit-gh-menu-column-' . $number . ' ';
+  if ( array_key_exists('class', $column['link']['localized_options']['attributes'])) {
+    $class .= implode(' ', $column['link']['localized_options']['attributes']['class']);
+  }
+
+  // Column wrapper
+  $output .= '<div class="' . $class . '">';
+
+  // Print column contents if it has children
+  if ($column['link']['has_children'] == '1') {
+    foreach ($column['children'] as $column_item) {
+      if ($column_item['link']['href'] == 'http://<menu-category>') {
+        // print as menu category
+        if ($column_item['link']['hidden'] == '0') {
+          $output .= iit_global_header_print_menu_category($column_item);
+        }
+      } else {
+        // print as standalone link
+        if ($column_item['link']['hidden'] == '0') {
+          $output .= iit_global_header_print_menu_link($column_item);
+        }
+      }
+    }
+  }
+
+  // Column close
+  $output .= '</div>';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header print menu category function
+ *
+ * Returns the HTML content for an IIT Global Header menu category.
+ * A menu category is a h5 tag and ul wrapped in a div.
+ *
+ * @param category
+ *  Associative array representing one menu category.
+ *
+ * @return
+ *   A String of HTML formatted content for a menu category.
+ */
+function iit_global_header_print_menu_category($category){
+  $output = '';
+
+  $output .= '<div class="iit-gh-menu-category">';
+  $output .= '<h5>' . $category['link']['title'] . '</h5>';
+  $output .= '<ul>';
+  if ($category['link']['has_children'] == '1') {
+    foreach ($category['children'] as $category_link) {
+      if ($category_link['link']['hidden'] == '0') {
+        $output .= '<li>';
+        $output .= iit_global_header_print_anchor($category_link);
+        $output .= '</li>';
+      }
+    }
+  }
+  $output .= '</ul>';
+  $output .= '</div>';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header print menu link
+ *
+ * Returns the HTML content for an IIT Global Header standalone link.
+ * A standalone link is one that is not under a category label and
+ * is a anchor tag wrapped in a div.
+ *
+ * @param link
+ *  Associative array representing one link element.
+ *
+ * @return
+ *   A String of HTML formatted content for a menu standalone link.
+ */
+function iit_global_header_print_menu_link($link){
+  $output = '';
+
+  $output .= '<div class="iit-gh-menu-singlelink">';
+  $output .= iit_global_header_print_anchor($link);
+  $output .= '</div>';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header print anchor function
+ *
+ * Returns the HTML content for an IIT Global Header anchor tag.
+ * The returned anchor tag will have all the attributes that were
+ * assigned in the Drupal menu administration page.
+ *
+ * @param link
+ *  Associative array representing one link element.
+ *
+ * @return
+ *   A String of HTML formatted content for a anchor tag.
+ */
+function iit_global_header_print_anchor($link) {
+  $output = '';
+
+  // If it is an internal page there will be a path_alias
+  if ($link['link']['external'] == '0') {
+    $href = IIT_GH_WEB_ROOT . $link['link']['path_alias'];
+  } else {
+    $href = $link['link']['href'];
+  }
+
+  // Set variables from link array keys
+  $linkText = $link['link']['title'];
+  $title = ( array_key_exists('title', $link['link']['localized_options']['attributes']) ) ? $link['link']['localized_options']['attributes']['title'] : '';
+  $id = ( array_key_exists('id', $link['link']['localized_options']['attributes']) ) ? $link['link']['localized_options']['attributes']['id'] : '';
+  $name = ( array_key_exists('name', $link['link']['localized_options']['attributes']) ) ? $link['link']['localized_options']['attributes']['name'] : '';
+  $rel = ( array_key_exists('rel', $link['link']['localized_options']['attributes']) ) ? $link['link']['localized_options']['attributes']['rel'] : '';
+  $style = ( array_key_exists('style', $link['link']['localized_options']['attributes']) ) ? $link['link']['localized_options']['attributes']['style'] : '';
+  $target = ( array_key_exists('target', $link['link']['localized_options']['attributes']) ) ? $link['link']['localized_options']['attributes']['target'] : '';
+
+  // Class key is an array need to flatten to space seperated list
+  $class = '';
+  if ( array_key_exists('class', $link['link']['localized_options']['attributes'])) {
+    $class .= implode(' ', $link['link']['localized_options']['attributes']['class']);
+  }
+
+  // Build link attributes
+  $attr = '';
+  $attr .= (!empty($title)) ? 'title="' . $title . '" ' : '';
+  $attr .= (!empty($id)) ? 'id="' . $id . '" ' : '';
+  $attr .= (!empty($name)) ? 'name="' . $name . '" ' : '';
+  $attr .= (!empty($rel)) ? 'rel="' . $rel . '" ' : '';
+  $attr .= (!empty($style)) ? 'style="' . $style . '" ' : '';
+  $attr .= (!empty($target)) ? 'target="' . $target . '" ' : '';
+  $attr .= (!empty($class)) ? 'class="' . $class . '" ' : '';
+
+  // Output link tag
+  $output .= '<a href="' . $href . '" ' . $attr . '>' . $linkText . '</a>';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header print topbar
+ *
+ * Returns the HTML content for an IIT Global Header topbar.
+ *
+ * @return
+ *   A String of HTML formatted content for header topbar.
+ */
+function iit_global_header_print_topbar(){
+  $output = '';
+
+  $output .= '<div id="iit-gh-topbar">';
+  $output .= '<a title="Show Menu" id="iit-gh-header-topbar-menu">Menu</a>';
+  $output .= '<a href="//web.iit.edu/search/" title="Show Search" id="iit-gh-header-topbar-search">Search</a>';
+  $output .= '<a title="Show Audiences" id="iit-gh-header-topbar-audiences">Audiences</a>';
+  $output .= '</div>';
+
+  return $output;
+}
+
+/**
+ * IIT Global Header print mobile search
+ *
+ * Returns the HTML content for the IIT Global Header mobile search form.
+ *
+ * @return
+ *   A String of HTML formatted content for header mobile search form.
+ */
+function iit_global_header_print_mobile_search(){
+  $output = '';
+
+  $output .= '<div id="iit-gh-mobile-search">';
+  $output .= '<form>';
+  $output .= '<label for="iit-gh-msearch-query" class="screen-reader-text">Search IIT</label>';
+  $output .= '<input id="iit-gh-msearch-query" type="search" placeholder="Search IIT">';
+  $output .= '<input id="iit-gh-msearch-submit" type="submit" value="Search IIT">';
+  $output .= '</form></div>';
+
+  return $output;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/pagewithoutmenu.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+
+<META name="Center for the Study of Ethics in the Professions">
+<link href="../templates/csep.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../newlayout/codes.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../newlayout/favicon.ico" >
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body>
+
+<div id="page">
+<!--#include virtual="../newlayout/header_wrapper.php" -->
+
+
+<div id="logo"> 
+	<h1>C<SPAN STYLE="color: #800000">S</span><br>
+	<SPAN STYLE="color: #800000">E</span>P</h1>
+</div>
+
+<div id="topnavcontainer">
+
+	<div id="banner">
+		<h1><SPAN STYLE="color: #800000">Center</span> for the <SPAN STYLE="color: #800000">Study</span> 
+		of <SPAN STYLE="color: #800000">Ethics</span> in the <SPAN STYLE="color: #800000">Professions</span> at
+		<SPAN STYLE="color: #800000">IIT</span></h1>
+	</div>  
+
+</div>
+ <!-- InstanceBeginEditable name="breadcrumbs" -->  
+  <div id="container"> 
+    
+  <div id="breadcrumbs"> <a href="../index.html">Home</a> >> <a href="../perspective/index.html">Perspectives 
+    on the Professions</a></div>
+  <!-- InstanceEndEditable --> 
+  <!-- InstanceBeginEditable name="Content" -->
+ <div align="center">
+   
+  <p><img src="../images/perspec_banner.gif" width="750" height="158" usemap="#Map" border="0"> 
+    <map name="Map">
+      <area shape="rect" coords="28,15,446,108" href="../perspective/index.html">
+      <area shape="rect" coords="521,51,649,67" href="../index.html">
+      <area shape="rect" coords="465,68,637,84" href="../index.html">
+      <area shape="rect" coords="467,85,686,102" href="http://www.iit.edu" target="_blank">
+      <area shape="rect" coords="490,132,571,150" href="mailto:csep@iit.edu">
+    </map>
+  </p>
+  <table width="85%" border="0">
+    <tr>
+      <td>
+        <table width="100%" border="0">
+          <tr> 
+            <td><div align="center">Vol. <!-- TemplateBeginEditable name="Publication Information" --> 
+                #, No. [IssueNumber(s)], [Season] [Year]<!-- TemplateEndEditable --></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><strong>"<!-- TemplateBeginEditable name="Title" -->Title<!-- TemplateEndEditable -->"</strong></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><!-- TemplateBeginEditable name="Author and Affiliation" --> 
+                Author, Affiliation<!-- TemplateEndEditable --></div></td>
+          </tr>
+        </table>
+
+      
+         <div align="justify"><!-- TemplateBeginEditable name="Article" -->
+                  <p>Article</p>
+                  <!-- TemplateEndEditable --></div>
+       
+          </tr>
+  </table>
+  </div>
+<!-- InstanceEndEditable --></div>
+
+<div id="footer"> 
+	<ul>
+		
+    <li><a href="#">Search CSEP</a></li>
+		<li><a href="#">Site Map</a></li>
+		
+    <li><a href="../contactus.html">Contact CSEP</a></li>
+	</ul>
+</div>
+
+<!--#include virtual="../newlayout/footer_wrapper.php" -->
+
+</body>
+<!-- InstanceEnd --></html>

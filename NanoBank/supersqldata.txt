@@ -1,0 +1,686 @@
+1991_November_01_DG.html ;++ 1991-11-01 ;++ Dnna     M. Paino ;++ Email           from Donna Paino to Gotterbarn: Ethical Issues in s/w Engineering ;++        Gotterbarn ;++ email ;++ ++
+1992_October_28_DG.html ;++ 1992-10-28 ;++         Gary  ;++ Email           from Gary Ford: Licensing Engineering Faculty in West Virginia ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++          Don ++
+1993_April_15_DG.html ;++ 1993-04-15 ;++ Lurie     and John Werth ;++ Email           from Laurie and John Werth: Establishing ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++        Gotterbarn++
+1993_December_10_SZ.htm ;++ 1995-12-10 ;++         Steering  ;++  A       Plan to Identify the Body of Knowledge of Software Engineers ;++          Unknown ;++ email ;++          Stuart Zweben++
+1993_December_20.html ;++ 1993-12-20 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++  A           Plan to Identify the Body of Knowledge of Software Engineers -chart ;++          Unknown ;++ email ;++          unknown++
+1993_march_9_vw_1.html ;++ 1993-03-09 ;++ a href"http://www.google.co"target"_blank"</a>          Fletcher J. Buckley ;++ g           of the IEEE Computer Society Board of Engineers on establishing software ;++          unknown ;++ email ;++            Weil++
+1994_June_21_DG.html ;++  1994-06-21 ;++         Unknown ;++  Draft:   ;++          Unknown ;++ email ;++          Vivian Weil/Michael Davis/etc.++
+1994_March_04_DG.html ;++ 1994-12-04 ;++         Unknown ;++  Report       of the Steering Committee to the IEEE Computer Society Board of Governors ;++          Unknown ;++ email ;++          Don ++
+1994_March_MB.html ;++  ;++         Mario Barbacci ;++  Joint  ;++          Unknown ;++ email ;++          Mario Barbacci++
+1994_May_10_VW.html ;++ 1994-05-10 ;++         Vivian Weil ;++  Notes           from meeting between Vivian Weil and Ilene Burnstein ;++          Unknown ;++ email ;++          Unknown++
+1994_May_12_1_MB.html ;++ 1994-05-12 ;++ Szie 	    Weisband ;++  Regarding       Paper from Gessellschaft fur Informatik (GI)       I was going to send this to Don, the keeper of papers and ;++          Unknown ;++ email ;++          Mario ++
+1994_May_12_MB.html ;++ 1994-05-12 ;++         Unknown ;++  Working  ;++          Unknown ;++ email ;++          Mario Barbacci++
+1994_May_18_VW.html ;++ 1994-05-18 ;++         Vivian Weil	 ;++  Notes           from meeting between Vivian Weil and Ilene Burnstein ;++ wn<!-- InstanceEndEditable --></div>        Format: Unknown ;++ email ;++ 		++
+1994_May_26_DG.html ;++ 1994-05-26 ;++         Don  ;++ Email           from Gotterbarn to Mike Lichtenstein: Trip   To: Stu Zweben zweben@cis.ohio-state.edu  ;++          Mike  ;++ email ;++          Don ++
+1994_May_28_MB.html ;++ 1994-05-28 ;++         Unknown ;++  Meeting  ;++          Unknown ;++ email ;++          Mario Barbacci++
+1994_May_28_SZ.html ;++ 1994-05-28 ;++         Mario  ;++  Joint          Engineering as a Profession ;++          Steering  ;++ email ;++          Stu ++
+1994_November_10_DG.html ;++ 1994-11-10 ;++         Rick  ;++  Email           from Rick Vadenberg to SEEPP Committee: Possible   From: rick@vansys.com (Rick Vandenberg) ;++          SEEPP  ;++ email ;++          Don ++
+1994_November_14_DG.html ;++ 1994-11-14 ;++ SEPP     Comittee ;++  Message  ;++ n<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++        Gotterbarn ++
+1994_November_18_MB.html ;++ 1994-11-18 ;++         Unknown ;++  Report  ;++          Unknown ;++ email ;++          Mario ++
+1994_November_18_VW.html ;++ 1994-11-18 ;++ Vvian 	    Weil ;++ E             mail from Vivian Weil to Nancy Leveson with enclosed Article-"High-Pressure ;++            leveson ;++ email ;++ 		++
+1994_November_23_DG.html ;++ 1994-11-23 ;++         J.  ;++  J.           Gregory Swift to Gotterbarn: Re: SEEPP-Professional Competence -looking ;++          Don  ;++ email ;++          Don ++
+1994_November_26_VW.html ;++ 1994-11-26 ;++         Nancy Leveson ;++  Email           from Nany Leveson to Weil: Thank you for sending your draft concept ;++          Vivian  ;++ email ;++          Vivian Weil++
+1994_November_29_DG.html ;++ 1994-11-29 ;++         Mario  ;++  jEmail           from Barbacci to Software Engineering Steering Committee: Dave       Barry,  ;++          se-steering@SEI.CMU.EDU ;++ email ;++          Don ++
+1994_November_30_VW.html ;++ 1994-11-30 ;++         Vivian Weil ;++  Fax           from Weil to Ilene Burnstein: Software Engineering and Accountability ;++          Ilene Burnstein  ;++ email ;++          Vivian Weil++
+1994_October_11_DG.html ;++ 1994-10-11 ;++         Jon  ;++  Email           from Jon Fineman to Gotterbarn: Re: ;++          Don  ;++ email ;++          Don ++
+1994_October_15_DG.html ;++ 1994-10-15 ;++         Robert.  ;++  Email           from Melford and Gotterbarn to SEEPP Task Group: Call for Participation ;++          SEEPP  ;++ email ;++          Don ++
+1994_October_29_DG.html ;++ 1994-10-29 ;++         Unknown ;++  List  ;++          Unknown ;++ email ;++          Don ++
+1994_October_31_DG.html ;++ 1994-10-31 ;++         Alice  ;++  Email           from Alice Parker to SEEPP Committee: Add me to mailing list   ??????????????????????????????????????????????????????????????????????????????? ;++          SEEPP Committee ;++ email ;++          Don ++
+1994_October_31_DG_1.html ;++ 1994-10-31 ;++         New  ;++ Participation  ;++          SEEPP  ;++ email ;++          Don ++
+1994_October_DG.html ;++  ;++         Unknown ;++  Software  ;++          N/A  ;++ email ;++          Don ++
+1994_September_01_DG.html ;++ 1994-09-01 ;++         Don  ;++  Informational                      ;++          SEEPP  ;++ email ;++          Don ++
+1994_September_16_DG.html ;++ 1994-09-16 ;++         Steve Zweben ;++  Email           from Steve Zweben to Gotterbarn: Re: ;++          Don  ;++ email ;++          Don ++
+1994_undated_December_DG.html ;++      ;++         Don  ;++  Press           Release: Notice  ;++          Unknown ;++ email ;++          Don ++
+1994_undated_DG.html ;++  ;++          Unknown				 ;++  List  ;++          Unknown ;++ email ;++          Don ++
+1994_undated_DG_4.html ;++  ;++         John Fodor ;++  Email           from Fodor to SEEPP Committee: SEEPP Working Group Membership Application ;++          SEEPP Committee ;++ email ;++          Don ++
+1994_undated_DG_5.html ;++  ;++         Unknown ;++  Email:           Steve Unger is on the new IEEE Ethics Committee ;++          Unknown ;++ email ;++          Don ++
+1994_undated_January_DG.html ;++  ;++         Don  ;++  Email           from Gotterbarn to Melford: Cancelled ;++          Robert  ;++ email ;++          Don ++
+1994_undated_MB_8.html ;++  ;++         Unknown ;++  Plan                      ;++          Unknown ;++ email ;++          Mario Barbacci++
+1994_undated_VW.html ;++ ;++         Vivian Weil, Ronald W. Staudt ;++  Discussions,           Notes  ;++          Unknown ;++ email ;++          Vivian Weil++
+1994_undated_VW_10.html ;++  ;++ Vvian 	    Weil ;++ Excerpts           from TCSE Annual  ;++          Unknown	 ;++ email ;++ ++
+1994_undated_VW_11.html ;++  ;++         Ilene Burnstein ;++  Email           from Ilene Burnstein to Chuck Howell:  interested in the deliberations ;++          Chuck  ;++ email ;++          Vivian Weil++
+1994_undated_VW_2.html ;++  ;++         Ilene Burnstein ;++  Handwritten           Correspondence from Ilene Burnstein to Vivian Weil- NSF Proposal ;++          Vivian Weil ;++ email ;++          Source ++
+1994_undated_VW_4.html ;++  ;++         Michael Davis ;++  Early                      ;++          Undated  ;++ email ;++          Vivian Weil++
+1994_undated_VW_5.html ;++  ;++         Michael Davis and Vivian Weil ;++ Ethics       and Software Engineering Project Proposal- NSF Proposal ;++          Unknown ;++ email ;++          Vivian Weil++
+1994_undated_VW_7.html ;++  ;++         Helen  ;++  Correspondence           from Helen Nissenbaum to Vivian Weil-accountability papers ;++          Vivian  ;++ email ;++          Vivian ++
+1994_undated_VW_9.html ;++  ;++         Vivian Weil ;++           Collected Thoughts for a Project on Ethics and Software Engineering - ;++          Unknown ;++ email ;++        Weil++
+1995_April_05.html ;++  1995-04-11    ;++         Rachelle Hollander ;++  Email           from Rachelle Hollander to Vivian Weil: SGER ;++          Vivian  ;++ email ;++ 		++
+1995_April_08.html ;++   1995-04-08   ;++         Michael Davis ;++  Email           from Davis to Weil: Software ;++          Vivian  ;++ email ;++          Unknown++
+1995_April_11_VW.htm ;++ 1995-04-11 ;++ Vvian     Weil ;++  Note           from Vivian to Keith Miller Has SEEPP begun its work? ;++            Miller	 ;++ email ;++          Vivian Weil++
+1995_April_12.html ;++   1995-04-12   ;++         Vivian  ;++  Addition  ;++          Rachelle  ;++ email ;++          Unknown.++
+1995_April_20.html ;++  1995-04-20    ;++         Rachelle Hollander ;++  Email           from Rachelle Hollander to Weil: Software ;++          Vivian  ;++ email ;++ ++
+1995_April_21_DG.html ;++  1995-04-21    ;++         Ed Mechler ;++  Email       from Mechler to Melford: Committee in action? ;++          Robert  ;++ email ;++          Ed Mechler++
+1995_April_25_DG.html ;++   1995-04-25   ;++         Robert  ;++  Re:       Email from Mechler to Melford - Committee in action? ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_April_26.html ;++   1995-04-26   ;++         Michael  ;++  Memo       from Michael Davis to Vivian Weil: Sofware Proposal-Hollander Comments ;++          Vivian  ;++ email ;++          Vivian Weil++
+1995_April_28.html ;++   1995-04-28   ;++         Vivian Weil ;++  Letter           from Weil to Rachelle Hollander: Response to concerns about NSF Proposal ;++          Rachelle  ;++ email ;++          Unknown++
+1995_April_28_1.html ;++   1995-04-28   ;++         Unknown ;++  Summary                      ;++          Unknown ;++ email ;++          Unknown++
+1995_August_10_MN.htm ;++ 1995-08-10 ;++         Don  ;++  Email           from Gotterbarn to Norman: Re: ;++          Manny Norman ;++ email ;++          Manny Norman++
+1995_August_21_DG.html ;++    1995-08-21  ;++         Ed  ;++  Email           from Mechler to Gotterbarn: Traffic on Mailing List ;++          Don  ;++ email ;++          Don ++
+1995_August_28_DG.html ;++   1995-08-28   ;++         Ed Mechler ;++  Email           from Mechler to Gotterbarn: Unwritten ;++          Don  ;++ email ;++          Don ++
+1995_August_31.html ;++   1995-08-31   ;++         Emr Al Kadi ;++  Email           from Al-Kadi: Summarizing  ;++          Unknown ;++ email ;++          Unknown++
+1995_August_VW.html ;++  ;++         Patricia  ;++  Press           Release: Task Force to Survey Software Engineers in 1996 by Patricia ;++          Unknown ;++ email ;++          Vivian Weil++
+1995_December_03.html ;++     1995-12-03 ;++         Ilene Burnstein ;++  Email           from Ilene Burnstein to Gotterbarn: Taskforce on software engineering-like In-reply-to: Your message of Tue, 18 Jul 95 17:12 CDT   Professional Awareness in Software Engineering ;++        Gotterbarn  ;++ email ;++          Unknown++
+1995_December_04_DG.html ;++  1995-12-04    ;++         Ed Mechler ;++  Email           from Mechler to SEEPP Committee: Code of Ethics Outline ;++          SEEPP  ;++ email ;++          Don Gotterbarn++
+1995_December_05.html ;++     1995-12-05 ;++         Michael Davis ;++  Email           from Mechler to Davis: Additions to your e-mail list of December 4, ;++          Ed  ;++ email ;++          Unknown++
+1995_December_06_DG.html ;++   1995-12-06   ;++         Ed Mechler ;++  Email           from Mechler to Article Express: Do you have the article, 'Using the ;++          Article  ;++ email ;++          Unknown++
+1995_December_11_DG.html ;++ 1995-12-11 ;++         Don  ;++  Email           from Gotterbarn to Melford: Informational  ;++          Bob  ;++ email ;++          Don ++
+1995_December_14_DG.html ;++    1995-12-14  ;++         Ed ;++  Email           from Mechler to SEEPP Committee: The Unwritten Laws of Engineering ;++          SEEPP  ;++ email ;++          Don Gotterbarn++
+1995_December_14_DG_1.html ;++     1995-12-14 ;++         Manny Norman ;++  Email           from Norman to Mechler: Will send accounting profession information                     I hope to get my stuff about the accounting profession ;++          Ed  ;++ email ;++        Unknown++
+1995_December_15_DG.html ;++     1995-12-15 ;++         Don Gotterbarn ;++ Email           from Gotterbarn to PRFCMP-L list: Delays and New Mailing List   To: Multiple recipients of list PRFCMP-L PRFCMP-L@UTKVM1.BITNET ;++          Multiple recipients of list PRFCMP-L list ;++ email ;++          Don Gotterbarn++
+1995_December_18_VW.html ;++   1995-12-18   ;++         Ronald  ;++ Chicago             Tribune Article- Attitudes harden against software firms Influential ;++          Not  ;++ email ;++          Vivian Weil++
+1995_December_28.html ;++    1995-12-28 ;++         Manny Norman ;++  Extracts       from AICPA Standards Manual   To: Multiple recipients of list PRFCMP-L PRFCMP-L@UTKVM1.BITNET ;++          Unknown ;++ email ;++          Don ++
+1995_Fall_DG.html ;++  ;++         Unknown  ;++  Call  ;++          Unknown  ;++ email ;++          Don Gotterbarn++
+1995_February_06_EM.htm ;++ 1995-02-06 ;++ Rbert 	    Melford ;++  SEEPP           Call For Participation	 ;++ wn<!-- InstanceEndEditable --></div>        Format:   ;++ email ;++          Unknown++
+1995_February_06_VW.html ;++ 1995-02-06 ;++         Vivan Weil ;++  Email           from Weil to Miller: NSF ;++          Keith  ;++ email ;++          Vivan Weil++
+1995_February_07_VW.html ;++ 1995-02-07 ;++         Keith  ;++ Email           correspondence between Miller and Weil: CSEP attaching ;++          Vivian  ;++ email ;++          Vivian ++
+1995_February_15_DG.html ;++ 1995-02-15 ;++         Mario  ;++ Email           from Barbacci to Steering Committee: Agenda ;++          Steering  ;++ email ;++          Don ++
+1995_February_16_DG.html ;++ 1995-02-16 ;++         Don  ;++ Email           from Gotterbarn to SEEPP Work Group: Thank ;++          SEEPP  ;++ email ;++          Don ++
+1995_February_23.html ;++ 1995-02-23 ;++         Unknown ;++ Notice       of proposal submission by CSEP to NSF ;++          Unknown ;++ email ;++ ++
+1995_February_27_DG.html ;++ 1995-02-27 ;++         Mark  ;++       Email           from Kanko to Gotterbarn: IEEE/ACM S/W as a Profession ;++          Don  ;++ email ;++          Don ++
+1995_February_28_DG.htm ;++ 1995-02-28 ;++         Milton  ;++       Email           from Milton Fulghum to Gotterbarn: Re: Professional Competence Working   To: d.gotterbarn@computer.org ;++          Don  ;++ email ;++          Don ++
+1995_January_13_1.html ;++   1995-01-13   ;++         Michael Davis ;++  Memo           from Davis to Ilene Burnstein: Possible Software ;++          Ilene  ;++ email ;++          Unknown++
+1995_January_30.htm ;++ 1995-01-30 ;++ Uknown	<!-- InstanceEnEitable--> <div>		 ;++ Fax           of NSF Guidelines ;++          Unknown	 ;++ email ;++ ++
+1995_July_01_EM.html ;++   1995-07-01   ;++         Don  ;++  List       of Volunteers, Samples from Other Engineering Codes         Ethics Message?ID: 950629152206_76105.3332 GHC53?1@CompuServe.COM ;++          Unknown ;++ email ;++          Ed Mechler++
+1995_July_03_MN.htm ;++ 1995-07-03 ;++         Manny Norman ;++  Email           from Norman to Professional Competence List: Step ;++          Prof  ;++ email ;++          Manny Norman++
+1995_July_03_MN.html ;++ 1995-07-03 ;++         Manny Norman ;++  Email           from Norman to Professional Competence List: Step ;++          Prof  ;++ email ;++          Manny Norman++
+1995_July_03_VW.html ;++   1995-07-13   ;++         Don Gotterbarn ;++  Email       from Gotterbarn: Manny Norman looking into Accounting Professional Codes ;++          Unknown ;++ email ;++          Vivian Weil++
+1995_July_05_MN.htm ;++ 1995-07-05 ;++         Don Gotterbarn ;++       Email           from Gotterbarn to Norman: Relation Between the First and Second Task ;++          Manny Norman ;++ email ;++ ++
+1995_July_19_VW.html ;++ 1995-07-19 ;++         Ilene Burnstein ;++  Email           from Ilene Burnstien to Weil: Current List of Volunteers ;++          Vivian Weil ;++ email ;++          Vivian Weil++
+1995_June_08_DG.html ;++ 1995-07-19 ;++         Don  ;++ Email           from Gotterbarn to Melford: Trying to Get a Response or Agreement ;++          Robert Melford ;++ email ;++          Don ++
+1995_June_10.html ;++   1995-06-10   ;++         Don Gotterbarn ;++  Email           from Gotterbarn to SEEPP Volunteers: Resend of Kick-off Letter ;++          SEEPP Volunteers ;++ email ;++            Gotterbarn ++
+1995_June_10_DG_1.html ;++ 1995-06-10 ;++ Dn 	    Gotterbarn ;++ List           of Standards ;++          Ed  ;++ email ;++          Don ++
+1995_June_10_EM.html ;++   1995-06-10   ;++         Don Gotterbarn ;++  Email           from Gotterbarn to Mechler: Professional ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_June_10_MN.html ;++   1995-06-10   ;++ Dn                   Gotterbarn  ;++ Current                   list of volunteers ;++ OMP                   Work Group ;++ email ;++ ++
+1995_June_14_DG.html ;++    1995-06-14  ;++         Ed  ;++  Email       from Mechler to Gotterbarn: Will summarize NSPE Code and IEEE Code ;++          Don  ;++ email ;++          Don ++
+1995_June_28_MN.html ;++ 1995-06-28 ;++         Dr.  ;++  Email           from El-Kadi to Norman: Task ;++          Manny Norman ;++ email ;++          Manny Norman++
+1995_June_29_EM.html ;++   1995-06-29   ;++         Ed  ;++  IEEE           Code of Ethics, National Society of Professional Engineers Code of ;++          Don  ;++ email ;++          Ed Mechler++
+1995_March_01_DG.html ;++ 1995-03-01 ;++         Don ;++  Detailed                      ;++          Keith  ;++ email ;++          Don++
+1995_March_02_DG.html ;++   1995-03-02   ;++         Bob Melford ;++  Email           from Melford to Mechler: Re: Acknowledge Mechler as Part of Working ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_March_13_DG.html ;++   1995-03-13   ;++         Ed  ;++  Email           from Mechler to Robert Tipton IEEE Computer Society and ACM Joint ;++          Robert  ;++ email ;++          Ed Mechler++
+1995_March_13_DG_1.html ;++  1995-03-13    ;++         Ed  ;++  Email       from Mechler to Barbachi: Interested in Certification Task Force ;++          Mario  ;++ email ;++          Unknown++
+1995_March_17.html ;++  1995-03-17    ;++         Michael  ;++ Email           from Davis to Miller: Thanks for the article ['More Activitiy on Software ;++          Keith  ;++ email ;++          Unknown++
+1995_March_24_DG.html ;++   1995-03-24   ;++ Rbert 	    Melford ;++ Email           from Melford to Mechler:  Re: ;++          Ed  ;++ email ;++          Don ++
+1995_March_DG.html ;++  ;++         D.  ;++       Critique of 1994 Call for Participation<!-- InstanceEndEditable --></div>		 ;++          IEEE Spectrum Journal ;++ email ;++          Don Gotterbarn++
+1995_May_14.html ;++   1995-05-14   ;++         Keith  ;++  Email           from Miller to Ilene Burnstein: Working  ;++          Ilene  ;++ email ;++          Unknown++
+1995_May_VW.htm ;++   ;++ Iene 	    Burnstein ;++  Note           from Ilene Burnstein to Vivian Weil ;++ n           Weil ;++ email ;++ ++
+1995_November_03.html ;++   1995-11-03   ;++         Ed  ;++  Email           from Mechler to SEEPP Work Group: Are We Still Working?   I'm still here, but you are the only person I ever hear from.   I really don't know what to say except that I share your worries: ;++          SEEPP Work Group ;++ email ;++          Unknown++
+1995_November_03_DG_1.html ;++ 1995-11-03 ;++         Ed  ;++  Returned       mail: Are We Still Working? ;++          SEEPP Working Group ;++ email ;++          Don Gotterbarn++
+1995_November_03_DG_2.html ;++   1995-11-03   ;++         Manny  ;++  Email           from Norman to Mechler: Re: Are We Still Working? ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_November_04_DG.html ;++    1995-11-04  ;++         Amr El-Kadi ;++  Email           from El-Kadi to Mechler: Re:Re: Are We Still Working? ;++          Ed  ;++ email ;++          Unknown++
+1995_November_06_DG.html ;++ 1995-11-06 ;++         Ed  ;++  Email           from Mechler to Kallman: Are We Still Working? ;++          Ernie Kallman ;++ email ;++          Ed Mechler++
+1995_November_08_DG.html ;++   1995-11-08   ;++         Mark  ;++  Email           from Kanko to Mechler: Are We Still Working? ;++          Ed  ;++ email ;++          Unknown++
+1995_November_09_DG.html ;++    1995-11-09  ;++         Ed Mechler ;++  Email           from Mechler to Kanko: Re: Are We Still Working? ;++          Mark  ;++ email ;++ ++
+1995_November_09_DG_1.html ;++  1995-11-09    ;++         Ed  ;++  Email           from Mechler to Gotterbarn: Status of the SEEPP Group ;++          Donald  ;++ email ;++          Don Gotterbarn++
+1995_November_11_DG.html ;++   1995-11-11   ;++         Ernie Kallman ;++  Email       from Kallman to Mechler: Re: Are We Still Working? ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_November_14.html ;++    1995-11-14  ;++         Vivian Weil ;++  Weil           and Davis Reponse to Mechler Email Re:Re: Are We Still Working? ;++          Ed  ;++ email ;++          Unknown++
+1995_November_14_DG_1.html ;++  1995-11-14    ;++         Ed Mechler ;++  Email           from Mechler to Kallman: Re: Re Are We Still Working? ;++          Ernie  ;++ email ;++          Ed Mechler++
+1995_November_14_DG_2.html ;++ 1995-11-14    ;++         Ernie Kallman ;++  Email           from Kallman to Mechler: Re: Are We Still Working? ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_November_14_DG_3.html ;++  1995-11-14    ;++         Don  ;++  Gotterbarn       to Mechler: Re: Re: Group Condition ;++          Ed  ;++ email ;++          Don Gotterbarn++
+1995_November_15_DG.html ;++   1995-11-15   ;++         Ed Mechler ;++  Email           from Mechler to Davis and Weil: Re: Re: Are you members of the Working ;++          Vivian  ;++ email ;++          Unknown++
+1995_November_15_DG_1.html ;++   1995-11-15  ;++         Vivian Weil ;++  Email           from Weil to Mechler: CSEP Observation of SEEPP Project   To: 76105.3332@compuserve.com (Ed Mechler, CCP) ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_November_16_DG.html ;++   1995-11-16   ;++         Ed Mechler ;++  Email           from Mechler to Gotterbarn: Group ;++          Don Gotterbarn ;++ email ;++ ++
+1995_November_27.html ;++   1995-11-27   ;++         Amr El Kadi ;++  Email           from El-Kadi to SEEPP Committee: We Need a Response ;++          SEEPP  ;++ email ;++          Don Gotterbarn++
+1995_November_29_DG.html ;++   1995-11-29     ;++         Ed Mechler ;++  Email           from Mechler to ACM: ACM Code ;++          ACM ;++ email ;++          Ed Mechler++
+1995_October_02_DG.html ;++   1995-10-02    ;++         Manny Norman ;++  Email       from Norman to Mechler: Just back from vacation ;++          Ed  ;++ email ;++          Ed Mechler ++
+1995_October_02_DG_1.html ;++   1995-10-02   ;++         Manny Norman ;++ Email           from Norman to Mechler: Science and Engineering Ethics Journal   Message-ID: Pine.SUN.3.91.950928154300.13919B-100000@helios.dmu.ac.uk ;++          Ed  ;++ email ;++          Ed Mechler++
+1995_September_15_DG.html ;++    1995-10-15   ;++         Ed  ;++ Email           from Mechler to Norman: No Traffic on Listserv ;++          Manny Norman ;++ email ;++          Don Gotterbarn++
+1995_September_19_DG.html ;++   1995-10-19    ;++         Peter  ;++  Embracing  ;++          Unknown ;++ email ;++          Don Gotterbarn++
+1995_September_20_MN.htm ;++    1995-10-20   ;++         Simon  ;++  Science  ;++          Manny Norman ;++ email ;++          Manny ++
+1995_September_28_MN.htm ;++ 1995-10-28 ;++         Simon  ;++  E-mail       Regarding Launch of the New CCSR Home Page ;++          Manny Norman ;++ email ;++          Manny Norman++
+1995_undated_DG.html ;++  ;++         Unknown ;++       Members of the Informed Consent Mailing List<!-- InstanceEndEditable --></div>		 ;++          Unknown ;++ email ;++          Don Gotterbarn++
+1995_undated_MB.html ;++ ;++         Patricia Douglas ;++  Task  ;++          Unknown ;++ email ;++          Mario Barbacci++
+1995_undated_VW_1.html ;++ ;++  Robert     Melford and Donald Gotterbarn ;++  Press           Release: SEEPP ;++          Unknown ;++ email ;++          Vivian Weil++
+1996_April_01_DG.html ;++ 1996-04-01 ;++         N Jayaram ;++  Email           from Jayaram to Mechler: URGENT: ;++          Ed  ;++ email ;++          Unknown++
+1996_April_02_DG.html ;++ 1996-04-02 ;++         Ed Mechler ;++  Email           from Mechler to Jayaram: Re: URGENT: Joint ACM -IEEE Software Issues ;++          N  ;++ email ;++          Ed Mechler++
+1996_April_03_DG.html ;++ 1996-04-03 ;++         N Jayaram ;++  Email           from Jayaram to Mechler: Re: ;++          Ed  ;++ email ;++          Ed Mechler++
+1996_April_03_DG_1.html ;++ 1996-04-03 ;++ E     Mechler ;++  Email           from Mechler to Jayaram: Re: URGENT: Joint ACM -IEEE Software Issues ;++          N  ;++ email ;++          Ed Mechler++
+1996_April_04_DG.html ;++ 1996-04-04 ;++       Jayaram ;++ Email           from Jayaram to Mechler:  Re: ;++          Ed  ;++ email ;++          Ed Mechler++
+1996_April_04_DG_1.html ;++ 1996-04-04 ;++         Ed Mechler ;++  Email           from Mechler to Jayaram: Re: ;++          N  ;++ email ;++          Ed Mechler++
+1996_April_05.html ;++ 1996-04-05 ;++         Ed Mechler ;++ Email           from Mechler to SEEPP Work Group: Re: Locations to Date of SEEPP ;++          SEEPP  ;++ email ;++          Unknown++
+1996_April_06.html ;++ 1996-04-06 ;++         Don Gotterbarn ;++ Email           from Gotterbarn to PRFCMP-L list: Re: ;++          Multiple  ;++ email ;++          Unknown++
+1996_April_07.html ;++ 1996-04-04 ;++         Don Gotterbarn ;++  Email           from Gotterbarn To SEEPP Task Force: Schedule - Progress in Work Groups ;++        Task Force, Joyce Currie Little, Michael Davis ;++ email ;++          Unknown++
+1996_April_08_DG.html ;++ 1996-04-04  ;++         Ed Mechler ;++  Email           from Mechler to Jayaram: Re: ;++          N  ;++ email ;++          Ed Mechler++
+1996_April_08_DG_1.html ;++ 1996-04-01 ;++         Ed Mechler ;++ Email           from Mechler to Gotterbarn: SEEPP ;++          Don  ;++ email ;++          Don ++
+1996_April_09_DG.html ;++ 1996-04-09 ;++         N Jayaram ;++  Email           correspondence Jayaram to Mechler: Re: Questions ;++          Ed  ;++ email ;++          Unknown++
+1996_April_11_DG.html ;++ 1996-04-11 ;++         N Jayaram ;++  Email           from Jayaram to Mechler: Re: ;++          Ed  ;++ email ;++          Unknown++
+1996_April_11_DG_1.html ;++ 1996-04-11 ;++         N Jayaram ;++  Email           from Jayaram to Mechler: Re:   To: N Jayaram jayaramn@westminster.ac.uk ;++          Ed  ;++ email ;++          Ed Mechler++
+1996_April_11_DG_2.html ;++ 1996-04-11 ;++         Ed Mechler ;++  Email       from Mechler to Jayaram: Re: Questions and Update-Response to Diane ;++          N  ;++ email ;++          Ed Mechler++
+1996_April_11_VW.html ;++ 1996-04-11 ;++         Ed Mechler ;++  Email       from Mechler to SEEPP Listserv: Re: Locations to Date of SEEPP ;++          SEEPP  ;++ email ;++          Vivian Weil++
+1996_April_12_DG.html ;++ 1996-04-12 ;++       Jayaram ;++ Email           from Jayaram to Mechler: Re: Questions and Update- ;++          Ed  ;++ email ;++ ++
+1996_April_15_DG.html ;++ 1996-04-15 ;++       Jayaram ;++ Email           from Jayaram to Mechler: IEEE Software Special Issue       Narayana: ;++        Mechler  ;++ email ;++ ++
+1996_April_15_DG_1.html ;++ 1996-04-15 ;++         Ed Mechler ;++ Email           from Mechler to Jayaram: TROIKA ;++          N  ;++ email ;++ ++
+1996_April_17_DG.html ;++ 1996-04-17 ;++         N Jayaram ;++  Email           from Jayaram to Mechler Re: ;++          Ed  ;++ email ;++ ++
+1996_April_18_DG.html ;++ 1996-04-18 ;++  d     Mechler ;++ Email           from Mechler to Jayaram: Re: TROIKA-outline ;++        Jayaram  ;++ email ;++ ++
+1996_April_19_DG.html ;++ h, 1-04-19 ;++  d     Mechler ;++ Email           from Mechler to Jayaram: Re: TROIKA-outline update ;++        Jayaram  ;++ email ;++ ++
+1996_April_22_DG.html ;++ 1996-04-22 ;++       Jayaram ;++ Email           from Jayaram to Mechler: Re: TROIKA-outlines and IEEE Software ;++        Mechler  ;++ email ;++ ++
+1996_April_30.html ;++ 1996-04-30 ;++ E     Mechler ;++ Code       Outline (Version 0.0) ;++ ra,       Davis, Norman, Elkadi, Sullivan, Burnstein, Weil, Jayaram ;++ email ;++ ++
+1996_April_30_DG.html ;++ 1996-04-30 ;++  d     Mechler ;++ Email           from Mechler to Jayaram: Re: TROIKA-third member and outline  ;++        Jayaram  ;++ email ;++ ++
+1996_April_30_DG_1.html ;++ 1996-04-30 ;++       Jayaram ;++ Email           from Jayaram to Mechler: Re: TROIKA-outline and third member ;++        Mechler  ;++ email ;++ ++
+1996_April_30_MN.html ;++ 1996-04-30 ;++ E     Mechler  ;++  Email           from Mechler to Cabrera: SEEPP  ;++          Felipe  ;++ email ;++        Norman++
+1996_April_8_DG_2.html ;++ 1996-04-08  ;++ E        Mechler  ;++ Email           from Mechler to Gotterbarn: SEEPP RESTART ;++ d        Gotterbarn ;++ email ;++ ++
+1996_August_08.html ;++ 1996-08-08 ;++ E     Mechler ;++ Email           from Mechler to SEEPP Work Group: Final Product of the SEEPP/E subgroup ;++        Work Group ;++ email ;++ ++
+1996_August_17.html ;++ 1996-08-17 ;++         Michael  ;++ Fax           from Davis to Mechler: Code ;++          Ed  ;++ email ;++ ++
+1996_August_20.html ;++ 1996-08-20 ;++         Michael Davis ;++  Email           from Davis to Mechler: Code ;++          Ed  ;++ email ;++          Unknown++
+1996_August_21_VW.html ;++ 1996-08-21 ;++         Ilene  ;++  Email           from Ilene Burnstein to Weil: References ;++          Vivian Weil ;++ email ;++          Vivian Weil++
+1996_August_26.html ;++  1996-08-26 ;++         Ilene Burnstein ;++  Email           from Ilene Burnstein to Weil: NSC Forum on Licensing of Software Professionals ;++          Vivian  ;++ email ;++          Unknown++
+1996_August_26_VW.htm ;++ 1996-08-28 ;++ Iene 	    Burnstein ;++ E-mail           from Ilene Burnstein (to Vivian Weil) -- I received this via ;++ n           Weil ;++ email ;++ ++
+1996_August_27_VW.html ;++ 1996-08-27 ;++         Ilene  ;++  Email           from Ilene Burnstein to Weil: Another Reference ;++          Vivian Weil ;++ email ;++ ++
+1996_December_10_EM.html ;++ 1996-12-10 ;++         Ed  ;++  Email           from Mechler to Cabrera: Web ;++          Felipe  ;++ email ;++          December ++
+1996_December_18_EM.html ;++ 1996-12-18 ;++         Don  ;++  Email           from Gotterbarn to SEEPP Workgroup Leaders: code ;++          SEEPP  ;++ email ;++          Ed Mechler++
+1996_December_18_VW.htm ;++ 1996-12-18 ;++ Dn 	    Gotterbarn ;++ E-mail           from Gotterbarn (to SEEPP workgroup)Code of ethics, the ;++            workgroup ;++ email ;++ ++
+1996_December_19_EM.htm ;++ 1996-12-19 ;++ Mchler<!-- InstanceEnddtable -> </iv>		 ;++ E-mail           from Mechler (to Gotterbarn): Please change my e-mail address, with ;++          Don Gotterbarn ;++ email ;++ ++
+1996_December_19_EM.html ;++ 1996-12-19 ;++         Ed  ;++  Email           from Mechler to Gotterbarn: Code ;++          Don  ;++ email ;++          Ed ++
+1996_Fall_DG.html ;++  ;++         Don Gotterbarn ;++  Information       Note-Response to Fall 1996 Request from Dennis Frailey ;++          Dennis  ;++ email ;++            Gotterbarn++
+1996_February_01_DG.html ;++ 1996-02-01 ;++         Unknown ;++  The       Communications Decency Act ;++          Unknown ;++ email ;++            Gotterbarn++
+1996_February_05_DG.html ;++ 1996-02-05 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++  ACM       Code of Ethics and Professional Conduct ;++          Unknown ;++ email ;++ ++
+1996_February_21_DG.html ;++ 1996-02-21 ;++ Dn 	    Gotterbarn ;++  Email           from Gotterbarn to Curt Harris: Computer Science Conference in Philadelphia ;++          Curt Harris ;++ email ;++          Don Gotterbarn++
+1996_January_02_DG.html ;++ 1996-01-02;++         Don Gotterbarn ;++  Email       from Gotterbarn to Frailey: Information on possible SEEPP members ;++          Dennis  ;++ email ;++          Don Gotterbarn++
+1996_January_27_DG.html ;++ 1996-12-27 ;++         Steve  ;++  Email           from Stebe Barber to Gotterbarn: Recovering SEEPP Guide ;++          Don Gotterbarn ;++ email ;++          Don Gotterbarn++
+1996_July_02_DG.html ;++ 1996-07-02 ;++         Ed Mechler ;++  Email           from Mechler to Jayaram: Re: Still there ;++          N  ;++ email ;++ ++
+1996_July_03_DG.html ;++ 1998-07-03 ;++         Manny Norman ;++ Email       from Norman to Mechler: Re: Hear Anything ;++        Mechler  ;++ email ;++ ++
+1996_July_04_DG.html ;++ 1996-07-04 ;++         N Jayaram ;++  Email           from Jayaram to Mechler: Re: Still there ;++          Ed  ;++ email ;++ ++
+1996_July_05_DG.html ;++ 1996-07-05 ;++ E     Mechler ;++  Email           from Mechler to Jayaram: Re: Still there ;++          N  ;++ email ;++ ++
+1996_July_05_DG_1.html ;++ 1996-12-05 ;++         Manny Norman ;++  Email           from Norman to Mechler: Re: Hear Anything? ;++          Ed  ;++ email ;++ ++
+1996_July_08_DG.html ;++ 1996-07-08 ;++         Ed Mechler ;++  Email           from Mechler to Norman: Re: Hear Anything? ;++          Manny  ;++ email ;++ ++
+1996_July_08_DG_1.html ;++ 1996-07-08 ;++         Manny Norman ;++  Email           from Norman to Mechler: Re: Hear Anything? ;++          Ed  ;++ email ;++ ++
+1996_July_09_DG.html ;++ 1996-12-09 ;++         Ed Mechler ;++  Email           from Mechler to Norman:  Re: Hear Anything? ;++          Manny  ;++ email ;++ ++
+1996_July_10.html ;++ 1996-07-10 ;++         Ed Mechler ;++ Code           Proposal ;++          SEEPP  ;++ email ;++ ++
+1996_July_10_DG.html ;++ 1996-07-10 ;++         Manny Norman ;++ Email           from Norman to Mechler: Re: Hear Anything? ;++          Ed  ;++ email ;++ ++
+1996_July_10_DG_1.html ;++ 1996-07-10 ;++         Ed Mechler ;++ Email           from Mechler to Norman Re: Hear Anything? ;++          Manny  ;++ email ;++ ++
+1996_July_10_DG_2.html ;++ 1996-07-10 ;++ E     Mechler ;++ Email           from Mechler to SEEPP Work Group: Re: Code Proposal ;++          SEEPP  ;++ email ;++ ++
+1996_July_10_DG_3.html ;++ 1996-12-10 ;++ Mnny     Norman ;++ Email           from Norman to Mechler: Re: Code Proposal ;++          Mechler  ;++ email ;++ ++
+1996_July_10_DG_4.html ;++ 1996-07-10 ;++         Felipe Cabrera ;++ Email           from Cabrera to Mechler: Re: Code Proposal        Volunteers,  ;++          Ed Mechler ;++ email ;++ ++
+1996_July_10_MN.html ;++ 1996-07-10 ;++         Ed  ;++  Email           from Mechler to Norman: Re: Hear Anything? ;++          Manny Norman ;++ email ;++          Manny Norman++
+1996_July_10_MN_1.htm ;++ 1996-07-10 ;++         Ed Mechler ;++ Email           from Mechler to Norman: Code ;++          Manny Norman ;++ email ;++ ++
+1996_July_12_DG.html ;++ 1996-07-12 ;++    ;++ Email           from Mechler to Cabrera: Re:  ;++ e   ;++ email ;++ ++
+1996_July_12_DG_1.html ;++ 1996-07-12 ;++    ;++ Email           from Norman to Mechler: Re: ;++   ;++ email ;++ ++
+1996_July_12_DG_2.html ;++ 1996-07-12 ;++    ;++ Email           from Mechler to Norman: Re: ;++    ;++ email ;++ ++
+1996_July_12_DG_3.html ;++ 1996-07-12 ;++    ;++ Email           from Norman to Mechler: Re:  ;++   ;++ email ;++ ++
+1996_July_14_EM.html ;++ 1996-07-14 ;++ Air 	     ;++ Email           from El-Kadi to PRFCMP-L Re:  ;++ ple   ;++ email ;++ ++
+1996_July_15_DG.html ;++ 1996-07-15 ;++    ;++ Email           from Norman to Mechler: Re:  ;++   ;++ email ;++ ++
+1996_July_15_VW.html ;++ 1996-07-15 ;++ Kith   ;++ Email           from Miller to SEEPP Work Group: Testing  ;++    ;++ email ;++ ++
+1996_July_16.html ;++ 1996-07-16 ;++    ;++ Email           from Miller to SEEPP Work Group Revision  ;++    ;++ email ;++ ++
+1996_July_19_DG.html ;++ 1996-07-19 ;++    ;++ Email           from Davis to Mechler: Re:  ;++   ;++ email ;++ ++
+1996_July_19_DG_1.html ;++ 1996-07-19 ;++    ;++ Email           from Davis to Mechler: Re: ;++   ;++ email ;++ ++
+1996_July_20_EM.html ;++ 1996-07-20 ;++ Mnny   ;++ Email           from Norman to Mechler Re:  ;++   ;++ email ;++ ++
+1996_July_23_DG.html ;++ 1996-07-23 ;++    ;++ Email           from Mechler to Davis: Re:  ;++ el   ;++ email ;++ ++
+1996_July_23_DG.pdf ;++ 1996-07-23 ;++ /Producer (Acrobat PDFWriter 4.05 for Windows NT) ;++  ;++  ;++ email ;++ ++
+1996_July_23_DG_1.html ;++ 1996-07-23 ;++    ;++ Email           from Davis to Mechler: Re:  ;++   ;++ email ;++ ++
+1996_July_23_DG_1.pdf ;++ 1996-07-23 ;++  ;++  ;++  ;++ email ;++ ++
+1996_July_26_DG.html ;++ 1996-07-23 ;++    ;++ Email           from Mechler to Davis: Re:  ;++ el   ;++ email ;++ ++
+1996_July_31_DG.html ;++ 1996-07-31 ;++ Mchael   ;++ Email       from Davis to Mechler: Re: Message from Internet ;++   ;++ email ;++ ++
+1996_June_06.html ;++ 1996-06-06 ;++    ;++ Fax           from Davis to Mechler:  Looking forward to comments on draft ;++   ;++ email ;++ ++
+1996_June_06_DG.html ;++ 1996-06-06 ;++    ;++ Email           from Mechler to Davis: Re:  ;++ el   ;++ email ;++ ++
+1996_June_09_VW.html ;++ 1996-06-09 ;++    ;++ Email           from Gotterbarn to Ilene Burnstein: Re:  ;++    ;++ email ;++ ++
+1996_June_10_DG.html ;++ 1996-06-10 ;++    ;++ Email           from Norman to Mechler: Re:  ;++   ;++ email ;++ ++
+1996_June_10_DG_1.html ;++     1996-06-10   ;++         Don Gotterbarn ;++ Email           from Gotterbarn to Mechler: Standards ;++          Ed  ;++ email ;++          Don Gotterbarn++
+1996_June_10_VW.html ;++ 1996-06-10 ;++         Forum (Unknown) ;++  Should  ;++        (Unknown) ;++ email ;++ ++
+1996_June_10_VW_1.html ;++ 1996-06-10 ;++        Vivian Weil ;++        written note from Weil to Keith Miller SEEPP Meeting in St. Louis ;++          Keith Miller ;++ email ;++          Vivian Weil ++
+1996_June_10_VW_1.txt ;++ 1996-06-10 ;++ Vvian	    Weil ;++  Hand          written notes by Vivian Weil to Keith Miller ;++           Miller ;++ email ;++ ++
+1996_June_12.html ;++ 1996-06-12 ;++         Keith Miller ;++ Email           from Miller to SEEPP Working Group:  Drafting ;++ ng       Group  ;++ email ;++ ++
+1996_June_MB.html ;++ ;++  nknown<!-- InstanceEnEitable--> <div>		 ;++  Steering  ;++ own<!-- InstanceEndEditable --></div>        Format:  Report  ;++ email ;++        Barbacci++
+1996_March_05_VW.html ;++ 1996-03-05 ;++  on     Gotterbarn ;++ Email           and response between Weil and Gotterbarn: Re: start your engines ;++ n       Weil  ;++ email ;++ ++
+1996_March_08.html ;++ 1996-03-08 ;++  eith     Miller ;++ SEEPP           Task Force, Working Group on Reliability and Safety   To: mifter.keitt@e8gfe.eriss.eau Oats: Mon, 4 Mat 199611:14:48 ;++          Michael Davis, interested parties ;++ email ;++ 		++
+1996_March_13.html ;++ 1996-03-13 ;++  eith     Miller ;++ Email           from Miller to SEEPP Work Group: SEEPP Work Group Gets Working ( I ;++            Work Group  ;++ email ;++ ++
+1996_March_17_DG.html ;++ 1996-03-17 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Version           2.0 of Preamble for steering committee and task force consideration ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++  ;++        Gotterbarn ++
+1996_March_18.html ;++ 1996-03-18 ;++         Ed Mechler ;++  Email           from Mechler to SEEPP Work Group: Re: Final Outline ;++          SEEPP  ;++ email ;++          Unknown++
+1996_March_18_1.html ;++ 1996-03-18 ;++       Jayaram ;++ Email           from Jayaram to Mechler: Re: Final Outline ;++        Mechler  ;++ email ;++ ++
+1996_March_19.html ;++ 1996-03-19 ;++  d     Mechler ;++ Resend           of Jayaram to Mechler 3.18.1996: Re: Final Outline ;++        Davis, Norman, Elkadi, Sullivan, Burnstein ;++ email ;++ ++
+1996_March_19_1.html ;++ 1996-03-19 ;++  d     Mechler ;++ Email           from Mechler to Jayaram: Re: Final Outline ;++        Jayaram  ;++ email ;++ ++
+1996_March_20.html ;++ 1996-03-20 ;++  d     Mechler ;++ Email           from Mechler ;++ el       Davis  ;++ email ;++ ++
+1996_March_20_DG.html ;++ 1996-03-22 ;++  d     Mechler ;++ Email           from Mechler to Cabrera: Communication  ;++ s-Felipe       Cabrera ;++ email ;++ ++
+1996_March_22_DG.html ;++ 1996-03-22 ;++  ichael     Davis ;++ Email           from Davis to Mechler: Chicago Visit  ;++        Mechler  ;++ email ;++ ++
+1996_March_25_DG.html ;++ 1996-03-25 ;++  ivian     Weil ;++ Email       from Weil to Mechler: Message from Internet ;++        Mechler  ;++ email ;++ ++
+1996_March_26_DG.html ;++ 1996-03-26 ;++  d     Mechler ;++ Email           from Mechler to Davis: Re: Chicago Visit ;++ el       Davis  ;++ email ;++ 		++
+1996_March_26_DG_1.html ;++ 1996-03-26 ;++  d     Mechler ;++ Email           from Mechler to Weil: Re: Message from Internet ;++ n       Weil  ;++ email ;++ ++
+1996_March_27_DG.html ;++ 1996-03-27 ;++  ivian     Weil ;++ Email           from Weil to Mechler Re: Categories  ;++        Mechler  ;++ email ;++ ++
+1996_March_27_DG_1.html ;++ 1996-03-27 ;++  ichael     Davis ;++ From           Davis to Mechler: Re: Chicago Visit ;++        Mechler  ;++ email ;++ ++
+1996_March_28.html ;++ 1996-03-28 ;++  mir 	    El Kadi ;++ Email           from Amir El-Kadi to SEEPP Work Group: Proposed List -Outline by Mechler ;++        Work Group ;++ email ;++ ++
+1996_March_28_DG.html ;++ 1996-03-28 ;++  d     Mechler ;++ Email           from ;++ el       Davis  ;++ email ;++ ++
+1996_May_01.html ;++ , 1996-05-01 ;++  ivian     Weil ;++ Email           from Weil to Mechler: Not Stopping the project ;++        Mechler  ;++ email ;++ ++
+1996_May_01_1.html ;++ 1996-05-01 ;++ E    Mechler                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;++ Email          from Mechler to Alan Davis: Soft. Engr. ArticlesMessage-Id: 960501121605_76105.3332_GHC70-1@CompuServe.COM ;++         Alan Davis ;++ email ;++         Unknown++
+1996_May_01_DG.html ;++ 1996-05-01 ;++  d     Mechler ;++ Email           from Mechler to Jayaram: Re: Soft. Engr. Articles ;++        Jayaram ;++ email ;++ ++
+1996_May_02_DG.html ;++ 1996-05-02 ;++  d     Mechler ;++ Email       from Mechler to Weil: Not Stopping the Project ;++ n       Weil  ;++ email ;++ ++
+1996_May_02_DG_1.html ;++ 1996-05-02 ;++  d     Mechler ;++ Email           from Mechler to Davis, SEEPP List: Re: Adding Words ;++ el       Davis, SEEPP List ;++ email ;++ ++
+1996_May_03_DG.html ;++ 1996-05-03 ;++ Aan 	     ;++ Email           from Alan Davis to Mechler: Re: Soft. Engr. Articles Message-Id: 960501121605_76105.3332_GHC70-1@CompuServe.COM ;++        Mechler, CCP ;++ email ;++ ++
+1996_May_06_DG.html ;++ 1996-05-06 ;++  d     Mechler ;++ Email           from Mechler to Jayaram: Re: Soft. Engr. Articles Message-Id: 960501121605_76105.3332_GHC70-1@CompuServe.COM ;++        Jayaram  ;++ email ;++ ++
+1996_May_07_DG.html ;++ 1996-05-07 ;++  on     Gotterbarn ;++  Email           from Gotterbarn to Mechler: Re: SEEPP RESTART-please send results ;++        Mechler  ;++ email ;++ ++
+1996_May_08_DG.html ;++ 1996-05-08 ;++  ichael     Davis ;++ Email           from Davis to Mechler: Re: Adding Words ;++        Mechler  ;++ email ;++ ++
+1996_May_15_DG.html ;++ 1996-05-15 ;++  d     Mechler ;++ Email           from Mechler to SEEPP Listserv: Re: SEEPP RESTART ;++        Listserv  ;++ email ;++ ++
+1996_May_15_DG_1.html ;++ 1996-05-15 ;++  d     Mechler ;++ Email           from Mechler to Gotterbarn: Re: Message from Internet ;++        Gotterbarn  ;++ email ;++ ++
+1996_May_15_DG_2.html ;++ 1996-05-15 ;++  d     Mechler ;++ Email           from Mechler to Davis: Re: Adding Words-sending disk with three ;++ el       Davis  ;++ email ;++ ++
+1996_May_16_DG.html ;++ 1996-05-16 ;++  mr     El-Kadi ;++ Email           from El-Kadi to Mechler: Re: SEEPP RESTART ;++        Mechler, CCP ;++ email ;++ ++
+1996_May_16_DG_1.html ;++ 1996-05-16 ;++  d     Mechler ;++ Email           from Mechler to El-Kadi Re: SEEPP RESTART ;++        El-Kadi ;++ email ;++ ++
+1996_May_16_DG_2.html ;++ 1996-05-16 ;++  ichael     Davis ;++ Email           from Davis to Mechler: Re: Sending disc with outline ;++        Mechler  ;++ email ;++ ++
+1996_May_16_DG_3.html ;++ h, 1-05-16 ;++  d     Mechler ;++ Email           from Mechler to Norman: Re: ;++        Norman ;++ email ;++ ++
+1996_May_19_DG.html ;++ h, 1-05-19 ;++  elipe     Cabrera ;++ Email           correspondence between Cabrerra and Mechler: Re: SEEPP/E-continue  ;++        Mechler  ;++ email ;++ 		++
+1996_May_20_DG.html ;++ h, 1-05-20 ;++  d     Mechler ;++ Email           from Mechler to Cabrera: RE: SEEPP/E ;++ e       Cabrera ;++ email ;++ ++
+1996_May_20_DG_1.html ;++ 1996-05-20 ;++  d     Mechler ;++ Email           from Mechler to SEEPP Listserv: Re: Ethics Outline ;++        Listserv  ;++ email ;++ ++
+1996_May_20_DG_2.html ;++ 1996-05-20 ;++    ;++ Email           from Mechler to Gotterbarn: Re:  ;++   ;++ email ;++ ++
+1996_May_20_DG_3.html ;++ 1996-05-20 ;++    ;++ Email           from Cabrera to Mechler Re:   ;++   ;++ email ;++ ++
+1996_May_21_DG.html ;++ 1996-05-21  ;++    ;++ Email           from Mechler to SEEPP Listserv: Re: ;++    ;++ email ;++ ++
+1996_May_24_DG.html ;++ 1996-05-24 ;++    ;++ Email           from Davis to Mechler Re:  ;++   ;++ email ;++ ++
+1996_May_28_DG.html ;++ 1996-05-28 ;++    ;++ Resend:           Re:  ;++    ;++ email ;++ ++
+1996_May_28_DG_1.html ;++ 1996-05-28 ;++    ;++ Email           from Mechler to Davis: Re:  ;++ el   ;++ email ;++ ++
+1996_May_29_EM.html ;++ 1996-05-29 ;++    ;++ Email           from Davis to Mechler: Code  ;++   ;++ email ;++ ++
+1996_May_30.htm ;++ 1996-05-30 ;++ E     Mechler ;++ Fax       between Mechler and Davis: Received fax of draft code ;++ el           Davis ;++ email ;++ ++
+1996_May_30_EM.html ;++ 1996-05-30 ;++    ;++  Email           from Davis to Mechler: Code  ;++   ;++ email ;++ ++
+1996_November_07_DG.html ;++ 1996-11-07 ;++ Mrk   ;++ Email           from Kanko: Re:  ;++ ple   ;++ email ;++ ++
+1996_November_08_DG.html ;++ 1996-11-07 ;++ Mrk   ;++ Email           from Kanko to Mechler: Re: code of ethics, student comments ;++   ;++ email ;++ ++
+1996_November_08_DG_1.html ;++ 1996-11-08 ;++ E   ;++ Email           from Mechler to Kanko: Re:  ;++   ;++ email ;++ ++
+1996_November_08_EM.html ;++ 1996-11-08 ;++ Mrk 	    Kanko ;++ Email           from Kanko to Mechler: Student Comments ;++                      Melcher ;++ email ;++  ++
+1996_November_09_DG.html ;++ 1996-11-09 ;++ Dn   ;++ Email           from Gotterbarn to Prof. Compl. Standards Task Force: Re:  ;++ ple   ;++ email ;++ ++
+1996_November_11_DG.html ;++ 1996-11-11 ;++ Pter   ;++ Email           from Prinzvalli to Gotterbarn: Re:  ;++ ple           recipients, Don ;++ email ;++ ++
+1996_November_11_DG_1.html ;++ 1996-11-11 ;++ E   ;++ Email           from Mechler to Kanko: Re:  ;++   ;++ email ;++ ++
+1996_November_11_DG_2.html ;++ 1996-11-11 ;++ Lurie   ;++ Email           from Werth to PRFCMP-L list: Plan an ethics workshop for CSEE '98 ;++ ple   ;++ email ;++ ++
+1996_November_12_DG.html ;++ 1996-11-12 ;++ Pter        Ron Prinzivalli ;++ Email         from Prinzivalli to PRFCMP-L list: Comments on Code of Ethics by Peter ;++ ple        recipients of list PRFCMP-L ;++ email ;++ ++
+1996_November_12_DG_2.html ;++ 1996-11-12 ;++ Mnny   ;++ Email           from Norman to PRFCMP-L list: Re: Plan an ethics workshop for ;++ ple   ;++ email ;++ ++
+1996_November_12_MN_.html ;++ 1996-11-12 ;++    ;++    ;++   ;++ email ;++  ++
+1996_November_13_DG.html ;++     1996-11-13  ;++ Mnny                    Norman ;++ Email           from Norman to Mechler: I seem to have bitten off... ;++                    Mechler  ;++ email ;++ ++
+1996_November_17_EM.html ;++ 1996-11-17 ;++ Dn   ;++ Email           from Gotterbarn to Mechler: Parking ;++   ;++ email ;++ ++
+1996_November_18_EM.html ;++ 1996-11-18 ;++ E   ;++ Email           from Mechler to Gotterbarn: RE:  ;++   ;++ email ;++ ++
+1996_November_18_EM_1.html ;++ 1996-11-18 ;++ Mrk   ;++ Email           from Kanko to Mechler and Gotterbarn:  Student comments on Code  ;++   ;++ email ;++ ++
+1996_November_19_EM.html ;++ 1996-11-19 ;++ E   ;++ Email           from Mechler to Kank: Re:  ;++   ;++ email ;++ ++
+1996_November_19_EM_1.html ;++ 1996-11-19 ;++ Mrk   ;++ Email           from Kanko to Mechler: Re:  ;++   ;++ email ;++ ++
+1996_November_19_EM_2.html ;++ 1996-11-19 ;++ E   ;++ Email           from Mechler to SEEPP Volunteers: Ethics  ;++    ;++ email ;++ ++
+1996_November_19_EM_3.html ;++ 1996-11-19 ;++ E   ;++ Email           from Mechler to Gotterbarn, Werth, Kanko, Norman: Ethics  ;++   ;++ email ;++ ++
+1996_November_19_EM_4.html ;++ 1996-11-19 ;++ Mnny   ;++ Email           from Norman to Mechler: Re: Ethics  ;++   ;++ email ;++ ++
+1996_November_25_EM.html ;++ 1996-11-25 ;++ Flipe   ;++ Email           from Cabrera to Melford: Re:   ;++   ;++ email ;++ ++
+1996_October_03.html ;++ 1996-10-03 ;++ E   ;++ Email           from Mechler to Davis: Collection of SEEPP E-mails ;++ el   ;++ email ;++ ++
+1996_October_04.html ;++ 1996-10-04 ;++ Mchael   ;++ Fax      from           Davis to Mechler SEEPP Notes ;++   ;++ email ;++ ++
+1996_October_04_1.html ;++ 1996-10-04 ;++ E   ;++ Email           from Mechler to Davis: SEEPP Notes ;++ el   ;++ email ;++ ++
+1996_October_04_DG.html ;++ 1996-10-04 ;++ Dnnis   ;++ Frailey's     ;++      Listserv ;++ email ;++  ++
+1996_October_06_EM.html ;++ 1996-10-06 ;++ Flipe   ;++ Email           from Cabrera to Mechler: Dennis Frailey's comments on Ethics  ;++   ;++ email ;++ ++
+1996_October_07_DG.html ;++ 1996-10-07 ;++ Dnnis   ;++     ;++   ;++ email ;++ ++
+1996_October_07_EM.html ;++ 1996-10-07 ;++ Flipe   ;++ Email           from Cabrera to Mechler: Comments on SE Code of Ethics Draft   ;++   ;++ email ;++ ++
+1996_October_08.html ;++ 1996-10-08 ;++ Flipe   ;++ Email           from Cabrera to Mechler: RE:  ;++   ;++ email ;++ ++
+1996_October_08_1.html ;++ 1996-10-08 ;++ E   ;++ Email           from Mechler to Cabrera: RE: ;++ e   ;++ email ;++ ++
+1996_October_08_2.html ;++ 1996-10-08 ;++ Flipe   ;++ Email           from Cabrera to Mechler: Chair of Task Force Review Group ;++   ;++ email ;++ ++
+1996_October_08_DG.html ;++ 1996-10-08 ;++ Dn   ;++ Email           from Gotterbarn to PRFCMP-L list: Soliciting Comments on  ;++ ple   ;++ email ;++ ++
+1996_October_08_DG_1.html ;++ 1996-10-08 ;++ Dn   ;++    ;++   ;++ email ;++ ++
+1996_October_08_DG_2.html ;++ 1996-10-08 ;++ Dn   ;++    ;++   ;++ email ;++ ++
+1996_October_08_DG_3.html ;++1996-10-08  ;++    ;++      ;++ e   ;++ email ;++  ++
+1996_October_08_DG_4.html ;++ 1996-10-08 ;++ Dnnis   ;++     ;++ e            ;++ email ;++ ++
+1996_October_08_EM.html ;++ 1996-10-08 ;++ E   ;++     ;++ e   ;++ email ;++ ++
+1996_October_09_DG.html ;++ 1996-10-09 ;++ E   ;++ Email           from Mechler to SEEPP Work Group: Re:  ;++    ;++ email ;++ ++
+1996_October_09_DG_1.html ;++ 1996-10-09 ;++ E   ;++ Email           from Mechler to SEEPP Work Group: Re:  ;++    ;++ email ;++ ++
+1996_October_09_EM.html ;++ 1996-10-09 ;++ E   ;++    ;++ e   ;++ email ;++ ++
+1996_October_10.html ;++ 1996-10-10 ;++ Cthy   ;++    ;++   ;++ email ;++ ++
+1996_October_10_1.html ;++ 1996-10-10 ;++ Cthy   ;++    ;++   ;++ email ;++ ++
+1996_October_10_2.html ;++ 1996-10-10 ;++ Mchael   ;++ Email           from Mechler to SEEPP Work Group: Re: Copy of: Ethics Product ;++   ;++ email ;++ ++
+1996_October_10_5.html ;++ 1996-10-10 ;++    ;++    ;++   ;++ email ;++ ++
+1996_October_10_DG.html ;++ 1996-10-10 ;++         Manny  ;++ Email           from Norman to Mechler Re: ;++          Ed  ;++ email ;++          Unknown++
+1996_October_14.html ;++ 1996-10-14 ;++         Michael  ;++  Email           from Davis to Mechler: ;++          Ed  ;++ email ;++          unknown++
+1996_October_14_1.html ;++ 1996-10-14 ;++         Ed  ;++  Email           from Mechler to Davis: I thought you would get a kick out of ;++          Michael  ;++ email ;++ 		++
+1996_October_18_EM.html ;++ 1996-10-18 ;++         Michael  ;++ Fax      from           Davis to Mechler- Editorial Comments on Introduction, E-mail Discussion ;++          Ed  ;++ email ;++          Ed ++
+1996_October_21_DG.html ;++ 1996-10-21 ;++         Steve  ;++  Email           and Reponse: Barber to Gotterbarn: SEEPP Group-need to talk about ;++          Don  ;++ email ;++          Don ++
+1996_October_22_DG.html ;++ 1996-10-22 ;++         Duncan  ;++  Email           from Langford to Gotterbarn: Working ;++          Don  ;++ email ;++          Don Gotterbarn++
+1996_October_22_DG_1.html ;++ 1996-10-22 ;++         Milton  ;++ Email           from Milton Fulghum to Gotterbarn: Notes on Proposed Code of Ethics ;++          Don  ;++ email ;++          Don ++
+1996_October_23.html ;++ 1996-10-23 ;++         Ed  ;++  Email           from Mechler to Davis: Re: Editorial ;++          Michael  ;++ email ;++ 		++
+1996_October_25_DG.html ;++ 1996-10-25 ;++ Dn     Gotterbarn  ;++  Email           from Gotterbarn to Frailey: Re: ;++ s       Frailey ;++ email ;++        Gotterbarn ++
+1996_October_26.html ;++ 1996-10-26 ;++         Michael  ;++  Email           from Davis to Mechler: Comments on ACM Code of Ethics ;++          Ed  ;++ email ;++          Unknown++
+1996_September_10.html ;++ 1996-09-10 ;++ E     Mechler ;++  Email           from Mechler to Davis: Disc ;++          Michael  ;++ email ;++ 		++
+1996_September_11_EM.html ;++ 1996-09-11 ;++ E     Mechler ;++  Email           from Mechler to SEEPP Work Group : Ethics ;++          SEEPP  ;++ email ;++ ++
+1996_September_13.html ;++ 1996-09-13 ;++         Michael  ;++  Email           from Davis to Mechler: Re: ;++          Ed  ;++ email ;++        Davis++
+1996_September_30_EM.html ;++ 1996-09-30 ;++         Ed  ;++  SEEPP           Ethics Group Final Product ;++          SEEPP  ;++ email ;++        Mechler++
+1996_undated_DG.html ;++  ;++         Don  ;++  Note  ;++          SEEPP  ;++ email ;++          Don ++
+1996_undated_DG_13.html ;++ ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++  Joint             IEEE Computer Society and ACM Steering Committee for the Establishment ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic ;++  ;++          Don ++
+1996_undated_DG_15.html ;++  ;++ uknown<!-- InstanceEnddtable -> </iv>		 ;++  Email           to Robert Melford: This ;++          Robert  ;++ email ;++          unknown++
+1996_undated_DG_16.html ;++  ;++         Unknown ;++  Preamble  ;++          Unknown ;++ email ;++          Don ++
+1996_undated_DG_17.html ;++  ;++         Unknown ;++  Codes       Viewed, ACM, ACS, BCS, IEEE ;++          Unknown ;++ email ;++            Gotterbarn++
+1996_undated_DG_2.html ;++  ;++ Uknown         ;++  Joint  ;++          Unknown ;++ email ;++          Don ++
+1996_undated_DG_3.html ;++  ;++         Unknown ;++  Software       Engineering Code of Ethics and Professional Practice- Eight Principles ;++          Unknown ;++ email ;++ ++
+1996_undated_DG_5.html ;++  ;++ Uknown         ;++  Software           Engineering Code Of Ethics And Professional Practice Short Version ;++          Unknown ;++ email ;++          Don ++
+1996_undated_January_DG.html ;++  ;++         Unknown  ;++  SEEPP  ;++          Unknown  ;++ email ;++          Don ++
+1996_undated_September_DG_1.html ;++  ;++         Unknown ;++  CODE  ;++          Unknown ;++ email ;++          Don ++
+1996_undated_September_DG_1.pdf ;++ widt-12-td ;++ d>               ;++                CODE  ;++  ;++ email ;++           Gotterbarn  ++
+1996_undated_September_DG_2.html ;++  ;++         Unknown ;++  CODE  ;++          Unknown ;++ email ;++          Don ++
+1996_undated_September_DG_3.html ;++  ;++         Unknown ;++  Code  ;++          Unknown ;++ email ;++          Don ++
+1996_undated_September_DG_4.html ;++  ;++ uknown<!-- InstanceEnddtable -> </iv>		 ;++  Comments  ;++          Executive  ;++ email ;++        Gotterbarn ++
+1997_April_07_DG.html ;++ 1997-04-07 ;++ Koke, 	     ;++ Email           from Peter Knoke to Gotterbarn: A ;++   ;++ email ;++ ++
+1997_April_07_DG_1.html ;++ 1997-04-07 ;++ Dn   ;++ Project   ;++ ing   ;++ email ;++ ++
+1997_April_07_DG_3.html ;++ 1997-04-07 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Software       Engineering Ethics Code (Version 2.0a) ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic ;++ email ;++        Gotterbarn++
+1997_April_08.html ;++  ;++  1997-04-08  ;++ Distrubute           Software   ;++   ;++ email ;++  ++
+1997_April_08_DG.html ;++ 1997-04-08 ;++ Dnnis   ;++ Email           from Frailey to Gotterbarn: Re: Distrubuting  ;++   ;++ email ;++ ++
+1997_April_08_DG_1.html ;++ 1997-04-08 ;++ Dnnis   ;++ Email           from Frailey to Gotterbarn: Draft  ;++   ;++ email ;++  ++
+1997_April_09_DG_1.html ;++ 1997-04-09 ;++ Pter   ;++ Email           from Peter Knoke to Gotterbarn: A sample exercise with your draft  ;++   ;++ email ;++ ++
+1997_April_14_DG.html ;++ 1997-04-14 ;++    ;++ Email           from Feldman to Gotterbarn and Miller: Steering   ;++   ;++ email ;++  ++
+1997_April_14_DG_1.html ;++ 1997-04-14 ;++    ;++ Email           from Gotterbarn to Tom Jewett: Steering Committee COVER  ;++   ;++ email ;++ ++
+1997_April_18_DG.html ;++ 1997-04-18 ;++    ;++ Email           from Gotterbarn to Prinzivalli: Comments on Software   ;++   ;++ email ;++  ++
+1997_April_24.html ;++ 1997-04-24 ;++    ;++ Professional       Competence Standards Task Force Database  ;++ ssional   ;++ email ;++ 		++
+1997_April_24_DG.html ;++ 1997-04-24 ;++    ;++ Email           from Rogerson to Gotterbarn: Steering   ;++ d   ;++ email ;++  ++
+1997_April_29.html ;++ 1997-12-29 ;++ Mchael     Davis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;++  Handwritten           note from Davis to Gotterbarn: Including CSEP in Listserv and Database ;++          Don Gotterbarn ;++ email ;++          Michael Davis++
+1997_April_DG.html ;++ 1997-12-10 ;++         Don Gotterbarn, Keith Miller, Simon Rogerson  ;++ Software        Engineering Code of Ethics, Version 2.1 ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++        Don Gotterbarn ++
+1997_April_DG_1.html ;++ 1997-12-01 ;++    ;++ Regarding   ;++ tive   ;++ email ;++  ++
+1997_April_DG_2.html ;++ 1997-12-02 ;++    ;++ Email           from Gotterbarn to Stu: Software  ;++ !-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1997_August_05_DG.html ;++ 1997-12-05 ;++ Kith   ;++    ;++   ;++ email ;++ ++
+1997_August_07.html ;++ 1997-12-07 ;++    ;++ Email           from Gotterbarn to Norman Thank-you  ;++   ;++ email ;++  ++
+1997_August_07_DG.html ;++ 1997-12-07 ;++    ;++ Email           from Gotterbarn to list PRFCMP-L: General Questions on version 2.1  ;++ ple   ;++ email ;++ 		++
+1997_August_07_DG_1.html ;++ 1997-12-07 ;++ Mnny   ;++ Email           from Norman to Gotterbarn: Re:  ;++   ;++ email ;++ ++
+1997_August_07_DG_2.html ;++ 1997-12-07 ;++ Tm   ;++    ;++   ;++ email ;++ ++
+1997_August_07_EM.html ;++ 1996-08-07 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++  Photocopied       Reponse to General Questions about version 2.1 of the SE Code        ;++          Recipient  ;++ email ;++          Unknown++
+1997_August_08.html ;++ 1996-08-08 ;++    ;++ Email           from Mechler to  list PRFCMP-L: Re: Response to General Questions, ;++ ssional   ;++ email ;++  ++
+1997_August_08_2.html ;++ 1996-08-08 ;++    ;++ Email           from Kanko to list PRFCMP-L: Response to General Questions, ;++ ple   ;++ email ;++  ++
+1997_August_08_3.html ;++ 1996-08-08 ;++    ;++ Email           from Prinzivalli to list PRFCMP-L: Response to General Questions, ;++ ple   ;++ email ;++  ++
+1997_August_08_4.html ;++ 1996-08-08 ;++    ;++ Email           from Gotterbarn to list PRFCMP-L: Re: Response to General Questions, ;++ ple   ;++ email ;++  ++
+1997_August_08_DG.html ;++ 1996-08-08 ;++ Bn   ;++    ;++   ;++ email ;++  ++
+1997_August_08_DG_1.html ;++ 1996-08-08 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Draft            ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++  ++
+1997_August_08_MN.html ;++  1997-08-08 ;++    ;++    ;++    ;++ email ;++  ++
+1997_August_11.html ;++ 1996-08-11 ;++    ;++ Email           from Langford to list PRFCMP-L: Response to General Questions, ;++ ple   ;++ email ;++  ++
+1997_August_11_1.html ;++ 1996-08-11 ;++    ;++ Email           from Werth  to list PRFCMP-L: SE Code  ;++ ple   ;++ email ;++  ++
+1997_August_14.html ;++ 1996-08-14 ;++    ;++ Email           from Davis to Mechler: Requesting email correspondence ;++   ;++ email ;++  ++
+1997_August_16_DG.html ;++ 1996-08-16 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Draft            ;++   ;++ email ;++  ++
+1997_August_16_DG_1.html ;++ 1996-08-16 ;++ Pter   ;++ Email           from Prinzivalli to Gotterbarn: The  ;++   ;++ email ;++ ++
+1997_August_18_DG_1.html ;++ 1996-08-18 ;++ Smon   ;++ Email           from Rogerson to Gotterbarn and Miller  Re:  ;++   ;++ email ;++ ++
+1997_August_19.html ;++ 1996-08-19 ;++    ;++ Email           from Mechler to SEEPP List: Website  ;++    ;++ email ;++  ++
+1997_August_19_1.html ;++ 1996-08-19 ;++    ;++ Email           from Little to list PRFCMP-L: SE  ;++ ple   ;++ email ;++  ++
+1997_August_19_DG.html ;++ 1996-08-19 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Draft            ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++  ++
+1997_August_20.html ;++  ;++  1996-08-20  ;++ Email           from Don to list PRFCMP-L: Putting version 3 on web site ;++ ple   ;++ email ;++  ++
+1997_August_22_MD_2.html ;++ 1996-08-22 ;++    ;++ SOFTWARE       ENGINEERING CODE PROJECT: CORRESPONDENCE INDEX (Part I) ;++ wn<!-- InstanceEndEditable --></div>        Format: Correspondence  ;++ email ;++  ++
+1997_August_22_VW_1.html ;++ 1996-08-22 ;++    ;++ Email           from Gotterbarn to Professional Competence Work Group: Delays ;++ el            ;++ email ;++ ++
+1997_August_28.html ;++ 1996-08-28 ;++    ;++ Email           from Davis to list PRFCMP-L: Decisions to be made : SE Code ;++   ;++ email ;++  ++
+1997_December_01_DG.html ;++ 1996-08-01 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Comments            ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++  ++
+1997_December_02_DG.html ;++ 1996-08-02 ;++ Bn   ;++    ;++   ;++ email ;++ ++
+1997_December_02_DG_1.html ;++ 1997-12-02 ;++ Jhn     Weckert ;++  Email           from Weckert to Gotterbarn:  Re: Code Revision pt 2 - comments ;++        Gotterbarn ;++ email ;++ ++
+1997_December_03_DG.html ;++ 1997-12-03 ;++  dmund     Mechler ;++ Email           exchange between Mechler and Jayaram: RE: ;++        Jayaram  ;++ email ;++            Mechler++
+1997_December_08.html ;++ 1996-12-08 ;++         IEEE-CS/ACM Joint Task Force on Software Engineering Ethics  ;++  Software           Engineers Code of Ethics (4.0) ;++          N/A ;++ email ;++ ++
+1997_December_09.html ;++ 1997-12-09 ;++         Michael Davis ;++  Email           from Davis to Gotterbarn: Comments on the code (4.0) ;++            Gotterbarn ;++ email ;++ ++
+1997_December_12_DG.html ;++ 1997-12-12 ;++         Ben ;++  Email           from Fairweather to Professional Competence Standards Task Force: Re: ;++          Professional ;++ email ;++ 		++
+1997_December_12_DG_1.html ;++ 1997-12-15 ;++ Kith     Miller ;++ Email           from Miller to Rogerson and Gotterbarn:  Re: ;++ n       Rogerson, Don Gotterbarn ;++ email ;++ ++
+1997_December_12_DG_2.html ;++ 1997-12-12 ;++ Mrio     R. Barbacci ;++  Email           from Barbacci to Gotterbarn: Re: Code and other exciting stuff ;++        Gotterbarn ;++ email ;++ ++
+1997_December_12_DG_3.html ;++ 1997-12-12 ;++ Smon     Rogerson ;++  Email           from Rogerson to Gotterbarn and Miller: Re: Version 4.0 of the Code ;++        Gotterbarn, Keith Miller ;++ email ;++ ++
+1997_December_15.html ;++ 1997-12-15 ;++  on     Gotterbarn ;++ Email           from Gotterbarn to Professional Competence Standards Task Force: VERSION ;++ ssional       Competence Standards Task Force ;++ email ;++ 		++
+1997_December_16_1.html ;++ 1997-12-16 ;++  anny     Norman ;++ Email           from Norman to Professional ;++ ssional       Competence Standards Task Force ;++ email ;++ 		++
+1997_December_16_2.html ;++ 1997-12-16 ;++  uncan     Langford ;++ Email           from Langford to Professional Competence Standards Task Force: VERSION ;++ ssional       Competence Standards Task Force ;++ email ;++ 		++
+1997_December_16_3.html ;++ 1997-12-16 ;++  on     Gotterbarn ;++ Email           from Gotterbarn to Professional Competence Standards Task Force: Re: ;++ ssional       Competence Standards Task Force ;++ email ;++ 		++
+1997_December_16_DG.html ;++ 1997-12-16 ;++ Dn     Gotterbarn  ;++  Professionalization           of Software Engineering and Executive Committees of the ACM and the ;++        IEEE-CS/ACM Steering Committee ;++ email ;++ ++
+1997_December_17.html ;++ 1997-12-17 ;++  anny 	    Norman ;++ Email           from Norman to Professional Competence Standards Task Force Re: ;++ ssional       Competence Standards Task Force ;++ email ;++ 		++
+1997_December_17_1.html ;++ 1997-12-17 ;++  d     Mechler ;++ Email           from Mechler to Professional Competence Standards Task Force Re: ;++ ssional       Competence Standards Task Force ;++ email ;++ 		++
+1997_December_18_VW.html ;++ 1997-12-18 ;++         IEEE-CS/ACM Joint Task Force on Software Engineering Ethics  ;++  Software           Engineering Code of Ethics (4.0) ;++          N/A ;++ email ;++          Vivian Weil++
+1997_December_20_MD.html ;++ 1997-12-20 ;++         Unknown ;++  Software           Engineering Code Project Correspondence Index -Report ;++          Unknown ;++ email ;++          Michael Davis++
+1997_December_22_DG.html ;++ 1997-12-22 ;++         Steve  ;++  Email           from Wentworth to Gotterbarn: Code of Ethics -feedback form ;++          Donald Gotterbarn ;++ email ;++ ++
+1997_December_22_DG_1.html ;++ 1997-12-22 ;++         Dr.  ;++ Email           from Dr. Chadan Haldar to Gotterbarn: Draft SE Code of Ethics V2.1. ;++          Don Gotterbarn ;++ email ;++            Gotterbarn++
+1997_December_22_DG_2.html ;++ 1997-12-22 ;++         Kurella  ;++  Email           from Kurella Ulf to Gotterbarn: Code of ethics - comments ;++            Gotterbarn ;++ email ;++            Gotterbarn++
+1997_December_27_DG.html ;++ 1997-12-27 ;++         Keith Miller ;++ Email           exchange between Miller, Gotterbarn, and Rogerson: Re: Ho, etc. ;++          Don  ;++ email ;++ ++
+1997_December_29_DG.html ;++ 1997-12-29 ;++         Simon  ;++ Email           from Rogerson to Gotterbarn: Re: Ho, etc. ;++          Don Gotterbarn ;++ email ;++ ++
+1997_February_03.html ;++ 1997-12-03 ;++         Don Gotterbarn ;++  Text           Version of Table ;++          PRFCMP-L  ;++ email ;++ ++
+1997_February_03_MN.html ;++ 1997-12-03 ;++         Don Gotterbarn ;++  Email           from Gotterbarn to Mechler regarding schedule for completion of project ;++          Ed Mechler ;++ email ;++ ++
+1997_February_04.html ;++ 1997-02-04 ;++         Ed  ;++  Email           from Mechler to Professional Competence Standards Task Force: Re: ;++          Professional  ;++ email ;++ ++
+1997_February_04_1.html ;++ 1997-12-04 ;++         Manny  ;++  Email           from Norman to Mechler: Re: Last Matrix (comparing codes of ethics) ;++          Ed  ;++ email ;++ ++
+1997_February_04_2.html ;++ 1997-12-04 ;++         Ed  ;++  Email           from Mechler to Norman: Re: Last Matrix (comparing codes of ethics) ;++          Manny  ;++ email ;++ ++
+1997_February_04_3.html ;++ 1997-12-04 ;++         Manny  ;++ Email           from Norman to Mechler: Re: Last Matrix (comparing codes of ethics) ;++          Ed  ;++ email ;++ 		++
+1997_February_04_4.html ;++ 1997-02-04 ;++         Manny  ;++  Email           from Norman to Mechler: Re: Last Matrix (comparing codes of ethics) ;++        Mechler ;++ email ;++ ++
+1997_February_04_5.html ;++ 1997-12-04 ;++         Manny  ;++  Email       from Norman to Mechler: Re: Last Matrix (comparing codes of ethics) ;++          Ed  ;++ email ;++          Unknown++
+1997_February_05.html ;++ 1997-12-05 ;++         Don Gotterbarn ;++  Email       from Gotterbarn to Mechler: Re: Text Version of Table (comparing ;++          Ed Mechler ;++ email ;++          Unknown++
+1997_February_06.html ;++ 1997-12-06 ;++         Don Gotterbarn ;++ Email       from Gotterbarn to Mechler: Re: Text Version of Table (comparing ;++          Ed  ;++ email ;++ ++
+1997_February_06_1.html ;++ 1997-12-06 ;++ Dn 	    Gotterbarn ;++  Email       from Gotterbarn to PFRCMP-L list: Re: Text Version of Table (comparing ;++          PFRCMP-L  ;++ email ;++ 		++
+1997_February_06_2.html ;++ 1997-02-06 ;++         Manny  ;++  Email       from Norman to PFRCMP-L list: Re: Text Version of Table (comparing ;++          PRFCMP-L  ;++ email ;++ ++
+1997_February_07_VW.html ;++ 1997-02-07 ;++         Ed Mechler ;++ Email         from Mechler to Weil: Re: I did not recieve the table (comparing ;++ n        Weil  ;++ email ;++ ++
+1997_February_07_VW_1.html ;++ 1997-02-07 ;++         Ed Mechler ;++ Email         from Mechler to PRFCMP-L list: Relationship matrix (comparing ;++ P-L        mailing list ;++ email ;++ ++
+1997_February_10.html ;++ 1997-02-10 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to PFRCMP-L list: First of Three (code of ethics, version ;++ P-L        E-mail List ;++ email ;++ ++
+1997_February_10_1.html ;++ 1997-02-10 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to PFRCMP-L list: Second  of Three (code of ethics, ;++ P-L        E-mail List ;++ email ;++ ++
+1997_February_10_2.html ;++ 1997-02-10 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to PFRCMP-L list: Last of Three {:-) (code of ethics, ;++ P-L        E-mail List ;++ email ;++ ++
+1997_February_10_3.html ;++ 1997-02-10 ;++ Mnny        Norman  ;++ Email         from Norman to  PFRCMP-L list: Last of Three {:-) ;++ P-L        E-mail List ;++ email ;++ ++
+1997_February_10_DG.html ;++ 1997-02-10 ;++ Kith        Miller ;++ Email         from Miller to GotterbarnRe: ;++        Gotterbarn  ;++ email ;++ ++
+1997_February_11.html ;++ 1997-02-11 ;++ Mlton        Fulghum  ;++ Email         from Fulghum to PRFCMP-L list: Re: Last of Three {:-( ;++ P-L        E-mail List ;++ email ;++ ++
+1997_February_11_1.html ;++ 1997-02-11 ;++ Dncan        Langford  ;++ Email         from Langford to PRFCMP-L: Re: Last of Three {:-) ;++ P-L        E-mail List ;++ email ;++ ++
+1997_February_11_MN.html ;++ 1997-02-11 ;++         Simon Rogerson ;++         Email from Rogerson to Norman: Reciept of all three codes ;++        Manny Norman ;++ email ;++        Manny Norman++
+1997_February_11_VW.html ;++ 1997-02-11 ;++         Ilene Burnstein ;++ Email         from Burnstein to Weil: Collecting emails, but not had chance to look ;++ n        Weil  ;++ email ;++ ++
+1997_February_13_DG.html ;++ 1997-02-13 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ WORKING          DOCUMENT - Software Engineering Code of Ethics (Principles 1-2) ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++        Gotterbarn ++
+1997_February_26_DG.html ;++ 1997-02-26 ;++         Dennis Frailey ;++ Email         from Frailey to Gotterbarn: Re: ;++        Gotterbarn  ;++ email ;++ ++
+1997_February_28_DG.html ;++ 1997-02-28 ;++ Dncan        Langford ;++ Email         from Langford to Gotterbarn: Re: Last of Three {: ?) (comments) ;++        Gotterbarn  ;++ email ;++ ++
+1997_Febuary_DG.html ;++  ;++         Don Gotterbarn ;++  Email           from Gotterbarn to Miller: Structure and wording changes to code of ;++          Keith Miller ;++ email ;++ ++
+1997_January_01.html ;++ 1997-01-01  ;++         PRFCMP Mailing List ;++ Email         from PRFCMP list to Mechler: Added to the PRFCMP Mailing List        ;++ d        Mechler , Don Gotterbarn ;++ email ;++ ++
+1997_January_06.html ;++ 1997-01-06  ;++ Lurie        Werth  ;++ Email         from Werth to PRFCMP-L list: Re: Add to list ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_06_DG_1.htm ;++ 1997-01-06 ;++ Dn        Gotterbarn  ;++ Task        Force on Ethics and Code of Professional Conduct        To: Multiple recipients of list PRFCMP-L PRFCMP-L@UTKVM1.UTK.EDU  ;++ el        Davis  ;++ email ;++ ++
+1997_January_06_VW.html ;++ 1997-01-06 ;++         Don Gotterbarn ;++ Email         from Gotterbarn to PRFCMP-L list: Changes in the SEEPP Task Force        To: Software Engineering Profession Steering Committee       In order to expedite the remaining activities assigned to this task force, ;++ P-L        mailing list ;++ email ;++ ++
+1997_January_07.html ;++ 1997-01-07 ;++ Dnald        Gotterbarn  ;++ Email         from Gotterbarn to PRFCMP-L list: Draft Code (1.0) ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_08.html ;++ 1997-01-08 ;++ Dnald        Gotterbarn ;++ Email         from Gotterbarn to PRFCMP-L list: Functions of a code of ethics draft ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_28.html ;++ 1997-01-28 ;++ E        Mechler  ;++ Email         from Mechler to Norman: Ethics Code annotation  ;++          Norman  ;++ email ;++ ++
+1997_January_28_1.html ;++ 1997-01-28 ;++ Mnny        Norman ;++ Email         from Norman to Mechler: Re: ;++        Mechler ;++ email ;++ ++
+1997_January_29.html ;++ 1997-01-29 ;++ E        Mechler  ;++ Email         from Mechler to Norman: Re: Ethics Code annotation ;++         Norman  ;++ email ;++ ++
+1997_January_29_1.html ;++ 1997-01-29 ;++ Mnny        Norman ;++ Email         from Norman to Mechler: Re: Ethics Code annotation ;++        Mechler  ;++ email ;++ ++
+1997_January_29_2.html ;++ 1997-01-29 ;++ E        Mechler  ;++ Email         from Mechler to Norman: Re: Ethics Code annotation ;++         Norman  ;++ email ;++ ++
+1997_January_29_3.html ;++ 1997-01-29 ;++ Mnny        Norman ;++ Email         from Norman to Mechler: Re: ;++        Mechler  ;++ email ;++ ++
+1997_January_29_4.html ;++ 1997-01-29 ;++ Mnny        Norman  ;++ Email         from Norman to Mechler: Re: Ethics Code annotation ;++        Mechler  ;++ email ;++ ++
+1997_January_29_5.html ;++ 1997-01-29 ;++         Ed Mechler  ;++ Email         from Mechler to Norman: Re: Ethics Code annotation ;++         Norman  ;++ email ;++ ++
+1997_January_29_6.html ;++ 1997-01-29 ;++ Mnny        Norman  ;++ Email         from Norman to Mechler: Re: Ethics Code annotation ;++        Mechler  ;++ email ;++ ++
+1997_January_29_7.html ;++ 1997-01-29 ;++ E        Mechler ;++ Email         from Mechler to Norman: Re: Ethics Code annotation ;++         Norman  ;++ email ;++ ++
+1997_January_29_DG.html ;++ 1997-01-29 ;++ E        Mechler  ;++ Email         from Mechler to Gotterbarn: Code of Ethics References  ;++        Gotterbarn  ;++ email ;++ ++
+1997_January_30_1.html ;++ 1997-01-30 ;++ E        Mechler  ;++ Email         from Mechler to Gotterbarn: Received annotated version of Code? ;++        Gotterbarn  ;++ email ;++ ++
+1997_January_30_2.html ;++ 1997-01-30 ;++ Mnny        Norman  ;++ Email         from Norman to Mechler: Re: Ethics Code annotation ;++        Mechler  ;++ email ;++ ++
+1997_January_30_3.html ;++ 1997-01-30 ;++ E        Mechler  ;++ Email         from Mechler to Norman: Re: Ethics Code annotation ;++         Norman  ;++ email ;++ ++
+1997_January_30_4.html ;++ 1997-01-30 ;++ Mnny        Norman  ;++ Email         from Norman to Mechler: Re: Ethics Code annotation ;++        Mechler ;++ email ;++ ++
+1997_January_30_5.html ;++ 1997-01-30 ;++ Mnny        Norman  ;++ Email         from Norman to Mechler: Re: Ethics Code annotation ;++        Mechler  ;++ email ;++ 		++
+1997_January_30_6.html ;++ 1997-01-30 ;++ Mnny        Norman  ;++ Email         from Norman to PRFCMP-L list: Re: Code Annotation ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_30_DG_3.html ;++ 1997-01-30 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to Task Force Members: Software Engineering Codes Revision ;++        Force Members ;++ email ;++ ++
+1997_January_30_DG_4.html ;++ 1997-01-30 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Cross        references of Code to other Codes for ACM meeting Feb 10, 1997 ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++        Gotterbarn ++
+1997_January_30_MN.html ;++ 1997-01-30  ;++ E        Mechler  ;++ Email         from Mechler to Task Force Members: Code Annotation  ;++        Multiple Recepients on the Prof Comp List ;++ email ;++        Manny Norman++
+1997_January_31_1.html ;++ 1997-01-31 ;++ Vvian        Weil  ;++ Email         from Weil to Mechler: Attachment Error-Annotated Code of Ethics  ;++        Mechler  ;++ email ;++ ++
+1997_January_31_2.html ;++ 1997-01-31  ;++ E        Mechler  ;++ Email         from Weil to Mechler: Re:List ;++ n        Weil ;++ email ;++ ++
+1997_January_31_3.html ;++ 1997-01-31 ;++ E        Mechler  ;++ Email         from Mechler to SEEPP E-mail List: Code Annotation  ;++         E-mail List ;++ email ;++ ++
+1997_January_31_4.html ;++ 1997-01-31 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to PRFCMP-L list: Code Arch and Annotation ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_31_5.html ;++ 1997-01-31 ;++ E        Mechler  ;++ Email         from Mechler to PRFCMP-L list: Re: Code Arch and Annotation ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_31_6.html ;++ 1997-01-31 ;++ E        Mechler  ;++ Email         from Mechler to Norman: comdes2.doc ;++          Norman ;++ email ;++ ++
+1997_January_31_7.html ;++ 1997-01-31 ;++ Mnny        Norman  ;++ Email         from Norman to Mechler: MIME Reading Problems ;++        Mechler  ;++ email ;++ ++
+1997_January_31_8.html ;++ 1997-01-31 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to PRFCMP-L list: Re: Code Arch and Annotation ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_31_9.html ;++ 1997-01-31 ;++ Dn        Gotterbarn  ;++ Email         from Gotterbarn to PRFCMP-L list: Re: Code Annotation ;++ P-L        E-mail List ;++ email ;++ ++
+1997_January_31_VW_1.html ;++ 1997-01-31 ;++         Ed Mechler ;++ Email         from Mechler to PRFCMP-L list: Code Annotation         You could add to the additional references: ;++ P-L        mailing list ;++ email ;++ ++
+1997_July_03_MN.html ;++ 1997-07-03 ;++         Manny Norman ;++ Email         from Norman to Professional Competence Task Force: Step 1  ;++        Comp List ;++ email ;++        Manny Norman++
+1997_July_08_VW.html ;++ 1997-07-08 ;++         Mary Shaw ;++  Prospects           for an Engineering Discipline of Software ;++          Force Group ;++ email ;++          Vivan Weil++
+1997_July_21_DG.html ;++ 1997-07-21 ;++         Ben Fairweather ;++ Email         from Fairweather to Gotterbarn: Re: Draft Software Engineering Code        I reviewed the draft and have some observations: a.         Author: ethics-guidelines@majordomo.ieee.org at internet ;++        Gotterbarn  ;++ email ;++ ++
+1997_June_06_DG.html ;++ 1997-06-06 ;++ Kith        Miller  ;++ A        Proposed Informed Consent Standard ;++ rs        of the Informed Consent Mailing List ;++ email ;++ ++
+1997_June_19_1.html ;++  1997-06-19   ;++ E                    Mechler ;++ Email           from Mechler to SEEPP List: Code on Net                     MIME-Version: 1.0 ;++                     E-mail List ;++ email ;++ ++
+1997_June_19_2.html ;++ 1997-06-19 ;++ E        Mechler ;++ Email         from Mechler to Gotterbarn: Re: Test, Code on the net ;++        Gotterbarn  ;++ email ;++ ++
+1997_June_19_3.html ;++ 1997-06-19 ;++ Dn        Gotterbarn  ;++ Email     from  Gotterbarn to Mechler: Re: Test, Code on the net ;++        Mechler  ;++ email ;++ ++
+1997_June_19_4.html ;++ 1997-06-04 ;++ Dn   ;++ Email           from Gotterbarn to PRFCMP-L list: Re:  ;++ P-L   ;++ email ;++ ++
+1997_June_19_5.html ;++ 1997-06-05 ;++ Dn   ;++ Email           from Gotterbarn to Mechler: Re:  ;++   ;++ email ;++ ++
+1997_June_19_6.html ;++ 1997-06-06 ;++ E   ;++ Email       from Mechler to Gotterbarn: Re: Test, Code on the Net ;++   ;++ email ;++ ++
+1997_June_20_DG.html ;++  1997-06-20 ;++ Pter   ;++ Email           from Peter Coad to Mechler Re:  ;++   ;++ email ;++ ++
+1997_June_23.html ;++ 1997-06-23 ;++ Mx   ;++ Email           from Max Vrugt to Mechler: SE  ;++   ;++ email ;++ ++
+1997_June_23_1.html ;++ 1997-06-23 ;++ E        Mechler  ;++ Email     from  Mechler to Max Vrugt: SE Code of Ethics-correct internet address ;++        Vrugt ;++ email ;++ ++
+1997_June_23_2.html ;++ 1997-06-23 ;++ Mx   ;++    ;++   ;++ email ;++ ++
+1997_June_27_DG.html ;++ 1997-06-27 ;++ Dn   ;++ Arranging   ;++   ;++ email ;++  ++
+1997_March_12.html ;++ 1997-03-12 ;++         Don Gotterbarn ;++ Email         exchange between Gotterbarn to Weil: Temporary Address Change, Davis        ;++ n        Weil  ;++ email ;++        Unknown++
+1997_March_17_DG.html ;++ 1997-03-17 ;++         Keith  ;++  Email           from Miller to Gotterbarn: Regarding   ;++          Don  ;++ email ;++          Don Gotterbarn++
+1997_March_18.html ;++ 1997-03-18 ;++    ;++ Email           from Miller to Gotterbarn and Weil: Preamble   ;++   ;++ email ;++  ++
+1997_March_18_DG.html ;++ 1997-03-18 ;++    ;++ Email           from Prinzivalli to Gotterbarn: Comments   ;++   ;++ email ;++  ++
+1997_March_18_VW.html ;++ 1997-03-18 ;++ Kith   ;++ Email           from Miller to Weil: Last  ;++ n   ;++ email ;++ ++
+1997_March_18_VW_1.html ;++ 1997-03-18 ;++ Dn   ;++ Email           from Gotterbarn to Weil: Participation  ;++ n   ;++ email ;++ ++
+1997_March_18_VW_2.html ;++ 1997-03-18 ;++ Dn   ;++ Email           from Gotterbarn to PRFCMP-L list: Preamble  ;++ P-L   ;++ email ;++ ++
+1997_March_20_VW.html ;++ 1997-03-20 ;++ E   ;++ Email           from Mechler to PRFCMP-L list: Fun   ;++ P-L   ;++ email ;++ ++
+1997_March_25.html ;++ 1997-03-25 ;++ l     Davis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;++            exchange ;++          Don Gotterbarn  ;++ email ;++          unknown++
+1997_March_27_VW.html ;++ 1997-03-27 ;++ Dn   ;++ Email           from Gotterbarn to Davis: Mailling  ;++ el   ;++ email ;++ ++
+1997_May_07_DG.html ;++ 1997-05-07 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Abstract   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1997_May_19_DG.html ;++ 1997-05-19 ;++ Dn   ;++ Email           from Gotterbarn to Miller: Fixes  ;++    ;++ email ;++ ++
+1997_May_23_MB.html ;++ 1997-05-23 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Industry             ;++ wn<!-- InstanceEndEditable --></div>        Format: Photocopy ;++ email ;++  ++
+1997_May_23_MB_1.html ;++ 1997-05-23 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Joint             ;++ wn<!-- InstanceEndEditable --></div>        Format: Photocopy ;++ email ;++  ++
+1997_May_23_MB_2.html ;++ 1997-05-23 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Joint             ;++ wn<!-- InstanceEndEditable --></div>        Format: Photocopy ;++ email ;++  ++
+1997_May_27_DG.html ;++ 1997-05-27 ;++    ;++ Email           from Nikolai to Gotterbarn: Software ;++   ;++ email ;++ ++
+1997_November_01_DG.html ;++ 1997-11-01 ;++ Dvid   ;++ Email           from David Notkin to Frailey: Notkin   ;++ e   ;++ email ;++ ++
+1997_November_02_DG.html ;++ 1997-11-02 ;++ Dvid   ;++ Email           from Cartmel to Gotterbarn: Principle  ;++   ;++ email ;++ ++
+1997_November_06_DG.html ;++ 1997-11-06 ;++    ;++ Email           from Mechler to multiple recipients: Code    ;++ ple           Recipients ;++ email ;++  ++
+1997_November_07_DG.html ;++ 1997-11-07 ;++    ;++ Email           from Greg Cooper to Gotterbarn: Draft  ;++ d   ;++ email ;++ ++
+1997_November_08_DG.html ;++ 1997-11-08 ;++ Rssell   ;++    ;++   ;++ email ;++ ++
+1997_November_11_DG.html ;++ 1997-11-11 ;++    ;++ Email           from Gotterbarn to PRFCMP-L list: The  ;++ ple   ;++ email ;++  ++
+1997_November_11_DG_1.html ;++ 1997-11-11 ;++ ? 	    Lindley  ;++ Email           from Lindley to Gotterbarn: Feedback  ;++   ;++ email ;++ ++
+1997_November_13.html ;++ 1997-11-13 ;++    ;++ Email           from Gotterbarn to PRFCMP-L list: Responses from Corporate Players  ;++ ple   ;++ email ;++  ++
+1997_November_13_1.html ;++ 1997-11-13 ;++    ;++ Email           from Mechler to PRFCMP-L List Pubs (questions and problems in publications) ;++ ple   ;++ email ;++  ++
+1997_November_15_DG.html ;++ 1997-11-15 ;++ Rx   ;++ Email           from Rex Black to Gotterbarn: Code  ;++   ;++ email ;++ ++
+1997_November_16_DG.html ;++  1997-11-16;++ Pte   ;++ Email           from Pete James to Gotterbarn: Code  ;++ d   ;++ email ;++ ++
+1997_November_16_DG_1.html ;++ 1997-11-16 ;++ Jmes   ;++ Email           from James Prescott to Gotterbarn: Comment  ;++   ;++ email ;++ ++
+1997_November_17_DG.html ;++ 1997-11-17 ;++    ;++ Email           from Paul Black to Gotterbarn: Comments  ;++   ;++ email ;++ ++
+1997_November_18.html ;++ 1997-11-18 ;++    ;++ Email           from Mechler to Richard Spencer: Code  ;++ rd   ;++ email ;++  ++
+1997_November_18_1.html ;++ 1997-11-18 ;++ Rchard   ;++ Email           from  Richard Spencer to Mechler: Code of Ethics- comments  ;++ d   ;++ email ;++  ++
+1997_November_18_3.html ;++ 1997-11-18 ;++    ;++ Email           from  Mechler to Richard Spencer: Code of Ethics- comments from  ;++ rd   ;++ email ;++ 		++
+1997_November_18_DG.html ;++ 1997-11-18 ;++ Ady 	    ? ;++ Email           from Andy to Gotterbarn: Feedback  ;++   ;++ email ;++ ++
+1997_November_18_DG_1.html ;++ 1997-11-18 ;++ Dn 	    Gotterbarn ;++ Email           from Gotterbarn: Comments ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++  ++
+1997_November_18_DG_2.html ;++ 1997-11-18 ;++ G   ;++ Email           from G.M. Harding to Gotterbarn: Code  ;++   ;++ email ;++ ++
+1997_November_20.html ;++  ;++  1997-11-20  ;++ Email           from Richard Spencer to Mechler: Code of Ethics- comments from  ;++ d   ;++ email ;++ 		++
+1997_November_20_2.html ;++ 1997-11-20 ;++    ;++ Email           from Mechler to SEEPP List: Industry Input   ;++    ;++ email ;++ 		++
+1997_November_20_3.html ;++ 1997-11-20 ;++    ;++ Email           from Norman to PRFCMP-L list: Industry   ;++ ple   ;++ email ;++  ++
+1997_November_20_5.html ;++ 1997-11-20 ;++ Dn   ;++ Email           from Gotterbarn to PRFCMP-L list: Need  ;++ ple   ;++ email ;++  ++
+1997_November_20_6.html ;++ 1997-11-20 ;++    ;++ Email           from Kanko to PRFCMP-L list: Re: test - remove from list.  ;++ ple   ;++ email ;++  ++
+1997_November_20_VW_1.html ;++ 1997-11-20 ;++ Mnny   ;++ Email           from Norman to PRFCMP-L list: Test  ;++ P-L   ;++ email ;++ ++
+1997_November_21.html ;++ 1997-11-21 ;++    ;++    ;++ ssional   ;++ email ;++  ++
+1997_November_21_1.html ;++ 1997-11-21 ;++    ;++ Email           from Gotterbarn to Professional Competence Standards Task Force: Code ;++ ssional   ;++ email ;++  ++
+1997_November_24_DG.html ;++ 1997-11-24 ;++ Jhn   ;++ Email           from John Nash to Gotterbarn: code ;++   ;++ email ;++ ++
+1997_November_24_DG_1.html ;++ 1997-11-24 ;++ Crl   ;++    ;++   ;++ email ;++ ++
+1997_October_10.html ;++  1997-10-10 ;++ Emund   ;++ Email           from Mechler to Davis: Discs ;++ el   ;++ email ;++  ++
+1997_October_11.html ;++ 1997-10-11 ;++    ;++ Email           from Gotterbarn to PRFCMP-L list: Code ;++ ple   ;++ email ;++  ++
+1997_October_11_DG.html ;++ 1997-10-11 ;++ Sephen   ;++    ;++   ;++ email ;++ ++
+1997_October_12_DG.html ;++ 1997-10-12 ;++ Dvid   ;++ Email           from David LaRue to Gotterbarn: Software Engineering Code of Ethics, ;++   ;++ email ;++ ++
+1997_October_14_DG.html ;++ 1997-10-14 ;++ Kith   ;++ Email           from Miller to Gotterbarn: Comments   ;++   ;++ email ;++ ++
+1997_October_23_DG.html ;++ 1997-10-23 ;++ Lne   ;++ Email           from Lane Stevens to Gotterbarn: Code  ;++   ;++ email ;++ ++
+1997_October_28_DG.html ;++ 1997-10-28 ;++ Smon   ;++ Email           from Rogerson to Gotterbarn: My   ;++   ;++ email ;++ ++
+1997_September_02_VW.html ;++ 1997-09-02 ;++ Dn   ;++ Email           from Gotterbarn to Weil: Your  ;++ n   ;++ email ;++ ++
+1997_September_02_VW_1.html ;++ 1997-09-02 ;++ Vvian     W                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       eil  ;++ Email from           Weil to Gotterbarn Weil's comments on draft code of ethics ;++          Don Gotterbarn  ;++ email ;++          Weil++
+1997_September_10.html ;++ 1997-09-10 ;++         Ed Mechler  ;++  Email           from Mechler to Davis Re: Copy of Disc ;++          Michael Davis ;++ email ;++          Michael Davis ++
+1997_September_10_DG.html ;++ 1997-09-10 ;++    ;++ Email           from Mechler to Ilene Burnstein: Forward of Miller's changes to Informed ;++    ;++ email ;++  ++
+1997_September_10_DG_1.html ;++ 1997-09-10 ;++ Dn   ;++    ;++ s   ;++ email ;++ ++
+1997_September_15_DG.html ;++ 1997-09-15 ;++         Dennis  ;++  Email           from Frailey to Gotterbarn: Re:  ;++          Don  ;++ email ;++          Don ++
+1997_September_22_DG.html ;++ 1997-09-22 ;++ Te   ;++    ;++             ;++ email ;++ ++
+1997_September_23_DG.html ;++ 1997-09-23 ;++ Dvid   ;++ Email           from Notkin to Executive Committee: Action   ;++ tive   ;++ email ;++ ++
+1997_September_30_DG.html ;++ 1997-09-30 ;++    ;++ Email           from Mechler to SEEPP task Force Copy  ;++    ;++ email ;++  ++
+1997_undated_April_DG.html ;++  ;++ Dn 	    Gotterbarn ;++ Email           from Gotterbarn: Product ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++  ++
+1997_undated_April_DG_31.html ;++ 7!---12-19 ;++ Dn   ;++ Email           from Gotterbarn to Barbacci: Version 2.1 and cover memo ;++    ;++ email ;++ ++
+1997_undated_December_DG.html ;++  ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Email:           Computing  ;++ rd           Tripp? ;++ email ;++ ++
+1997_undated_December_DG_1.html ;++  ;++ Dn   ;++ Email           from Gotterbarn to Stuart Zweben: Thank  ;++ t   ;++ email ;++ ++
+1997_undated_December_DG_2.html ;++  ;++ Dn   ;++ Proposed  ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1997_undated_DG_1.html ;++  ;++    ;++ Email           from Gotterbarn to Davis: Description  ;++ el   ;++ email ;++  ++
+1997_undated_DG_10.html ;++  ;++ Dn   ;++ Email           from Gotterbarn to Frailey and Cabrera: Thank  ;++ s           Frailey ;++ email ;++ ++
+1998_April_28_DG.html ;++ 1998-04-28  ;++ Dn   ;++ Email           from Gotterbarn to President, EC: Request  ;++ dent,   ;++ email ;++  ++
+1998_April_29_SZ.html ;++ 1998-04-29 ;++ Lonard   ;++ Report   ;++   ;++ email ;++  ++
+1998_April_8_DG.html ;++ 1998-04-08 ;++ Dnnis   ;++ Email           from Frailey to Gotterbarn: Re:  ;++   ;++ email ;++  ++
+1998_April_8_DG_1.html ;++ 1998-04-08 ;++ Dn   ;++ Email           from Gotterbarn to Doris Carver and Leonard Tripp: Consider  ;++    ;++ email ;++ ++
+1998_April_8_DG_2.html ;++ 1998-04-08 ;++ Dn     Gotterbarn ;++ Email           from Gotterbarn to Charles House and Frailey: Request ;++ es       House and Dennis Frailey ;++ email ;++ ++
+1998_April_9_DG.html ;++ 1998-04-08 ;++    ;++ Email           from Mechler to Bruce (?): Engineering  ;++            (last name unknown) ;++ email ;++  ++
+1998_August_12_DG.html ;++ 1998-04-12 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ SOFTWARE   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_August_12_DG_1.html ;++ 1998-04-12 ;++ Lonard   ;++ Email           from Tripp to Gotterbarn: Code  ;++   ;++ email ;++ ++
+1998_August_13_DG.html ;++ 1998-04-13 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Software   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_August_18_DG.html ;++ 1998-04-18 ;++ Lurie   ;++ Email           from Laurie Werth to Professional Competence Standards Task Force: ;++ ssional   ;++ email ;++ ++
+1998_August_20_VW.html ;++ 1998-08-20  ;++ Vvian     Weil ;++  Email           from Weil to PRFCMPL list: Regarding Version 4 of Code To: Multiple recipients of list PRFCMPL PRFCMPLQUTKVM1.UTK.EDU ;++ iple       recipients of list PRFCMPL ;++ email ;++        We++
+1998_August_21_VW.html ;++ 1998-12-21 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++  Software           Engineering Code of Ethics (4.0) ;++ wn<!-- InstanceEndEditable --></div>        Format:   ;++ email ;++          Vivian Weil ++
+1998_August_25_VW.html ;++ 1998-12-25 ;++  arayana     Jayaram  ;++  Email           from Jayaram to PRFCMP-L: Re: Version 4.0 of the Code  ;++ iple       recipients of list PRFCMP-L  ;++ email ;++        Weil++
+1998_December_04_SZ.html ;++ 1998-12-04 ;++    ;++ Email           from Tripp to multiple recipients:  ;++   ;++ email ;++  ++
+1998_December_09_DG.html ;++ 1998-12-09 ;++    ;++ Contracting            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_December_15_DG.html ;++  1998-12-15   ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Forum   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_December_15_SZ.html ;++ 1998-12-15 ;++    ;++    ;++   ;++ email ;++  ++
+1998_December_18_SZ.htm ;++ 1998-12-18 ;++    ;++    ;++   ;++ email ;++  ++
+1998_December_18_SZ_1.htm ;++ 1998-12-18 ;++    ;++    ;++    ;++ email ;++  ++
+1998_December_22_SZ_1.htm ;++ 1998-12-22 ;++    ;++    ;++   ;++ email ;++  ++
+1998_December_22_SZ_2.htm ;++ 1998-12-22 ;++    ;++    ;++   ;++ email ;++  ++
+1998_December_31_SZ.htm ;++ 1998-12-31 ;++    ;++    ;++   ;++ email ;++  ++
+1998_January_07_DG.html ;++ 1998-01-07 ;++ Wuter   ;++ Email           from Wouter Slegers to Gotterbarn: Comments ;++   ;++ email ;++ ++
+1998_January_08_DG.html ;++ 1998-01-08 ;++ GM.Sigut<!-- InstanceEdditabl --> /div>		 ;++ Email           from Sigut to Gotterbarn: Software  ;++   ;++ email ;++ ++
+1998_January_11_DG.html ;++ 1998-01-11 ;++ Lurie   ;++ Email           from Werth to Gotterbarn: Re:  ;++   ;++ email ;++ ++
+1998_January_13_DG.html ;++ 1998-01-13 ;++ Mke   ;++ Email           from Mike Berens to Gotterbarn: ACM  ;++   ;++ email ;++ ++
+1998_January_19_DG.html ;++ 1998-01-19 ;++ Dn   ;++ Article   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_January_19_DG_1.html ;++ 1998-01-19 ;++ Dn   ;++ Email           from Gotterbarn to Steering Committee: Approval  ;++ ing   ;++ email ;++ ++
+1998_January_27_DG.html ;++ 1998-01-27 ;++ Kith   ;++ Email           exchange between Miller and Gotterbarn: Progress? -little to no response ;++   ;++ email ;++ ++
+1998_July_07_DG.html ;++ 1998-07-07 ;++ Dn   ;++ Email           from Gotterbarn to Miller and Rogerson: List  ;++             ;++ email ;++ ++
+1998_July_15_DG.html ;++ 1998-07-15 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Ballot   ;++ wn<!-- InstanceEndEditable --></div>        Format: Unknown ;++ email ;++  ++
+1998_July_23_DG.html ;++ 1998-07-23 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Software   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_July_23_DG_1.html ;++ 1998-07-23 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Software   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_July_23_DG_2.html ;++ 1998-07-23 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ SOFTWARE            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_July_30_DG.html ;++ 1998-07-30 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Charter            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_June_01_DG.html ;++ 1998-07-01 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Invitation    ;++ s   ;++ email ;++ ++
+1998_March_10_DG.html ;++ 1998-03-10 ;++ Gil   ;++ Email           exchange between Gail Kaiser and Mechler: Re:   ;++ d   ;++ email ;++  ++
+1998_March_16_VW.html ;++ 1998-03-16 ;++    ;++ Email           from Gotterbarn to Professional Competence Standards Task Force: Software ;++ ssional   ;++ email ;++  ++
+1998_May_10_DG.html ;++ 1998-05-10 ;++    ;++ Response   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_May_10_DG_1.html ;++ 1998-05-10  ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ ACM   ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_May_14_DG.html ;++ 1998-05-14 ;++ &uot;L-Soft   ;++    ;++   ;++ email ;++ ++
+1998_May_14_SZ.html ;++ 1998-05-14 ;++    ;++    ;++ are   ;++ email ;++  ++
+1998_May_26_VW.html ;++ 1998-05-26 ;++    ;++ Invitation            ;++             ;++ email ;++  ++
+1998_May_27_1_VW.html ;++ 1998-05-27 ;++    ;++ Email           from Werth to Professional Competence Standards Task Force: Re:  ;++ ssional   ;++ email ;++  ++
+1998_May_27_VW.html ;++ 1998-05-27 ;++    ;++ Invitation            ;++ wn<!-- InstanceEndEditable --></div>        Format: Fax ;++ email ;++  ++
+1998_May_27_VW_2.html ;++ 1998-05-27   ;++  on     Gotterbarn ;++ Email           from Gotterbarn to PRFCMP-L list: Invitation ;++ iple       recipients of list PRFCMP-L  ;++ email ;++        Weil++
+1998_May_5_DG.html ;++ 1998-05-05 ;++ D.   ;++ Email       from Doris Carver to Goterbarn: Ethics Report (fwd)  ;++   ;++ email ;++ ++
+1998_May_6_DG.html ;++ 1998-05-06 ;++    ;++ Email           from Mechler to Gail Kaiser: Article - senior member of IEEE? ;++            Kaiser ;++ email ;++  ++
+1998_May_6_DG_1.html ;++ 1998-05-06 ;++    ;++ Email           from Mechler to Gail Kaiser: New E-   ;++            Kaiser ;++ email ;++  ++
+1998_October_11_DG.html ;++ 1998-10-11 ;++ Lurie   ;++ Email           from Werth to Professional Competence Task Force: Re:  ;++ ssional   ;++ email ;++ ++
+1998_October_13_1_VW.html ;++ 1998-10-13 ;++  on     Gotterbarn ;++       Email           from Gotterbarn to PRFCMP0L list: Vote on version 5.1, etc.  ;++ iple       recipients of list PRFCMP-L  ;++ email ;++        Weil++
+1998_October_13_VW.html ;++ 1998-10-13 ;++  d     Mechler ;++  Email           from Mechler to Professional Competence Task Force: Re: Version        ;++ iple       recipients of list PRFCMP-L  ;++ email ;++        Weil++
+1998_October_20_1_MN.html ;++ 1998-10-20 ;++ Mnny   ;++    ;++   ;++ email ;++  ++
+1998_October_20_MN.html ;++ 1998-10-20 ;++    ;++ Email           from Werth to Professioanl Competence List: Re:The  ;++ ple   ;++ email ;++  ++
+1998_October_20_VW.html ;++ 1998-10-20 ;++  on     Gotterbarn ;++  Email           from Gotterbarn to PRFCMP-L list: October 20, 1998 - Code Approved ;++ ple       recipients of list PRFCMP-L ;++ email ;++        Weil++
+1998_October_21_VW.html ;++ 1998-10-21 ;++ Dncan     Langford ;++ Email           from Langford to PRFCMP-L list: Re: The Code version 5.1 is a winner ;++ ple       recipients of list PRFCMP-L ;++ email ;++        Weil++
+1998_October_22_DG.html ;++ 1998-10-22 ;++ D.   ;++ Email           from El-Kadi to Gotterbarn: IEEE  ;++   ;++ email ;++ ++
+1998_October_26_SZ.htm ;++ 1998-10-26 ;++    ;++    ;++   ;++ email ;++  ++
+1998_October_27_MN.html ;++ 1998-10-27 ;++    ;++ Email           from Werth to Professional Competence list: Internet  ;++   ;++ email ;++  		 		 ++
+1998_October_27_SZ.html ;++ 1998-10-27 ;++    ;++    ;++   ;++ email ;++  ++
+1998_October_27_SZ_3.html ;++ 1998-10-27 ;++    ;++    ;++   ;++ email ;++  ++
+1998_October_28_1_MN.html ;++ 1998-10-28 ;++ Tm   ;++ Email           from Jewett to Professional Competence list: Re: Internet  ;++   ;++ email ;++  		 ++
+1998_October_28_MN.html ;++ 1998-10-28 ;++    ;++ Email           from Ben Fairweather to Professional Competence list: Invitation  ;++   ;++ email ;++  ++
+1998_October_28_SZ_2.html ;++ 1998-10-28 ;++    ;++    ;++   ;++ email ;++  ++
+1998_September_05_DG.html ;++ 1998-09-05 ;++ Dnnis   ;++ Email           from Frailey to Gotterbarn Re:  ;++   ;++ email ;++ ++
+1998_September_10_1_VW.html ;++ 1998-09-10 ;++ Iene     Burnstein ;++ Email           from Ilene Burnstein to Weil: Recirculation Ballot, Software Engineering       Total Affirmative Votes: 126/146 (86.3%) ;++ n       Weil ;++ email ;++        Weil++
+1998_September_10_EM.html ;++ 1998-09-10 ;++    ;++ Ballot   ;++ wn<!-- InstanceEndEditable --></div>        Format: Miscellaneous ;++ email ;++  ++
+1998_September_10_VW.html ;++ 1998-09-10 ;++    ;++ Email           from Ilene Burnstein to Weil: Will forward message about the ethics--> </h3></div>				 ;++   ;++ email ;++  ++
+1998_September_20_MN.html ;++ 1998-09-20 ;++ Dn   ;++    ;++   ;++ email ;++  ++
+1998_September_23_DG.html ;++  1998-09-23;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Recirculation            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_September_25_DG.html ;++ 1998-09-25 ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Accreditation   ;++ wn<!-- InstanceEndEditable --></div>        Format: E-mail ;++ email ;++  ++
+1998_September_9_EM.html ;++ 1998-09-09 ;++    ;++ Email           from Tripp to Tracy Woods: Recirculation ;++   ;++ email ;++  ++
+1998_undated_2.html ;++  ;++    ;++ COPE            ;++ wn<!-- InstanceEndEditable --></div>        Format: Report ;++ email ;++  ++
+1998_undated_26.html ;++  ;++ Lonard        L. Tripp, Chair, Dennis Frailey ;++ SWECC        Draft Plan ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++ 		++
+1998_undated_3.html ;++ 1998-12-0n ;++ Lonard        L. Tripp ;++         Code of Ethics Ballot Process ;++ wn<!-- InstanceEndEditable --></div>        Format:   ;++ email ;++ 		++
+1998_undated_August.html ;++  ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ Future           Master  ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_undated_DG_1.html ;++  ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ IEEE            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_undated_DG_10.html ;++  ;++ Dn   ;++ Email           from Gotterbarn to SEEPP Work Group: History and future timeline and ;++    ;++ email ;++ ++
+1998_undated_DG_11.html ;++  ;++ n!-- InstanceEndEditabe--> </iv>		 ;++        Code of Ethics Feedback Form -table of results ;++  InstanceEndEditable --></div>        Format: E-mail ;++ email ;++        Gotterbarn ++
+1998_undated_DG_12.html ;++  ;++         Don Gotterbarn  ;++         Email from Gotterbarn to Frailey and Cabrera: List of our expenses ;++        Dennis Frailey and Felipe Cabrera ;++ email ;++        Don Gotterbarn ++
+1998_undated_DG_13.html ;++  ;++ Dn   ;++ Email           from Gotterbarn to Peter (?): How ;++            (last name unknown) ;++ email ;++ ++
+1998_undated_DG_18.html ;++  ;++         Dennis J. Frailey and Leonard Tripp ;++         Rationale for Software Engineering Coordinating Committee (SWECC)  ;++        Unknown ;++ email ;++        Don Gotterbarn++
+1998_undated_DG_19.html ;++  ;++ Dn   ;++ Email           from Gotterbarn to Tripp: Recirculated  ;++ rd   ;++ email ;++ ++
+1998_undated_DG_2.html ;++  ;++ Jcques   ;++ IEEE            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_undated_DG_20.html ;++  ;++    ;++ Software            ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++  ++
+1998_undated_DG_22.html ;++  ;++ Lonard        L. Tripp ;++ Email           from Tripp to Code of Ethics Voters: Guidelines for Balloting Process ;++        of Ethics Voters ;++ email ;++ ++
+1998_undated_DG_24.html ;++  ;++         unknown ;++  Ballot  ;++          Unknown ;++ email ;++          Don ++
+1998_undated_DG_25.html ;++ 1998-12-0d ;++         Don Gotterbarn ;++         Guide to Backup for COPE Issues and Software Engineering Code of Ethics  ;++        Unknown ;++ email ;++        Gotterbarn++
+1998_undated_DG_26.html ;++  ;++         SEEPP Executive Committee ;++  Software           Engineering Code of Ethics 5.1 ;++          Unknown ;++ email ;++          Don++
+1998_undated_DG_4.html ;++  ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ SOFTWARE  ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic  ;++ email ;++ ++
+1998_undated_DG_5.html ;++  ;++ Jn     Lee  ;++ SOFTWARE       ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (Version 5.1) ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic ;++ email ;++        Gotterbarn ++
+1998_undated_DG_6.html ;++  ;++ Dn     Gotterbarn  ;++ Email           from Gotterbarn: Thanks to SEEPP Work Group- version 4.0) ;++        Work Group? ;++ email ;++ ++
+1998_undated_DG_8.html ;++  ;++ Uknown<!-- InstanceEnddtable -> </iv>		 ;++ IEEE       Final Ballot: General comments ;++ wn<!-- InstanceEndEditable --></div>        Format: Unknown ;++ email ;++        Gotternbarn ++
+1998_undated_DG_9.html ;++  ;++         unknown ;++  Software           Engineering Code of Ethics and Professional Practice (Version 5.0) ;++          unknown ;++ email ;++          Don Gotterbarn++
+1998_undated_November_DG.html ;++  ;++ Lonard     L. Tripp, Dennis Frailey ;++ IEEE-CS/ACM       Software Engineering Coordinating Committee (SWECC)-- Draft Plan ;++ wn<!-- InstanceEndEditable --></div>        Format: Electronic ;++ email ;++        Gotterbarn ++
+1999_April_04_SZ.html ;++ 1999-04-04 ;++         Leonard L.Tripp,Dennis Fraliey ;++         Announcement for Meeting #2 - Software Engineering Coordinating Committee ;++        Software Engineering Co-ordinating Committe ;++ email ;++        Stuart Zweben++
+1999_April_14_SZ.html ;++ 1999-04-14 ;++         Doris Carver  ;++         Email from Doris Carver to multiple recipients: SWECC Actions ;++        Leonard Tripp,Dennis Frailey,Linda Northrop,Mark Ardis,Kral Reed  ;++ email ;++        Stuart Zweben++
+1999_April_14_SZ_1.html ;++ 1999-04-14;++         Dennis Frailey ;++         Email from Frailey to Mark Adis: Fwd: RE: SE Licensing Panel conference               ;++        Mark Ardis ;++ email ;++        Stuart Zweben ++
+1999_April_23_SZ.html ;++ 1999-04-23 ;++         Leonard Tripp        ;++         Liasion List ;++        Dennis Frailey ;++ email ;++        Zweben++
+1999_April_DG.html ;++  ;++         Unknown ;++           Proposal to SWECC -  ;++          SWECC ;++ email ;++          Don Gotterbarn++
+1999_August_27_SZ.html ;++ 1999-12-27 ;++         Dennis Frailey  ;++         The ethics of a Software Engineer - comments on SE Code of Ethics from ;++        Bob Cannon, Neal Coulter, John Impagliazzo, Larry Jones, Mark Ardis ;++ email ;++        Stuart Zwebe++
+1999_December_14_DG.html ;++  ;++         Unknown  ;++         Email to Computer Software Engineering Newsgroup: Joint IEEE-CS / ACM ;++        Comp.software-Eng Newsgroup  ;++ email ;++        Don Gotterbarn++
+1999_December_14_DG_1.html ;++  ;++         Arthur T. Murray ;++ Email         from Arthur Murray to Computer Software Engineering Newsgroup: Re: Joint ;++        Comp.software-Eng Newsgroup ;++ email ;++        Don Gotterbarn          through this CODE OF ETHICS) to tell us whether it is *ETHICAL* to create ++
+1999_December_15_DG.html ;++ 15, -12-er ;++         Chris Condon ;++         Email from Chris Condon to Computer Software Engineering Newsgroup: Re: ;++        Comp.software-Eng Newsgroup ;++ email ;++        Don Gotterbarn++
+1999_February_02_SZ.html ;++  ;++         Dennis Frailey ;++  SWECC       Draft minutes from January 28, 1999 Austin meeting ;++          unknown ;++ email ;++          Stuart Zweben++
+1999_February_02_SZ.pdf ;++ 1999-02-02 ;++       Dennis Frailey ;++       SWECC Draft minutes  ;++         Recipient  ;++ email ;++         Source ++
+1999_February_02_SZ_1.html ;++ 1999-02-02 ;++         Jim Browne ;++  Email           from Jim Brown to Frailey: SWECC Group - Sorry I could not attend ;++          Dennis Frailey ;++ email ;++          Stuart Zweben++
+1999_February_14_VW.html ;++ 1999-02-14 ;++         Don Gotterbarn  ;++ Email           from Gotterbarn to PRFCMP-L list: No legal problems with version approved ;++          PRFCMP-L list ;++ email ;++          Vivian Weil++
+1999_February_16_DG.html ;++ 1999-02-16 ;++         Don Gotterbarn ;++         Email from Gotterbarn to Cabrera and Frailey: ACM Computer Science Conference ;++ e         Cabrera and Dennis Frailey ;++ email ;++          Don Gotterbarn++
+1999_February_19_DG.html ;++ 1999-02-19 ;++         Don Gotterbarn  ;++ Email         from Gotterbarn to ACM Executive Committee:  ;++        ACM Executive Committee ;++ email ;++        Don Gotterbarn ++
+1999_February_20_DG.html ;++ 1999-02-20 ;++         Don Gotterbarn, Keith Miller &amp; Simon Rogerson          and Rogerson         and Rogerson         and Rogerson         and Rogerson ;++         Copyright Registration for Software Engineering Code of Ethics and Professional ;++        Unknown ;++ email ;++          Gotterbarn ++
+1999_February_DG.html ;++  ;++         Don Gotterbarn ;++         Is IEEE-USA facing an ethical  ;++          Recipient  ;++ email ;++      Gotterbarn++
+1999_January _19_SZ.html ;++ 1999-01-19 ;++         Tom Hilburn ;++  Email           from Tom Hilburn to Frailey: Re: Thoughts regarding relationships ;++          Dennis Frailey ;++ email ;++          Stuart Zweben++
+1999_January_05_SZ.html ;++ 1999-01-05 ;++         Leonard Tripp ;++       Detailed           agenda- SWECC Meeting 1 ;++          Mark Ardis,Doris Carver,Dennis Frailey, Linda Northup, Karl ;++ email ;++          Stuart Zweben++
+1999_January_20_DG.html ;++ 1999-01-20 ;++         Shari  ;++ Email           from Shari Carle to Gotterbarn: Requesting permission to use parts ;++          Don  ;++ email ;++          Don ++
+1999_January_26_DG.html ;++ 1999-01-26 ;++         Shari Carle ;++  Email           from Shari Carle to Don Gotterbarn: Standards ;++          Don Gotterbarn  ;++ email ;++          Don ++
+1999_January_27_DG.html ;++ 1999-01-27 ;++         Don Gotterbarn ;++       Email           exchange between Shari Carle and Gotterbarn RE: Requesting permission   Practice ;++          Shari  ;++ email ;++          Don ++
+1999_January_29.html ;++ 1999-01-29 ;++         Leonard L. Tripp, Dennis J. Frailey ;++  IEEE           Computer Society and ACM Software Engineering Coordinating Committee(SWECC), ;++          Unknown ;++ email ;++ 		++
+1999_July_07_SZ.html ;++ 1999-07-07 ;++         Leonard Tripp ;++         SWEBOK Advisory Board Meeting ;++        Mark Ardis, Doris Carver, Linda Northrup ;++ email ;++        Stuart Zweben++
+1999_March_26_SZ.html ;++ 1999-04-26 ;++         Dennis  ;++       Email           from Frailey to Mark Ardis: Re: Sweep Action Status ;++        Ardis ;++ email ;++          Stuart Zweben++
+1999_undated_DG_2.html ;++  ;++         Don  ;++  Code       Reuse: a response Response to Parnas in SEN  ;++          Unknown ;++ email ;++          Don Gotterbarn++
+1999_undated_DG_3.html ;++  ;++         Unknown ;++  Software           Engineering Code of Ethics and Professional Practice- summary of project ;++          Unknown ;++ email ;++          Don Gotterbarn++
+1999_undated_DG_4.html ;++  ;++         Unknown ;++  Companies       who point to the code ;++          Unknown ;++ email ;++          Don Gotterbarn.++
+1999_undated_DG_6.html ;++    ;++         Unknown ;++   Tentative       list of adoptees  ;++          Unknown ;++ email ;++          Don Gotterbarn++
+2000_July_09_DF.html ;++ 2000-12-09 ;++         Dennis J. Frailey ;++         Email from Dennis Frailey to Barbara Simons: SWECC Pullout       Date: Sun, 09 Jul 2000 13:05:03 -0500 ;++        Barbara Simons ;++ email ;++ 		++
+2000_June_21_SZ.html ;++ 2000-12-21 ;++         Dennis Frailey ;++       ACM Matters regarding Software Engineering<!-- InstanceEndEditable --></div>		 ;++          Steve Bourne ;++ email ;++          Stuart Zweben++
+2000_March_4_DG.html ;++ 2000-12-04 ;++         Unknown ;++  DRAFT       Minutes of Meeting on 4 March 2000, Austin, Texas. ;++          Unknown ;++ email ;++          Don Gotterbarn++
+2000_Undated.html ;++  ;++         Dennis Frailey and Leonard Tripp ;++         IEEE Computer Society and ;++ wn	        ;++ email ;++ 		++
+2000_undated_DG.html ;++  ;++         Unknown        ;++ Timeline           of SEEPP Task Force and SEEPP File List ;++          Unknown ;++ email ;++          Don ++
+2000_undated_SZ.html ;++  ;++         Leonard Tripp ;++  IEEE/CS/ACM           Software Engineering Coordinating Committee  ;++          Unknown ;++ email ;++          Stuart Zweben++
+2001_undated_DG_2.html ;++    ;++         Unknown ;++  SOFTWARE       ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE Version 5.2- with ;++          Unknown ;++ email ;++          Don Gotterbarn++
+2001_undated_DG_3.html ;++    ;++         Unknown ;++ Software           Engineering Code of Ethics and Professional Practice (Version 5.2) ;++          Unknown ;++ email ;++          Don Gotterbarn++
+2002_April_24_MN.html ;++ 2002-12-24 ;++         Michael Davis ;++  Interview           Questionnaire: Software developers write a code of ethics ;++          unknown ;++ email ;++          Manny Norman++
+2002_July_06_MB.html ;++ 2002-12-06 ;++         Unknown ;++  Software       Engineering Code of Ethics and Professional Practices Version 5.1 ;++          Unknown ;++ email ;++          Mario ++
+2002_July_09_MB.html ;++ 2002-07-09 ;++         Mario  ;++  Release       Form for archive ;++          Unknown ;++ email ;++          Mario ++

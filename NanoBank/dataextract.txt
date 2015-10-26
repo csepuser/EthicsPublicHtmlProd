@@ -1,0 +1,105 @@
+<?php
+	include("db.php");
+	$link=mysql_connect($dbh,$user,$pass);
+	if( !link)
+			die ("Couldnt connect to MySql");
+	mysql_select_db("$db");
+?>
+
+
+<?php    
+	/* This function separates the index terms and displays them separately 
+	*/
+	function separateIndexTerms($str)
+   { 
+      $temp_array=explode(";",$str,4);
+	  foreach($temp_array as $value)
+	  {
+	   echo '<a href=./asearch.php?searchIndex=' . urlencode(trim($value))  . ' target="_blank">' .  trim($value) .'&nbsp'. '</a> ';
+	  }    
+     reset($temp_array);
+   }
+   
+   function separateAuthors($str)
+   { 
+      $temp_array=explode(";",$str,4);
+	  foreach($temp_array as $value)
+	  {
+	   echo '<a href=./asearch.php?searchAuthorCombine=' . urlencode(trim($value))  . ' target="_blank">' .  trim($value) .'&nbsp'. '</a> ';
+	  }    
+     reset($temp_array);
+   }   
+?>
+
+<?php
+	
+	$query = sprintf("select * from bank b, details d where b.bookid = d.bookid");
+	$result_id=mysql_query($query) or die("Bad query: ".mysql_error());
+	while($row=mysql_fetch_array($result_id))
+	{
+
+
+?>
+
+
+
+<br>@article {<?= $row["bookid"]?>,<br>
+title = {<?= $row["title"]?>},<br>
+year = {<?= $row["year_published"]?>},<br>
+month = {<?= $row["date_published"]?>},<br>
+type = {<?= $row["publication_type"]?>},<br>
+abstract = {<?php echo htmlentities($row["abstract"]) ?>},<br>
+isbn = {<?= $row["isbn"]?>},<br>
+journal = {<?= $row["title_periodical"]?>},<br>
+volume = {<?= $row["issue"]?>},<br>
+pages = {<?= $row["page_others"]?>},<br>
+address = {<?= $row["place_published"]?>},<br>
+booktitle = {<?= $row["conference"]?>},<br>
+url = {<?= $row["url_source"]?>},<br>
+publisher = {<?= $row["publisher"]?>},<br>
+issn = {<?= $row["issn"]?>},<br>
+
+Sub Title:<?= $row["title_sub"]?><br>
+Author:<?= $row["author"]?><br>
+
+Uniform Title:<?= $row["title_uniform"]?><br>
+
+Volume:<?= $row["volume"]?><br>
+
+
+Year Produced:<?= $row["year_produced"]?><br>
+Date Produced:<?= $row["date_produced"]?><br>
+
+
+Edition:<?= $row["edition"]?><br>
+Other Editions:<?= $row["edition_other"]?><br>
+Page Start:<?= $row["page_start"]?><br>
+
+Physical Description:<?= $row["description_physical"]?><br>
+Includes:<?= $row["includes"]?><br>
+Source:<?= $row["source"]?><br>
+Page Start:<?= $row["page_start"]?><br>
+
+Format:<?= $row["format"]?><br>
+
+
+Annotation:<?= $row["annotation"]?><br>
+Language:<?= $row["language"]?><br>
+
+URL of Organization:<?= $row["url_organization"]?> <br>
+Subject:<?= $row["index_terms"]?><br>
+>Series:<?= $row["series"]?><br>
+
+Corporate Author:<?= $row["author_corporate"]?><br>
+Title Original:<?= $row["title_original"]?><br>
+User Tags:<?= $row["keywords"]?><br>
+Full Text:<?= $row["full_text"]?><br>
+
+=================================================================================================
+
+<?php
+	}
+?>
+
+</body>
+</html>

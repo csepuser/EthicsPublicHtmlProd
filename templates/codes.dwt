@@ -1,0 +1,98 @@
+<html>
+<head>
+
+<!-- #BeginEditable "doctitle" -->
+<title>Code of Ethics Online - Untitled</title>
+<!-- #EndEditable --> 
+
+<link href="../templates/csep.css" rel="stylesheet" type="text/css">
+<meta name="Center for the Study of Ethics in the Professions">
+</head>
+
+<body>
+<div align="center"> <img src="../images/codes_banner.gif" width="583" height="119" border="0" usemap="#Map"> 
+  <map name="Map">
+      <area shape="rect" coords="80,37,507,63" href="http://www.iit.edu" target="_blank">
+      <area shape="rect" coords="384,100,460,115" href="mailto:csep@iit.edu">
+      <area shape="rect" coords="8,4,579,33" href="../index.html">
+    <area shape="rect" coords="180,66,413,85" href="../codes/codes_index.html">
+    </map>
+ </p> 
+  <p>&nbsp;</p><table border="0" width="85%">
+    <tr>
+      <td> 
+        <p>
+        <div align="left">
+          <table width="100%" border="0">
+            <tr> 
+              <td width="21%" height="19" bgcolor="#E5E5E5"> <div class="datafield">Organization:</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillerlink"><!-- TemplateBeginEditable name="Organization" --> 
+                  <a href="http://www.google.com">Organization</a><!-- TemplateEndEditable --></div></td>
+            </tr>
+            <tr> 
+              <td width="21%" bgcolor="#E5E5E5"> <div class="datafield">Source:</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillerlink"><!-- TemplateBeginEditable name="Source" --> 
+                  <a href="http://www.google.com">Source of Code 
+                  of Ethics</a> if none exits, use: <a href="../library/index.html">CSEP 
+                  Library</a><!-- TemplateEndEditable --></div></td>
+            </tr>
+            <tr> 
+              <td width="21%" height="22" bgcolor="#E5E5E5"> <div class="datafield">Previous 
+                  Version(s) in our Codes of Ethics Online collection:</div></td>
+              <td width="79%" bgcolor="#F7F7F7"> <div class="fillerlink"><!-- TemplateBeginEditable name="Previous_Versions" --> 
+                  <a href="http://www.google.com">Previous Versions</a>, 
+                  if any <!-- TemplateEndEditable --></div></td>
+            </tr>
+          </table> <table width="92%" border="0" align="center">
+          
+                      <tr> 
+              <td bgcolor="#E5E5E5"><p><strong>Disclaimer:</strong><em> Please 
+                  note the codes in our collection might not necessarily be the 
+                  most recent versions. Please contact the individual organizations 
+                  or their websites to verify if a more recent or updated code 
+                  of ethics is available. CSEP does not hold copyright on any 
+                  of the codes of ethics in our collection. Any permission to 
+                  use the codes must be sought from the individual organizations 
+                  directly.</em></p></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+		  <table width="100%" border="0" align="center">
+            <tr> 
+              <td> <div class="codeheading"><!-- TemplateBeginEditable name="Code_heading" -->Code Heading <!-- TemplateEndEditable --></div></td>
+            </tr>
+            <tr> 
+              <td> <div align="justified"> <!-- TemplateBeginEditable name="Code_Text" -->Enter 
+                  the Code here <!-- TemplateEndEditable --></div></td>
+            </tr>
+          </table>
+
+        </div>
+        </p>
+
+  <table width="100%" border="0">
+    <tr bgcolor="#E5E5E5"> 
+      <td width="50%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../codes/codes_index.html">CODES 
+                INDEX</a></div></td>
+      <td width="50%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../search.php?site=codes">CODES 
+                SEARCH</a></div></td>
+    </tr>
+  </table>
+  <table width="100%" border="0">
+    <tr bgcolor="#E5E5E5"> 
+      <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../codes/index.html">CODES 
+                HOME</a></div></td>
+      <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../index.html">CSEP HOME</a></div></td>
+      <td width="33%%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a href="http://www.iit.edu" target="_blank" class="bottom">IIT 
+                HOME</a> </div></td>
+    </tr>
+  </table>
+
+       
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>

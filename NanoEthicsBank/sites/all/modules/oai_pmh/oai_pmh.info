@@ -1,0 +1,9 @@
+; $Id: oai_pmh.info,v 1.1 2008/11/24 13:02:45 pletcher Exp $
+name = OAI-PMH Harvester
+Description = "This module regularly harvests metadata from a OAI-PMH interface, and stores it locally"
+
+; Information added by drupal.org packaging script on 2008-11-25
+version = "5.x-1.x-dev"
+project = "oai_pmh"
+datestamp = "1227571880"
+

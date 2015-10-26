@@ -1,0 +1,21 @@
+Before using the harvester, copy the content of the cck_oai_dc.export file
+into the Import data textarea at the 
+
+Administer > Content management > Content type > Import page
+(admin/content/types/import). 
+
+Choose 'Create' from the Content type dropdown list, and click Import. It will 
+create a new content type:
+
+Dublin Core metadata, 
+
+which is a CCK implementation of the Dublin Core metadata standard used by 
+cultural heritage institutions (libraries, museums, archives). More about 
+Dublin Core: http://dublincore.org/.
+
+The module builds on the OAI-PMH's DC implementation schema 
+(http://www.openarchives.org/OAI/2.0/oai_dc.xsd)
+
+Requirement: you should install the Content Copy module (part of CCK package), 
+and the OAI harvester module (part of eXtensible Catalog Drupal Toolkit, available
+at http://drupal.org/project/xc).

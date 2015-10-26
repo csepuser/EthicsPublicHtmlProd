@@ -1,0 +1,13 @@
+a[href$=".pdf"]:after { 
+	content:"";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url("/modules/file/icons/application-pdf.png");
+	margin: 0 0.25em;
+}
+
+p.no-icon a[href$=".pdf"]:after,
+a.no-icon[href$=".pdf"]:after { 
+	display: none;
+}

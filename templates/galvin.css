@@ -1,0 +1,118 @@
+#navresources { position: absolute; z-index: 5; top: 40px; left: 185px; width: 104px; height: 151px; visibility: hidden }
+#navcollections { position: absolute; z-index: 5; top: 40px; left: 290px; width: 104px; height: 115px; visibility: hidden }
+#navservices { position: absolute; z-index: 5; top: 40px; left: 395px; width: 104px; height: 151px; visibility: hidden }
+#navnews { position: absolute; z-index: 5; top: 40px; left: 500px; width: 104px; height: 43px; visibility: hidden }
+#navinformation { position: absolute; z-index: 5; top: 40px; left: 604px; width: 104px; height: 162px; visibility: hidden }
+#redanchor{ color: #ff2833; font-weight: normal; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+#grayanchor { color: #5a5a5a;  font-weight: normal; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.ltgray11px { color: #999; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.ltgray11px a:link{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.ltgray11px a:active{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.ltgray11px a:visited{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.ltgray11px a:hover{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.dkgray11px { color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.dkgray11px a:link{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgray11px a:active{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgray11px a:visited{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgray11px a:hover{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.dkgray10px { color: #5a5a5a; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.dkgray10px a:link{ color: #5a5a5a; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgray10px a:active{ color: #5a5a5a; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgray10px a:visited{ color: #5a5a5a; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgray10px a:hover{ color: #5a5a5a; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.red11px { color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; }
+.red11px a:link { color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.red11px a:active { color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.red11px a:visited{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.red11px a:hover{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.dropdown { color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.dropdown a:link{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dropdown a:active{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dropdown a:visited{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dropdown a:hover{ color: #5a5a5a; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.breadcrumb  { color: #000; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.breadcrumb a:link{ color: #000; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.breadcrumb a:active{ color: #000; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.breadcrumb a:visited{ color: #000; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.breadcrumb a:hover{ color: #000; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.serviceshdr { color: #b65e80; font-weight: bold; font-size: 14px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+
+.informationhdr { color: #bfb364; font-weight: bold; font-size: 14px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+
+.resourceshdr { color: #2d8d97; font-weight: bold; font-size: 14px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+
+.collectionshdr { color: #3F6499; font-weight: bold; font-size: 14px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+
+.newshdr { color: #B17743; font-weight: bold; font-size: 14px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+
+.informationnav { color: #bfb364; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+.informationnav a:link{ color: #bfb364; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.informationnav a:active{ color: #bfb364; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.informationnav a:visited{ color: #bfb364; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.informationnav a:hover{ color: #bfb364; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: underline }
+
+.newsnav { color: #B17743; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+.newsnav a:link{ color: #B17743; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.newsnav a:active{ color: #B17743; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.newsnav a:visited{ color: #B17743; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.newsnav a:hover{ color: #B17743; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: underline }
+
+.servicesnav { color: #b65e80; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+.servicesnav a:link{ color: #b65e80; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.servicesnav a:active{ color: #b65e80; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.servicesnav a:visited{ color: #b65e80; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.servicesnav a:hover{ color: #b65e80; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: underline }
+
+.collectionsnav { color: #3F6499; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+.collectionsnav a:link{ color: #3F6499; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.collectionsnav a:active{ color: #3F6499; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.collectionsnav a:visited{ color: #3F6499; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.collectionsnav a:hover{ color: #3F6499; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: underline }
+
+.resourcesnav { color: #2d8d97; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px }
+.resourcesnav a:link{ color: #2d8d97; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.resourcesnav a:active{ color: #2d8d97; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.resourcesnav a:visited{ color: #2d8d97; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: none }
+.resourcesnav a:hover{ color: #2d8d97; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 0px; text-decoration: underline }
+
+.dkgraybold11px { color: #5a5a5a; font-weight: bold; font-size: 11px; line-height: 18px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.dkgraybold11px a:link{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgraybold11px a:active{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgraybold11px a:visited{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dkgraybold11px a:hover{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.dkblue11px { color: #6600CC; font-weight: normal; font-size: 12px; line-height: 18px; font-family: "Courier New", Courier, mono}
+.dkblue11px a:link{ color: #6600CC; font-weight: normal; font-size: 12px; font-family: "Courier New", Courier, mono; text-decoration: underline }
+.dkblue11px a:active{ color: #6600CC; font-weight: normal; font-size: 14px; font-family: "Courier New", Courier, mono; text-decoration: underline }
+.dkblue11px a:visited{ color: #6600CC; font-weight: 100; font-size: 12px; font-family: "Courier New", Courier, mono; text-decoration: underline }
+.dkblue11px a:hover{ color: #6600CC; font-weight: normal; font-size: 12px; font-family: "Courier New", Courier, mono; text-decoration: underline }
+
+.totals { color: #2d8d97; font-weight: bold; font-size: 13px; line-height: 18px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular}
+.totals a:link{ color: #2d8d97; font-weight: bold; font-size: 13px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.totals a:active{ color: #2d8d97; font-weight: bold; font-size: 13px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.totals a:visited{ color: #2d8d97; font-weight: bold; font-size: 13px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.totals a:hover{ color: #2d8d97; font-weight: bold; font-size: 13px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+.timesltgray13px { color: #999; font-style: italic; font-size: 13px; line-height: 20px; font-family: "Times New Roman", Georgia, Times; word-spacing: 0px; letter-spacing: 0px }
+
+.timesltgrayital12px { color: #999; font-style: italic; font-size: 13px; font-family: "Times New Roman", Georgia, Times }
+
+.timesdkgrayital12px { color: #5a5a5a; font-style: italic; font-size: 13px; font-family: "Times New Roman", Georgia, Times }.view {  font-family: "Courier New", Courier, mono; font-size: 12px; font-style: normal; font-weight: bold; color: #007EBB}
+
+.dltgray11px { color: #777; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.dltgray11px a:link{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dltgray11px a:active{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dltgray11px a:visited{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+.dltgray11px a:hover{ color: #ff2833; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+
+ a:link{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+ a:active{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+ a:visited{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }
+ a:hover{ color: #5a5a5a; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline }

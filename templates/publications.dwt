@@ -1,0 +1,46 @@
+<html>
+<head>
+
+<!-- #BeginEditable "doctitle" -->
+<title>Publications - Untitled</title>
+<!-- #EndEditable --> 
+
+<link href="../templates/csep.css" rel="stylesheet" type="text/css">
+<meta name="Center for the Study of Ethics in the Professions">
+</head>
+
+<body>
+<div align="center"><img src="../images/publications_banner.gif" width="583" height="119" border="0" usemap="#Map"></a> 
+  <map name="Map">
+    <area shape="rect" coords="237,67,356,84" href="../publication/index.html">
+    <area shape="rect" coords="81,36,508,62" href="http://www.iit.edu" target="_blank">
+    <area shape="rect" coords="384,99,460,114" href="mailto:csep@iit.edu">
+    <area shape="rect" coords="9,4,580,33" href="../index.html">
+  </map>
+
+
+
+<p><h2><!-- #BeginEditable "Title" -->Title<!-- #EndEditable --></h2></p>
+  <table border="0" width="85%">
+    <tr>
+      <td> 
+        <p><div align="justify"><!-- #BeginEditable "Description" -->{text}<!-- #EndEditable -->
+		</div></p>
+
+  		<table width="100%" border="0">
+          <tr bgcolor="#E5E5E5"> 
+            <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="index.html">PUBLICATIONS</a></div></td>
+            <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a class="bottom" href="../index.html">CSEP HOME</a></div></td>
+            <td width="33%"><div align="center"><img src="../images/grey_diamond.gif" width="28" height="26" align="absmiddle"><a href="http://www.iit.edu" target="_blank" class="bottom">IIT 
+                HOME</a></div></td>
+          </tr>
+        </table>
+
+       
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>

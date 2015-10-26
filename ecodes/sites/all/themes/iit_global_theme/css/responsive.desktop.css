@@ -1,0 +1,242 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'desktop';
+}
+
+
+/* Page main content region and sidebar margins */
+.sidebar-second #content-column .content-inner {
+  margin-right: 30.26315789%;
+}
+
+div.region-sidebar-second {
+  margin-left: -29.12280701%;
+}
+/* end Page main content region */
+
+
+/* Department Footer */
+#footer #iit-department-footer {
+  margin-bottom: 4px;
+}
+
+#footer #iit-department-footer h5 {
+  font-size: 1.313em;
+  margin: 6px 0 0 0;
+}
+
+#footer #iit-department-footer .social-icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 6px;
+}
+/* end Department Footer */
+
+
+/* Page Header Region */
+#header-wrapper {
+  /* margin-bottom: 2em; */
+}
+
+.page-humanities #header-wrapper,
+.page-social-sciences #header-wrapper,
+.page-psychology #header-wrapper {
+  margin-bottom: 6px;
+}
+/* end Page Header Region */
+
+/* Home Page Header */
+#header .iit-page-header h2 {
+  font-size: 2.3125em;
+  padding: 1.25em 0 0.26666666666667em;
+}
+/* end Home Page Header */
+
+/* Department Page Header */
+#header .lewis-dept-header a h2 {
+    margin: 0 0 0 0.22857142857143em;
+    font-size: 2.1875em;
+}
+/* end Department Page Header */
+
+/* header menu */
+#header .block-menu-block ul {
+	float: left;
+	width: 100%;
+}
+
+#header .block-menu-block .menu-block-wrapper ul li {
+	float: left;
+}
+/* end header menu */
+
+/* header top 3 menu */
+#header #block-menu-block-3 {
+    position: absolute;
+    right:0;
+    top: 12px;
+}
+/* end header top 3 menu*/
+
+
+/* Lewis Hompage Hero Nav */
+#content .lewis-home .hero-row {
+    margin: 0 10px;
+}
+
+#content .lewis-home .hero-row .block-inner {
+    margin: 0;
+}
+
+#content .lewis-home .hero-row .block {
+    margin: 0;
+}
+
+#content .lewis-home .hero-row .hero-left {
+    float: left;
+    width: 28.125%;
+    margin-right: 1.785714285714%;
+}
+
+#content .lewis-home .hero-row .hero-left .inside {
+    padding: 0;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav {
+    margin-bottom: 6.031746031746%;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav a {
+    display: block;
+    position: relative;
+    height: 0;
+    padding-bottom: 20%;
+    color: #fff;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav a span {
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav::after {
+    content: "";
+    background-color: #295F6C;
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 1.904761904762%;
+    margin-top: 0.634920634921%;
+    
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-hum::after {
+    background-color: #a6a89c;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-psy::after {
+    background-color: #302e2f;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-soc::after {
+    background-color: #b84e46;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-hum a {
+    background-color: #89b3c1;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-psy a {
+    background-color: #7d9395;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-soc a {
+    background-color: #6291a5;
+}
+
+#content .lewis-home .hero-row .hero-left .hero-nav-app a {
+    background-color: #8ead52;
+}
+
+#content .lewis-home .hero-row .hero-right {
+    float: left;
+    width: 70.089285714286%;
+}
+
+#content .lewis-home .hero-row .hero-right .inside {
+    padding: 0;
+}
+
+#content .lewis-home .hero-row .hero-right img {
+    margin: 0;
+    display: block;
+}
+/* end Lewis Hompage Hero Nav */
+
+
+
+/* faculty directory view */
+.lewis-faculty-directory.view-faculty .views-row {
+    border-bottom: 0;
+    padding: 0.25em 0;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-nothing {
+  float:left;
+  width:35%;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-field-title {
+  float: left;
+  width: 65%;
+  padding-top: 0.538461538em;
+}
+/* end faculty directory view */
+
+
+/* full faculty bio view */
+.node-faculty .two-brick > .panel-row > .region-two-brick-right-above {
+  width: 71%;
+}
+
+.node-faculty .two-brick > .panel-row > .region-two-brick-left-above {
+  width: 26%;
+  margin-right: 3%;
+}
+/* end full faculty bio view */
+
+
+/* faculty department directory view */
+.department-faculty-directory.view-faculty .views-row {
+    border-bottom: 0;
+    padding: 0.25em 0;
+}
+
+.department-faculty-directory.view-faculty .views-field-title {
+  float:left;
+  width:35%;
+}
+
+.department-faculty-directory.view-faculty .views-field-field-title {
+  float: left;
+  width: 65%;
+  padding-top: 0.538461538em;
+}
+/* end faculty directory view */

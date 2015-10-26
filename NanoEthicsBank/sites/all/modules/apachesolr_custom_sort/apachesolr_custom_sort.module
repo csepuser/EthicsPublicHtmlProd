@@ -1,0 +1,138 @@
+<?php
+
+/**
+* Implementation of hook theme.
+* 
+*/
+function apachesolr_custom_sort_theme() {
+  
+   return array(
+    'apachesolr_sort_groups' => array(
+      'arguments' => array('form' => NULL),
+      'file' => 'apachesolr_custom_sort.admin.inc',
+    ),
+  );
+}
+
+/**
+* Implementation of hook menu.
+* 
+*/
+function apachesolr_custom_sort_menu() {
+  
+  $items = array();
+  
+  // the sort group overview page
+  $items['admin/settings/apachesolr_sort_groups'] = array(
+    'title' => 'Apache Solr Custom Sort Groups',
+    'file' => 'apachesolr_custom_sort.admin.inc',
+    'description' => 'Administer sorting groups for Apache Solr.',
+    'page callback' => 'apachesolr_custom_sort_apachesolr_sort_group_overview',
+    'access arguments' => array('administer search'),
+    'type' => MENU_LOCAL_TASK,
+  );
+  
+  // add a new sort group page
+  $items['admin/settings/apachesolr_sort_group/add'] = array(
+    'title' => 'New Sort Group',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('apachesolr_custom_sort_apachesolr_sort_group_form'),
+    'access arguments' => array('administer search'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'apachesolr_custom_sort.admin.inc',
+  );
+  
+  // edit existing sort group page
+  $items['admin/settings/apachesolr_sort_group/%apachesolr_sort_group/edit'] = array(
+    'title callback' => 'apachesolr_custom_sort_apachesolr_sort_group_title_callback',
+    'title arguments' => array('Edit sort group: !sortname', 3),
+    'file' => 'apachesolr_custom_sort.admin.inc',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('apachesolr_custom_sort_apachesolr_sort_group_form', 3),
+    'access arguments' => array('administer search'),
+    'type' => MENU_CALLBACK,
+  );
+  
+  // delete specified sort group page
+  $items['admin/settings/apachesolr_sort_group/%apachesolr_sort_group/delete'] = array(
+    'title' => 'Delete sort group',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('apachesolr_custom_sort_apachesolr_sort_group_delete_form_submit', 3),
+    'access arguments' => array('administer search'),
+    'type' => MENU_CALLBACK,
+    'file' => 'apachesolr_custom_sort.admin.inc',
+  );
+  
+  // ahah callback button
+  $items['apachesolr_sorting/ahah/callback'] = array(
+    'type' => MENU_CALLBACK,
+    'page callback' => 'apachesolr_custom_sort_apachesolr_sort_group_ahah',
+    'access callback' => TRUE,
+    'file' => 'apachesolr_custom_sort.admin.inc',
+  );
+     
+  return $items;
+}
+
+/**
+* Customises the title of the form page by showing the name of the sort group.
+* 
+* @param mixed $title
+* @param mixed $sort
+* @param mixed $action
+* @return string
+*/
+function apachesolr_custom_sort_apachesolr_sort_group_title_callback($title, $sort = NULL, $action = array()) {
+  return t($title, array('!sortname' => $sort->name));
+}
+
+/**
+* Loads the required sort group settings.
+* 
+* @param mixed $group_name
+*   Name of the group to load.
+*/
+function apachesolr_sort_group_load($group_name) {
+
+  $result = NULL;
+  
+  $settings = apachesolr_custom_sort_apachesolr_sort_group_load();
+  
+  foreach ($settings as $key => $value) {
+    
+    if ($key == $group_name) {
+      $result = $value;
+    }
+  }  
+
+  return $result;
+}
+
+/**
+* Loads the sort group settings.
+* 
+*/
+function apachesolr_custom_sort_apachesolr_sort_group_load() {
+  return variable_get('sort_field_settings', array());
+}
+
+/**
+* Delete the named sort group from the settings collection.
+* 
+* @param mixed $group_name
+*   Name of the group to remove.
+*/
+function apachesolr_custom_sort_apachesolr_sort_group_delete($group_name) {
+  
+  $settings = apachesolr_custom_sort_apachesolr_sort_group_load();
+  $updated_settings = array();
+  
+  foreach ($settings as $key => $value) {
+    
+    if ($value->name != $group_name) {
+      $updated_settings[$key] = $value;
+    }
+  }
+  
+  variable_set('sort_field_settings',$updated_settings);
+}

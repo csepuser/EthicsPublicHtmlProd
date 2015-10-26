@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){a("nav.block-menu-block li").hover(function(){a(this).css("cursor","pointer")},function(){a(this).css("cursor","auto")});a("nav.block-menu-block li").click(function(b){b=a(this).children("a").attr("href");window.location.href=b});a("nav.block-menu-block li a").click(function(a){a.stopPropagation()})});

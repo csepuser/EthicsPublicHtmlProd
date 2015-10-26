@@ -1,0 +1,24 @@
+<?php
+// $Id: dc2cck.install,v 1.1 2010/06/01 10:34:12 pkiraly Exp $
+
+/**
+ * Implementation of hook_schema().
+ */
+function dc2cck_schema() {
+  // Table for positions and types of the challenges.
+  $schema = array();
+  return $schema;
+}
+
+/**
+ * Implementation of hook_install().
+ */
+function dc2cck_install() {
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function dc2cck_uninstall() {
+}
+

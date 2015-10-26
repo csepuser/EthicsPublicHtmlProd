@@ -1,0 +1,248 @@
+/*- Giordani styles v0.2 - Drupal6x - 20/06/08
+author:singalkuppe: leoni.matteo[at]gmail.com - www.signalkuppe.com
+ */
+
+/*- Sidebar Subpages Menu */
+
+.lsidebar {
+	width: 180px;
+	float: left;
+	margin-top:0px;
+	margin-right:15px;
+	margin-bottom:0px;
+	margin-left:0px;
+	}
+.rsidebar {
+	width: 180px;
+	float: left;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:15px;
+	}	
+
+/*added on sep 22, 2011.*/
+body {
+  margin: 0;
+  background: #efefef;
+}
+.main-container {
+  padding-bottom: 10px;
+}
+#header {
+  background: url('media/collection_header3.png') 0 2px no-repeat #fff;
+  height: 110px;
+  padding: 5px 0 0 0;
+}
+#header #eel-logo {
+  width: 461px;
+  height: 90px;
+  /*background: url("media/ecodes.png") #efefef no-repeat;*/
+  cursor: pointer;
+}
+#header table {
+  height: auto;
+  border-collapse: separate;
+}
+#header table td {
+  text-align: right;
+  font-size: 1em;
+}
+#header p.slogan {
+  line-height: 1.2em;
+  padding: 0;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+#page {
+  border: none;
+}
+#page .wrapper {
+  margin: 15px 15px 0;
+}
+#footer {
+  border: none;
+  padding: 10px 0 10px 0;
+  font-family: "Trebuchet MS";
+  color: #fff;
+  background: #000;
+}
+
+/*Sep 26*/
+
+#utilities {
+  background: none;
+  background-color: #111;
+}
+#utilities #plinks ul li a {
+  border-right: 1px solid #cc0000;
+}
+#utilities #plinks ul li a,
+#utilities #plinks ul li a:hover {
+  background: none;
+}
+#utilities #plinks ul li a:hover {
+  background-color: #cc0000;
+}
+
+#utilities #plinks ul li a.active, #utilities #plinks ul li a.active:hover, body #utilities #plinks ul li.expanded a.active {
+  background: #c00;
+}
+
+#utilities #plinks ul li.expanded a.primoespanso {
+  background: none;  
+}
+#utilities #plinks ul li.expanded:hover a.primoespanso {
+  background-color: #c00;
+}
+#utilities #plinks ul li.expanded a {
+  background: none;
+  background-color: #c00;
+  opacity: 0.9;
+}
+#utilities #plinks ul li.expanded a:hover {
+  background-color: #000;
+}
+#utilities #plinks ul li.last a {
+  border: 0px;
+}
+
+#header .user-links {
+  padding-bottom: 5px;
+}
+
+/*Sep 28*/
+.anonymous-user .node-edit-link ul.links {
+  display: none;
+}
+
+/*Oct 4*/
+a.no-style, a:hover.no-style {
+  border: 0;
+  background: none !important;
+}
+a.no-style img {
+  margin: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/**/
+.rsidebar .view-Aggregator ul.pager li {
+  background: none;
+}
+.view-Aggregator .views-row {
+  border-bottom: 1px dotted;
+}
+.view-Aggregator h3 {
+  font-size: 11px;
+}
+
+/*nov 21*/
+li {
+  margin-left: 25px;
+}
+#search .form-text {
+  width: 200px;
+  height: 24px;
+}
+
+/*nov 22*/
+.views-admin-links ul.links, .views-hide {
+  display: none;
+}
+#primary .singlepage p {
+  margin: 0 0 0 0 !important;
+}
+.node .field {
+  margin-top: 7px;
+}
+.view-ethics-area-taxonomy .views-row {
+  border-bottom: 1px dashed;
+}
+.views-view-grid {
+  width: 100%;
+}
+.views-view-grid tr td {
+  border-bottom: 1px dashed #555;
+}
+.views-view-grid tr.row-last td {
+  border-bottom: 0;
+}
+.views-view-grid tr td.col-1,
+.views-view-grid tr td.col-2 {
+  width: 50%;
+}
+.views-view-grid tr td.col-1 {
+  /*border-left: 1px solid #555;*/
+  background-color: #efefef;
+}
+
+/*nov 23*/
+.view-individual-codes ol {
+  list-style-type: lower-alpha;
+}
+.view-organizations ol li {
+  margin-top: 12px;
+}
+.view-individual-codes ol li {
+  margin-top: 5px;
+}
+
+/*nov 30*/
+.node .field-field-code-description {
+  margin-top: 20px;
+}
+.node .field-field-contents {
+  border-top: 1px solid red;
+  padding-top: 10px;
+}
+.faceted-search-facet .item-list li {
+  line-height: 16px;
+  margin: 0 0 3px 0;
+}
+
+/**/
+.faceted-search-keyword {
+  display: none;
+}
+#views-exposed-form-custom-facet-search-page-1 .views-exposed-form {
+  display: none;
+}
+.view-custom-facet-search .view-content {
+  padding-top: 10px;
+}
+.view-custom-facet-search .views-row {
+  padding: 5px 0 5px 0;
+  border-top: 1px solid #efefef;
+}
+.view-custom-facet-search .views-row .views-field-title {
+  padding-bottom: 4px;
+}
+.view-custom-facet-search .views-row .views-field-field-contents-value {
+  line-height: 1.3em;
+  padding-bottom: 4px;
+}
+.singlepage .view-custom-facet-search .view-content .views-row-last {
+  padding-bottom: 25px;
+}
+
+/**/
+#search-theme-form .form-text {
+  height: 30px;
+  width: 250px;
+  background: url('media/search-icon-black.png') right center no-repeat #fff;
+  border: 0px;
+  border-left: 2px solid #555;
+  font-size: 15px;
+}
+#search-theme-form .form-submit {
+  display: none;
+}
+
+#primary .content blockquote {
+  background-color: #fff;
+  border: 0px;
+}

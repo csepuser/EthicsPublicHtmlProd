@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><!-- TemplateBeginEditable name="title" -->
+<title>CSEP Purpose and Mission</title><!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../newlayout/styles.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../newlayout/favicon.ico" >
+<!-- TemplateParam name="Content" type="text" value="" -->
+</head>
+
+<body>
+<div id="page">
+<!--#include virtual="../newlayout/header_wrapper.php" -->
+  <div id="scroll"></div>
+
+<div id="logo"> 
+	<h1>C<SPAN STYLE="color: #800000">S</span><br>
+	<SPAN STYLE="color: #800000">E</span>P</h1>
+</div>
+
+<div id="topnavcontainer">
+
+	<div id="banner">
+		<h1><SPAN STYLE="color: #800000">Center</span> for the <SPAN STYLE="color: #800000">Study</span> 
+		of <SPAN STYLE="color: #800000">Ethics</span> in the <SPAN STYLE="color: #800000">Professions</span> at
+		<SPAN STYLE="color: #800000">IIT</span></h1>
+	</div>  
+
+</div>
+  
+<div id="container"> 
+
+	<div id="navcontainer"> 
+      <ul id="navlist">
+        <li id="active"><a href="../csep/aboutcsep.html" class="current">About 
+          the CSEP</a> 
+          <ul id="subnavlist">
+            <li id="subactive"><a href="../csep/purpose.html" class="subcurrent">Purpose</a></li>
+            <li><a href="../csep/staff.html" class="subcurrent">Staff</a></li>
+          </ul>
+        </li>
+        <li><a href="../currentactivities/currentactivities.html" class="current">Current 
+          Activities</a></li>
+        <li><a href="../calendar/index2.html" class="current">Calendar</a></li>
+        <li><a href="../codes/coe.html" class="current">Codes of Ethics</a></li>
+		<li><a href="http://hum.iit.edu/NanoEthicsBank/intro/intro.html" class="current">NanoEthicsBank</a></li>
+		<li><a href="http://hum.iit.edu:8080/aire/mainindex.html" class="current">Software Engineering Code of Ethics</a></li>
+        <li ><a href="../eac/index.html" class="current">Ethics 
+              Across the Curriculum</a></li>
+		<li ><a href="../eb/index.html" class="current">Ethics Bowl</a></li>
+		<li><a href="../iitcode/index.html" class="current">IIT Code of Ethics</a></li>
+        <li><a href="../publication/publications.html" class="current">Publications</a></li>
+        <li><a href="../library.html" class="current">Library</a></li>
+        <li><a href="../resources/resources.html" class="current">Resources</a></li>
+        <li><a href="../search.php" class="current">Search</a></li>
+        <li><a href="../contactus.html" class="current">Contact Us</a></li>
+      </ul>
+    </div>
+	
+	<!-- TemplateBeginEditable name="breadcrumbs" -->
+	<div id="breadcrumbs"><a href="../index.html">Home</a> >> About CSEP</div>
+	<!-- TemplateEndEditable -->
+	<div id="content" content="@@(Content)@@">     
+	<!-- TemplateBeginEditable name="Content" -->	
+      <h2>Purpose and MisContentsion </h2>
+      <p> CSEP promotes innovative teaching. It generated professional ethics courses 
+			at IIT and assists faculty at other universities to prepare for teaching 
+			professional ethics and to develop courses and programs. CSEP's <a href="../eac/index.html">Ethics 
+			Across the Curriculum</a> project, supported by a grant from the National 
+			Science Foundation, prepares instructors to integrate ethics in ordinary 
+			courses. The project includes workshops for IIT faculty, professional 
+			society representatives concerned with continuing education, and faculty 
+			from other institutions.</p>
+		<p> Externally funded projects enable CSEP to conduct interdisciplinary research 
+			involving practitioners, as well as academics from IIT and other institutions. 
+			Topics CSEP has addressed include intellectual property protection for 
+			science and technology, national security restrictions on the dissemination 
+			of scientific and technical information, responsible conduct in science, 
+			university/industry research relationships, organizational development, 
+			ethics in vocational education, and individual and collective responsibility 
+			in engineering.</p>  
+		<p> CSEP assists professional societies in developing and revising codes of 
+			ethics and presenting ethics programs. It also conducts ethics workshops 
+			for business, trade associations, and city government.</p>
+      <p>&nbsp;</p>
+ 
+   		<div class="returntotop"><a href="#">return to top</a></div>
+	  <!-- TemplateEndEditable -->
+	</div>
+	
+	
+
+</div>
+
+<div id="footer"> 
+	<ul>
+		<li><a href="../search.php">Search CSEP</a></li>
+		<li><a href="../sitemap.html">Site Map</a></li>
+		<li><a href="../contactus.html">Contact CSEP</a></li>
+	</ul>
+</div>
+ <!--#include virtual="../newlayout/footer_wrapper.php" -->
+</div>
+</body>
+</html>

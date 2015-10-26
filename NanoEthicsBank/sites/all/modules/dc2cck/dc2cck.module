@@ -1,0 +1,85 @@
+<?php
+// $Id: dc2cck.module,v 1.1 2010/06/01 10:34:12 pkiraly Exp $
+
+/**
+ * Implementation of hook_oaiharvester_process_record().
+ */
+function dc2cck_oaiharvester_process_record($record, $schedule_id) {
+  global $user;
+  $xc_oai_harvester_bridge_active = TRUE;
+  
+  $schedule = _oaiharvester_schedule_get_full($schedule_id);
+  $sets = dc2cck_get_sets($schedule->provider_id);
+  
+  $identifier   = $record['header']['identifier'];
+  $datestamp    = $record['header']['datestamp'];
+  $setSpec      = $record['header']['setSpec'];
+  $about        = $record['about'];
+  $namespaceURI = $record['metadata']['namespaceURI'];
+  $dcNode       = $record['metadata']['childNode'];
+  
+  // we handle only Dublin Core schema records
+  if($namespaceURI != 'http://www.openarchives.org/OAI/2.0/oai_dc') {
+    watchdog('content', 'Namespace: @ns.', array('@ns' => $namespaceURI));
+    return;
+  }
+
+  $node_type = 'cck_oai_dc';
+  $node = new stdClass();
+  $node->type = $node_type;
+  $node->name = '';
+  $node->field_dc_source_name[] = array('value' => $schedule->repository_name);
+  $node->field_dc_source_url[]  = array('value' => $schedule->oai_provider_url);
+  foreach($record['header']['setSpec'] as $set_spec) {
+    $node->field_dc_source_set[] = array('value' => $sets[$set_spec]);
+  }
+  $length = $dcNode->childNodes->length;
+  for($i = 0; $i < $length; $i++) {
+    $elemenent = $dcNode->childNodes->item($i);
+    if($elemenent->nodeType == XML_ELEMENT_NODE) {
+      $name = str_replace($elemenent->prefix . ':', '', $elemenent->nodeName);
+      if($name == 'title') {
+        $node->title = $elemenent->nodeValue;
+      }
+      else {
+        $name = 'field_dc_' . $name;
+        if(!isset($node->$name)) {
+          $node->$name = array();
+        }
+        array_push($node->$name, array('value' => $elemenent->nodeValue));
+      }
+    }
+  }
+  $node = node_submit($node);
+  node_save($node);
+  if ($node->nid) {
+    watchdog('content', '@type: added %title using blog API.', 
+      array('@type' => $node->type, '%title' => $node->title), WATCHDOG_NOTICE,
+      l(t('view'), "node/$node->nid"));
+  }
+}
+
+function dc2cck_get_sets($provider_id) {
+  static $cache;
+  if(!isset($cache[$provider_id])) {
+    $results = _oaiharvester_sets_get_by_provider($provider_id);
+    $sets = array();
+    while ($data = db_fetch_object($results)) {
+      $sets[$data->set_spec] = $data->display_name;
+    }
+    $cache[$provider_id] = $sets;
+  }
+  return $cache[$provider_id];
+}
+/**
+ * Implementation of hook_oaiharvester_request_processed()
+ */
+function dc2cck_oaiharvester_request_processed() {
+}
+
+/**
+ * Implementation of hook_oaiharvester_harvest_finished()
+ */
+
+function dc2cck_oaiharvester_harvest_finished($success, $results, $operations) {
+}

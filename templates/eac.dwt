@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Ethics Across the Curriculum</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../newlayout/styles.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../newlayout/favicon.ico" >
+</head>
+
+<body>
+<div id="page">
+<!--#include virtual="../templates/header_wrapper.php" -->
+  <div id="scroll"></div>
+
+<div id="logo"> 
+	<h1>C<SPAN STYLE="color: #800000">S</span><br>
+	<SPAN STYLE="color: #800000">E</span>P</h1>
+</div>
+
+<div id="topnavcontainer"> 
+
+	<div id="banner"> 
+		<h1><SPAN STYLE="color: #800000">Center</span> for the <SPAN STYLE="color: #800000">Study</span> 
+		of <SPAN STYLE="color: #800000">Ethics</span> in the <SPAN STYLE="color: #800000">Professions</span> at
+		<SPAN STYLE="color: #800000">IIT</span></h1>
+	</div>
+
+</div>
+
+<div id="container"> 
+
+	<div id="navcontainer"> 
+      <ul id="navlist">
+        <li><a href="../csep/aboutcsep.html" class="current">About the CSEP</a></li>
+        <li><a href="../currentactivities/currentactivities.html" class="current">Current 
+          Activities</a></li>
+        <li><a href="../calendar/index2.html" class="current">Calendar</a></li>
+        <li><a href="../codes/coe.html" class="current">Code of Ethics</a></li>
+		<li><a href="file://///Sea/Projects/NanoEthicsBank/intro/intro.html" class="current">NanoEthicsBank</a></li>
+		<li><a href="http://hum.iit.edu:8080/aire/mainindex.html" class="current">Software Engineering Archive</a></li>
+        <li id=" active"><a href="../eac/index.html" class="current">Ethics 
+              Across the Curriculum</a></li>
+      
+				<ul id="subnavlist">
+					<li id="subactive"><a href="../eac/bibliography/index.html" class="subcurrent">Bibliography
+					    of EAC Materials</a></li>
+					
+					<li id="subactive"><a href="../eac/other_resources.html" class="subcurrent">Online
+					    Resources</a></li>
+					<li id="subactive"><a href="../eac/schedule.html" class="subcurrent">Sample
+					    Workshop Schedule</a></li>
+					<li id="subactive"><a href="../eac/post_workshop/index.html" class="subcurrent">Post
+					    Workshop Materials</a></li>
+				</ul>
+		<li><a href="../eb/index.html" class="current">Ethics 
+              Bowl</a></li>  
+        <li><a href="../iitcode/index.html" class="current">IIT Code of Ethics</a></li> 
+		
+        <li><a href="../publication/publications.html" class="current">Publications</a></li>
+        <li><a href="../library.html" class="current">Library</a></li>
+        <li><a href="../resources/resources.html" class="current">Resources</a></li>
+        <li><a href="../search.php" class="current">Search</a></li>
+        <li><a href="../contactus.html" class="current">Contact Us</a></li>
+      </ul>
+    </div>
+
+	<!-- TemplateBeginEditable name="breadcrumbs" -->
+	
+	<div id="breadcrumbs"> <a href="../index.html">Home</a> >> Programs</div>
+
+	<!-- TemplateEndEditable -->
+	
+	<!-- TemplateBeginEditable name="content"-->
+
+	<div id="content"> 
+		<h2>Programs</h2>
+		<p> <span class="dropcap">L</span>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+			eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+			voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+			nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
+			diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+			sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam 
+			erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing 
+			elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+			aliquyam erat, sed diam voluptua</p>
+	  
+		<div class="returntotop"><a href="#">return to top</a></div>
+	  
+	</div>
+	
+	<!-- TemplateEndEditable -->
+
+</div>
+
+<div id="footer"> 
+	<ul>
+		
+      <li><a href="../search.php">Search CSEP</a></li>
+		<li><a href="../sitemap.html">Site Map</a></li>
+		<li><a href="../contactus.html">Contact CSEP</a></li>
+	</ul>
+</div>
+<!--#include virtual="../templates/footer_wrapper.php" -->
+</div>
+</body>
+</html>

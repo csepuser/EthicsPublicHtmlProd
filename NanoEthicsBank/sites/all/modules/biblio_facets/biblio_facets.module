@@ -1,0 +1,531 @@
+<?php
+// $Id: biblio_facets.module,v 1.12.2.1 2009/12/17 20:59:52 rjerome Exp $
+
+/**
+ * @file
+ * Provides facets based on Biblio fields.
+ */
+
+require_once('./'. drupal_get_path('module', 'faceted_search') .'/faceted_search.inc');
+
+/**
+ * Implementation of hook_faceted_search_collect().
+ */
+function biblio_facets_faceted_search_collect(&$facets, $domain, $env_id, $selection, $arg = NULL) {
+  switch ($domain) {
+    case 'facets':
+      $fields = _biblio_facets_get_fields();
+      foreach ($fields as $field) {
+        $key = _biblio_facets_field_to_key($field->tid, $field->fid);
+        if (!isset($selection) || isset($selection['biblio_field'][$key])) {
+          if (module_exists('biblio_normalize') && biblio_normalize_is_normalized($field->tid, $field->fid)) {
+            $facets[] = new biblio_normalized_field_facet($field);
+          }
+          else {
+            $facets[] = new biblio_field_facet($field);
+          }
+        }
+      }
+      break;
+
+    case 'text':
+      // Scan the given search text for a 'biblio_field:{tid}.{fid}:"{value}"'
+      // token, and create facets from it.
+      if ($found_text = _biblio_facets_quoted_query_extract($arg, 'biblio_field')) {
+        // Extract separate facets. Using a regex rather than a simple
+        // explode(',',$found_text) because commas might be used in field values and
+        // we want to ignore those when splitting the text.
+        $specifiers = array();
+        if (preg_match_all('/((.+?[.].+?):".+?")(,| |$)/', $found_text, $specifiers)) {
+          $fields = _biblio_facets_get_fields();
+          foreach ($specifiers[1] as $index => $specifier) {
+            $key = $specifiers[2][$index];
+            if (isset($key) && isset($fields[$key]) && (!isset($selection) || isset($selection['biblio_field'][$key]))) {
+              list($tid, $fid, $value) = _biblio_facets_key_to_field($specifier);
+              if (isset($tid) && is_numeric($tid) && $tid >= 0 && isset($fid) && is_numeric($fid) && $fid > 0 && isset($value)) {
+                // Create an active facet with the value found in the search text.
+                if (module_exists('biblio_normalize') && biblio_normalize_is_normalized($tid, $fid)) {
+                  $active_category = new biblio_normalized_field_category($fields[$key], $value);
+                  $facets[] = new biblio_normalized_field_facet($fields[$key], $active_category);
+                }
+                else {
+                  $active_category = new biblio_field_category($fields[$key], $value);
+                  $facets[] = new biblio_field_facet($fields[$key], $active_category);
+                }
+              }
+            }
+          }
+        }
+        // Remove the parsed text
+        $arg = _biblio_facets_quoted_query_insert($arg, 'biblio_field');
+      }
+      return $arg;
+
+    case 'node':
+      if ($arg->type == 'biblio') {
+        $fields = _biblio_facets_get_fields();
+        foreach ($fields as $field) {
+          $key = _biblio_facets_field_to_key($field->tid, $field->fid);
+          if ((!isset($selection) || isset($selection['biblio_field'][$key])) && ($field->tid == 0 || $arg->biblio_type == $field->tid) && !empty($arg->{$field->name})) {
+            // Create a facet with the found field value as the active category.
+            if (module_exists('biblio_normalize') && biblio_normalize_is_normalized($field->tid, $field->fid)) {
+              $values = biblio_normalize_get_normalized_values($arg, $field);
+              foreach ($values as $value) {
+                $active_category = new biblio_normalized_field_category($field, $value);
+                $facets[] = new biblio_normalized_field_facet($field, $active_category);
+              }
+            }
+            else {
+              $active_category = new biblio_field_category($field, $arg->{$field->name});
+              $facets[] = new biblio_field_facet($field, $active_category);
+            }
+          }
+        }
+      }
+      break;
+  }
+}
+
+/**
+ * A facet for Biblio fields. Each facet represents a Biblio field.
+ *
+ * @see biblio_field_category
+ */
+class biblio_field_facet extends faceted_search_facet {
+  /**
+   * Field object corresponding to this facet.
+   *
+   * @see biblio_facets_get_fields
+   */
+  var $_field = NULL;
+
+  /**
+   * Constructor. Optionally assigns the active category of the facet.
+   *
+   * @param $field
+   *   Field object corresponding to this facet.
+   *
+   * @param $active_category
+   *   Optional. This facet's active category.
+   */
+  function biblio_field_facet($field, $active_category = NULL) {
+    $this->_field = $field;
+    $active_path = array();
+    if (isset($active_category)) {
+      $active_path[] = $active_category;
+    }
+    parent::faceted_search_facet('biblio_field', $active_path);
+    parent::set_weight($field->weight); // Assign default weight.
+  }
+
+  /**
+   * Return the id of this facet.
+   */
+  function get_id() {
+    return _biblio_facets_field_to_key($this->_field->tid, $this->_field->fid);
+  }
+
+  /**
+   * Return the label of this facet. The implementor is responsible to ensure
+   * adequate security filtering.
+   */
+  function get_label() {
+    return check_plain($this->_field->title);
+  }
+
+  /**
+   * Return the name of the type using this field to help site administrators
+   * differenciate fields that use the same name.
+   */
+  function get_help() {
+    return $this->_field->typename;
+  }
+
+  /**
+   * Returns the available sort options for this facet.
+   */
+  function get_sort_options() {
+    $options = parent::get_sort_options();
+    $options['field'] = check_plain($this->_field->title);
+    return $options;
+  }
+
+  /**
+   * Handler for the 'count' sort criteria.
+   */
+  function build_sort_query_count(&$query) {
+    $query->add_orderby('count', 'DESC');
+    $query->add_orderby(db_escape_string($this->_field->name), 'ASC');
+  }
+
+  /**
+   * Handler for the 'field' sort criteria.
+   */
+  function build_sort_query_field(&$query) {
+    $query->add_orderby(db_escape_string($this->_field->name), 'ASC');
+  }
+
+  /**
+   * Return the search text for this facet, taking into account this facet's
+   * active path.
+   */
+  function get_text() {
+    if ($category = $this->get_active_category()) {
+      return _biblio_facets_field_to_key($this->_field->tid, $this->_field->fid, $category->_value);
+    }
+    return '';
+  }
+
+  /**
+   * Updates a query for retrieving the root categories of this facet and their
+   * associated nodes within the current search results.
+   *
+   * @param $query
+   *   The query object to update.
+   *
+   * @return
+   *   FALSE if this facet can't have root categories.
+   */
+  function build_root_categories_query(&$query) {
+    if ($this->_field_fid  >= 1 && $this->_field_fid <= 5) {
+      $query->add_table('biblio_contributor', 'vid', 'n', 'vid');
+      $query->add_table('biblio_contributor_data', 'cid', 'biblio_contributor', 'cid');
+      $query->add_where("biblio_contributor_data.lastname = '%s'", $this->_value);
+    }
+    else {
+    $query->add_table('biblio', 'vid', 'n', 'vid');
+    $query->add_field('biblio', db_escape_string($this->_field->name));
+    $query->add_where("n.type = 'biblio'");
+    $query->add_where('CHAR_LENGTH(biblio.'. db_escape_string($this->_field->name) .') > 0');
+    $query->add_groupby('biblio.'. db_escape_string($this->_field->name));
+    }
+    if ($this->_field->tid == 0) {
+      // If tid is zero, it means the field is common to all types. Don't check
+      // for a specific type, but make sure we check only for visible ones.
+      $query->add_where('biblio.biblio_type IN ('. implode(', ', array_keys(biblio_facets_types())) .')');
+    }
+    else {
+      $query->add_where('biblio.biblio_type = %d', $this->_field->tid);
+    }
+    return TRUE;
+  }
+
+  /**
+   * This factory method creates categories given query results that include the
+   * fields selected in get_root_categories_query() or get_subcategories_query().
+   *
+   * @param $results
+   *   $results A database query result resource.
+   *
+   * @return
+   *   Array of categories.
+   */
+  function build_categories($results) {
+    $categories = array();
+    while ($result = db_fetch_object($results)) {
+      $field_name = 'biblio_'. db_escape_string($this->_field->name);
+      // Add a new category.
+      $categories[] = new biblio_field_category(
+        $this->_field,
+        $result->$field_name,
+        $result->count
+      );
+    }
+    return $categories;
+  }
+}
+
+/**
+ * A facet for normalized Biblio fields. Each facet represents a Biblio field
+ * that's been normalized with the Biblio Normalize module.
+ *
+ * @see biblio_normalized_field_category
+ */
+class biblio_normalized_field_facet extends biblio_field_facet {
+
+  /**
+   * Constructor. Optionally assigns the active category of the facet.
+   *
+   * @param $field
+   *   Field object corresponding to this facet.
+   *
+   * @param $active_category
+   *   Optional. This facet's active category.
+   */
+  function biblio_normalized_field_facet($field, $active_category = NULL) {
+    parent::biblio_field_facet($field, $active_category);
+  }
+
+  /**
+   * Handler for the 'count' sort criteria.
+   */
+  function build_sort_query_count(&$query) {
+    $query->add_orderby('count', 'DESC');
+    $query->add_orderby('biblio_normalize.value', 'ASC');
+  }
+
+  /**
+   * Handler for the 'field' sort criteria.
+   */
+  function build_sort_query_field(&$query) {
+    $query->add_orderby('biblio_normalize.value', 'ASC');
+  }
+
+  /**
+   * Updates a query for retrieving the root categories of this facet and their
+   * associated nodes within the current search results.
+   *
+   * @param $query
+   *   The query object to update.
+   *
+   * @return
+   *   FALSE if this facet can't have root categories.
+   */
+  function build_root_categories_query(&$query) {
+    $query->add_table('biblio_normalize', 'nid', 'n', 'nid');
+    $query->add_field('biblio_normalize', 'value');
+    $query->add_where("n.type = 'biblio'");
+    $query->add_where('biblio_normalize.fid = %d', $this->_field->fid);
+    $query->add_groupby('biblio_normalize_value');
+    if ($this->_field->tid == 0) {
+      // If tid is zero, it means the field is common to all types. Don't check
+      // for a specific type, but make sure we check only for visible ones.
+      $query->add_where('biblio_normalize.tid IN ('. implode(', ', array_keys(biblio_facets_types())) .')');
+    }
+    else {
+      $query->add_where('biblio_normalize.tid = %d', $this->_field->tid);
+    }
+    return TRUE;
+  }
+
+  /**
+   * This factory method creates categories given query results that include the
+   * fields selected in get_root_categories_query() or get_subcategories_query().
+   *
+   * @param $results
+   *   $results A database query result resource.
+   *
+   * @return
+   *   Array of categories.
+   */
+  function build_categories($results) {
+    $categories = array();
+    while ($result = db_fetch_object($results)) {
+      // Add a new category.
+      $categories[] = new biblio_normalized_field_category(
+        $this->_field,
+        $result->biblio_normalize_value,
+        $result->count
+      );
+    }
+    return $categories;
+  }
+}
+
+/**
+ * A facet category for Biblio fields.
+ *
+ * @see biblio_field_facet
+ */
+class biblio_field_category extends faceted_search_category {
+  var $_field_tid = NULL;
+  var $_field_fid = NULL;
+  var $_field_name = NULL;
+  var $_value = '';
+
+  /**
+   * Constructor.
+   */
+  function biblio_field_category($field, $value, $count = NULL) {
+    parent::faceted_search_category($count);
+    $this->_field_tid = $field->tid;
+    $this->_field_fid = $field->fid;
+    $this->_field_name = $field->name;
+    $this->_value = $value;
+  }
+
+  /**
+   * Return the label of this category.
+   *
+   * @param $html
+   *   TRUE when HTML is allowed in the label, FALSE otherwise. Checking this
+   *   flag allows implementors to provide a rich-text label if desired, and an
+   *   alternate plain text version for cases where HTML cannot be used. The
+   *   implementor is responsible to ensure adequate security filtering.
+   */
+  function get_label($html = FALSE) {
+    return check_plain($this->_value);
+  }
+
+  /**
+   * Updates a query for selecting nodes matching this category.
+   *
+   * @param $query
+   *   The query object to update.
+   */
+  function build_results_query(&$query) {
+    $query->add_table('biblio', 'vid', 'n', 'vid');
+    if ($this->_field_fid  >= 1 && $this->_field_fid <= 5) {
+      $query->add_table('biblio_contributor', 'vid', 'n', 'vid');
+      $query->add_table('biblio_contributor_data', 'cid', 'biblio_contributor', 'cid');
+      $query->add_where("biblio_contributor_data.lastname = '%s'", $this->_value);
+    }
+    else {
+      $query->add_where("biblio.".$this->_field_name." = '%s'", $this->_value);
+    }
+
+    $query->add_where("biblio.biblio_type = %d", $this->_field_tid);
+
+  }
+}
+
+/**
+ * A facet category for normalized Biblio fields.
+ *
+ * @see biblio_field_facet
+ */
+class biblio_normalized_field_category extends biblio_field_category {
+
+  /**
+   * Constructor.
+   */
+  function biblio_normalized_field_category($field, $value, $count = NULL) {
+    parent::biblio_field_category($field, $value, $count);
+  }
+
+  /**
+   * Updates a query for selecting nodes matching this category.
+   *
+   * @param $query
+   *   The query object to update.
+   */
+  function build_results_query(&$query) {
+    // Using tid and field name in table alias to avoid duplicate table names in JOINs
+    $alias = 'biblio_normalize_'. $this->_field_tid .'_'. $this->_field_fid;
+    $query->add_table('biblio_normalize', 'nid', 'n', 'nid', $alias);
+    $query->add_where("$alias.value = '%s'", $this->_value);
+    if ($this->_field_tid == 0) {
+      // If tid is zero, it means the field is common to all types. Don't check
+      // for a specific type, but make sure we check only for visible ones.
+      $query->add_where("$alias.tid IN (". implode(', ', array_keys(biblio_facets_types())) .')');
+    }
+    else {
+      $query->add_where("$alias.tid = %d", $this->_field_tid);
+    }
+  }
+}
+
+// --------------------------------------------------------------------------
+// Internal stuff
+
+/**
+ * Retrieves a specified Biblio type, or all visible Biblio types.
+ *
+ * @param $tid
+ *   Optional. The id of the Biblio type to retrieve. If omitted, all
+ *   visible Biblio types are returned.
+ *
+ * @return
+ *   Type object if a specific $tid was requested, or an array of type objects
+ *   otherwise.
+ */
+function biblio_facets_types($tid = 0) {
+  static $types = NULL;
+  if (!isset($types)) {
+    $types = array();
+    $results = db_query('SELECT tid, name, weight FROM {biblio_types} WHERE tid > 0 AND visible = 1 ORDER BY weight, name', $tid);
+    while ($type = db_fetch_object($results)) {
+      $types[$type->tid] = $type;
+    }
+  }
+  if ($tid == 0) {
+    return $types;
+  }
+  else {
+    return $types[$tid];
+  }
+}
+
+/**
+ * Retrieves all fields provided by Biblio (common fields and
+ * type-specific fields).
+ *
+ * @return
+ *   Array of field objects. A field object has the following attributes: tid
+ *   (Biblio type id), fid (Biblio field id), title, name (database column in
+ *   the Biblio table), weight. A tid of 0 denotes a field that's common to all
+ *   Biblio types.
+ */
+function _biblio_facets_get_fields() {
+  $fields = array();
+  // Note: The Biblio module has a visible attribute at the field level, but
+  // doesn't seem to use it at the moment. If that changes, we might have to add
+  // a condition for field visibility.
+  $results = db_query("SELECT bft.common, bft.visible, bft.tid, bft.fid, bft.weight, bftd.ftdid, bftd.title, bf.name, bf.type, bt.name as typename
+                        FROM biblio_field_type bft
+                        INNER JOIN biblio_field_type_data bftd on bftd.ftdid=bft.cust_tdid
+                        INNER JOIN biblio_fields bf on bf.fid = bft.fid
+                        LEFT JOIN biblio_types bt on bt.tid=bft.tid
+                        WHERE (bft.tid=0 or bft.common = 1 or bft.visible = 1 ) and type='textfield' and bf.name != 'biblio_keywords'
+                        group by bftd.ftdid
+                        ORDER BY bft.tid, bft.fid;");
+  while ($field = db_fetch_object($results)) {
+    $key = _biblio_facets_field_to_key($field->tid, $field->fid);
+    $fields[$key] = $field;
+  }
+  return $fields;
+}
+
+/**
+ * Returns a composite key with the specified field info.
+ */
+function _biblio_facets_field_to_key($tid, $fid, $value = NULL) {
+  $key = $tid .'.'. $fid;
+  if (isset($value)) {
+    // Escape double-quotes in the value and enclose it between double-quotes.
+    $key .= ':"'. strtr($value, '"', '""') .'"';
+  }
+  return $key;
+}
+
+/**
+ * Extracts field info from the specified composite key.
+ *
+ * @return
+ *   Array with tid, fid, and additional value (if any).
+ */
+function _biblio_facets_key_to_field($key) {
+  $components = explode(':', $key, 2);
+  if (isset($components[1])) {
+    // Unescape double-quotes, then trim surrounding double-quotes from value.
+    $value = trim(strtr($components[1], '""', '"'), '"');
+  }
+  $components = explode('.', $components[0], 2);
+  if (isset($value)) {
+    $components[] = $value;
+  }
+  return $components;
+}
+
+// TODO: Use faceted_search_quoted_query_extract()
+function _biblio_facets_quoted_query_extract($keys, $option) {
+  // Based on search_query_extract, but keys terminate on a double-quote
+  // followed by a space rather than a single space.
+  if (preg_match('/(^| )'. $option .':(.*?)(" |$)/i', $keys, $matches)) {
+    return $matches[2];
+  }
+}
+
+// TODO: Use faceted_search_quoted_query_insert()
+function _biblio_facets_quoted_query_insert($keys, $option, $value = '') {
+  // Based on search_query_insert, but keys terminate on a double-quote followed
+  // by a space rather than a single space.
+  if (search_query_extract($keys, $option)) {
+    $keys = trim(preg_replace('/(^| )'. $option .':(.*?)(" |$)/i', ' ', $keys));
+  }
+  if ($value != '') {
+    $keys .= ' '. $option .':'. $value;
+  }
+  return $keys;
+}
+

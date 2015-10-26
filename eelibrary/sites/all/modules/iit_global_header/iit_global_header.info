@@ -1,0 +1,14 @@
+name = IIT Global Header
+description = Provides an IIT Global Header block which parses JSON data to provide the markup for the IIT Universal header navigation. This module pulls the menu data from a Drupal menu service located in the main IIT install.
+
+core = 7.x
+package = Illinois Institute of Technology
+configure = admin/config/content/iit_global_header
+
+version = 7.x-1.2
+
+files[] = iit_global_header.module
+files[] = iit_global_header.install
+
+stylesheets[all][] = styles/iit-gh.css
+scripts[] = scripts/iit-gh-min.js

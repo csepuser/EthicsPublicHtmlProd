@@ -1,0 +1,231 @@
+<?php
+// $Id: biblio_type_facet.module,v 1.7.2.1 2009/12/17 20:59:52 rjerome Exp $
+
+/**
+ * @file
+ * Provides facets based on Biblio types.
+ */
+
+require_once('./'. drupal_get_path('module', 'faceted_search') .'/faceted_search.inc');
+
+/**
+ * Implementation of hook_faceted_search_collect().
+ */
+function biblio_type_facet_faceted_search_collect(&$facets, $domain, $env_id, $selection, $arg = NULL) {
+  switch ($domain) {
+    case 'facets':
+      // If the biblio type facet is allowed.
+      if (!isset($selection) || isset($selection['biblio_type'][1])) {
+        $facets[] = new biblio_type_facet();
+      }
+      break;
+
+    case 'text':
+      // If the biblio type facet is allowed.
+      if (!isset($selection) || isset($selection['biblio_type'][1])) {
+        // Scan the search text for a 'biblio_type:tid' token, and extract a
+        // facet from it.
+        if ($tid = search_query_extract($arg, 'biblio_type')) {
+          if (is_numeric($tid) && $tid > 0) {
+            if ($type = biblio_type_facet_types($tid)) {
+              // Create a facet with the biblio type found in the search text as
+              // the active category.
+              $facets[] = new biblio_type_facet($type->tid, $type->name);
+            }
+          }
+          // Remove the parsed token from the search text.
+          $arg = search_query_insert($arg, 'biblio_type');
+        }
+      }
+      return $arg;
+
+    case 'node':
+      // If the biblio type facet is allowed.
+      if ((!isset($selection) || isset($selection['biblio_type'][1])) && $arg->type == 'biblio' && isset($arg->biblio_type)) {
+        if ($type = biblio_type_facet_types($arg->biblio_type)) {
+          // Create a facet with the node's biblio type as the active category.
+          $facets[] = new biblio_type_facet($type->tid, $type->name);
+        }
+      }
+      break;
+  }
+}
+
+/**
+ * A facet for Biblio types.
+ *
+ * @see biblio_type_category
+ */
+class biblio_type_facet extends faceted_search_facet {
+
+  /**
+   * Constructor. Optionally assigns the active type of the facet.
+   */
+  function biblio_type_facet($tid = 0, $name = '') {
+    $active_path = array();
+    if ($tid > 0 && !empty($name)) {
+      $active_path[] = new biblio_type_category($tid, $name);
+    }
+    parent::faceted_search_facet('biblio_type', $active_path);
+  }
+
+  /**
+   * Return the id of this facet.
+   */
+  function get_id() {
+    return 1; // Only one facet of this class.
+  }
+
+  /**
+   * Return the label of this facet.
+   */
+  function get_label() {
+    return t('Publication type');
+  }
+
+  /**
+   * Returns the available sort options for this facet.
+   */
+  function get_sort_options() {
+    $options = parent::get_sort_options();
+    $options['type'] = t('Publication type');
+    return $options;
+  }
+
+  /**
+   * Handler for the 'count' sort criteria.
+   */
+  function build_sort_query_count(&$query) {
+    $query->add_orderby('count', 'DESC');
+    $query->add_orderby('biblio_types.weight', 'ASC');
+    $query->add_orderby('biblio_types.name', 'ASC');
+  }
+
+  /**
+   * Handler for the 'type' sort criteria.
+   */
+  function build_sort_query_type(&$query) {
+    $query->add_orderby('biblio_types.weight', 'ASC');
+    $query->add_orderby('biblio_types.name', 'ASC');
+  }
+
+  /**
+   * Return the search text for this facet, taking into account this facet's
+   * active path.
+   */
+  function get_text() {
+    if ($category = $this->get_active_category()) {
+      return $category->_tid;
+    }
+    return '';
+  }
+
+  /**
+   * Updates a query for retrieving the root categories of this facet and their
+   * associated nodes within the current search results.
+   *
+   * @param $query
+   *   The query object to update.
+   *
+   * @return
+   *   FALSE if this facet can't have root categories.
+   */
+  function build_root_categories_query(&$query) {
+    $query->add_table('biblio', 'vid', 'n', 'vid');
+    $query->add_table('biblio_types', 'tid', 'biblio', 'biblio_type');
+    $query->add_field('biblio_types', 'tid');
+    $query->add_field('biblio_types', 'name');
+    $query->add_where("n.type = 'biblio'");
+    $query->add_where('biblio_types.visible = 1');
+    $query->add_groupby('biblio_types_tid');
+    return TRUE;
+  }
+
+  /**
+   * This factory method creates categories given query results that include the
+   * fields selected in get_root_categories_query() or get_subcategories_query().
+   *
+   * @param $results
+   *   $results A database query result resource.
+   *
+   * @return
+   *   Array of categories.
+   */
+  function build_categories($results) {
+    $categories = array();
+    while ($result = db_fetch_object($results)) {
+      $categories[] = new biblio_type_category($result->biblio_types_tid, $result->biblio_types_name, $result->count);
+    }
+    return $categories;
+  }
+}
+
+/**
+ * A facet category for Biblio types.
+ *
+ * @see biblio_type_facet
+ */
+class biblio_type_category extends faceted_search_category {
+  var $_tid = 0;
+  var $_name = '';
+
+  /**
+   * Constructor.
+   */
+  function biblio_type_category($tid, $name, $count = NULL) {
+    parent::faceted_search_category($count);
+    $base = variable_get('biblio_base', 'biblio');
+    $this->_tid = $tid;
+    $this->_name = l($name, $base.'/type/'.$tid);
+  }
+
+  /**
+   * Return the label of this category.
+   */
+  function get_label() {
+    return $this->_name;
+  }
+
+  /**
+   * Updates a query for selecting nodes matching this category.
+   *
+   * @param $query
+   *   The query object to update.
+   */
+  function build_results_query(&$query) {
+    $query->add_table('biblio', 'vid', 'n', 'vid');
+    $query->add_where('biblio.biblio_type = %d', $this->_tid);
+  }
+}
+
+// --------------------------------------------------------------------------
+// Internal stuff
+
+/**
+ * Retrieves a specified Biblio type, or all visible Biblio types.
+ *
+ * @param $tid
+ *   Optional. The id of the Biblio type to retrieve. If omitted, all
+ *   visible Biblio types are returned.
+ *
+ * @return
+ *   Type object if a specific $tid was requested, or an array of type objects
+ *   otherwise.
+ */
+function biblio_type_facet_types($tid = 0) {
+  static $types = NULL;
+  if (!isset($types)) {
+    $types = array();
+    $results = db_query('SELECT tid, name, weight FROM {biblio_types} WHERE tid > 0 AND visible = 1 ORDER BY weight, name', $tid);
+    while ($type = db_fetch_object($results)) {
+      $types[$type->tid] = $type;
+    }
+  }
+  if ($tid == 0) {
+    return $types;
+  }
+  else {
+    return $types[$tid];
+  }
+}
+

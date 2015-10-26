@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Center for the Study of Ethics in the Professions</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../newlayout/styles.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../newlayout/favicon.ico" >
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="page">
+<!--#include virtual="../newlayout/header_wrapper.php" -->
+  <div id="scroll"></div>
+
+<div id="logo"> 
+	<h1>C<SPAN STYLE="color: #800000">S</span><br>
+	<SPAN STYLE="color: #800000">E</span>P</h1>
+</div>
+
+<div id="topnavcontainer"> 
+
+	<div id="banner"> 
+		<h1><SPAN STYLE="color: #800000">Center</span> for the <SPAN STYLE="color: #800000">Study</span> 
+		of <SPAN STYLE="color: #800000">Ethics</span> in the <SPAN STYLE="color: #800000">Professions</span> at
+		<SPAN STYLE="color: #800000">IIT</span></h1>
+	</div>
+
+</div>
+
+<div id="container"> 
+
+	<div id="navcontainer"> 
+      <ul id="navlist">
+        <li><a href="http://ethics.iit.edu/csep/aboutcsep.html" class="current">About 
+          the CSEP</a></li>
+        <li><a href="http://ethics.iit.edu/currentactivities/currentactivities.html" class="current">Current 
+          Activities</a></li>
+        <li><a href="http://ethics.iit.edu/calendar/index2.html" class="current">Calendar</a></li>
+        <li id="active"><a href="http://ethics.iit.edu/codes/coe.html" class="current">Codes 
+          of Ethics</a> </li>
+                <li><a href="http://hum.iit.edu/NanoEthicsBank/intro/intro.html" class="current">NanoEthicsBank</a></li> 
+        <li><a href="/index.html" class="current">Software Engineering Archive</a> 
+          <ul id="subnavlist">
+            <li id="subactive"><a href="../sea/templates/intro.html" class="subcurrent">About 
+              the Project</a></li>
+            <li><a href="../sea/html/archive_list.html" class="subcurrent">Index </a></li>
+            <li><a href="http://hum.iit.edu:8080/aire/index.html" class="subcurrent">Search 
+              the SE Archive</a></li>
+          </ul>
+        </li>
+		<li ><a href="http://ethics.iit.edu/eac/index.html" class="current">Ethics 
+              Across the Curriculum</a></li>
+        <li ><a href="http://ethics.iit.edu/eb/index.html" class="current">Ethics Bowl</a></li>
+		<li><a href="http://ethics.iit.edu/iitcode/index.html" class="current">IIT Code of Ethics</a></li> 
+        <li><a href="http://ethics.iit.edu/publication/publications.html" class="current">Publications</a></li>
+        <li><a href="http://ethics.iit.edu/library.html" class="current">Library</a></li>
+        <li><a href="http://ethics.iit.edu/resources/resources.html" class="current">Resources</a></li>
+        <li><a href="http://ethics.iit.edu/search.php" class="current">Search</a></li>
+        <li><a href="http://ethics.iit.edu/contactus.html" class="current">Contact 
+          Us</a></li>
+      </ul>
+    </div>
+
+	<!-- TemplateBeginEditable name="breadcrumbs" -->
+	
+	<div id="breadcrumbs">&nbsp;<a href="http://ethics.iit.edu">Home </a>&gt;&gt; <a href="../sea/index.html">Software
+	    Engineering Archive</a> &gt;&gt; Search</div>
+
+	<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="content"-->
+	<div id="content"> 
+		
+      <h2>Search Software Engineering Archive</h2>
+      <p>&nbsp;</p>
+      <table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="30"> </td>
+          <td width="320">
+            <form name="search" method="get" action="http://216.47.158.55:8080/aire/AIREQuery">
+              <input type="hidden" name="relreturned" value="10">
+              <b> <font face="Arial, Helvetica, sans-serif" size="-1">Search
+              In</font><br>
+                      <input type="radio" name="searchField" value="author" disabled>
+                      <font face="Arial, Helvetica, sans-serif" size="-1">Author
+                      <input type="radio" name="searchField" value="title" disabled>
+        Title
+        <input type="radio" name="searchField" value="document" checked>
+        Document <br>
+        <input type="text" name="terms" size="30" maxlength="127" value="">
+        <input type="image" src="../img/search.gif"  border=0 vspace="5" height="17" width="65" alt="Search" name="image">
+                      </font></b>
+              <p><font size="-1" face="Arial, Helvetica, sans-serif">
+              </font>              </p>
+            </FORM>
+          </td>
+        </tr>
+      </table>
+      <h2><a href="#"></a></h2>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+	
+	<!-- TemplateEndEditable -->
+
+</div>
+
+<div id="footer"> 
+	<ul>
+		<li><a href="http://ethics.iit.edu/search.php">Search CSEP</a></li>
+		<li><a href="http://ethics.iit.edu/sitemap.html">Site Map</a></li>
+		<li><a href="http://ethics.iit.edu/contactus.html">Contact CSEP</a></li>
+	</ul>
+</div>
+<!--#include virtual="file:///C|/Documents%20and%20Settings/Administrator/My%20Documents/SEA%20Web/newlayout/footer_wrapper.php" -->
+</div>
+</body>
+</html>

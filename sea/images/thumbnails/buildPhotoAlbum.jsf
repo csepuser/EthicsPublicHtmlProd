@@ -1,0 +1,476 @@
+App.progressCountTotal = 59;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/eac-banner.gif');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'eac-banner.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/eac-banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/eac-banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/eac-banner_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/eac-banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/eac-banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/eac-banner_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/grey_diamond.gif');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'grey_diamond.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/grey_diamond_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/grey_diamond_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/grey_diamond_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/grey_diamond_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/grey_diamond_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/grey_diamond_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_banner_address.gif');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'csep_banner_address.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/greenbal.gif');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'greenbal.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/greenbal_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/greenbal_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/greenbal_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/greenbal_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/greenbal_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/greenbal_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/arrow.gif');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'arrow.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/arrow_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/arrow_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/arrow_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/arrow_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/arrow_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/arrow_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/background4.gif');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'background4.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/background4_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/background4_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/background4_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/background4_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/background4_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/background4_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/banner.gif');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'banner.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/banner_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/banner_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/bground.gif');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'bground.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/bground_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/bground_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/bground_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/bground_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/bground_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/bground_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/button_f.gif');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'button_f.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/button_f_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/button_f_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/button_f_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/button_f_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/button_f_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/button_f_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/button_top.gif');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'button_top.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/button_top_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/button_top_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/button_top_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/button_top_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/button_top_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/button_top_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/cntr_title.gif');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'cntr_title.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cntr_title_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cntr_title_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cntr_title_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cntr_title_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cntr_title_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cntr_title_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/code-banner.GIF');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'code-banner.GIF';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/code-banner_GIF.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/code-banner_GIF.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/code-banner_GIF.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/code-banner_GIF.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/code-banner_GIF.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/code-banner_GIF.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_banner.gif');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'csep_banner.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_banner_address1.gif');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'csep_banner_address1.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_banner_address2.gif');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'csep_banner_address2.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_banner_address2_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_banner_address2_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_library_banner.gif');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'csep_library_banner.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_library_banner1.gif');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'csep_library_banner1.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_library_banner2.gif');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'csep_library_banner2.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner2_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner2_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep_library_banner_old3.gif');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'csep_library_banner_old3.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner_old3_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner_old3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep_library_banner_old3_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner_old3_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner_old3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep_library_banner_old3_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/grball.gif');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'grball.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/grball_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/grball_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/grball_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/grball_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/grball_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/grball_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/headname.gif');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'headname.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/headname_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/headname_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/headname_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/headname_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/headname_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/headname_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/info.gif');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'info.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/info_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/info_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/info_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/info_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/info_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/info_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/intro.gif');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'intro.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/intro_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/intro_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/intro_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/intro_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/intro_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/intro_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/line1.gif');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'line1.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/line1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/line1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/line1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/line1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/line1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/line1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/mast.gif');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'mast.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/mast_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/mast_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/mast_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/mast_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/mast_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/mast_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/redline.gif');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'redline.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/redline_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/redline_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/redline_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/redline_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/redline_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/redline_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/redlinev.gif');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'redlinev.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/redlinev_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/redlinev_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/redlinev_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/redlinev_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/redlinev_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/redlinev_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table1.gif');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'table1.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table2.gif');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'table2.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table2_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table2_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table3.gif');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'table3.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table3_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table3_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table3_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table3_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table4.gif');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'table4.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table4_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table4_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table4_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table4_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table4_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table4_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table5.gif');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'table5.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table5_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table5_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table5_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table5_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table5_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table5_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table6.gif');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'table6.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table6_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table6_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table6_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table6_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table6_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table6_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table7.gif');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'table7.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table7_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table7_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table7_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table7_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table7_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table7_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/table8.gif');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'table8.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table8_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table8_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/table8_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table8_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table8_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/table8_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/tail_admission.gif');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'tail_admission.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_admission_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_admission_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_admission_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_admission_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_admission_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_admission_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/tail_feedback.gif');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'tail_feedback.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_feedback_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_feedback_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_feedback_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_feedback_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_feedback_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_feedback_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/tail_home.gif');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'tail_home.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_home_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_home_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_home_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_home_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_home_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_home_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/tail_search.gif');
+App.progressCountCurrent = 39;
+App.batchStatusString = 'tail_search.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_search_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_search_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/tail_search_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_search_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_search_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/tail_search_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/wee.gif');
+App.progressCountCurrent = 40;
+App.batchStatusString = 'wee.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/wee_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/wee_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/wee_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/wee_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/wee_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/wee_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/william1.gif');
+App.progressCountCurrent = 41;
+App.batchStatusString = 'william1.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william1_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/william2.gif');
+App.progressCountCurrent = 42;
+App.batchStatusString = 'william2.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william2_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william2_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/william3.gif');
+App.progressCountCurrent = 43;
+App.batchStatusString = 'william3.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william3_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/william3_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william3_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/william3_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/csep2.jpg');
+App.progressCountCurrent = 44;
+App.batchStatusString = 'csep2.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep2_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/csep2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep2_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/csep2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/cstaff.jpg');
+App.progressCountCurrent = 45;
+App.batchStatusString = 'cstaff.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstaff_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstaff_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstaff_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstaff_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstaff_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstaff_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/cstitle.jpg');
+App.progressCountCurrent = 46;
+App.batchStatusString = 'cstitle.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstitle_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstitle_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstitle_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstitle_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstitle_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstitle_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/cstitle1.jpg');
+App.progressCountCurrent = 47;
+App.batchStatusString = 'cstitle1.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstitle1_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstitle1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/cstitle1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstitle1_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstitle1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/cstitle1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/iit1.jpg');
+App.progressCountCurrent = 48;
+App.batchStatusString = 'iit1.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/iit1_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/iit1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/iit1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/iit1_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/iit1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/iit1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/iit2.jpg');
+App.progressCountCurrent = 49;
+App.batchStatusString = 'iit2.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/iit2_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/iit2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/iit2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/iit2_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/iit2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/iit2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/kuwait.jpg');
+App.progressCountCurrent = 50;
+App.batchStatusString = 'kuwait.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/kuwait_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/kuwait_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/kuwait_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/kuwait_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/kuwait_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/kuwait_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/staff2000.jpg');
+App.progressCountCurrent = 51;
+App.batchStatusString = 'staff2000.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/staff2000_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/staff2000_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/staff2000_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/staff2000_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/staff2000_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/staff2000_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/twalker.jpg');
+App.progressCountCurrent = 52;
+App.batchStatusString = 'twalker.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/twalker_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/twalker_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/twalker_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/twalker_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/twalker_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/twalker_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/vivian.jpg');
+App.progressCountCurrent = 53;
+App.batchStatusString = 'vivian.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/vivian_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/vivian_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/vivian_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/vivian_jpg.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/vivian_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/vivian_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/eac-banner-address.gif');
+App.progressCountCurrent = 54;
+App.batchStatusString = 'eac-banner-address.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/eac-banner-address_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/eac-banner-address_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/eac-banner-address_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/eac-banner-address_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/eac-banner-address_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/eac-banner-address_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/perspec2.gif');
+App.progressCountCurrent = 55;
+App.batchStatusString = 'perspec2.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec2_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec2_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec2_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/perspec2Full.GIF');
+App.progressCountCurrent = 56;
+App.batchStatusString = 'perspec2Full.GIF';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec2Full_GIF.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec2Full_GIF.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec2Full_GIF.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec2Full_GIF.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec2Full_GIF.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec2Full_GIF.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/perspec_address2.psd');
+App.progressCountCurrent = 57;
+App.batchStatusString = 'perspec_address2.psd';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_address2_psd.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_address2_psd.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_address2_psd.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_address2_psd.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_address2_psd.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_address2_psd.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/perspec.gif');
+App.progressCountCurrent = 58;
+App.batchStatusString = 'perspec.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_gif.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Administrator/My Documents/Web/images/perspec_address.psd');
+App.progressCountCurrent = 59;
+App.batchStatusString = 'perspec_address.psd';
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_address_psd.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_address_psd.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/images/perspec_address_psd.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_address_psd.jpg') || confirm('file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_address_psd.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Administrator/My Documents/Web/sea/images/thumbnails/perspec_address_psd.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

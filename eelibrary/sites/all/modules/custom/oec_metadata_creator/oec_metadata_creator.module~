@@ -1,0 +1,207 @@
+<?php
+
+/**
+ * Implementation of hook_init()
+ */
+function oec_metadata_creator_init() {
+  $PATH = drupal_get_path("module","oec_metadata_creator");
+  drupal_add_js($PATH."/script.js");
+}
+
+/**
+ * Implementaion of hook_perm()
+ */
+function oec_metadata_creator_perm() {
+  return array('create oec metadata');
+}
+
+/**
+ * Implementation of hook_menu()
+ */
+function oec_metadata_creator_menu() {
+  $items = array();
+  $items['oec-metadata-create'] = array(
+    'title' => 'Create OEC Metadata',
+    'description' => 'Adjust administration menu settings.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('oec_metadata_create_form'),
+    'access arguments' => array('create oec metadata'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * Retuns form elements for the OEC Metadata Create url.
+ */
+function oec_metadata_create_form() {
+  global $user;
+
+  $form = array();
+
+  $form['info'] = array(
+    '#type' => 'textarea',
+    '#default_value' => $_SESSION["oec_metadata_markup"],
+    '#description' => 'The Metadata will show up in the above textarea once you fill the form and click the <i>Get Metadata</i> button below.',
+  );
+  $_SESSION["oec_metadata_markup"] = "";
+
+  $form['meta_src_app'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-source-app',
+    '#default_value' => 'OEC Biblio',
+  );
+
+  $form['meta_ref_type'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-ref-type',
+    '#description' => 'Example: Case Study',
+  );
+
+  $form['meta_author'] = array(
+    '#type' => 'textarea',
+    '#title' => 'Meta-author',
+    '#description' => 'One name per line. Example: Raghavan, Simil',
+  );
+
+  $form['meta_translated_authors'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-translated-authors',
+    '#default_value' => 'National Academy of Engineering, Online Ethics Center',
+    '#description' => 'Example: National Academy of Engineering, Online Ethics Center',
+  );
+
+  $form['meta_title'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-title',
+    '#description' => 'Title of the post.',
+  );
+
+  $form['meta_short_title'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-short-title',
+    '#description' => 'One word title of the post.',
+  );
+
+  $form['meta_year'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-year',
+    '#default_value' => date('Y'),
+  );
+
+  $form['meta_dates'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-dates',
+    '#description' => 'Format: m/d/Y',
+  );
+
+  $form['meta_url'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-url',
+    '#description' => 'URL of the post.',
+  );
+
+  $form['meta_publisher'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-publisher',
+    '#default_value' => 'National Academy of Engineering, Online Ethics Center',
+    '#description' => 'Example: National Academy of Engineering, Online Ethics Center',
+  );
+
+  $form['meta_language'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Meta-language',
+    '#default_value' => 'eng',
+  );
+
+  $form['meta_audience-level'] = array(
+    '#type' => 'select',
+    '#title' => 'Meta-audience-level',
+    '#options' => array('ug'=>'Undergraduate', 'grad'=>'Graduate', 'phd'=>'Post-doctoral Researcher', 'instructor' => 'Instructor'),
+    '#default_value' => 'ug',
+    '#size' => 4,
+    '#multiple' => TRUE,
+    '#description' => 'Select en appropriate audience level.',
+  );
+
+  $discipline_taxo = taxonomy_get_tree(2);
+  $subject_taxo = taxonomy_get_tree(3);
+
+  $discipline_options = array();
+  for($i = 0;$i < count($discipline_taxo);$i++) {
+    $discipline_options[$discipline_taxo[$i]->name] = $discipline_taxo[$i]->name;
+  }
+  asort($discipline_options);
+
+  $subject_options = array();
+  for($i = 0;$i < count($subject_taxo);$i++) {
+    $subject_options[$subject_taxo[$i]->name] = $subject_taxo[$i]->name;
+  }
+  asort($subject_options);
+
+  $form['meta_discipline'] = array(
+    '#type' => 'select',
+    '#title' => 'Meta-discipline',
+    '#options' => $discipline_options,
+    '#multiple' => TRUE,
+    '#size' => 4,
+    '#description' => 'Example: Sociology',
+  );
+
+  $form['meta_taxonomy'] = array(
+    '#type' => 'select',
+    '#title' => 'Meta-taxonomy',
+    '#options' => $subject_options,
+    '#multiple' => TRUE,
+    '#size' => 4,
+    '#description' => 'Example: Data management',
+  );
+
+  $form['meta_free_tags'] = array(
+    '#type' => 'textarea',
+    '#title' => 'Meta-taxonomy Free Tagging',
+    '#description' => 'One tag on each line.',
+  );
+
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#default_value' => 'Get Metadata',
+  );
+
+  return $form;
+}
+
+/**
+ * Handles form submitssion
+ */
+function oec_metadata_create_form_submit($form_id, $form_values) {
+  global $user;
+
+  $mk = "<META name='keywords' lang='en' content='";
+
+  $values = $form_values['values'];
+  foreach($values as $key=>$val) {
+    if(!in_array($key, array("info", "submit", "form_build_id", "form_token", "form_id", "op", "meta_free_tags"))) {
+      $tag = ucfirst(str_replace('_','-',$key));
+
+      if(gettype($val) == "array") {
+        $tagval = $val;
+      } else {
+        $tagval = explode("\n",$val);
+      }
+
+      foreach($tagval as $tk=>$tv) {
+        $mk .= $tag.": ".$tv."\n";
+      }
+    } else if($key == "meta_free_tags") {
+      $tagval = explode("\n",$val);      
+      foreach($tagval as $tk=>$tv) {
+        $mk .= "Meta-taxonomy: ".$tv."\n";
+      }
+    }
+  }
+  $mk .= "'>";
+
+  $_SESSION["oec_metadata_markup"] = $mk;  
+}

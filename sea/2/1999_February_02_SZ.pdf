@@ -1,0 +1,378 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/new_sea.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Center for the Study of Ethics in the Professions</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../newlayout/stylesnomenu.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../../newlayout/favicon.ico" >
+</head>
+<body>
+
+<div id="page">
+<!--#include virtual="/newlayout/header_wrapper.php" -->
+
+
+<div id="logo"> 
+	<h1>C<SPAN STYLE="color: #800000">S</span><br>
+	<SPAN STYLE="color: #800000">E</span>P</h1>
+</div>
+
+<div id="topnavcontainer">
+
+	<div id="banner">
+		<h1><SPAN STYLE="color: #800000">Center</span> for the <SPAN STYLE="color: #800000">Study</span> 
+		of <SPAN STYLE="color: #800000">Ethics</span> in the <SPAN STYLE="color: #800000">Professions</span> at
+		<SPAN STYLE="color: #800000">IIT</span></h1>
+	</div>  
+
+</div>
+  
+<div id="container">	<!-- InstanceBeginEditable name="breadcrumbs" -->
+	<div id="breadcrumbs"> &nbsp; <a href="http://ethics.iit.edu">Home</a> &gt;&gt; 
+      <a href="../index.html">Software Engineering Archive</a> </div>
+    <!-- InstanceEndEditable -->
+	<div id="organization"> <strong>Author: </strong><!-- InstanceBeginEditable name="Author" --> 
+      Dennis Frailey<!-- InstanceEndEditable --> </div>
+		
+		
+      
+    <div id="approved"> <strong>Date:</strong> <!-- InstanceBeginEditable name="Date" --> 
+      February 2,1999 <!-- InstanceEndEditable --> </div>
+		
+      
+    <div id="approved"> <strong>Subject: </strong><!-- InstanceBeginEditable name="Subject" --> 
+      SWECC Draft minutes <!-- InstanceEndEditable --></div>
+		
+      <div id="source"> <strong> Recepient: </strong><!-- InstanceBeginEditable name="Recipient" --> 
+        Recipient <!-- InstanceEndEditable --></div>
+      
+    <div id="source"> <strong> Format: </strong><!-- InstanceBeginEditable name="Format" -->Scanned 
+      Document<!-- InstanceEndEditable --></div>
+      <div id="previous"> <strong> Source: </strong><!-- InstanceBeginEditable name="Source" --> 
+        Source <!-- InstanceEndEditable --></div>
+		
+		<div id="title"> <h3> <!-- InstanceBeginEditable name="title" -->Title<!-- InstanceEndEditable --> </h3></div>		
+		
+    <div id="content"> <!-- InstanceBeginEditable name="content" --> 
+      <p>Minutes of SWECC Meeting on January 28, 1999, in Austin, Texas
+      <p>Recorder: Mark Ardis</p>
+      <p>Present: Mark Ardis, Doris Carver, Dennis Frailey, Karl Reed,<br>
+        Leonard Tripp, Laurie Werth (proxy for Linda Northrop)</p>
+      <p>Attachments:</p>
+      <p>ieeeacmfvll.pdf History of SWECC sesc.pdf Overview of Software Engineering 
+        Standards swebokpri.pdf Report on SWEBOK Project sweccjan2999.pdf Presentation 
+        given to Texas Board of Prof. Engineers swecc oveview.pdf Overview of 
+        SWECC white.doc White paper by Dennis Frailey on Cooperation</p>
+      <p>Agenda (as executed):</p>
+      <p>8:30 - 9:20 Introductions and Logistics<br>
+        9:20 - 10:15 Overview and History of SWECC Project<br>
+        10:15 - 10:20 Break<br>
+        10:20 - 11:15 Relationships between SWECC and others<br>
+        11:15 - 11:25 Plans<br>
+        11:25 - 12:45 Lunch Break<br>
+        12:45 - 1:00 Plans (continued)<br>
+        1:00 - 1:10 Revisit Agenda<br>
+        1:10 - 3:00 Plans (continued)<br>
+        3:00 - 3:10 Break<br>
+        3:10 - 3:40 Plans (continued)<br>
+        3:40 - 3:55 Overview of Software Engineering Standards<br>
+        3:55 - 5:00 Report on SWEBOK Project<br>
+        5:00 - 5:20 Responsibility Areas<br>
+        5:20 - 5:30 Future Plans<br>
+        5:30 Adjourn</p>
+      <p>Acronyms:</p>
+      <p>ACM: Association for Computing Machinery<br>
+        ASEE: American Society for Engineering Education<br>
+        CS: IEEE Computer Society<br>
+        EC: Executive Committee of SWECC<br>
+        <br>
+        <br>
+        IEEE: Institute of Electrical and Electronics Engineers<br>
+        KA: Knowledge Area (in SWEBOK)<br>
+        NCEES: National Council of Examiners for Engineering and Surveying<br>
+        SIGSOFT: ACM Special Interest Group on Software Engineering<br>
+        SWE: Software Engineering<br>
+        SWEBOK: Software Engineering Body Of Knowledge<br>
+        SWECC: Software Engineering Coordinating Committee</p>
+      <p></p>
+      <p>1. Introductions and Logistics</p>
+      <p></p>
+      <p>This was the first meeting of the Software Engineering Coordinating Committee 
+        (SWECC), a joint activity of the ACM and the IEEE Computer Society (CS). 
+        The meeting began with self-introductions of all present:</p>
+      <p>-- Leonard Tripp (Chair, CS)<br>
+        -- Dennis Frailey (Co?chair, ACM)<br>
+        -- Mark Ardis (SIGSOFT)<br>
+        -- Doris Carver (CS Education)<br>
+        -- Karl Reed (CS)<br>
+        -- Laurie Werth (proxy for Linda Northrop, ACM Education)</p>
+      <p>We agreed that important decisions of SWECC would be captured as &quot;Resolutions&quot;. 
+        Each resolution would be prepared in written form by a sponsor. All resolutions 
+        passed by SWECC would be published in the minutes. Creation and completion 
+        of projects will be done by resolution. Other procedures for the committee 
+        will unfold over time.</p>
+      <p>Mark Ardis agreed to be the recorder for this meeting. Future recorders 
+        will be chosen by self?nomination or rotation.</p>
+      <p>Dennis Frailey proposed that we discuss inter?project coordination during 
+        the &quot;New Business&quot; portion of the agenda. Other new business 
+        items to be discussed were: cooperation with a Dagstuhl Workshop, and 
+        conduct of workshops as publicity for SWECC.</p>
+      <p>We agreed to the agenda as planned.</p>
+      <p></p>
+      <p>2. Overview and History of SWECC Project<br>
+        Leonard Tripp presented an overview of SWECC. (See slides in attachment 
+        &quot;swecc oveview.pdf'.) The charter of the committee is to &quot;foster 
+        and maintain software engineering as a professional computing</p>
+      <p> <br>
+        discipline&quot;. It was created as a joint effort of ACM and IEEE CS.</p>
+      <p>Although some of the stimulus for the creation of SWECC was the recent 
+        action of the Texas Board of Professional Engineers to license software 
+        engineers, both technical societies consider SWECC to be an international 
+        effort.</p>
+      <p>The Executive Committee (EC) of SWECC consists of the attendees of this 
+        meeting (except that Laurie Werth was attending as a proxy for Linda Northrop). 
+        The EC is authorized to propose projects, such as the Software Engineering 
+        Body Of Knowledge (SWEBOK) Project. However, the sponsoring technical 
+        societies must approve all projects.</p>
+      <p>Key events of SWECC are an annual activity report, an annual budget projection, 
+        and an annual financial report. The EC will meet at least once per year, 
+        with two meetings currently scheduled for 1999. The next meeting will 
+        be held in Montreal, Canada, on July 13, 1999.</p>
+      <p>A context diagram (slide 7 in attachment &quot;swecc oveview.pdf') relates 
+        several proposed projects of SWECC:</p>
+      <p>-- Guide to SWEBOK<br>
+        -- SWE Model Curriculum<br>
+        -- SWE Test Specification<br>
+        -- SWE Code of Ethics</p>
+      <p>The SWE Test Specification project will be a primary input to a software 
+        engineering professional licensing examination. State agencies, such as 
+        the Texas Board of Professional Engineers, conduct licensing. They rely 
+        on technical societies to prepare test specifications for the body of 
+        knowledge that is expected of examinees. In addition, they often require 
+        that applicants receive a degree in their discipline from an accredited 
+        program. Such programs will often follow a model curriculum posed by the 
+        technical societies.</p>
+      <p>Licensing varies from state to state, but most states use a similar process. 
+        In order to be licensed each applicant must:</p>
+      <p>-- obtain an appropriate bachelor's degree from an ABET accredited engineering 
+        program</p>
+      <p>-- pass a Fundamentals of Engineering exam, consisting of a morning exam 
+        on general engineering topics, and an afternoon exam on a specialty area 
+        (such as software engineering)</p>
+      <p>-- spend at least four years practicing their discipline under the supervision 
+        of a licensed engineer</p>
+      <p> <br>
+        -- apply for a license, including submission of references</p>
+      <p>-- pass a specialty area exam, such as safety?critical applications.</p>
+      <p>In practice, most states use an exam prepared by the National Council 
+        of Examiners for Engineering and Surveying (NCEES, http://ncees.orgL). 
+        These exams are prepared from a set of Performance Norms that are supplied 
+        by the appropriate technical societies. The American Society for Engineering 
+        Education (ASEE, http://www.asee.orql) plays an important role in influencing 
+        NCEES to create exams.</p>
+      <p>We decided that coordinating and cooperating with organizations like 
+        ASEE and NCEES was important to our effort.</p>
+      <p>Leonard continued his presentation with some of the history of an earlier 
+        version of SWECC begun in 1993. (See slides in attachment &quot;ieeeacmfvll.pdf'.) 
+        Much of this history is contained in the Final Report of Joint IEEE Computer 
+        Society and ACM Steering Committee for the Establishment of Software Engineering 
+        as a Profession.</p>
+      <p>One of the lessons from the earlier effort was that it required more 
+        work than could be expected from volunteers only. That is, some support 
+        for funding projects, such as the body of knowledge project, would be 
+        needed.</p>
+      <p>The earlier project had produced a useful draft of a code of ethics, 
+        and it had started an effort to define an undergraduate curriculum. It 
+        was recommended that these efforts continue to their logical completion. 
+        It was also recommended that the effort continue to cooperate with the 
+        Texas Board of Professional Engineers.</p>
+      <p></p>
+      <p>3. Relationships between SWECC and others</p>
+      <p></p>
+      <p>We then proceeded to discuss the relationships between our effort and 
+        organizations such as ASEE, NCEES, etc. The objective was to identify 
+        liaisons between our activities and these other bodies. Although we started 
+        to identify liaisons, we did not complete this task. Leonard Tripp took 
+        an action item to prepare a list of liaisons by major categories for review 
+        by the EC.</p>
+      <p>A question that arose during our discussions was the possible certification 
+        of specialties in software engineering. For example,</p>
+      <p> <br>
+        in medicine one first obtains a license to practice medicine, but additional 
+        certifications to practice specialties (e.g., internal medicine, general 
+        surgery, orthopedics) can be granted by the medical board. Might safety?critical 
+        software be such a specialty deserving certification? Dennis Frailey took 
+        an action item to prepare a white paper on this subject for review.<br>
+        4. Plans<br>
+        Our next topic was future plans for SWECC. Much of this discussion focussed 
+        on the difficulties of preparing a description of a body of knowledge, 
+        the mechanics of preparing licensing exams from such a description, and 
+        the relationship of a model curriculum to these efforts.<br>
+        The SWEBOK project is looking for funding from about ten organizations 
+        that will serve as an Industry Advisory Board. Two of these organizations 
+        are the ACM and the IEEE CS. The other participants would be industrial 
+        sponsors who found value in the project. This will provide a check on 
+        the relevance of the work. Almost all of the organizations have been identified 
+        and have promised to support the effort.<br>
+        Once the body of knowledge is identified, a set of performance norms (sample 
+        questions) is prepared by volunteers. Such a project will be proposed 
+        for SWECC when it is appropriate. Although the volunteers are not paid, 
+        some modest living and travel expenses would be reimbursed. The future 
+        project will have to identify a funding source for these expenses.</p>
+      <p>In addition to SWEBOK, a project that SWECC wanted to start soon was 
+        the development of a model curriculum for software engineering. We spent 
+        some time discussing the objectives of such a project, and its relationships 
+        to other activities.</p>
+      <p>Dennis Frailey proposed two resolutions concerning the relationships 
+        between a model curriculum project and the SWEBOK project. (See Resolution 
+        1 &quot;Division of Responsibility between Body of Knowledge project and 
+        Education project&quot; and Resolution 2 &quot;Cooperative activity between 
+        SWEBOK and Education Projects&quot; at the end of these minutes.) Both 
+        resolutions were passed by the EC. A white paper describing the motivation 
+        for these resolutions is included as an attachment (&quot;white. doc&quot;).<br>
+        Karl Reed proposed a resolution to the effect that any such model<br>
+        5of11<br>
+        7/26/2005 5:07 PM</p>
+      <p> <br>
+        curriculum contain the core content of software engineering. (See Resolution 
+        3 &quot;Undergraduate Curriculum Model&quot;, at the end of these minutes.) 
+        This resolution was passed by the EC.</p>
+      <p>Finally, we discussed a document release process. It was agreed that 
+        the Chair and Co?chair of the EC would issue reports, minutes and general 
+        information about SWECC. Project deliverables, such as final reports, 
+        would be issued by the EC.</p>
+      <p></p>
+      <p>5. Overview of Software Engineering Standards</p>
+      <p></p>
+      <p>Leonard Tripp gave an overview of software engineering standards activity 
+        as introductory material for the SWEBOK discussion. (See attachment &quot;sesc.pdf'.) 
+        Much of the SWEBOK effort has followed the same process as used by international 
+        standards organizations.</p>
+      <p></p>
+      <p>6. Report on SWEBOK Project</p>
+      <p></p>
+      <p>Leonard Tripp gave a report on the SWEBOK project. (See attachments &quot;swebokprl.pdf' 
+        and &quot;sweccjan2999.pdf'.) This project was started in December 1997 
+        as a joint effort of the IEEE CS and the University of Quebec at Montreal. 
+        As mentioned earlier, the SWEBOK will be used by the model curriculum 
+        project and by the project that identifies performance norms for licensing. 
+        It is also intended to be a resource of general use to many others, such 
+        as practicing software engineers, students, and educators.</p>
+      <p>The result of the first phase was a strawman version of a Guide to Software 
+        Engineering Body of Knowledge. An Industry Advisory Board reviewed this 
+        document and provided suggestions for the next phase of the project. One 
+        of the main requests was to collapse a large set of Knowledge Areas (KAs) 
+        down to a more reasonable number. The resulting list has ten items:</p>
+      <p>-- Software Requirements Analysis<br>
+        -- Software Design<br>
+        -- Software Construction<br>
+        -- Software Testing<br>
+        -- Software Maintenance<br>
+        -- Software Configuration Management<br>
+        -- Software Quality Analysis<br>
+        -- Software Engineering Management<br>
+        -- Software Engineering Infrastructure</p>
+      <p> <br>
+        -- Software Engineering Process</p>
+      <p>Karl Reed raised the issue of the role of the history of software engineering 
+        in the proposed KAs. Mark Ardis took an action item to raise this issue 
+        to SWEBOK.</p>
+      <p>In the next phase a KA specialist will be selected to draft each KA description 
+        (Version 0.1). Each description will include an overview of the area, 
+        a set of performance norms, and a list of references. Each description 
+        is expected to be about twenty pages long.</p>
+      <p>A panel of experts will review the draft descriptions and make suggestions 
+        for the next version (Version 0.5). Teams with specific focus (e.g., industrial 
+        practice, education, standards) will review that version. Each focus team 
+        will have a review captain who will be responsible for coordinating reviews 
+        across all KAs. The result of editing to accommodate those reviews will 
+        be Version 0.7. Finally, a large body of reviewers will participate in 
+        the final review phase. This group will be selected along demographic 
+        lines suggested by the members of the Industry Advisory Board. The last 
+        version of the KAs produced after this review will be Version 0.9.</p>
+      <p>The overall schedule for SWEBOK is:</p>
+      <p>KA 0.1 -- 1st Quarter 1999</p>
+      <p>KA 0.5 -- 2nd Quarter 1999</p>
+      <p>KA 0.7 -- 3rd Quarter 1999</p>
+      <p>KA 0.9 -- 4th Quarter 1999</p>
+      <p>As mentioned earlier, funding for this project is provided by the Industry 
+        Advisor Board. With ten equal shares of $30,000 each, the project appears 
+        to be adequately funded.</p>
+      <p>One of the concerns of EC members was the limited opportunity for participation 
+        by knowledgeable members of the technical societies. It was agreed that 
+        the panel of experts should include nominees from the technical societies. 
+        Karl Reed and Mark Ardis took an action item to draft a list of experts 
+        for the EC. In addition, the special review teams will include technical 
+        reviewers captained by representatives of the technical societies.</p>
+      <p>Since review plays an important role in the SWEBOK process, Karl Reed 
+        took an action item to find suitable means of motivating reviewers to 
+        participate. One mechanism for inviting reviewers will be to</p>
+      <p> <br>
+        publicize a call in ACM SIGSOFT Software Engineering Notes. Mark Ardis 
+        took an action item to place a call in a future issue.</p>
+      <p>Another concern was the interaction of the education community with the 
+        SWEBOK effort. The resolutions brought forward by Dennis Frailey (see 
+        resolutions 1 and 2) address many of these concerns, but there may be 
+        other opportunities to cooperate. The educational representatives, Doris 
+        Carver and Laurie Werth (acting for Linda Northrop), took an action item 
+        to invite their respective organizations to participate in SWEBOK.</p>
+      <p>The EC endorsed SWEBOK as a SWECC project.</p>
+      <p></p>
+      <p>7. Responsibility Areas</p>
+      <p></p>
+      <p>We reviewed the main projects and other significant activities of SWECC 
+        to assign each activity to at least one member of the EC. The following 
+        assignments were identified:</p>
+      <p>SWEBOK -- Leonard Tripp</p>
+      <p>Education -- Dennis Frailey</p>
+      <p>Publicity -- Karl Reed and Linda Northrop</p>
+      <p>Liaison with Standards -- Leonard Tripp</p>
+      <p>Liaison with National Bodies -- Leonard Tripp</p>
+      <p>We expect other responsibilities to be identified after reviewing a more 
+        complete liaison list.</p>
+      <p></p>
+      <p>8. Future Plans</p>
+      <p></p>
+      <p>The last items we discussed were the creation of a web page for SWECC, 
+        and future meetings.</p>
+      <p>Both technical societies have begun planning for the web page. A target 
+        date of February 15 has been set for initial deployment. The first version 
+        will have an introduction, a document register, and a brief description 
+        of related activities. Later versions will include a history of activity 
+        and a possible chat room.</p>
+      <p> <br>
+        A related issue of visibility is the production of letterhead and business 
+        cards for SWECC. We noted an action item for this but failed to assign 
+        it.</p>
+      <p>We agreed to meet by teleconference during the week of April 12, 1999, 
+        probably on the 13th or 14th. We also acknowledged that the next face?to?face 
+        meeting would be in Montreal on July 13, 1999.</p>
+      <p></p>
+      <p>9. Resolutions Passed by SWECC EC</p>
+      <p><br>
+        Resolution 1: Division of Responsibility between Body of Knowledge project 
+        and Education project.</p>
+      <p>Sponsor: Dennis J. Frailey</p>
+      <p>The body of knowledge project and the education project shall divide 
+        responsibilities for identifying the body of knowledge as follows:</p>
+      <p>-- The BOK Project shall be responsible for the identifying the knowledge 
+        areas that are unique to software engineers and, within each knowledge 
+        area, identifying and providing reference material to definitive sources 
+        on</p>
+      <p><a href="#">return to top</a><!-- InstanceEndEditable --> </div>   
+</div>
+
+<div id="footer"> 
+	<ul>
+		
+      <li><a href="http://ethics.iit.edu/search.php">Search CSEP</a></li>
+		<li><a href="http://ethics.iit.edu/sitemap.html">Site Map</a></li>
+		<li><a href="http://ethics.iit.edu/contactus.html">Contact CSEP</a></li>
+	</ul>
+</div>
+<!--#include virtual="/newlayout/footer_wrapper.php" -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

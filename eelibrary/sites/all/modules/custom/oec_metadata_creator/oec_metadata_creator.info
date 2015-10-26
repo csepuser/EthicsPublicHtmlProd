@@ -1,0 +1,11 @@
+name = OEC Metadata Creator
+description = "Provides a form where users can create metadata for the OEC pages."
+package = Ethics Education
+core = 7.x
+
+; Information added by drupal.org packaging script on 2014-07-08
+version = "7.x-1.0"
+core = "7.x"
+project = "oec_metadata_creator"
+datestamp = "1307567519"
+

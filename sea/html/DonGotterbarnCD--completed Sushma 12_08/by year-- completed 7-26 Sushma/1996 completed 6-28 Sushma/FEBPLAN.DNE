@@ -1,0 +1,162 @@
+ Dear Working Group Members:
+ 
+ I appreciate your patience in getting to work on this important project.  There
+ were several meetings in February related to the work of the task forces and I am
+ now optimistic that the work of our task force will be a significant contribution to
+ the entire project on the professionalization of software engineering.  It has been
+ so long since we first solicited your support that I will provide some reminders of
+ the large picture and how our working group fits in it.   
+ 
+ The process started in 1993 when both the ACM and the IEEE-CS started
+ initiatives related to software engineering.  By the end of 1993 there was a joint
+ set of recommendations from the two societies.  These recommendations included
+ three tasks, each assigned to a different task force --TO DEFINE THE
+ REQUIRED BODY OF KNOWLEDGE, TO DEFINE EDUCATIONAL
+ CURRICULA, and TO DEFINE ETHICAL STANDARDS. 
+ 
+ Initial formation and planning for the third task force took place in Spring and
+ Summer of 1994. 
+ In October of 1994, the Joint IEEE Computer Society / ACM Project on
+ Software Engineering: Ethical and Professional Standards of Practice published a
+ call for participation.  The purpose of SEEPP is given in that call:
+ 
+ The purpose of the SEEPP task force is to document the international consensus
+ for minimally acceptable ethical/professional responsibilities and obligations of
+ software engineers.
+ 
+ The scope is given as:
+ 1.0 SCOPE
+ The standards to be established shall document generally accepted principles for
+ identifying and resolving ethical conflicts relevant to the discipline of software
+ engineering.
+ 
+ Consideration shall be given to the responsibilities and obligations of the Software
+ Engineer to peers and laypersons, employer, customer(s), the profession and
+ society/humanity. Additionally, consideration shall be similarly given to the
+ obligations and responsibilities of these various entities towards the Software
+ Engineer.
+ 
+ 1.1   GLOBAL APPLICATION
+ The SEEPP task force recognizes that the design, development and application of
+ software often transcend national boundaries. We feel that it is vitally important
+ that the global computing community have the means to insure that this project
+ produces a product which is as reflective of the global computing community's
+ wisdom as can be reasonably achieved.  The participation of individuals from
+ throughout the world is important to achieving this goal.
+ 
+ These standards are intended to document the consensus of the global software
+ engineering community.  From time to time, consensus on an issue may not be
+ clearly recognized. Accordingly, these standards shall also document various
+ recommended practices and guidelines when no clear consensus can be
+ established.
+ 
+ * OUR WORKING GROUP:
+ Later in the call, there was this description for our working group:
+ 
+ Professional Competence      truth about skill, obligation to keep
+  Chair: Donald Gotterbarn    current, truth about code, what should
+   d.gotterbarn@computer.org  be produced? (end-use consequences),
+                                        keep staff current, appropriate knowledge 
+                    base, non- generalization of expertise, 
+                    educational issues: certification,  registration, 
+                    and licensure
+ 
+ 
+ * At a meeting of the various SEEPP working group leaders we developed a
+ general approach to getting the work of the task force started.
+ 
+ To get the material to work with we should begin by brainstorming via email
+ about what standards
+ we can discover and articulate that have to do with standards of professional
+ competence.  We have an email list prfcmp-l@utkvm1.edu.  You can access this
+ simply by using an automatic reply to this message.  The ideal is that what you
+ enter will be seen by others and fertilize their ideas.  To help encourage
+ contributions, for the first few passes of information please expend your efforts
+ expanding on what others say and reserve your critical comments for a later date
+ when I have organized most of the inputs and redistribute them to you.  If you
+ would rather not contribute in such a public fashion you can email directly to me
+ at d.gotterbarn@computer.org.
+ 
+ Here are a few discussion starters from me:
+ 
+ 1.  Standards of Professional competence should probably include the gamut of
+ software engineering.  The project manager should be held as accountable for
+ their work as the test specialist.  This may mean that we have different standards
+ for those primarily in management and those primarily in technical application
+ areas.  Several computing codes of ethics list separate sets of obligations for
+ different computing roles.
+ 
+ 2.  We should tie standards of competence to a common set or sets of standards. 
+ There are a number of ways to do this.  One way is to tie minimal general sets of
+ competence to curricula as defined by universities or by professional
+ organizations.  Another way is encourage vendors to continue certifying
+ competence in their software.
+ 
+ 3.  On the technical side, competence implies the possession of an adequate skill
+ set, but on the ethical side competence implies a disposition to act in a certain
+ way, to apply these skills in a certain way.  The ethical side also seems to include
+ commitments to being honest to others about one's abilities and limitations in
+ software development.  Some have argued that a customer should not have to pay
+ for a professionals education if they could get an already trained specialist for less
+ money.
+ 
+ I offer these points as conversation starters.  There is a distinction in most
+ professions between standards of ethics, conduct, and practice.  These standards
+ include a range of statements, Standards of ethics are generally broad and
+ aspirational and do not prescribe specific behaviors -prevent harm-do not mislead
+ others about your skills.  Standards of conduct are more specific and
+  standards of practice are regulative-do not release a product which has not been
+ adequately tested.  Violating this later type of standard is generally a foundation
+ for legal action.  These three types of standards exist for people as members of a
+ profession, employees, and as individuals.  I mention these standards to give you
+ an idea of the range of statements we are looking for.  We are
+  looking for a range of statements and examples of these types of standards as
+ they apply to professional competence.   Don't worry which category they into
+ which you ideas might fall.  I give this distinction simply to make clear the breadth
+ we are interested in.  
+ 
+ * HOMEWORK:
+ 
+ I. Please send email to the list or to me that describes YOUR view of possible
+ standards in
+ the area of Professional Competence.  We are brainstorming here, so don't be
+ shy. 
+ 
+ II. Send email or paper mail to me of examples of ethics standards, standards of
+ conduct, and standards of practice that you think are appropriate to our working
+ group.  These could come from professional organizations, from employers, from
+ individuals, from scholarly literature, or from the popular press.
+ 
+ III.  Later I will organize these ideas and email edited version for the whole group. 
+ Then we can begin to refine the ideas presented.
+ 
+ * SCHEDULE
+ 
+ APRIL 22: Soft deadline for group submitting materials.  At this date  I'll start
+ editing the submitted stuff.  (Soft means I'll continue to include your ideas.
+ 
+ MAY 6: I send information back to the group, organized (I hope)   around
+ standards of ethics, standards of conduct, and standards of    practice and
+ organized according to other suggestions from the group.
+ 
+      Open discussion and debate about materials I send out.
+ 
+ MAY 20: Additions and corrections sent back to me.
+ 
+ JUNE 3: I make another pass at editing the document  incorporating additions and 
+  corrections and send it to the group.
+ 
+ JUNE 10: Group responds to the latest version.
+ 
+ JUNE 17: Don sends revised document to the general SEEPP Task Force
+ members and to the working group.
+ 
+ JULY 15 and beyond: Task Force combines working group documents, shapes
+ them into a coherent package, and starts selling it to IEEE and ACM.
+ 
+ The "beyond" includes more work for the working group, but we'll get into that
+ later.  I know the rythym of this schedule sounds daunting, but we are eager to
+ make progress after the painful delays we've experienced.
+ 
+ 
+ 

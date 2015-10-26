@@ -1,0 +1,51 @@
+a:link   { color: #990022 } 
+a:visited   {  color: #666666 } 
+a:active { color: #ff0033 }
+
+a.category:link   { font-weight:bold; font-style: underline; color: #990022 } 
+a.category:visited   { font-weight:bold; font-style: underline; color: #666666 } 
+a.category:active { font-weight:bold; font-style: underline; color: #ff0033 }
+
+a.article:link   {font-weight: bold;font-style: italic;  color: #990022 } 
+a.article:visited   { font-weight: bold;font-style: italic; color: #666666 } 
+a.article:active {font-weight: bold;font-style: italic; color: #ff0033 }
+
+a.bottom:link {  font-weight:bold; color: #990022 } 
+a.bottom:visited {  font-weight: bold; color: #990022 } 
+a.bottom:active {  font-weight: bold; color: #990022 } 
+
+a.italic:link   { font-style: italic; color: #990022 } 
+a.italic:visited   { font-style: italic; color: #666666 } 
+a.italic:active { font-style: italic; color: #ff0033 }
+
+a.bold:link   { font-style: bold; color: #990022 } 
+a.bold:visited   { font-style: bold; color: #666666 } 
+a.bold:active { font-style: bold; color: #ff0033 }
+
+body, p, div, table	{ font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; font-size: small; }
+
+div.datafield	{ text-align: right; font-weight: bold; color: #993333 }
+div.fillerlink { text-align: left; font-weight: bold; color: #993333 }
+div.fillertext { text-align: left; font-weight: bold; color: #666666 }
+div.codeheading { text-transform: capitalize; text-align: center; font-weight: bold }
+
+/*this style isn't used but it shows how to define new styles*/
+/*Usage would be like <p class="medium">Your text here</p>*/
+p.medium {
+	font-family:Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: medium;
+}
+
+
+h1
+{
+font-weight: bold;
+font-size: medium;
+}
+
+h2
+{
+ font-weight: bold;
+ color: #666666;
+ font-size:small;
+}

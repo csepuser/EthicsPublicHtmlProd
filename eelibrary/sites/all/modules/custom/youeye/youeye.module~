@@ -1,0 +1,224 @@
+<?php
+/**
+ * Implementation of hook_init()
+ */
+function youeye_init() {
+  $PATH = drupal_get_path("module","youeye");
+  drupal_add_js($PATH."/script.js");
+  //drupal_add_css($PATH."/style.css");
+}
+
+/**
+ * Implementation of hook_menu()
+ */
+function youeye_menu() {
+  $items = array();
+  $items['eel-home'] = array(
+    'title' => t('Home'),
+    'description' => 'The custom home page for EEL library site.',
+    'page callback' => 'eel_home',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['eel-home-1'] = array(
+    'title' => t('Home'),
+    'description' => 'The custom home page for EEL library site.',
+    'page callback' => 'eel_home_accordion',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * Implementation of hook_nodeapi()
+ */
+function youeye_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
+  if($op == "view") {
+    jquery_ui_add(array("ui.draggable", "ui.resizable", "ui.tabs", "ui.core"));
+    drupal_add_css("sites/all/libraries/jquery.ui/themes/default/ui.all.css");
+  }
+}
+
+/**
+ *
+ */
+function eel_home_accordion() {
+  drupal_set_title("");
+  $PATH = drupal_get_path("module","youeye");
+
+
+  drupal_add_js("http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js");
+  //drupal_add_js("var $jq = jQuery.noConflict();","inline");
+  //drupal_add_js($PATH."/haccordion/liteaccordion.jquery.js");
+  drupal_add_css($PATH."/haccordion/liteaccordion.css");
+  drupal_add_css($PATH."/style.css");
+  //drupal_add_js("$jq(function() { initHorizontalAccordion(); });","inline");
+
+  $html = '
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">var $jq = jQuery.noConflict();</script>
+<script type="text/javascript" src="'.$PATH.'/haccordion/liteaccordion.jquery.js"></script>
+<script type="text/javascript"> $jq(function() { initHorizontalAccordion(); initSubtabs(); });</script>
+
+<div id="accordion" class="accordion">
+    <ol>
+        <li>
+            <h2><span>BROWSE</span></h2>
+            <div id="htabs-1">
+	        <table class="subtab-table">
+      <tr>
+        <td class="left-col">
+	  <div class="subtab-title"><a href="#subtab-cont-1">Case Studies</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-13">Guidelines</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-12">Online Tutorials</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-3">Pedagogical Materials</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-2">Syllabi</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-11">Teaching Modules</a></div>
+	</td>
+	<td class="right-col">
+	  <div id="subtab-cont-1" class="subtab-cont">A collection of ethics cases searchable by subject area, discipline and audience level.<br/><br/><a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=node/2395">Read more..</a></div>
+	  <div id="subtab-cont-2" class="subtab-cont">Ethics courses from a wide range of disciplines. <br/><br/> <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/syllabi">Read more..</a></div>
+	  <div id="subtab-cont-3" class="subtab-cont">Methods for inserting ethics into class curricula and lab meetings, introductions on how to teach ethics and discussions of major ethical issues in engineering and science.<br/><br/> <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:507">Read more..</a></div>
+	  <div id="subtab-cont-11" class="subtab-cont">A collection of free standing exercises to be inserted into existing technical or professional cases.</div>  
+	  <div id="subtab-cont-12" class="subtab-cont">On responsible conduct of research, workwith human, animal subjects etc.</div>
+	  <div id="subtab-cont-13" class="subtab-cont">Codes of ethics, guidelines and federal regulations governing scientific research.</div>
+	</td>
+      </tr>
+    </table>
+	    </div>
+        </li>
+        <li>
+            <h2><span>SEARCH</span></h2>
+            <div id="htabs-2">
+    <table class="subtab-table">
+      <tr>
+        <td class="left-col">
+	  <div class="subtab-title"><a href="#subtab-cont-5">Assessment</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-4">Best Practices</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-9">Discipline</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-10">Subjects</a></div>
+	</td>
+	<td class="right-col">
+	  <div id="subtab-cont-4" class="subtab-cont">Descriptions of successful ethics <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:409">Instruction Methods</a> and <a href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:476" class="more-link">Programs</a> developed by instructors and universities from around the U.S and world.</div>
+	  <div id="subtab-cont-5" class="subtab-cont">Assessment methods for measuring the effectiveness of ethics training, and the growth of ethical awareness in students. <br/><br/> <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:380">Read more..</a></div>
+	  <div id="subtab-cont-9" class="subtab-cont">Search for materials by discipline</div>
+	  <div id="subtab-cont-10" class="subtab-cont">Search for materials by topic.</div>
+	</td>
+      </tr>
+    </table>
+	    </div>
+        </li>
+        <li>
+            <h2><span>INTERACT</span></h2>
+            <div id="htabs-3">
+    <table class="subtab-table">
+      <tr>
+        <td class="left-col">
+	  <div class="subtab-title"><a href="#subtab-cont-6">Comments</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-7">Resources</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-8">Rating</a></div>
+	</td>
+	<td class="right-col">
+	  <div id="subtab-cont-6" class="subtab-cont"><a href="/eelibrary/contact">Click here</a> to give feedback or suggest a resource. <br/><br/>In addition, registered users can comment on the individual resources posted here.</div>
+	  <div id="subtab-cont-7" class="subtab-cont">Would you like to recommend materials that you know of or have developed? <br/><br/> <a href="/eelibrary/contribute">Click here</a> to upload a resource.</div>
+	  <div id="subtab-cont-8" class="subtab-cont">Registered users can rate the individual resources posted here.</div>
+	</td>
+      </tr>
+    </table>
+	    </div>
+        </li>
+
+    </ol>
+    <noscript>
+        <p>Please enable JavaScript to get the full experience.</p>
+    </noscript>
+</div>';
+
+  return $html;
+}
+
+/**
+ * Custom home page for eel website.
+ */
+function eel_home() {
+  drupal_set_title("");
+  $PATH = drupal_get_path("module","youeye");
+
+  jquery_ui_add(array("ui.draggable", "ui.resizable", "ui.tabs", "ui.core"));
+  drupal_add_css("sites/all/libraries/jquery.ui/themes/default/ui.all.css");
+  drupal_add_js("$(function() { initTabs(); });","inline");
+  drupal_add_css($PATH."/style.css");
+
+
+  $html = '<div id="eel-home-tabs">
+  <ul>
+    <li><a href="#tabs-1">Browse</a></li>
+    <li><a href="#tabs-2">Search</a></li>
+    <li class="last"><a href="#tabs-3">Contribute</a></li>
+  </ul>
+
+  <div id="tabs-1">
+    <table class="subtab-table">
+      <tr>
+        <td class="left-col">
+	  <div class="subtab-title"><a href="#subtab-cont-1">Case Studies</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-13">Guidelines</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-12">Online Tutorials</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-3">Pedagogical Materials</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-2">Syllabi</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-11">Teaching Modules</a></div>
+	</td>
+	<td class="right-col">
+	  <div id="subtab-cont-1" class="subtab-cont">A collection of ethics cases searchable by subject area, discipline and audience level.<br/><br/><a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=node/2395">Read more..</a></div>
+	  <div id="subtab-cont-2" class="subtab-cont">Ethics courses from a wide range of disciplines. <br/><br/> <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/syllabi">Read more..</a></div>
+	  <div id="subtab-cont-3" class="subtab-cont">Methods for inserting ethics into class curricula and lab meetings, introductions on how to teach ethics and discussions of major ethical issues in engineering and science.<br/><br/> <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:507">Read more..</a></div>
+	  <div id="subtab-cont-11" class="subtab-cont">A collection of free standing exercises to be inserted into existing technical or professional cases.</div>  
+	  <div id="subtab-cont-12" class="subtab-cont">On responsible conduct of research, workwith human, animal subjects etc.</div>
+	  <div id="subtab-cont-13" class="subtab-cont">Codes of ethics, guidelines and federal regulations governing scientific research.</div>
+	</td>
+      </tr>
+    </table>
+  </div> <!-- #tabs-1 -->
+
+  <div id="tabs-2">
+    <table class="subtab-table">
+      <tr>
+        <td class="left-col">
+	  <div class="subtab-title"><a href="#subtab-cont-5">Assessment</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-4">Best Practices</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-9">Discipline</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-10">Subjects</a></div>
+	</td>
+	<td class="right-col">
+	  <div id="subtab-cont-4" class="subtab-cont">Descriptions of successful ethics <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:409">Instruction Methods</a> and <a href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:476" class="more-link">Programs</a> developed by instructors and universities from around the U.S and world.</div>
+	  <div id="subtab-cont-5" class="subtab-cont">Assessment methods for measuring the effectiveness of ethics training, and the growth of ethical awareness in students. <br/><br/> <a class="more-link" href="http://ethics.iit.edu/eelibrary/?q=search/apachesolr_search/&filters=tid:380">Read more..</a></div>
+	  <div id="subtab-cont-9" class="subtab-cont">Search for materials by discipline</div>
+	  <div id="subtab-cont-10" class="subtab-cont">Search for materials by topic.</div>
+	</td>
+      </tr>
+    </table>
+  </div> <!-- #tabs-2 -->
+
+  <div id="tabs-3">
+    <table class="subtab-table">
+      <tr>
+        <td class="left-col">
+	  <div class="subtab-title"><a href="#subtab-cont-6">Comments</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-7">Resources</a></div>
+	  <div class="subtab-title"><a href="#subtab-cont-8">Rating</a></div>
+	</td>
+	<td class="right-col">
+	  <div id="subtab-cont-6" class="subtab-cont"><a href="/eelibrary/contact">Click here</a> to give feedback or suggest a resource. <br/><br/>In addition, registered users can comment on the individual resources posted here.</div>
+	  <div id="subtab-cont-7" class="subtab-cont">Would you like to recommend materials that you know of or have developed? <br/><br/> <a href="/eelibrary/contribute">Click here</a> to upload a resource.</div>
+	  <div id="subtab-cont-8" class="subtab-cont">Registered users can rate the individual resources posted here.</div>
+	</td>
+      </tr>
+    </table>
+  </div> <!-- #tabs-3 -->
+</div> <br style="clear:both;"/>';
+
+  return $html;
+}

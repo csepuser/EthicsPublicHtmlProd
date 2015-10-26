@@ -1,0 +1,91 @@
+/*Oct 7*/
+/*Sub-tabs*/
+.ui-tabs-nav {
+  border: 0;
+}
+.ui-tabs-nav li {
+ border-bottom: 0;
+}
+.ui-tabs-nav li.last {
+  border-right: 1px solid #d3d3d3;
+}
+.ui-tabs-panel {
+  padding: 0.5em;
+  min-height: 140px;
+  width: 720px;
+}
+
+.subtab-table {
+  border-collapse: separate;
+  margin: 0;
+  height: 100%;
+}
+.subtab-table .left-col {
+  width: 220px;
+}
+.subtab-table td {
+  vertical-align: top;
+  font-size: 1em;
+  height: 255px;
+  vertical-align: middle;
+}
+.subtab-table td.right-col .subtab-cont {
+  /*padding-top: 30px;*/
+}
+.subtab-title a {
+  padding: 6px;
+  outline: 0;
+}
+.subtab-title {
+  padding: 5px 5px 5px 0;
+}
+.subtab-title-active {
+  /*background-color: #efefef; */
+  border-bottom: 3px solid #cc0000;
+  width: 78%;  		 
+} 
+.subtab-cont {
+  padding-left: 15px;
+  display: none;
+}
+.subtab-cont-active {
+  display: block ;
+  padding-left: 15px;
+}
+
+.more-link {
+  font-size: 0.8em;
+}
+
+/*Big search box on home page*/
+#big-search-form {
+  text-align: center;
+}
+#big-search-text {
+  width: 450px;
+  height: 34px;
+  border: 1px solid #d3d3d3;
+  font-size: 1.5em;
+  color: #333;
+  vertical-align: middle;
+}
+
+#big-search-submit {
+  background-color: #005A8C;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 2px 5px;
+}
+
+
+/**/
+.subtab-table .left-col {
+  background: url('media/vertical_curve6_black.png') no-repeat -53px -30px transparent;
+}
+
+.ui-tabs-panel {
+  /*border: 0;*/
+}
+.ui-tabs-nav {
+  z-index: 0;
+}

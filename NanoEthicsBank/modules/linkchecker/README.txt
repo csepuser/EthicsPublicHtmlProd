@@ -1,0 +1,51 @@
+
+Link Checker
+------------
+
+Installation:
+
+1. Place the entire linkchecker folder into your modules directory.
+2. Go to Administer -> Site building -> Modules and enable the Link checker module.
+3. Go to Administer -> Site configuration -> Link checker and enable the node types to scan.
+4. Check all HTML tags that should be scanned.
+5. Adjust the other parameters if the defaults don't suit your needs.
+6. Save configuration
+7. Wait for cron to check all your links... this may take some time! :-)
+
+If links are broken they appear under Administer -> Reports -> Broken links.
+
+If not, make sure the cron is configured and running properly on your Drupal
+installation. The Link checker module also logs somewhat useful info about it's
+activity under Administer -> Reports -> Recent log entries.
+
+
+Required:
+
+1. For internal URL extraction you need to make sure that Cron always get called
+   with your real public site URL (for e.g. http://example.com/cron.php). Make
+   sure it's never executed with http://localhost/cron.php or any other
+   hostnames or ports, not available from public. Otherwise all links may be
+   reported as broken and cannot verified as they should be.
+
+   To make sure it always works - it's required to configure the $base_url in
+   the sites settings.php with your public sites URL. Better safe than sorry!
+
+
+Known issues:
+
+1. drupal_http_request() does handle (invalid) non-absolute redirects. The
+   main issue is a broken webserver configuration and you can try to notify
+   the site owner about doing non-rfc compliant redirections.
+   This is a very common administration fault from past days and core should
+   implement a workaround. See http://drupal.org/node/164365 for more details.
+   
+   Until this issue is fixed in core the permanently moved links are not
+   automatically fixed/updated by the "Update permanently moved links" feature
+   to the newly provided URL.
+   
+   -> Workaround: Manually fix these links or try the patch.
+
+2. Drupal 6.14 only: A critical core bug has been introduced by #193383:
+   set_time_limit: Centralize calls and prevent warnings and errors that stops
+   link checker from verifying links. Apply the available D6 hotfix in #111 or
+   update to Drupal 6.15+ to fix your installation.

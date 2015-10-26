@@ -1,0 +1,11 @@
+name = YouEye
+description = "Modfies certain parts of the UI for the EE library."
+package = Ethics Education
+core = 6.x
+
+; Information added by drupal.org packaging script on 2014-07-08
+version = "7.x-1.0"
+core = "7.x"
+project = "youeye"
+datestamp = "1307567519"
+

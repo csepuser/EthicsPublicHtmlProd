@@ -1,0 +1,12 @@
+<?php
+// $Id: biblio_type_facet.install,v 1.2 2008/04/23 14:18:43 davidlesieur Exp $
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function biblio_type_facet_uninstall() {
+  if (db_table_exists('faceted_search_filters')) {
+    db_query("DELETE FROM {faceted_search_filters} WHERE filter_key = 'biblio_type'");
+  }
+}
+

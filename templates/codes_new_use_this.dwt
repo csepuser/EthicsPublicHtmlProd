@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/codes_new.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>Center for the Study of Ethics in the Professions</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../newlayout/codes.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../newlayout/favicon.ico" >
+</head>
+<div id="scroll"></div>
+<body>
+
+<div id="page">
+<!--#include virtual="../newlayout/header_wrapper.php" -->
+
+
+<div id="logo"> 
+	<h1>C<SPAN STYLE="color: #800000">S</span><br>
+	<SPAN STYLE="color: #800000">E</span>P</h1>
+</div>
+
+<div id="topnavcontainer">
+
+	<div id="banner">
+		<h1><SPAN STYLE="color: #800000">Center</span> for the <SPAN STYLE="color: #800000">Study</span> 
+		of <SPAN STYLE="color: #800000">Ethics</span> in the <SPAN STYLE="color: #800000">Professions</span> at
+		<SPAN STYLE="color: #800000">IIT</span></h1>
+	</div>  
+
+</div>
+  
+<div id="container"> 
+	<!-- InstanceBeginEditable name="breadcrumbs" --> 
+    <div id="breadcrumbs" ><a href="../index.html">Home</a>>> <a href="../codes/coe.html">Codes of Ethics Online</a></font> 
+         
+           
+    </div>
+    <!-- InstanceEndEditable -->
+<div id="content"> 
+		
+	
+      <div id="organization"> <strong>Organization:</strong><!-- InstanceBeginEditable name="organization" --><a href="http:// "> Organization
+        </a><!-- InstanceEndEditable --></div>
+		
+		
+      <div id="source"> <strong>Source:</strong> <!-- InstanceBeginEditable name="source" --><a href="http://  " target="_blank">Source</a><!-- InstanceEndEditable --> 
+      </div>
+		
+      <div id="approved"> <strong>Date Approved:</strong><!-- InstanceBeginEditable name="approved" -->Approved<!-- InstanceEndEditable --></div>
+		
+		
+      <div id="previous"> <strong>Other Version(s) in our Codes <br>
+        of Ethics Online Collection:</strong><!-- InstanceBeginEditable name="previous" --> 
+        Other version<!-- InstanceEndEditable --></div>
+		
+		<div id="disclaimer"> 
+        Disclaimer: Please note the codes in our collection might not necessarily 
+          be the most recent versions. Please contact the individual organizations 
+          or their websites to verify if a more recent or updated code of ethics 
+          is available. CSEP does not hold copyright on any of the codes of ethics 
+          in our collection. Any permission to use the codes must be sought from 
+          the individual organizations directly.
+        </div>
+		
+		<div id="title"> <h3> <!-- InstanceBeginEditable name="title" -->Ethics Code <!-- InstanceEndEditable --> </h3></div>		
+		
+      <!-- InstanceBeginEditable name="content" --> 
+    
+      <!-- InstanceEndEditable --> 
+     		<div class="returntotop"><a href="#">return to top</a></div>
+	  
+	</div> 
+
+</div>
+
+<div id="footer"> 
+	<ul>
+		<li><a href="../search.php">Search CSEP</a></li>
+		<li><a href="../sitemap.html">Site Map</a></li>
+		<li><a href="../contactus.html">Contact CSEP</a></li>
+	</ul>
+</div>
+ <!--#include virtual="../newlayout/footer_wrapper.php" -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

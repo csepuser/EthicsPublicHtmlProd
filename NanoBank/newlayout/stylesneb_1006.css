@@ -1,0 +1,698 @@
+/*CSS styleSheet for New NEB layout*/
+
+*{
+	margin:0;
+	
+	padding:0;
+}
+
+body {
+	text-align:center;
+
+	color:#000000;
+
+	background:#FFFFFF;
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size:10px;
+
+	height:100%;
+
+}
+
+
+/************#links - default (for now)**************/
+
+a, a:link, a:visited {
+
+	color: #036; 
+
+	text-decoration:none;
+
+}
+
+a:hover, a:active {
+
+	text-decoration:underline;
+
+	color: #036; 
+
+}
+
+a img {
+
+	border-width:0;
+
+	border-style:none;
+
+}
+
+a.gray:link, a.gray:visited, a.grey:link, a.grey:visited {
+
+	color:#666666;
+
+}
+
+a#nav_blank{
+	width:80px;
+	text-align:center;
+}
+
+p {
+
+	margin: 1.2em 0;
+
+}
+
+
+/*standard general classes*/
+
+.gray {
+
+	color:#666666;
+
+}
+
+.black, a.black, a.black:link, a.black:visited {
+
+	color:#000000;
+
+}
+
+.grey {
+
+	color:#666666;
+
+}
+
+.red {
+
+	color:#CC0000;
+
+}
+
+.red_caps {
+
+	color:#CC0000;
+
+	text-transform:uppercase;
+
+	/*font-weight:bold;*/
+
+	font-size:120%;
+
+	font-weight:normal;
+
+}
+
+.blue {
+
+	color:#7D95B1;
+
+}
+
+.small {
+
+	font-size:9px;
+
+}
+.suggestionsBox {
+		position: relative;
+		left: 30px;
+		margin: 10px 0px 0px 0px;
+		width: 200px;
+		background-color: #212427;
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		border: 2px solid #000;	
+		color: #fff;
+}
+	
+.suggestionList {
+		margin: 0px;
+		padding: 0px;
+}
+	
+.suggestionList li {
+		
+		margin: 0px 0px 3px 0px;
+		padding: 3px;
+		cursor: pointer;
+}
+	
+.suggestionList li:hover {
+		background-color: #659CD8;
+	}
+
+
+
+h1 {font-size:170%;}
+
+h2 {font-size:160%;}
+
+h3 {font-size:140%;}
+
+h4 {font-size:120%;}
+
+h5 {font-size:110%;}
+
+h6 {font-size:100%;}
+
+
+/*---------------------------*/
+/*  container                 */
+/*---------------------------*/
+#container{
+	
+	margin:0 auto;
+
+	text-align:left;
+
+	width:800px;
+	
+	max-width:800px;
+
+	border:1px solid #999999;
+}
+
+#header{
+	width:100%;
+    
+	max-width:800px;
+	
+	height:144px;
+
+	color:#FFFFFF;
+
+	background-color:#000000;
+
+	position:relative;
+	
+}
+#neb_logo{
+	position:relative;
+
+	width:800px;
+
+	height:144px;
+	
+}	
+
+#center
+{
+	position:absolute;
+	font-family: "Trebuchet MS", Arial, "times new roman", serif ;
+	font-size:10px;
+	left:350px;
+	padding-bottom:10px
+}	
+
+/****************************************************/
+/*content/main text*/
+/****************************************************/
+div#content {
+	text-align:justify;
+	line-height: 150%;
+	font-family: georgia, times, "times new roman", serif;
+	font-size:8px;
+}
+
+div#content h2 {
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 30px;
+	color: #036;
+	margin: 0px;
+	padding-top: 20px;
+	font-weight: normal;
+}
+
+div#content h3  {
+	font-family: georgia, times,  "times new roman", serif;
+	font-size: 20px;
+	color: #036;
+	margin: 0px;
+	padding-top: 15px;
+	font-weight:normal;
+}
+/*---------------------------*/
+/*  Top Navigation continer  */
+/*---------------------------*/
+
+#top_nav_container{
+	width:100%;
+	margin:0 auto;
+	background:#CC0000;
+	height:2.5em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	clear: both;
+	text-align:left;
+	background-color: #c00;
+	font-size:10px;
+	font-weight:bold;
+}
+#top_nav_container ul {
+	
+	padding: .5em;
+	
+	margin: 0px;
+	
+	list-style-type:none;
+
+}
+
+
+#top_nav_container li {
+
+	display: inline;
+	float:left;
+	color:white;
+
+}
+#top_nav_container li#nav_blank{
+	width:63%;
+	
+}	
+
+#top_nav_container li a {
+
+    padding-top:.5em;
+	
+	color:#FFFFFF;
+
+	background-color:#CC0000;
+
+	text-align:left;
+    
+	height:1.5em;
+
+	font-weight:bold;
+
+	font-size:10px;
+
+}
+
+
+#top_nav_container a:link, #top_nav_container a:visited {
+
+	color:white;
+	text-decoration:none;
+
+}
+
+#top_nav_container a:hover,#top_nav_container a:active {
+	text-decoration:underline;
+}
+
+/*---------------------------*/
+/*  neb_search_form          */
+/*---------------------------*/
+#neb_search_form{
+	background:#CC0000;
+}
+#neb_search_form a:hover,#neb_search_form a:active{
+	text-decoration:underline;
+}
+
+
+/*---------------------------*/
+/*  breadcrumbs              */
+/*---------------------------*/
+div#breadcrumbs {
+	background:#CC0000;
+	height:2.5em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8px;
+	clear: both;
+	text-align:left;
+	background-color: #c00;
+}
+
+div#breadcrumbs a {
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+div#breadcrumbs a:hover	{
+	color: #fff;
+	background-color: #c00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+div#breadcrumbs table{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;	
+}
+
+	
+	
+/*---------------------------*/
+/*  footer                   */
+/*---------------------------*/
+
+#footer {
+	width:100%;
+	margin:0 auto;
+	background:#CC0000;
+	height:2.5em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	clear: both;
+	text-align:left;
+	background-color: #c00;
+	text-transform:uppercase;
+	font-size:10px;
+	font-weight:bold;
+}
+
+#footer a {
+	color: #fffaf0;
+	
+}
+
+#footer a:hover, div#footer a:visited {
+	color: #fff;
+	background-color: #c00;
+}
+
+#footer ul {
+	padding: .5em;
+	
+	margin: 0px;
+	
+	list-style-type:none;
+	
+}
+
+#footer li {
+	display: inline;
+	float :right;
+	margin-right: 15px;
+	
+}
+/*************************/
+/************************/
+
+
+/*************************/
+/************************/
+#scroll {
+	position:absolute;
+	top:0;
+	bottom:-0.1px;
+	width:2px;
+	z-index:-1;
+	left: 15px;
+	height: 19px;
+}
+
+.text {
+	font-size: 12px;
+	text-align: justify;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, ;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+}
+.textbold {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.textheader {
+	font-size: 15px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	text-decoration: none;
+	color: #369539;
+	text-indent: 5pt;
+}
+.textheader2 {
+
+	font-size: 15px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #f2af23;
+	text-decoration: none;
+
+}
+.textcolor {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #369539;
+	font-weight: normal;
+	font-variant: normal;
+}
+.textalign {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: normal;
+	text-align: right;
+}
+.textfield {
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+}
+.textboldlinks {
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #369539;
+	text-decoration: none;
+}
+.class A:link {
+	COLOR: #CC0000; TEXT-DECORATION: none
+}
+.class A:visited {
+	COLOR: #CC0000; TEXT-DECORATION: none
+}
+.class A:active {
+	COLOR: #CC0000; TEXT-DECORATION: none
+}
+.class A:hover {
+	COLOR: #086708; TEXT-DECORATION: underline
+}
+.class1 A:link {
+	COLOR: #086708; TEXT-DECORATION: none
+}
+.class1 A:visited {
+	COLOR: #086708; TEXT-DECORATION: none
+}
+.class1 A:active {
+	COLOR: #086708; TEXT-DECORATION: none
+}
+.class1 A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.classblue A:link {
+	COLOR: #0033FF; TEXT-DECORATION: none
+}
+.classblue A:visited {
+	COLOR: #0033FF; TEXT-DECORATION: none
+}
+.classblue A:active {
+	COLOR: #0033FF; TEXT-DECORATION: none
+}
+.classblue A:hover {
+	COLOR: #CC3300; TEXT-DECORATION: underline
+}
+.button {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #369539;
+	text-decoration: none;
+	background-image: url('../images/header_bg.jpg');
+	border: 1px solid #000000
+}
+.textplain {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+}
+.tableheader {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f6db88;
+}
+.tableheader2 {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #d0fad0;
+}
+.textnameheader {
+	font-size: 15px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	background-image: url('../images/header_bg.jpg');
+	background-color: #fff0d2
+}
+.textBg {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	background-color: #eeeeee;
+}
+.textbg1 {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	background-color: #fffdf5;
+}
+.textbg2 {
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: normal;
+	background-color: #f8fff8;
+}
+.textboldbg1 {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: bold;
+	background-color: #fffdf5;
+	text-align: left;
+}
+.textboldbg2 {
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif, ;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	background-color: #f8fff8;
+}
+.textbig {
+
+	font-size: 15px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif, ;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+	background-color: #fff0d2;
+}
+.headermessage {
+	font-size: 15px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-indent: 5pt;
+	background-color: #369539;
+	text-align: center;
+	
+}.listbox {
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: normal;
+	background-color: #f8fff8;
+	
+}.listbox2 {
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	color: #000000;
+	font-weight: normal;
+	background-color: #fffdf5;
+}
+
+.textred {
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif, ;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FF0000;
+}
+.button2 {
+	font-size: 18px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bolder;
+	color: #369539;
+	text-decoration: none;
+	border: 1px solid #000000;
+	height: 20px;
+	width: 20px;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+.tableheader3 {
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif,;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #d6edff;
+}
+.tableheader4 {
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif, ;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffcdcd;
+}
+.tableheader5 {
+
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif, ;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffdffd;
+}

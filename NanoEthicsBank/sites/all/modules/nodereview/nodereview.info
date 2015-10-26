@@ -1,0 +1,13 @@
+; $Id: nodereview.info,v 1.1.2.3.2.1 2009/05/16 16:29:51 junedkazi Exp $
+name = Node Review
+description = "Add reviews to arbitrary node types."
+dependencies[] = votingapi
+dependencies[] = views
+core = 6.x
+
+; Information added by drupal.org packaging script on 2009-05-17
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "nodereview"
+datestamp = "1242519459"
+

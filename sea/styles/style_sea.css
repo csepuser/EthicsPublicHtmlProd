@@ -1,0 +1,539 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+border-image: initial;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#000000;
+	background:#E3E3E3 url(http://ethics.iit.edu/sea/images/title_background.jpg) top left repeat-x; 
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+html
+{ /*for footer stick*/
+height: 100%;
+}
+
+body
+{ /*for footer stick*/
+height: 100%;
+}
+* html #wrapper_two_column_left, 
+{ /*for footer stick*/
+height: 100%;
+
+}
+
+table{
+	font-size:12px;	
+}
+ul {
+	list-style-type:none;
+}
+td {
+	vertical-align: top;
+}
+
+#content ul {
+	/* default list style for user-entered content areas */
+	list-style-type:square;
+	margin:1.2em 1em;
+	padding-left:10px;
+}
+#content ol {
+	/* default ordered list style for user-entered content areas */
+	margin:1.2em 3em;
+}
+dt {
+	font-weight:bold;
+}
+
+p {
+	margin: 0 0 1.2em 0;
+}
+hr {
+    height:1px;
+    width:100%;
+	color:#cccccc;
+    background:#cccccc;
+    margin: .36em 0;  
+	border:none 0;
+ }
+h1 {font-size:14px;}
+h2 {font-size:13px;}
+h3 {font-size:12px;}
+h4 {font-size:11px;}
+h5 {font-size:10px;}
+h6 {font-size:9px;}
+input, select, th, td {
+	font-size:1.1em;
+}
+.clear {
+	clear:both;
+}
+.hide {
+	display:none;
+}
+
+.normal {
+	color:#666666;
+	font-weight:normal;
+}
+.hilite {
+	color:#000000;
+	font-weight:bold;
+}
+
+
+
+
+/************#links - default styles**************/
+a, a:link, a:visited {
+	color:#960;
+	text-decoration:none;
+}
+a:hover, a:active {
+	text-decoration:underline;
+	color:#960;
+}
+a img { /*dont underline image links*/
+	border-width:0;
+	border-style:none;
+}
+a { /*gets rid of the dotted Firefox borders around links*/
+	outline:none; 
+}
+
+/* some standard classes that can be applied to content */
+.red {
+	color:#666;
+}
+.gray, grey {
+	color:#666666;
+}
+
+.offwhite{
+	color:#eeeeee;
+}
+
+.light_gray, light_grey {
+	color:#999999;
+}
+.dark_gray, dark_grey {
+	color:#333333;
+}
+.caps {
+	text-transform:uppercase;
+}
+.plain {
+	list-style-type:none;
+}
+.hide {
+	display:none;
+}
+table.padder{
+	padding:10px;
+}
+
+#wrapper
+ {
+width: 800px;
+text-align: left;
+background: white url(http://ethics.iit.edu/sea/images/circuit_banner.jpg) top left no-repeat;
+position: relative;
+height: 100%;
+margin: 0 auto;
+
+}
+
+#banner
+{
+	width:800px;
+	height:120px;
+}
+
+#navigation
+{
+	height: 22px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.sea_nav
+{
+	text-transform:uppercase;
+	color:#FFF;
+	background-color:#555;
+	margin-top:10px;
+	height:30px;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	padding:10px;
+	display:inline;
+}
+
+a:hover.sea_nav
+{
+	/*opacity: 0.5;
+	filter: alpha(opacity=50);*/
+	text-decoration:none;
+}
+
+div.sea_nav_end
+{
+	background-color: #555;
+	width: 370px;
+	height: 32px;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	margin-left: 422px;
+	margin-top: -22px;
+}
+
+a.sea_nav_menu
+{
+	color:#FFF;
+	Padding: 10 5;
+	margin-bottom:2px;
+	text-decoration:none;
+	width:220px;
+	height:15px;
+	background-color:#555;
+}
+
+a:hover.sea_nav_menu
+{
+	text-decoration:none;
+}
+
+#guide_menu{
+	/*display:none;*/
+	left: 62px;
+	margin-top: 2px;
+	width: 180px;
+	float: left;
+	position: relative;
+	
+}
+
+.guides{
+	width: 170px;
+	height: 16px;
+	margin-bottom: 2px;
+	background-color: #555;
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+	padding:5px;
+}
+
+
+
+
+/***************************************************************************/
+	/* BAND 4: contains the banner graphic, left side nav and 
+	 * component area = default place for quicklinks
+/***************************************************************************/
+#band_4 {
+	clear:both;
+	width:800px;
+	background:url(../images/univ_masthead_band_2.gif) bottom right no-repeat;
+	font-size:10px;
+	height:112px;
+	/*overflow:hidden;*/
+	border-bottom:0.1em solid #CCC;
+}
+#univ_home_link {
+	font-weight:bold;
+}
+
+#sub_global_nav {
+	float:left;
+	width:160px;
+}
+#sub_global_nav ul {
+	margin:10px;
+}
+#sub_global_nav li {
+	line-height:1.1em;
+	margin-bottom:.8em;
+	width:100px;
+}
+#sub_global_nav li a, #sub_global_nav li a:link, #sub_global_nav li a:visited {
+	color:#333333;
+	text-decoration:none;
+}
+#sub_global_nav li a:hover, #sub_global_nav li a:active {
+	color:#000000;
+}
+#banner_image {
+	float:left;
+	clear:none;
+	width:639px;
+	height:112px;
+	background:#000000 url(http://ethics.iit.edu/sea/images/SEA_LOGO.jpg) top left;
+	/*border-left:1px solid #cccccc;*/
+	overflow:hidden;
+	position:absolute;
+
+}
+
+
+#band_4_border {
+	clear:both;
+	width:800px;
+	height:16px;
+	/*background:#FFFFFF url(/iithome/template_images/below_band_4.gif) top right repeat-x;*/
+	/*the bottom border part of this band*/
+}
+
+/********************* sct navlist styles****************************/
+/*************** // sct navlist styles // *****************/
+/*********************sct navlist styles****************************/
+/*the little home link above the left sct nav*/
+div#univ_home_link {
+	width:140px;
+	margin: 0 0 0 10px;
+	
+	font-weight:bold;
+}
+div#univ_home_link a {
+	color:#000000;
+}
+/*applies to all*/
+ul#univ_navlist {
+	width:140px;
+	margin:0px 0 0 10px;
+	
+}
+ul#univ_navlist ul {
+	margin:0 0 0 10px;
+}
+ul#univ_navlist ul ul{
+	margin:0 0 0 10px;
+}
+ul#univ_navlist ul ul ul {
+	margin:0 0 0 10px;
+}
+ul#univ_navlist ul ul ul ul{
+	margin:0 0 0 10px;
+}
+/*applies to all*/
+ul#univ_navlist li {
+	line-height:1.2em;
+	font-weight:bold;
+	margin-top:1.2em;
+}
+ul#univ_navlist li li {
+	font-weight:normal;
+	font-size:10px;
+	margin-top:.5em;
+}
+ul#univ_navlist li li li {
+	font-weight:normal;
+	font-size:10px;
+}
+ul#univ_navlist li li li {
+	font-weight:normal;
+	font-size:10px;
+}
+ul#univ_navlist li a {
+	line-height:1.2em;
+	text-decoration:none;
+	font-weight: normal;
+}
+ul#univ_navlist li a, ul#univ_navlist li a:link, ul#univ_navlist li avisited{
+	color:#333333;
+}
+ul#univ_navlist li a:hover, ul#univ_navlist li a:active {
+	color:#000000;
+} 
+ul#univ_navlist li li a, ul#univ_navlist li li a:link, ul#univ_navlist li li a:visited{
+	color:#666666;
+}
+ul#univ_navlist li li a:hover, ul#univ_navlist li li a:active {
+	color:#333333;
+} 
+
+a.sublevel{
+	font-weight:normal;
+	color:#333333;
+
+}
+
+		
+
+
+
+
+
+
+/***************************************************************************/
+	/* BAND 5: Main content area
+/***************************************************************************/
+/* #wrapper (s) identify different layout styles
+/** //  for open layout: #wrapper_open
+/** //  for 3 column layout: #wrapper_3_column
+/** //  for 2 column layouts: #wrapper_2_column_left and #wrapper_2_column_right 
+/** //  all content areas are within #container
+**/
+
+#breadcrumb {
+	font-size:9px;
+	
+}
+#breadcrumb a, 
+#breadcrumb a:link, 
+#breadcrumb a:visited,  
+#breadcrumb a:hover,
+#breadcrumb a:active{
+	color:#666666;
+}
+
+#column_left{
+	/*left hand sct navigation column*/
+	width:16em;
+	float:left;
+	display:inline;
+	clear:none;
+	padding-top:10px;
+	overflow:hidden;
+	background-color:#FFFFFF;	
+
+}
+#c4 {
+	width:160px;
+	overflow:hidden;
+	margin: 40px 0 0 0 ;
+	
+}
+
+#c4_home {
+	/* the image component under the sct nav area */
+	margin:40px 0 0 10px;
+	width:140px;
+	overflow:hidden;
+}
+#c4_home h5 {
+	border-left:1px solid #cc0000;
+	border-top:1px solid #cc0000;
+	padding: 2px 0 0 2px;
+	color:#cc0000;
+}
+#c4 {
+	/* the left column contact area */
+	background: url(../images/left_col_comp_grad.jpg) top left repeat-x;
+	padding-bottom:50px;
+	
+}
+#c4 h4 {
+	color:white;
+	font-size:13px;
+	margin:15px 15px 5px 15px;
+}
+#c4 p {
+	margin:10px 15px;
+	color:#666666;
+}
+
+#main_textarea{
+	width: 500px;
+	margin-left: 205px;
+	margin-bottom: 25px;
+}
+
+ol{
+	margin-left:25px;
+	margin-top:5px;
+}
+
+.active_submenu{
+	margin-left:10px;	
+}
+
+/*************** // 2 column left //****************/
+
+#viewer{
+	/*content area*/
+/*position: absolute;*/
+width: 76em;
+float: left;
+display: block;
+position: absolute;
+/*overflow-y: hidden;*/
+/*z-index: 0;*/
+height: auto;
+min-height: 68.2em;
+/*border: 1px inset;*/
+padding: 2em;
+padding-bottom:60px;
+background-color:white;
+}
+
+
+
+/*general content styles apply to apply*/
+#content h1 {
+	margin-bottom:1em;
+	
+}
+
+.headline a{
+	color:#666666;	
+}
+
+#creditfooter{
+	visibility:hidden;
+}
+
+
+
+/*************************************************************/
+/*----------------------FOOTER CODE--------------------------*/
+/*************************************************************/
+#footer {
+	background-color: #333;
+	position:absolute;
+	bottom:2px;
+	left:1px;
+	color:white;
+	width:77.7em;
+	height:3em;
+	padding:1em;
+	float:none;
+	text-align:center;
+
+}
+#footer p {
+	position:relative;
+    clear:both;
+}
+#footer a, #footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+    color: #FFFFFF;
+}
+#footer a.red, #footer a.red:link, #footer a.red:visited, #footer a.red:hover, #footer a.red:active {
+    color: #CC0000;
+}
+#footer a:hover, #footer a:active {
+    text-decoration: underline;
+}
+
+
+
+div.clear {
+	clear:both;
+}
+

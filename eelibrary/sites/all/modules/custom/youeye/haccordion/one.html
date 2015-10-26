@@ -1,0 +1,52 @@
+<html>
+<head>
+  <link rel="stylesheet" href="liteAccordion.css">
+  <style type="text/css">
+    .dark {
+    border-width: 0;
+    background: #fff;
+    }
+    .dark li > div, .dark li > h2 {
+    background: #fff;
+    }
+  </style>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+ <script src="liteaccordion.jquery.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $('#accordion').liteAccordion({ 
+    theme : 'dark', 
+    containerWidth : 600, 
+    containerHeight : 250, 
+    slideSpeed : 600, 
+    firstSlide : 1
+    });
+    });
+  </script>
+</head>
+
+<body>
+<div id="accordion" class="accordion">
+    <ol>
+        <li>
+            <h2><span>Slide One</span></h2>
+            <div></div>
+        </li>
+        <li>
+            <h2><span>Slide Two</span></h2>
+            <div></div>
+        </li>
+        <li>
+            <h2><span>Slide Three</span></h2>
+            <div></div>
+        </li>
+
+    </ol>
+    <noscript>
+        <p>Please enable JavaScript to get the full experience.</p>
+    </noscript>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?php
+	$user="csep";
+	$pass="ec1976!";
+	$db="nanoethicsbank";
+	$dbh="myst-my-p.cns.iit.edu";
+	$baseurl="../uploaded";
+	$baseurl1="uploaded";
+	$tbl_bank="bank";
+?>

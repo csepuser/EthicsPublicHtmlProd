@@ -1,0 +1,3248 @@
+/*
+ * @file
+ * Lewis College of Human Sciences - global.styles
+ *
+ * Styles you add here will load for all device sizes, they are "global", as
+ * opposed to "responsive" styles, which only load for a given breakpoint (media
+ * query) that you set in theme settings. See the README for more details.
+ *
+ *
+ * How to use this file:
+ * --------------------
+ *
+ * There are many empty selectors and some basic styles to act as a guide.
+ * Nothing is set in stone and you can change anything - even delete all of it
+ * and start with your own clean slate.
+ *
+ * See global.base also which includes normalize.css and some additional
+ * helper classes and base styles.
+ */
+
+/* =============================================================================
+ *   Font Imports
+ * ========================================================================== */
+
+/* Done in theme html preprocess function
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext");
+*/
+
+/* =============================================================================
+ *   Base
+ * ========================================================================== */
+
+/*
+ * To preserve theme settings never apply font properties to the HTML element.
+ * This is critically important if you are using the Responsive JavaScript
+ * feature as this relies on being able to set a pseudo font family on the HTML
+ * element. If you need to set default font properties of any kind use the BODY
+ * element as these can be overridden using font theme settings.
+ */
+
+html {
+  background: #fff;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+
+/* =============================================================================
+ *   HTML Elements
+ * ========================================================================== */
+
+h1 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+}
+
+h5 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+}
+
+h6 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-size: .938em;
+  line-height: 1.5em;
+}
+
+b,
+strong {}
+
+i,
+em {}
+
+dfn {}
+
+sup {}
+
+sub {}
+
+del {}
+
+ins {}
+
+blockquote {}
+
+cite {}
+
+q {}
+
+address {}
+
+ul {
+  font-size: .968em;
+ font-weight: bold;
+}
+
+ol {
+  font-size: .938em;
+}
+
+li {}
+
+dl {}
+
+dd {}
+
+dt {}
+
+abbr {}
+
+acronym {}
+
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-family: Consolas, Monaco, 'Courier New', Courier, monospace, sans-serif;
+}
+
+
+/* =============================================================================
+ *   Wrappers
+ * ========================================================================== */
+
+/*
+ * Page wrapper, includes the .container class which sets the overall page or section width
+ * Main wrapper in page.tpl.php, the .container class sets the width of the page, do not add width to it!
+ */
+#page {}
+#page .container {}
+
+/*
+ * Wraps all header elements - branding and .region-header
+ */
+#header {}
+
+/*
+ * Wraps the sidebars the content column
+ */
+#columns {}
+
+/*
+ * Main content column wrapper
+ */
+#content-column {}
+
+/*
+ * Wraps the main-content-header, the content region and feed-icons. Use this wrapper to style the entire main content column
+ */
+#main-content {}
+
+/*
+ * Wraps the content region, avoid applying styles to this wrapper, its used mainly for position and invisible gutters and can be problematic to style
+ */
+#content {}
+
+/*
+ * Footer wrapper
+ */
+#footer {}
+
+/*
+ * Panels may need additional margin wrangling when in the $content region
+ */
+#content .panel-display {}
+
+/*
+ * Full Width Wrappers
+ * These are used in the optional page--full-width-wrappers.tpl.php template.
+ * All have internal .container classes. In the full width wrapper template the
+ * .container classes set the width or max-width of the contained element - you
+ * can style this but never add any width/margin/padding/borders etc to .container
+ */
+/*
+ * Wraps #page
+ */
+#page-wrapper {}
+#page-wrapper .container {}
+
+/*
+ * Wraps the leaderboard
+ */
+#leaderboard-wrapper {}
+#leaderboard-wrapper .container {}
+
+/*
+ * Wraps the header
+ */
+#header-wrapper {
+  /* Debug styles, is this working */
+  /* background: rgba(255, 192, 203, 0.5); */
+}
+#header-wrapper .container {}
+
+/*
+ * Wraps the nav elements
+ */
+#nav-wrapper {}
+#nav-wrapper .container {}
+
+/*
+ * Wraps breadcrumb
+ */
+#breadcrumb-wrapper {}
+#breadcrumb-wrapper .container {}
+
+/*
+ * Wraps messages and help
+ */
+#messages-help-wrapper {}
+#messages-help-wrapper .container {}
+
+/*
+ * Wraps the secondary content/preface region
+ */
+#secondary-content-wrapper {}
+#secondary-content-wrapper .container {}
+
+/*
+ * Wraps the main content column
+ */
+#content-wrapper {}
+#content-wrapper .container {}
+
+/*
+ * Wraps the tertiary content/postfix region
+ */
+#tertiary-content-wrapper {}
+#tertiary-content-wrapper .container {}
+
+/*
+ * Footer wrapper
+ */
+#footer-wrapper {
+  /* Debug styles, is this working? */
+  /* background: rgba(255, 192, 203, 0.5); */
+}
+#footer-wrapper .container {}
+
+
+/* =============================================================================
+ *   Branding
+ * ========================================================================== */
+
+/*
+ * Wraps all the branding elements, logo, name and slogan
+ */
+#branding {}
+
+/*
+ * Logo
+ */
+#logo {
+  padding: 10px 0;
+}
+
+#logo img {
+  vertical-align: bottom;
+}
+
+/*
+ * Wrapper for the site name and slogan (hgroup)
+ */
+#name-and-slogan {}
+
+/*
+ * Site name (h1)
+ */
+#site-name {
+  margin: 0;
+}
+
+#site-name a {}
+
+#site-name a:link,
+#site-name a:visited {
+  text-decoration: none;
+}
+
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: underline;
+}
+
+/*
+ * Site slogan (h2)
+ */
+#site-slogan {
+  margin: 0;
+}
+
+
+/* =============================================================================
+ *   Page content header
+ * ========================================================================== */
+
+/*
+ * Main content header wraps the page title, tabs and actions links
+ */
+#main-content-header {}
+
+/*
+ * The main page title (h1)
+ */
+#page-title {
+  margin: 0;
+}
+
+
+/* =============================================================================
+ *   Misc Global Styles
+ * ========================================================================== */
+
+/*
+ * Feed icons
+ */
+.feed-icon {}
+
+/*
+ * Aggregator feed source
+ */
+#aggregator .feed-source .feed-icon {
+  display: inline;
+  float: none;
+  margin-right: 10px;
+}
+
+.feed-details dt,
+.feed-details dd {
+  display: inline;
+  margin: 0;
+}
+
+/*
+ * Generic styles for the more link
+ */
+.more-link {}
+
+/*
+ * Generic styles for links. See the ul.links declaration in node and comment stylesheets
+ */
+ul.links {
+  margin: 0;
+  padding: 0;
+}
+
+ul.links.inline {
+  display: block;
+}
+
+ul.links li {
+  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+/*
+ * Search results are an ordered list so reset the margin
+ */
+.search-results {
+  margin: 0;
+}
+
+
+/* =============================================================================
+ *   Regions
+ * ========================================================================== */
+
+/*
+ * Standard region wrapper, don't add width to any regions, you will bork the layout - no margin, padding or borders etc
+ */
+.region {}
+
+/*
+ * Regions have an inner div - perfect for adding margin, padding or borders
+ */
+.region-inner {}
+
+/*
+ * Regions can be nested, such as when using Panels
+ */
+.region-inner .region-inner {}
+
+/*
+ * Header region, embedded in the #header
+ */
+.region-header {}
+
+/*
+ * Generally used to output Drupals help block, if the help module is enabled
+ */
+.region-help {}
+
+/*
+ * Secondary content
+ */
+.region-secondary-content {}
+
+/*
+ * Sits above the main content header, like a content-top region
+ */
+.region-highlighted {}
+
+/*
+ * Sits below the main content, like a content-bottom region
+ */
+.region-content-aside {}
+
+/*
+ * Sidebars - targets both
+ */
+.sidebar {}
+
+/*
+ * First sidebar
+ */
+.region-sidebar-first {}
+
+/*
+ * Second sidebar
+ */
+.region-sidebar-second {}
+
+/*
+ * Tertiary content
+ */
+.region-tertiary-content {}
+
+/*
+ * Footer region
+ */
+.region-footer {}
+
+
+/* =============================================================================
+ *   Links
+ * ========================================================================== */
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {}
+
+a:active,
+a.active {}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+
+/* =============================================================================
+ *   Primary, Secondary and Menu Bar region menus
+ * ========================================================================== */
+
+/*
+ * Use one of the following id's for granular control:
+ *  - #menu-bar (menu bar region)
+ *  - #primary-menu (main menu)
+ *  - #secondary-menu (secondary/user menu)
+ * You can target all of these with .nav or div[id$="menu-bar"]
+ */
+.nav {
+  clear: both;
+  margin: 10px 0;
+}
+
+.nav ul,
+.nav ul.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.nav li,
+.nav ul.menu li {
+  display: inline;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a,
+.nav ul.menu li a {
+  display: block;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.nav li a:visited,
+.nav ul.menu li a:visited {}
+
+.nav li a:hover,
+.nav li a:focus,
+.nav ul.menu li a:hover,
+.nav ul.menu li a:focus {}
+
+.nav .block {
+  margin-bottom: 0;
+}
+
+
+/* =============================================================================
+ *   Superfish
+ * ========================================================================== */
+
+ul.sf-menu {
+  margin-bottom: 0;
+}
+
+ul.sf-menu a {
+  border-left: 0;
+  border-top: 0;
+  padding: 0 10px;
+  text-decoration: none;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+ul.sf-menu a:link,
+ul.sf-menu a:visited {}
+
+ul.sf-menu li {}
+
+ul.sf-menu li:hover,
+ul.sf-menu li.sfHover {
+  outline: 0;
+}
+
+ul.sf-menu a {}
+
+ul.sf-menu a:focus,
+ul.sf-menu a:hover,
+ul.sf-menu a:active {
+  outline: 0;
+}
+
+/*
+ * Superfish blocks
+ */
+.block-superfish {}
+
+.block-superfish .block-inner .content {}
+
+.block-superfish ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.block-superfish ul ul {}
+
+.block-superfish ul ul ul {}
+
+.block-superfish ul ul ul ul {}
+
+.block-superfish li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*
+ * Vertical style
+ */
+.sf-vertical {
+  width: 100%;
+}
+
+.sf-vertical li {
+  width: 100%;
+}
+
+.sf-vertical li.last {}
+
+.sf-vertical li:hover ul,
+.sf-vertical li.sfHover ul {
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.sf-vertical li a {
+  padding: 0 10px;
+}
+
+/*
+ * Navbar style
+ */
+.sf-navbar {
+  padding-bottom: 0 !important;
+}
+
+/*
+ * Sensible padding for the default style
+ */
+.sf-menu.sf-style-default a {
+  padding: 0 10px;
+}
+
+
+/* =============================================================================
+ *   Menus, usually blocks
+ * ========================================================================== */
+
+ul.menu {
+  padding-left: 15px;
+}
+
+ul.menu ul {
+  padding-left: 15px;
+}
+
+ul.menu ul ul {}
+
+ul.menu ul ul ul {}
+
+ul.menu li {
+  margin: 0;
+}
+
+ul.menu li.collapsed,
+ul.menu li.expanded,
+ul.menu li.leaf {}
+
+ul.menu li a {}
+
+ul.menu li a:link,
+ul.menu li a:visited {}
+
+ul.menu li a:active,
+ul.menu li a.active {}
+
+ul.menu li a:hover,
+ul.menu li a:focus {}
+
+ul.menu li.active a,
+ul.menu li.active-trail a {}
+
+ul.menu li.first,
+ul.menu li.last {}
+
+/* If li.content exists it's a problem, so reset the padding */
+.block .menu li.content {
+  padding: 0;
+}
+
+
+/* =============================================================================
+ *   Book navigation menu
+ * ========================================================================== */
+
+.book-navigation {}
+
+.book-navigation .page-links {}
+
+.book-navigation .page-previous {}
+
+.book-navigation .page-next {}
+
+.book-navigation .page-up {
+  /* Prevent text wrapping to a new line, assumes English "up" is used (two characters) */
+  min-width: 2em;
+  white-space: nowrap;
+}
+
+.book-navigation .menu {
+  margin-left: 0;
+}
+
+
+/* =============================================================================
+ *   Breadcrumbs
+ * ========================================================================== */
+
+#breadcrumb {
+  margin: 10px 0;
+}
+
+/* If the label is set to show in theme settings the label class is added */
+#breadcrumb .breadcrumb-label {
+  font-size: 1em;
+  display: inline;
+  padding-right: 10px;
+}
+
+#breadcrumb .breadcrumb-label:after {
+  content: ":";
+}
+
+#breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+
+#breadcrumb .with-breadcrumb-label ol {
+  display: inline;
+}
+
+#breadcrumb li {
+  list-style: none;
+  display: inline;
+}
+
+#breadcrumb li.crumb-first {}
+
+#breadcrumb li.crumb-last {}
+
+#breadcrumb a {}
+
+#breadcrumb a:link,
+#breadcrumb a:visited {}
+
+#breadcrumb a:active,
+#breadcrumb a.active {}
+
+#breadcrumb a:hover,
+#breadcrumb a:focus {}
+
+
+/* =============================================================================
+ *   Pagers
+ * ========================================================================== */
+
+ul.pager {
+  clear: both;
+  margin: 0;
+  text-align: center;
+}
+
+.item-list ul.pager li {
+  margin: 0;
+}
+
+ul.pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+  padding: .5em;
+}
+
+ul.pager li.pager-current {
+  font-weight: 700;
+}
+
+.block ul.pager li {
+  margin: 0;
+}
+
+/*
+ * Theme the various states of pager links
+ */
+ul.pager li {}
+
+ul.pager li a {}
+
+ul.pager li a:link,
+ul.pager li a:visited {}
+
+ul.pager li a:active,
+ul.pager li a.active {}
+
+ul.pager li a:hover,
+ul.pager li a:focus {}
+
+ul.pager li.pager-item {}
+ul.pager li.first {}
+ul.pager li.last {}
+ul.pager li.pager-current {}
+ul.pager li.pager-first {}
+ul.pager li.pager-previous {}
+ul.pager li.pager-next {}
+ul.pager li.pager-last {}
+
+
+/* =============================================================================
+ *   Skip Navigation
+ * ========================================================================== */
+
+#skip-link {
+  left: 50%;
+  margin-left: -6.5em;
+  margin-top: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  width: 12em;
+  z-index: 50;
+}
+
+#skip-link a {
+  background: #444;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#skip-link a:link,
+#skip-link a:visited {
+  background: #444;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#skip-link a:hover,
+#skip-link a:focus,
+#skip-link a:active {
+  outline: 0;
+}
+
+
+/* =============================================================================
+ *   Tabs (local tasks)
+ * ========================================================================== */
+
+#tasks {
+  margin-bottom: 15px;
+}
+
+ul.primary {
+  border-bottom-color: #ccc;
+  margin: 20px 0;
+  padding: 0 0 0 5px;
+}
+
+ul.primary li {
+  display: block;
+  float: left;
+  margin: 0 1px -1px;
+}
+
+ul.primary li a {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+  margin-right: 1px;
+  padding: 0 10px;
+  display: block;
+  float: left;
+  height: 1.5em;
+  line-height: 1.5em;
+}
+
+ul.primary li a:hover,
+ul.primary li a:focus {
+  background-color: #eee;
+  border-color: #ccc;
+}
+
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+  background-color: #fff;
+  border-bottom-color: #fff;
+}
+
+ul.secondary {
+  border-bottom: 1px solid #ccc;
+  margin: 1em 0 0;
+  padding: 0 .3em 1em;
+}
+
+ul.secondary li {
+  border-right: 0;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+ul.secondary li a {}
+
+ul.secondary li a:hover,
+ul.secondary li a.active {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+
+/* =============================================================================
+ *   Action links
+ * ========================================================================== */
+
+ul.action-links {
+  margin: 20px 0 0;
+  list-style: none;
+}
+
+ul.action-links li {}
+
+
+/* =============================================================================
+ *  Field Styling
+ * ========================================================================== */
+
+/*
+ * Wrapper for any field
+ */
+.field {}
+
+/*
+ * Above and inline classes are on the field wrapper
+ */
+.field-label-above {}
+
+/*
+ * When labels are set to inline in field display settings the clearfix class is automatically added
+ */
+.field-label-inline {}
+
+/*
+ * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
+ */
+.field-label {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: inherit;
+  margin-bottom: 0;
+}
+
+
+/*
+ * Field types (Core)
+ */
+
+/*
+ * Image fields use the <figure> and <figcaption> elements from HTML5
+ */
+.field-type-image {}
+
+.field-type-image .caption {}
+
+.field-type-image .full-caption {}
+
+.field-type-image .teaser-caption {}
+
+/*
+ * Taxonomy
+ */
+.field-type-taxonomy-term-reference {
+  /* The same bottom margin as p, blockquote, ul, ol and dl */
+  margin-bottom: 1.5em;
+}
+
+.field-type-taxonomy-term-reference.field-label-inline .field-items {
+  margin: 0;
+  padding: 0;
+}
+
+.field-type-taxonomy-term-reference.field-label-inline .field-item {
+  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+/*
+ * Text
+ */
+.field-type-text {}
+
+/*
+ * Long text
+ */
+.field-type-text-long {}
+
+/*
+ * Text with summary
+ */
+.field-type-text-with-summary {}
+
+/*
+ * File
+ */
+.field-type-file {}
+
+/*
+ * Number/Integer
+ */
+.field-type-number-integer {}
+
+/*
+ * Decimal
+ */
+.field-type-number-decimal {}
+
+/*
+ * Number float
+ */
+.field-type-number-float {}
+
+/*
+ * List
+ */
+.field-type-list-text {}
+
+/*
+ * List boolean
+ */
+.field-type-list-boolean {}
+
+/*
+ * List integer
+ */
+.field-type-list-integer {}
+
+/*
+ * List float
+ */
+.field-type-list-float {}
+
+/*
+ * Field types (Contrib)
+ */
+.field-type-datetime {}
+
+.field-type-node-reference {}
+
+.field-type-user-reference {}
+
+/*
+ * Named fields
+ */
+.field-name-body {}
+
+.field-name-field-image {}
+
+.field-name-field-tags {}
+
+/*
+ * Underscores in field name are replaced with dashes
+ */
+.field-name-field-FIELDNAME {}
+
+/*
+ * Image Alignment Theme Settings - included here so you can easily override
+ */
+/*
+ * Float none setting
+ */
+.ia-n .field-type-image,
+.iat-n .field-type-image {}
+
+/*
+ * Float left setting
+ */
+.ia-l .field-type-image figure,
+.iat-l .field-type-image figure {
+  margin: 5px 20px 15px 0;
+}
+
+/*
+ * Centered setting
+ */
+.ia-c .field-type-image figure,
+.iat-c .field-type-image figure {
+  margin: 5px auto 15px;
+}
+
+/*
+ * Float right setting
+ */
+.ia-r .field-type-image figure,
+.iat-r .field-type-image figure {
+  margin: 5px 0 15px 20px;
+}
+
+
+/* =============================================================================
+ *   Block Styling
+ * ========================================================================== */
+
+/*
+ * Main wrapper for most blocks, block_system_main does not have it
+ */
+.block {
+  margin-bottom: 20px;
+}
+
+/*
+ * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
+ */
+.block-inner {}
+
+/*
+ * The first block in the region
+ */
+.block.first {}
+
+/*
+ * The last block in the region
+ */
+.block.last {}
+
+/*
+ * Zebra striping for each block in the region
+ */
+.block.odd {}
+
+/*
+ * Zebra striping for each block in the region
+ */
+.block.even {}
+
+/*
+ * Block title
+ */
+.block-title {
+  margin: 0;
+}
+
+/*
+ * Block content wrapper
+ */
+.block-content {}
+
+/*
+ * Match item list and block menu margin and padding
+ */
+.block-content {}
+
+.block-content ul,
+.block-content ol {
+  padding: 0 0 0 15px;
+}
+
+.block-content li {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Block for the latest news items in the first category
+ */
+#block-aggregator-category-1 {}
+
+/*
+ * Block for the latest news items in the first feed
+ */
+#block-aggregator-feed-1 {}
+
+/*
+ * First block created with "Add block" link
+ */
+#block-block-1 {}
+
+/*
+ * "Recent blog posts" block
+ */
+#block-blog-recent {}
+
+/*
+ * "Book navigation" block for the current book's table of contents
+ */
+#block-book-navigation {}
+
+/*
+ * "Recent comments" block
+ */
+#block-comment-recent {}
+
+/*
+ * "Active forum topics" block
+ */
+#block-forum-active {}
+
+/*
+ * "New forum topics" block
+ */
+#block-forum-new {}
+
+/*
+ * Language switcher block
+ */
+#block-locale-language {}
+
+/*
+ * Custom menu block
+ */
+#block-menu-menu-NAME {}
+
+/*
+ * "Recent content" block
+ */
+#block-node-recent {}
+
+/*
+ * "Syndicate" block for primary RSS feed; see also page.css's .feed-icon
+ */
+#block-node-syndicate {}
+
+/*
+ * "Most recent poll" block
+ */
+#block-poll-recent {}
+
+/*
+ * "Author information" block for the profile of the page's author
+ */
+#block-profile-author-information {}
+
+/*
+ * "Search form" block
+ */
+#block-search-form {}
+
+/*
+ * "Shortcuts" block
+ */
+#block-shortcut-shortcuts {}
+
+/*
+ * "Popular content" block
+ */
+#block-statistics-popular {}
+
+/*
+ * "Main menu" block
+ */
+#block-system-main-menu {}
+
+/*
+ * "Management" block for Drupal management menu
+ */
+#block-system-management {}
+
+/*
+ * "Navigation" block for Drupal navigation menu
+ */
+#block-system-navigation {}
+
+/*
+ * "User menu" block for Drupal user menu
+ */
+#block-system-user-menu {}
+
+/*
+ * "System help" block
+ */
+#block-system-help {}
+
+/*
+ * "Main page content" block
+ */
+#block-system-main {}
+
+/*
+ * "Powered by Drupal" block
+ */
+#block-system-powered-by {}
+
+/*
+ * "User login form" block
+ */
+#block-user-login {}
+
+/*
+ * "Who's new" block for a list of the newest users
+ */
+#block-user-new {}
+
+/*
+ * "Who's online" block for a list of the online users
+ */
+#block-user-online {}
+
+nav#block-menu-menu-ethics {
+    color: rgb(136, 136, 136);
+    background-color: #CCC;
+}
+
+nav#block-menu-menu-eac {
+    background-color: #ccc;
+}
+
+
+/* =============================================================================
+ *   Node Styling
+ * ========================================================================== */
+
+.node {
+  margin-bottom: 20px;
+}
+
+.node.node-promoted {}
+
+.node.node-sticky {}
+
+.node.node-by-viewer {}
+
+.node.node-teaser {}
+
+.node.node-full {}
+
+.node.odd {}
+
+.node.even {}
+
+.node .node-title {
+  margin: 0;
+}
+
+.node .user-picture {}
+
+.node .submitted {}
+
+.node .submitted .username {}
+
+.node .submitted time {}
+
+.node .node-content {}
+
+.node ul.links {}
+
+.node ul.links li {}
+
+.node ul.links li a {}
+
+.node ul.links li.node-read-more a {}
+
+.node ul.links li.comment-add a {}
+
+.node ul.links li.comment-comments a {}
+
+.node ul.links li.comment-new-comments a {}
+
+.node ul.links li.blog-sernames-blog a {}
+
+.node ul.links li.print-html a {}
+
+.node ul.links li.print-email a {}
+
+.node ul.links li.print-pdf a {}
+
+.preview .node {}
+
+/*
+ * All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+.node-page {}
+
+.node-article {}
+
+.node-book {}
+
+.node-forum {}
+
+.node-poll {}
+
+
+/* =============================================================================
+ *   Comment Styling - Comments, comment wrapper, comment form
+ * ========================================================================== */
+
+/*
+ * Wrapper for the list of comments and its titles
+ */
+#comments {
+  margin: 1.5em 0;
+}
+
+#comments h2 {}
+
+#comments h2.comment-title {
+  margin: 0;
+}
+
+#comments h2.comment-form {
+  margin: 0;
+}
+
+/*
+ * Wrapper for a single comment
+ */
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment.first {}
+
+.comment.last {}
+
+.comment.odd {}
+
+.comment.even {}
+
+.comment .user-picture {}
+
+.comment .submitted {}
+
+.comment .submitted p {}
+
+.comment .submitted .username {}
+
+.comment .submitted time {}
+
+.comment .user-signature {}
+
+.comment ul.links {}
+
+/*
+ * Comment title
+ */
+.comment-title {
+  margin: 0;
+}
+
+/*
+ * Comment states
+ */
+.comment-new {}
+
+.comment-by-anonymous {}
+
+.comment-by-node-author {}
+
+.comment-by-viewer {}
+
+.comment-title-hidden {}
+
+.comment-with-picture {}
+
+.comment-with-signature {}
+
+/*
+ * Preview of the comment before submitting new or updated comment
+ */
+.comment-preview {}
+
+/*
+ * "New" marker for comments that are new for the current user
+ */
+.new {
+  color: #c00;
+}
+
+/*
+ * Nested comments are indented
+ */
+.indented {
+  margin-left: 40px;
+}
+
+
+/* =============================================================================
+ *   Forms
+ * ========================================================================== */
+
+/*
+ * Wrapper for a form element (or group of form elements) and its label
+ */
+.form-item {}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid #c00;
+}
+
+.form-item label {
+  font-weight: 700;
+}
+
+.form-item label.option {}
+
+/*
+ * Highlight marks and form required mark
+ */
+.marker,
+.form-required {
+  color: #c00;
+}
+
+.form-item .description {
+  font-size: 0.85em;
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item {}
+
+/*
+ * The submit button
+ */
+.form-submit {}
+
+.container-inline div,
+.container-inline label {
+  display: inline;
+}
+
+/*
+ * Define consistent borders
+ */
+fieldset {
+  border: 1px solid #ccc;
+}
+
+/*
+ * Tips for Drupal's input formats
+ */
+.tips {}
+
+/*
+ * Buttons used by contrib modules like Media
+ */
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+/*
+ * Password confirmation
+ */
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+
+/* =============================================================================
+ *   Tables
+ * ========================================================================== */
+
+table {
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+}
+
+table.sticky-header {
+  z-index: 10;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border-color: #ccc;
+}
+
+table,
+td,
+th {
+  vertical-align: middle;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+}
+
+thead tr {
+  font-weight: 700;
+  background-color: #e5e5e5;
+
+}
+
+td,
+th {
+  border-bottom: 0;
+  margin: 0;
+  padding: 5px 7px;
+}
+
+tbody {}
+
+tbody tr {
+  border-top: 1px solid #ccc;
+}
+
+tr.odd {
+  background: #fff;
+}
+
+tr.info,
+tr.even,
+tr:nth-child(2n+2) {
+  border-bottom: 0;
+  background-color: #f5f5f5;
+}
+
+tr.drag {}
+
+tr.drag-previous {}
+
+tr.odd td.active {
+  background-color: #eee;
+}
+
+tr.even td.active {
+  background-color: #ebebeb;
+}
+
+.lt-ie8 tr {}
+
+.lt-ie8 tr.even,
+.lt-ie8 tr.odd {}
+
+.lt-ie8 tr.even th,
+.lt-ie8 tr.even td,
+.lt-ie8 tr.odd th,
+.lt-ie8 tr.odd td {
+}
+
+/*
+ * Forum tables
+ * Core sets white-space to nowrap, which makes no sense
+ */
+#forum td {}
+
+#forum td .created,
+#forum td .posts,
+#forum td .topics,
+#forum td .last-reply,
+#forum td .replies,
+#forum td .pager {
+  white-space: normal;
+}
+
+
+/* =============================================================================
+ *   Messages
+ * ========================================================================== */
+
+/* Left and right margin are set by the global gutter width */
+div.messages {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.status {}
+
+div.warning {}
+
+tr.warning {}
+
+div.error,
+tr.error {}
+
+.error {}
+
+.warning {}
+
+/*
+ * Unpublished nodes
+ */
+.node-unpublished,
+.comment-unpublished {}
+
+.node-unpublished,
+.comment-unpublished {}
+
+.node-unpublished p.unpublished,
+.comment-unpublished p.unpublished {
+  color: pink;
+  color: rgba(239, 170, 170, 0.4);
+  font-family: Impact,"Arial Narrow",Helvetica,sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  height: 0;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  text-align: center;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+/*
+ * Otherwise these elements will appear below the "Unpublished" text
+ */
+.lt-ie8 {}
+
+.lt-ie8 .node-unpublished > *,
+.lt-ie8 .comment-unpublished > * {
+  position: relative;
+}
+
+
+/* =============================================================================
+ *    Maintenance pages
+ * ========================================================================== */
+
+.maintenance-page {}
+.maintenance-page .container {
+  padding: 40px 0;
+}
+
+.maintenance-page #site-name,
+.maintenance-page #page-title {
+  margin: 0;
+}
+
+.db-offline {}
+
+.db-offline .container {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 960px;
+}
+
+.db-offline div.messages {
+  margin: 20px 0 0;
+}
+
+.db-offline #content {
+  padding: 20px 0;
+}
+
+
+/* =============================================================================
+ *   Misc overrides for contrib modules
+ * ========================================================================== */
+
+/*
+ * Admin menu overrides
+ */
+#admin-menu {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Devel Module
+ */
+.dev-query {
+  background: #eee;
+  padding: 30px;
+}
+
+/*
+ * Styleguide module tweaks
+ */
+#styleguide-header {
+  padding: 0 10px;
+}
+
+#styleguide-header .item-list {
+  font-family: inherit;
+  margin: 0 20px 20px 0;
+  min-height: 260px;
+  width: auto;
+}
+
+
+
+
+
+/* ============================================================================
+ *   Lewis College of Human Sciences Global Styles
+ * ========================================================================= */
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'desktop';
+}
+
+/* Reset margins on Global Header and Footer so they span full width */
+#block-iit-global-header-iit-global-header, 
+#block-iit-global-header-iit-global-header .block-inner {
+  margin: 0;
+}
+
+#block-iit-global-footer-iit-global-footer, 
+#block-iit-global-footer-iit-global-footer .block-inner {
+  margin: 0;
+}
+
+/* CAS User Login Bits on User Form */
+#user-login {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#user-login .cas-links {
+    list-style-type: none;
+    font-size: 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#user-login .cas-links li {
+    padding: 0;
+    margin: 0;
+    background-image:none;
+}
+
+#user-login .cas-links li a {
+    font-size: 0.8125em;
+}
+/* end CAS User Login Bits on User Form */
+
+
+/* Standard Elements */
+h1 {
+  font-size: 2.3125em;
+}
+
+h2 {
+  font-size: 1.9375em;
+  margin: 0.2em 0 0.8em 0;
+}
+
+#main-content h2 {
+  border-bottom: 1px solid #888;
+  padding-bottom: 0.1em;
+}
+
+h3 {
+  font-size: 1.4375em;
+  text-transform: uppercase;
+  margin: 1em 0 0.25em 0;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  margin: 1em 0 0.25em 0;
+  letter-spacing: 1px;
+}
+
+h1#page-title {
+  line-height: 1.263157894em;
+  margin: 0 0 0.5em 0;
+}
+
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  color: #295F6C;
+}
+
+.psychology #main-content h1,
+.psychology #main-content h2,
+.psychology #main-content h3,
+.psychology #main-content h4,
+.psychology #main-content h5,
+.psychology #main-content h6 {
+  color: #7d9395;
+}
+
+.humanities #main-content h1,
+.humanities #main-content h2,
+.humanities #main-content h3,
+.humanities #main-content h4,
+.humanities #main-content h5,
+.humanities #main-content h6 {
+  color: #89b3c1;
+}
+
+.social-sciences #main-content h1,
+.social-sciences #main-content h2,
+.social-sciences #main-content h3,
+.social-sciences #main-content h4,
+.social-sciences #main-content h5,
+.social-sciences #main-content h6 {
+  color: #6291a5;
+}
+
+a {
+  color: #669c41;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.psychology a {
+  /*color: #7d9395;*/
+  color: #669c41;
+}
+
+.humanities a {
+  /*color: #89b3c1;*/
+  color: #f58c1f;
+}
+
+.social-sciences a {
+  /*color: #6291a5;*/
+  color: #b84e46;
+}
+
+.wrapper-43 {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+.wrapper-169 {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.wrapper-43 iframe,
+.wrapper-169 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#main-content img {
+  margin: 0.5em;
+}
+
+td {
+  vertical-align: top;
+}
+
+table td ul {
+  margin: 0;
+}
+
+#main-content img.img-border {
+  margin: 0;
+  border: 0.5em solid #fff;
+}
+
+#main-content img.img-margin-none {
+  margin: 0;
+}
+
+blockquote {
+    margin: 1.5em 2.75em;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25em;
+    color: #295F6C;
+    position: relative;
+    z-index:10;
+}
+
+blockquote p {
+    font-size: 1em;
+    line-height: 1.7em;
+    position:relative;
+    z-index: 15;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 130px;
+    color: #eae4d4;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    position: absolute;
+    top: -55px;
+    left:-25px;
+    z-index: 5;
+}
+
+figure.image-caption { display:inline-block; }
+
+figure.image-caption figcaption {
+  background-color: rgb(203, 193, 163);
+  padding: 10px;
+  color: #222;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  margin: 0 0 15px 0;
+}
+
+figure.image-caption img { display:block; }
+
+/* order list basic style */
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+ol li {
+    margin: 1em 0;
+}
+/* end Standard Elements */
+
+
+/* flexslider 2.2.2 css fixes for direction and paging */
+.flexslider ol.flex-control-paging {
+    z-index: 25;
+}
+
+.flexslider .flex-direction-nav a {
+    color: rgba(0,0,0,0.8);
+}
+
+.flexslider .flex-direction-nav a:before {
+    position: relative;
+    top: -8px;
+}
+/* end flexslider 2.2.2 css fixes for direction and paging */
+
+
+/* Department Footer */
+#footer-wrapper {
+  border-top: 3px solid #444;
+  background-color: #e9e9e9;
+}
+
+#footer .region-footer .block-block {
+  margin: 0;
+}
+
+#footer #iit-department-footer {
+  position: relative;
+}
+
+#footer #iit-department-footer a {
+  color: #295F6C;
+}
+
+#footer #iit-department-footer h5 {
+  font-weight: 400;
+  font-family: 'oswald', sans-serif;
+}
+
+#footer #iit-department-footer p {
+  font-size: 0.813em;
+  margin: 0 0 0.8em;
+}
+
+#footer #iit-department-footer .social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer #iit-department-footer .social-icons li {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+#footer #iit-department-footer .social-icons li:first-child {
+  margin-left: 0;
+}
+/* end Department Footer */
+
+
+/* Sidebar Menu */
+.sidebar nav.block-menu-block .block-inner {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar nav.block-menu-block {
+  background-color: #295F6C;
+  padding: 16px;
+}
+
+.psychology .sidebar nav.block-menu-block,
+.human-sciences .sidebar nav#block-menu-block-18 {
+  background-color: #8ead52;
+}
+
+.humanities .sidebar nav.block-menu-block,
+.human-sciences .sidebar nav#block-menu-block-17 {
+  background-color: #f58c1f;
+}
+
+.social-sciences .sidebar nav.block-menu-block,
+.human-sciences .sidebar nav#block-menu-block-19 {
+  background-color: #b84e46;
+}
+
+.sidebar nav.block-menu-block a {
+  color: #fff;
+  outline: none;
+}
+
+.sidebar nav.block-menu-block a:hover {
+  text-decoration: none;
+}
+
+.sidebar nav.block-menu-block ul {
+  margin: .75em 0;
+  padding: 0;
+}
+
+.sidebar nav.block-menu-block li {
+  line-height: 1.25em;
+  margin: .3125em 0;
+  list-style-type: none;
+  list-style-image: none;
+  padding-left: 1.1875em;
+}
+
+.sidebar nav.block-menu-block ul li.leaf {
+  background: url("images/sidenav-dot.png") no-repeat .125em .375em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar nav.block-menu-block ul li.leaf {
+    background: url("images/sidenav-dot@2x.png") no-repeat .125em .375em;
+    background-size: 9px;
+  }
+}
+
+.sidebar nav.block-menu-block ul li.collapsed {
+  background: url("images/sidenav-plus.png") no-repeat .125em .375em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar nav.block-menu-block ul li.collapsed {
+    background: url("images/sidenav-plus@2x.png") no-repeat .125em .375em;
+    background-size: 9px;
+  }
+}
+
+.sidebar nav.block-menu-block ul li.expanded {
+  background: url("images/sidenav-minus.png") no-repeat .125em .375em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar nav.block-menu-block ul li.expanded {
+    background: url("images/sidenav-minus@2x.png") no-repeat .125em .375em;
+    background-size: 9px;
+  }
+}
+
+.sidebar nav.block-menu-block a.active {
+    font-weight: 800;
+}
+
+.sidebar nav.block-menu-block li a {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.sidebar nav.block-menu-block h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sidebar nav.block-menu-block h2.block-title {
+  font-size: 1.5em;
+  line-height: 1.125em;
+  border: 0;
+  margin-left: .7083333em;
+  text-indent: -.7083333em;
+}
+
+.sidebar nav.block-menu-block h2 a:before {
+  content: "« ";
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: -0.15em;
+}
+/* end Sidebar Menu */
+
+
+/* General Sidebar block style */
+.sidebar .block h2 {
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    color: #333;
+}
+/* end General Sidebar block style */
+
+
+/* Sidebar Block Quote */
+.sidebar blockquote {
+margin:2em 25px;
+font-family: "Oswald", sans-serif;
+font-style: italic;
+font-weight: 300;
+font-size: 1.3em;
+color: #777;
+position: relative;
+z-index: 10;
+text-indent: 1.2em;
+}
+
+.sidebar blockquote:before {
+content: "\201C";
+font-size: 74px;
+color: #295F6C;
+font-weight: bold;
+font-family: "Georgia", serif;
+position: absolute;
+top: -24px;
+left: -41px;
+z-index: 5;
+}
+
+.humanities .sidebar blockquote:before { color: #f58c1f; }
+
+.social-sciences .sidebar blockquote:before { color: #b84e46; }
+
+.psychology .sidebar blockquote:before { color: #8ead52; }
+
+.sidebar blockquote p {
+    margin: 0.5em 0;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.sidebar blockquote p.byline {
+    color: #295F6C;
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.humanities .sidebar blockquote p.byline { color: #f58c1f; }
+
+.social-sciences .sidebar blockquote p.byline { color: #b84e46; }
+
+.psychology .sidebar blockquote p.byline { color: #8ead52; }
+/* end Sidebar Block Quote */
+
+
+/* Sidebar Icon Links */
+#block-block-10 {
+    background-color: transparent;
+    position: relative;
+    border-bottom: 1px solid #888;
+    min-height: 36px;
+    padding-bottom: 0.5em;
+}
+
+#block-block-10 .block-inner {
+    padding: 0;
+}
+
+#block-block-10 p {
+    margin: 0;
+}
+
+.sidebar a.sidebar-icons {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.45em;
+    line-height: 1.181818181818em;
+    text-decoration: none;
+    color: #295F6C;
+}
+
+.sidebar a.sidebar-icons:hover {
+    color: #888;
+}
+
+.sidebar a.sidebar-icons img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar a.sidebar-icons span {
+    padding-left: 54px;
+    display: block;
+    position: relative;
+    top: 0.25em;
+}
+/* end Sidebar Icon Links */
+
+
+/* Search Page*/
+.page-search #search-form .form-submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #666;
+  border: 0;
+  padding: 0.5em 1em;
+  letter-spacing: 1px
+}
+
+.no-touch .page-search #search-form .form-submit:hover {
+  background-color: #888;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-homepage-hero-item {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-article {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-page {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-panel {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-slideshow {
+  display: none;
+}
+
+.page-search .search-results {
+  padding: 0;
+}
+
+.page-search .search-results .search-result .search-info {
+  display: none;
+}
+
+.page-search #main-content .item-list .pager li {
+  padding: 0 0.75em;
+}
+/* end Search Page */
+
+
+/* sidebar search form block */
+.sidebar #block-search-form {
+  background-color: #ccc;
+}
+
+.sidebar #block-search-form .block-inner {
+  padding: 1em;
+  margin: 0;
+}
+
+.sidebar #block-search-form .form-submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #666;
+  border: 0;
+  padding: 0.5em 1em;
+  letter-spacing: 1px
+}
+
+.no-touch .sidebar #block-search-form .form-submit:hover {
+  background-color: #888;
+}
+
+.sidebar #block-search-form #search-block-form .form-item-search-block-form {
+  width: 69%;
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+.sidebar #block-search-form #search-block-form .form-item-search-block-form input {
+  width: 95%;
+}
+
+.sidebar #block-search-form #search-block-form #edit-actions {
+  width: 28%;
+  display: inline-block;
+}
+/* end sidebar search form block */
+
+
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 1em;
+}
+
+.page-humanities #header-wrapper,
+.page-social-sciences #header-wrapper,
+.page-psychology #header-wrapper {
+  margin-bottom: 6px;
+}
+/* end Page Header Region */
+
+
+/* Home Page Header */
+#header .iit-page-header {
+  position: relative;
+  z-index: 10;
+}
+
+#header .region-header {
+  position: relative;
+}
+
+#header .region-header .block-block {
+  margin: 0 10px;
+  width: inherit;
+}
+
+
+#header .region-header .block-block .block-inner {
+  margin: 0;
+}
+
+
+#header .iit-page-header h2 {
+  font-family: 'oswald', sans-serif;
+  font-size: 1.625em;
+  font-weight: 400;
+  padding: 0.428571428em 0 0;
+  margin: 0;
+  color: #888;
+}
+
+#header .iit-page-header h2 a {
+    color: #888;
+    text-decoration: none;
+}
+
+#header .iit-page-header h2 a span {
+    color: #295F6C;
+}
+
+.psychology #header .iit-page-header h2 a.department {
+    color: #7d9395;
+}
+
+.humanities #header .iit-page-header h2 a.department {
+    color: #89b3c1;
+}
+
+.social-sciences #header .iit-page-header h2 a.department {
+    color: #6291a5;
+}
+/* end Home Page Header */
+
+
+/* Department Page Header */
+#header .lewis-dept-header {
+    overflow: auto;
+    margin: 0 0 8px;
+    padding-bottom: 2px;
+}
+
+.psychology #header .lewis-dept-header {border-bottom: 6px solid #302e2f;}
+.humanities #header .lewis-dept-header {border-bottom: 6px solid #a6a89c;}
+.social-sciences #header .lewis-dept-header {border-bottom: 6px solid #b84e46;}
+
+#header .lewis-dept-header a {
+  font-family: 'oswald', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+#header .lewis-dept-header a {
+    background-color: #295F6C;
+}
+
+#header .lewis-dept-header a h2 {
+    font-weight: 400;
+}
+
+.psychology #header .lewis-dept-header a {
+    background-color: #7d9395;
+}
+
+.humanities #header .lewis-dept-header a {
+    background-color: #89b3c1;
+}
+
+.social-sciences #header .lewis-dept-header a {
+    background-color: #6291a5;
+}
+/* end Department Page Header */
+
+
+/* header menu */
+#header .block-menu-block {
+  margin: 0 10px;
+  padding: 0 0 .375em;
+  border-bottom: 1px solid #888;
+  width: inherit;
+}
+
+#header .block-menu-block .block-inner {
+  margin: 0;
+}
+
+#header .block-menu-block ul ul {
+  display: none;
+}
+
+#header .block-menu-block ul {
+  padding: 0;
+  margin: 0;
+  /*background: url("images/background.png");*/
+}
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  #header .block-menu-block ul {
+    background: url("images/background@2x.png");
+    background-size: 7px;
+  }
+}*/
+
+#header .block-menu-block .menu-block-wrapper ul li {
+  list-style-type: none;
+  list-style-image: none;
+  margin-right: 1.5em;
+  padding: 0;
+}
+
+#header .block-menu-block .menu-block-wrapper ul li a {
+  display: block;
+  padding: 0.2em 0;
+  color: #666;
+  text-decoration: none;
+  outline: none;
+  text-transform: none;
+}
+
+#header .block-menu-block .menu-block-wrapper ul li a:hover {
+  /*background-color: #ccc;*/
+  /*color: #fff;*/
+  color: #295F6C;
+}
+
+.psychology #header .block-menu-block .menu-block-wrapper ul li a:hover {
+  color: #7d9395;
+}
+
+.humanities #header .block-menu-block .menu-block-wrapper ul li a:hover {
+  color: #89b3c1;
+}
+
+.social-sciences #header .block-menu-block .menu-block-wrapper ul li a:hover {
+  color: #6291a5;
+}
+
+#header .block-menu-block .menu-block-wrapper ul li a.active-trail {
+  /*background-color: #295F6C;
+  color: #fff;*/
+  color: #295F6C;
+  font-weight: bold;
+}
+
+.psychology #header .block-menu-block .menu-block-wrapper ul li a.active-trail {
+  /*background-color: #7d9395;*/
+  color: #7d9395;
+  font-weight: bold;
+}
+
+.humanities #header .block-menu-block .menu-block-wrapper ul li a.active-trail {
+  /*background-color: #89b3c1;*/
+  color: #89b3c1;
+  font-weight: bold;
+}
+
+.social-sciences #header .block-menu-block .menu-block-wrapper ul li a.active-trail {
+  /*background-color: #6291a5;*/
+  color: #6291a5;
+  font-weight: bold;
+}
+/* end header menu */
+
+
+/* header top 3 menu*/
+#header #block-menu-block-3 {
+    padding: 0;
+    border: 0;
+    z-index: 100;
+}
+
+#header #block-menu-block-3 ul {
+    background-image: none;
+}
+
+#header #block-menu-block-3 ul li a {
+    display: block;
+    padding: .35em 1em;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #666;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Open Sans Condensed',sans-serif; font-weight: bold; font-size: 1em; line-height: 1em; text-align: center; text-transform: uppercase;
+}
+
+#header #block-menu-block-3 ul li a:hover {
+    background-color: #888;
+}
+/* end header top 3 menu*/
+
+
+/* Button Styles */
+body a.info-button {
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.06667em;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  margin-top: 0.4em;
+}
+
+body a.info-button:hover {
+  background-color: #888;
+}
+
+body a.hs-button {
+  color: #fff;
+  background-color: #295F6C;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.8em;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  margin-top: 0.4em;
+}
+
+body a.hs-button:hover,
+body.psychology a.hs-button:hover,
+body.humanities a.hs-button:hover,
+body.social-sciences a.hs-button:hover {
+  background-color: #888;
+}
+
+body.psychology a.hs-button {
+  background-color: #8ead52;
+}
+
+body.humanities a.hs-button {
+  background-color: #f58c1f;
+}
+
+body.social-sciences a.hs-button {
+  background-color: #b84e46;
+}
+/* end Button Styles */
+
+/* Type letter class */
+.type-letter {
+  background-color: #eee;
+  border: 1px solid #333;
+  margin: 30px;
+  padding: 20px;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;
+}
+/* end Type letter class */
+
+
+
+/* Department Homepages */
+#content .panel-flexible.dept-home {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .block-inner {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row {
+  padding: 0;
+  margin: 0 -0.892857142857%;
+}
+
+/* Homepage Hero Block Region */
+#content .panel-flexible.dept-home .pane-department-hero-slideshow {
+  margin: 0;
+}
+ 
+#content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider {
+    margin: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 0.892857142857% 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider .slides {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider .slides li {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider .slides img {
+    max-width: 100%;
+    height: auto !important;
+    width: inherit;
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider .flex-control-nav.flex-control-paging {
+    bottom: 0;
+    right: 0;
+    width: inherit;
+    padding: 0 1%;
+}
+
+#content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider .flex-control-nav.flex-control-paging li {
+    margin: 0 2px;
+}
+/* end Homepage Hero Block Region */
+
+
+/* Row */
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .home-image-button img {
+    margin: 0;
+    display: block;
+}
+
+#content .panel-flexible.dept-home .dept-home-row p {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .panel-pane.block {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .one-column {
+    width: 23.214285714286%;
+    margin: 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .two-column {
+    width: 48.214285714286%;
+    margin: 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .four-column {
+    width: 98.214285714286%;
+    margin: 0.892857142857%;
+}
+
+/* end Row */
+
+/* end Department Homepages */
+
+
+
+/* faculty directory view */
+.lewis-faculty-directory.view-faculty .views-row {
+    clear:both;
+    padding: 0.5em 0;
+    overflow:auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.lewis-faculty-directory.view-faculty .views-row-last {
+    border:0;
+}
+
+.lewis-faculty-directory.view-faculty h3 {
+    clear:both;
+    font-size: 2em;
+    margin: 0.8em 0 0.2em 0;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #888;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-nothing {
+    font-size: 1.1875em;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-field-title {
+    font-size: 0.8125em;
+    font-style: italic;
+}
+
+.lewis-faculty-directory.view-faculty #letter-selector a {
+    padding: 0 1.1%;
+    font-size: 1.1875em;
+}
+
+.lewis-faculty-directory.view-faculty #letter-selector a:first-child {
+    padding-left: 0;
+}
+/* end faculty directory view */
+
+
+/* full faculty bio view */
+.node-type-faculty h1#page-title {
+  display:none;
+}
+
+#content .node-faculty .panel-display {
+  margin:0;
+}
+
+.node-faculty .field-name-full-faculty-name h1 {
+  line-height: 1.263157894em;
+  margin: 0 0 0.5em 0;
+}
+
+.node-faculty .field-name-field-title{
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above section {
+  margin-bottom: 0.3125em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above section h2 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 6.25em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above .field-name-faculty-cv-link {
+  font-weight: bold;
+  margin-top: 1.1875em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above section p {
+  margin: 0;
+  
+}
+
+#main-content .node-faculty .region-two-brick-middle h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin: 0.8em 0 0.2em 0;
+}
+
+.field-name-faculty-cv-link .file-icon {
+	margin: 0 !important;
+}
+/* end full faculty bio view */
+
+
+/* faculty department directory view */
+.department-faculty-directory.view-faculty .views-row {
+    clear:both;
+    padding: 0.5em 0;
+    overflow:auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.department-faculty-directory.view-faculty .views-row-last {
+    border:0;
+}
+
+.department-faculty-directory.view-faculty h3 {
+    clear:both;
+    font-size: 2em;
+    margin: 0.8em 0 0.2em 0;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #888;
+}
+
+.department-faculty-directory.view-faculty .views-field-nothing {
+    font-size: 1.1875em;
+}
+
+.department-faculty-directory.view-faculty .views-field-field-title {
+    font-size: 0.8125em;
+    font-style: italic;
+}
+
+.department-faculty-directory.view-faculty #letter-selector a {
+    padding: 0 1.1%;
+    font-size: 1.1875em;
+}
+
+.department-faculty-directory.view-faculty #letter-selector a:first-child {
+    padding-left: 0;
+}
+/* end faculty directory view */
+
+/* Faculty Research Page */
+.page-node-489 caption {
+    font-size: 1.5em;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+}
+
+.page-node-489 .view-id-faculty .views-table {
+    margin: 25px 0;
+}
+/* end Faculty Research Page */
+
+/* Slideshow Block */
+.node-slideshow .flexslider {
+    margin: 0 0 45px;
+    background: transparent;
+    border: 0;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    zoom: 1;
+}
+
+.node-slideshow .flexslider img {
+    margin: 0 !important;    
+}
+
+.node-slideshow .flexslider .flex-caption {
+    background-color: rgb(203, 193, 163);
+    padding: 10px;
+    color: #222;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+/* end Slideshow Block */
+
+
+/* Research interests pages */
+.page-node-489 .views-table caption, 
+.page-node-525 .views-table caption, 
+.page-node-537 .views-table caption {  
+  font-size: 1.4375em;
+  color: #444;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1em 0 0.25em 0;
+  letter-spacing: 1px; 
+}
+
+.page-node-489 .views-table tr td:first-child,  
+.page-node-525 .views-table tr td:first-child, 
+.page-node-537 .views-table tr td:first-child { width: 200px; }
+/* end Research interests pages */
+
+
+/* Events page blocks */
+/* events block */
+.view-id-events .views-row {
+    margin: 0.875em 0;
+    position: relative;
+    min-height: 4.375em;
+}
+
+.view-id-events .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-field-date {
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: #555;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-field-location {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper {
+    border: 2px solid rgb(203,193,163);
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper .cal-day {
+    background-color: rgb(203,193,163);
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.view-id-events .event-calendar-dept-type-loc {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;    
+}
+/* end events block */
+/* end Events page blocks */
+
+
+/* Course Description */
+#course-descriptions .course_title { 
+  font-size: 1.4375em;
+  color: #89b3c1;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1em 0 0.25em 0;
+  letter-spacing: 1px;
+}
+#course-descriptions .prerequisites {  display:block; }
+#course-descriptions .corequisites {  display:block; }
+#course-descriptions .description {  
+  font-size: .938em;
+  line-height: 1.5em; 
+}
+/* end Course Description */
+
+
+/* HS_Admission Buttons Peter Made */
+#HS_Admission { overflow:hidden; }
+#HS_Admission a { 
+  color:#FFF; 
+  font-family: 'oswald', sans-serif; 
+  font-weight: 300; 
+  font-size: 18px; 
+  position:absolute; 
+  bottom:0; 
+  top:0; 
+  left:0; 
+  right:0;
+}
+#HS_Admission div { 
+  position:relative; 
+  float:left; 
+  width:31.3333333333333333333333333%; 
+  padding-bottom:15%; 
+  height:0; 
+  margin:0 1%; 
+}
+#HS_Admission span { 
+  position:absolute; 
+  bottom:5px; 
+  left:5px; 
+}
+
+#HS_Admission #undergrad-admission {
+  background-color:#f90;
+}
+#HS_Admission #grad-humanities {
+  background-color:#89b3c1;
+}
+
+#HS_Admission #grad-psychology {
+  background-color:#7e9396;
+}
+
+#HS_Admission #hum-undergrad-resources { 
+  background-color:#89b3c1; 
+  width:48%;
+}
+
+#HS_Admission #hum-grad-resources { 
+  background-color:#a6a89c; 
+  width:48%;
+}
+
+#HS_Admission #psy-undergrad-resources { 
+  background-color:#7d9395; 
+  width:48%;
+}
+
+#HS_Admission #psy-grad-resources { 
+  background-color:#302e2f; 
+  width:48%;
+}
+
+#HS_Admission #humanities {
+  background-color:#89b3c1;
+}
+
+#HS_Admission #psychology {
+  background-color:#7e9396;
+}
+
+#HS_Admission #social-sciences {
+  background-color:#6291a5;
+}
+/* end HS_Admission Buttons Peter Made */
+
+
+/* Fixed Table Layout Fix */
+table.fixed-table { table-layout: fixed; }
+/* end Fixed Table Layout Fix */
+
+
+/* Profile Page */
+.node-type-profile #main-content .field-name-field-featured-image img {
+  margin:0 0 20px 0;
+}
+
+.node-type-profile .field-name-profile-intext-sidebar {
+  float: left;
+  padding: 16px;
+  background-color: #295F6C;
+  margin: 0 20px 20px 0;
+  width: 200px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.node-type-profile #main-content .field-name-profile-intext-sidebar .profile-sidebar-item h6 {
+  color: #fff;
+    font-size: 1.7em;
+    margin: 0;
+    font-weight: 300;
+}
+
+.node-type-profile .field-name-profile-intext-sidebar .profile-sidebar-content.name {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.node-type-profile .field-name-profile-intext-sidebar .profile-sidebar-item {
+  margin-bottom: 15px;
+}
+
+.node-type-profile .field-name-profile-intext-sidebar .profile-sidebar-item.type {
+  margin-bottom: 10px;
+}
+
+.node-type-profile .field-name-profile-intext-sidebar .profile-sidebar-label {
+  font-weight: 400;
+}
+/* end Profile Page */
+
+/* Profile overview Page */
+#main-content #block-views-profiles-block h3 {
+  font-size: 1.9375em;
+  margin: 0.8em 0 0.8em 0;
+  border-bottom: 1px solid #888;
+    padding-bottom: 0.1em;
+}
+
+#main-content #block-views-profiles-block .views-field-field-thumbnail-image img {
+  margin:0;
+}
+
+#block-views-profiles-block .views-row {
+    clear: both;
+    min-height: 180px;
+  overflow: hidden;
+}
+
+#block-views-profiles-block .views-field-field-thumbnail-image {
+    float:left;
+    margin-right: 20px;
+}
+
+#block-views-profiles-block .views-field-nothing {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+#block-views-profiles-block .views-field-field-profile-department {
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 0.8em;
+    display:block;
+}
+/* end Profile overview Page */
+
+
+/*This is for the extra block on the Psych Faculty page for Emeritus*/
+.page-node-212 span.field-content.field-faculty-name {
+    color: #669c41;
+}
+
+.page-node-212 div#block-views-faculty-block-2 {
+    margin-bottom: 0;
+}
+/* end This is for the extra block on the Psych Faculty page for Emeritus*/

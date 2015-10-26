@@ -1,0 +1,496 @@
+<?php
+// $Id: oai_pmh.module,v 1.1 2008/11/24 13:02:45 pletcher Exp $
+
+function oai_pmh_help($section='') {
+
+  $output = '';
+
+  switch ($section) {
+  case "admin/help#oai-pmh":
+    $output = '<p>' . t("Module for harvesting OAI-PMH data from a respoitory, and storing it locally for manipulation by Drupal") . '</p>';
+    break;
+  }
+
+  return $output;
+}
+
+function oai_pmh_menu() {
+
+  $items = array();
+
+  $items[] = array(
+    'path' => 'admin/settings/oai_pmh',
+    'title' => t('OAI-PMH Settings'),
+    'description' => t('Settings page for OAI-PMH module'),
+    'callback' => 'drupal_get_form',
+    'callback arguments' => 'oai_pmh_admin',
+    'access' => user_access('access administration pages'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $items[] = array(
+    'path' => 'harvest',
+    'title' => t('Harvesting from OAI repo'),
+    'callback' => 'oai_pmh_cron',
+    'access' => user_access('access administration pages'),
+    'type' => MENU_CALLBACK
+  );
+
+  $items[] = array(
+    'path' => 'identify',
+    'title' => t('Getting Identify response from OAI repo'),
+    'callback' => 'oai_pmh_get_identify',
+    'access' => user_access('access administration pages'),
+    'type' => MENU_CALLBACK
+  );
+
+  return $items;
+}
+
+function oai_pmh_admin() {
+
+  $repos_str = variable_get('oai_pmh_repos', '');
+
+  if ($repos_str == '') {
+    $repos = array();
+  }
+  else {
+    $repos = explode(',', substr($repos_str, 1));
+  }
+
+  foreach ($repos as $repo) {
+    $form['oai_pmh_'.$repo.'_name'] = array(
+      '#type' => 'item',
+      '#title' => t('Short Internal Identifier'),
+      '#value' => t($repo),
+    );
+
+    $form['oai_pmh_'.$repo.'_repo'] = array(
+      '#type' => 'textfield',
+      '#title' => t('URL of the OAI implementation'),
+      '#default_value' => variable_get('oai_pmh_'.$repo.'_repo', ''),
+      '#size' => 64,
+      '#maxlength' => 128,
+      '#description' => t("This is the repository."),
+      '#required' => TRUE
+    );
+  }
+
+  $new = variable_get('oai_pmh_new', '');
+
+  if ($new != '') {
+    $form['oai_pmh_'.$new.'_name'] = array(
+      '#type' => 'item',
+      '#title' => t('Short Internal Identifier'),
+      '#value' => $new,
+      '#description' => t("This is a short name of the repository.")
+    );
+
+    $form['oai_pmh_'.$new.'_repo'] = array(
+      '#type' => 'textfield',
+      '#title' => t('URL of the OAI implementation'),
+      '#default_value' => variable_get('oai_pmh_'.$new.'_repo', ''),
+      '#size' => 64,
+      '#maxlength' => 128,
+      '#description' => t("This is the repository."),
+      '#required' => TRUE,
+    );
+
+    // Create new taxonomy, set the type, and return the vid
+    $vid = _oai_pmh_new_taxo($new);
+
+    if ($vid === NULL) {
+      die("Could not create new taxo");
+    }
+
+    variable_set('oai_pmh_'.$new.'_taxo', $vid);
+      
+    variable_set('oai_pmh_new', '');
+    variable_set('oai_pmh_repos', $repos_str.','.$new);
+  }
+
+  #variable_set('oai_pmh_repos', '');
+
+  $form['oai_pmh_new'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Add a new Repository'),
+    '#default_value' => '',
+    '#size' => 32,
+    '#maxlength' => 164,
+    '#description' => t("This is a short name of the new repository. Please only use alphanumeric, no spaces.")
+  );
+
+  return system_settings_form($form);
+}
+
+// This should be run during install, and have an option to run again
+function oai_pmh_get_identify($repo='') {
+
+  $repos = array();
+
+  if ($repo == '') {
+    $repos_str = variable_get('oai_pmh_repos', '');
+    $repos = explode(',', substr($repos_str, 1));
+  }
+  else {
+    $repos = array($repo);
+  }
+
+  foreach ($repos as $repo) {
+
+    $url = variable_get('oai_pmh_'.$repo.'_repo', '');
+
+    $url = $url."?verb=Identify";
+
+    $xml = file_get_contents($url);
+
+    $xml = utf8_encode($xml); // Sam says it's important
+
+    // Returns FALSE on error
+    $s = simplexml_load_string($xml);;
+
+    if (!$s) {
+      die('SimpleXML load string error: '.$xml);
+    }
+
+    $ident = $s->Identify;
+    // Things which must come back, or die
+    // Protocool Version
+    if (!isset($ident->protocolVersion)) {
+      die('Incorrect Identify Response from Repository -- No protocolVersion');
+    }
+    else {
+      if ($ident->protocolVersion != '2.0') {
+        die('Incorrect Identify Response from Repository -- Unsupport Protcool' .
+          ' Version');
+      }
+    }
+
+    // DeleteRecord
+    if (!isset($ident->deletedRecord)) {
+      die('Incorrect Identify Response from Repository -- No deleteRecord');
+    }
+    else {
+      variable_set('oai_pmh_'.$repo.'_deleted_record', (string)$ident->deletedRecord);
+    }
+
+    // Earlist Datestamp
+    if (!isset($ident->earliestDatestamp)) {
+      die('Incorrect Identify Response from Repository -- No Earlist Datestamp');
+    }
+    else {
+      variable_set('oai_pmh_'.$repo.'_earlist_datestamp', (string)$ident->earliestDatestamp);
+    }
+
+    // Granularity
+    if (!isset($ident->granularity)) {
+      die('Incorrect Identify Response from Repository -- No Granularity');
+    }
+    else {
+      // Granularty is only in days
+      // Magic number from strlen(YYYY-MM-DD)
+      if (strlen($ident->granularity) == 10) {
+        variable_set('oai_pmh_'.$repo.'_granularity', 'days');
+      }
+      // Granularity is in seconds
+      // Magic number from strlen(YYYY-MM-DDThh:mm:ssZ)
+      else if (strlen($ident->granularity) == 20) {
+        variable_set('oai_pmh_'.$repo.'_granularity', 'seconds');
+      }
+      else {
+        die('Incorrect Identify Response from Repository -- Unknown Granularity');
+      }
+    }
+
+    // Optional things, which are nice to have
+    if (!isset($ident->compression)) {
+      variable_set('oai_pmh_'.$repo.'_compression', FALSE);
+    }
+    // According to HTTP 1.1 RFC 2616 there is also the Lempel-Ziv-Welch
+    // compression, which in theory could be supported. However, PHP doesn't 
+    // seem to play nice with it, and I havnt seen a repo with it. Its also is
+    // 14 years old.
+    else {
+      variable_set('oai_pmh_'.$repo.'_compression', TRUE);
+      foreach ($ident->compression as $encoding) {
+        if ($encoding == 'gzip') {
+          variable_set('oai_pmh_'.$repo.'_compression_gzip', TRUE);
+        }
+        elseif ($encoding == 'deflate') {
+          variable_set('oai_pmh_'.$repo.'_compression_deflate', TRUE);
+        }
+      }
+    } 
+  }
+}
+
+function oai_pmh_get_repo($request, $repo) {
+  $return = '';
+
+  $compression = variable_get('oai_pmh_'.$repo.'_compression', FALSE);
+  $compression_gzip = variable_get('oai_pmh_'.$repo.'_compression_gzip', FALSE);
+  $compression_deflate = variable_get('oai_pmh_'.$repo.'_compression_deflate', FALSE);
+
+  $url = variable_get('oai_pmh_'.$repo.'_repo', '');
+  $url = $url . $request;
+
+  // If the repo supports gzip compression use curl to reduce overhead
+  if ($compression) {
+    // Init, return data, and set up compression headers.
+    $curl = curl_init($url);
+
+    if ($compression_gzip) {
+      $httpheader = array(
+        "Accept-Encoding: gzip;q=1.0, identity;q=0.5"
+      );
+    }
+    elseif ($compression_deflate) {
+      $httpheader = array(
+        "Accept-Encoding: deflate;q=1.0, identity;q=0.5"
+      );
+    }
+
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
+    curl_setopt($curl, CURLOPT_HTTPHEADER, $httpheader);
+
+    // Do work.
+    $data = curl_exec($curl);
+
+    // Check work.
+    if (curl_errno($curl)) {
+      die(curl_error($curl));
+    }
+
+    // Clean up
+    curl_close($curl);
+
+    // Magic number of bytes to strip, from php.net to play nice with
+    // mod_deflate, because apparently the php functions just work with gzipped
+    // stuff from inside php.
+    if ($compression_gzip) {
+      $return = gzinflate(substr($data, 10));
+    }
+    else if ($compression_deflate) {
+      $return = gzuncompress($data);
+    }
+  }
+  else {
+    // No compression supported, old school grab.
+    $return = file_get_contents($url);
+  }
+
+  return $return;
+}
+
+function oai_pmh_main($repo='') {
+  if ($repo == '') {
+    die('No repo passed into oai_pmh_main()');
+  }
+
+  // Get current time before we start fetching. Fetching shouldnt take
+  // long, but in theory there could be a really small window in which
+  // a record could be created in and not fetched, and man that would
+  // suck to debug.
+  if ('seconds' == variable_get('oai_pmh_'.$repo.'_granularity', 'days')) {
+    $now = date('Y-m-d\TH:m:s\Z');
+  }
+  else if ('days' == variable_get('oai_pmh_'.$repo.'_granularity', 'days')) {
+    $now = date('Y-m-d');
+  }
+  else {
+    die('Unsuported granularity returned');
+  }
+
+  // Get the last fetch date, if we cant get the earlist date stamp
+  // and if we cant do that, die.
+  $from = variable_get('last_fetch', 
+    variable_get('earlist_datestamp', FALSE));
+
+  $from = variable_get('oai_pmh_'.$repo.'_earlist_datestamp', '');
+
+  if (!$from) {
+    die('Unable to get a date to fetch from');
+  }
+
+  // Build request for first pass. Clean date to make url safe
+  $request = '?verb=ListRecords&from=' . _oai_pmh_clean_url($from) . 
+    '&metadataPrefix=oai_dc';
+
+  // Oneshot var to allow a single bad resumption token
+  $bad_resumpt_token = FALSE;
+
+  do {
+    $continue = FALSE;
+
+    $xml = oai_pmh_get_repo($request, $repo);
+
+    $s = simplexml_load_string($xml);
+
+    if (!$s) {
+      die('SimpleXML load string error: '.$xml);
+    }
+
+    // If error element is set, we have a problem. Blow up before the
+    // foreach blows up for us. More info this way too.
+    if (isset($s->error)) {
+      // If the error is a bad resumption token, and we havnt already tried
+      // reset the query, unset our existing data to avoid duplicates, tell
+      // the loop to continue, and shoot out oneshot var
+      if ('badResumptionToken' == $s->error['code'] && !$bad_resumpt_token) {
+        $bad_resumpt_token = TRUE;
+        $continue = TRUE;
+        unset($record_store);
+        $request = '?verb=ListRecords&from=' . _oai_pmh_clean_url($from) . 
+          '&metadataPrefix=oai_dc';
+      }
+      // If its not a bad resump token, or if its a bad resump token for the
+      // second time die and say why. We want to ignore noRecordsmatch errors
+      // as theyre not 'real' errors, just means no new records.
+      else if ('noRecordsMatch' != $s->error['code']) {
+        die('Error from server, code -- ' . $s->error['code'] . 
+          ' -- value --  ' . (string)$s->error);
+      }
+    }
+    else {      
+      foreach($s->ListRecords->record as $item) {
+        // STORE RECORDS IN THIS VARIABLE. IF YOU CHANGE IT, CHANGE THE UNSET
+        // ABOVE OTHERWISE INCONSISTENCY IS POSSIBLE -- $record_store
+        $dc_node = $item->metadata->children('http://www.openarchives.org/OAI/2.0/oai_dc/')->children('http://purl.org/dc/elements/1.1/');
+
+        $values['title'] = (string)$dc_node->title;
+        $values['body'] = (string)$dc_node->description;
+        $values['status'] = 1;
+        $values['uid'] = 1;
+
+        $values['field_record_identifier'][0]['value'] = 
+          (string)$item->header->identifier;
+        $values['field_record_date'][0]['value'] = (string)$dc_node->date[0];
+        $values['field_record_creator'][0]['value'] = 
+          (string)$dc_node->creator;
+        $values['field_record_language'][0]['value'] = 
+          (string)$dc_node->language;
+        $values['field_record_type'][0]['value'] = (string)$dc_node->type;
+
+        if (isset($dc_node->subject)) {
+
+          foreach ($dc_node->subject as $sub) {
+            $subjects[] = (string)$sub;
+          }
+
+          $tax = variable_get('oai_pmh_'.$repo.'_taxo', '');
+          if ($tax != '') {
+            $values['taxonomy']['tags'][$tax] = implode(',', $subjects);
+          }
+
+          // Delete subjects for next run through
+          unset($subjects);
+        }
+
+        $record_store['store'][] = $values;
+
+      }
+      // if a resumption token is set, and it is non-null. Requests with
+      // resumptionTokens come back with an empty self closing tag
+      // indicating the end of the request.
+      if (isset($s->ListRecords->resumptionToken) && 
+        '' != (string)$s->ListRecords->resumptionToken) {
+          // Run the loop a second time, update the request url
+          $continue = TRUE;
+          $request = '?verb=ListRecords&resumptionToken=' .
+            _oai_pmh_clean_url((string)$s->ListRecords->resumptionToken);
+          // Unneeded in theory, but makes me feel better
+          unset($s->ListRecords->resumptionToken);
+        }
+    }
+  }
+  while ($continue);
+
+  // Store "currnet" time as our last fetched time for next iteration
+  variable_set('oai_pmh_'.$repo.'_last_fetch', $now);
+
+  return $record_store;
+}
+
+# Eventually deletion stuff will go here also.
+function oai_pmh_insert($arr) {
+  $node = array('type' => 'oai_pmh_record');
+  
+  $n = 0;
+  echo "### ".count($arr['store'])."\n";
+  foreach ($arr['store'] as $values) {
+    echo "#".$n++."\n";
+    drupal_execute('oai_pmh_record_node_form', $values, $node);
+    ob_flush();
+  }
+}
+
+function _oai_pmh_clean_url($str) {
+  // Do %'s first, so we dont get double replacement
+  $str = str_replace('/%/', '%25', $str);
+  // Do the rest.
+  $pattern = array('/', '?', '#', '=', '&', ':', ';', ' ', '+');
+  $replace = array('%2F', '%3F', '%23', '%3D', '%26', '%3A', '%3B', '%20',
+    '%2B');
+
+  return str_replace($pattern, $replace, $str);
+}
+
+function _oai_pmh_new_taxo($name) {
+    // Create a new Taxonomy for the new repo
+    $taxo = array(
+      'name' => 'OAI PMH '. $name,
+      'description' => 'Taxonomy for the '. $name .' Repository',
+      'help' => 'Auto-generated Taxonomy from OAI PMH Module',
+      'relations' => 0,
+      'hierarchy' => 0,
+      'multiple' => 0,
+      'tags' => 1,
+      'weight' => 0,
+      'nodes' => array(
+        // This seems backwards, but according to the code...
+        'oai_pmh_record' => 'type'
+      ),
+    );
+
+    taxonomy_save_vocabulary($taxo);
+    
+    $taxo_all = taxonomy_get_vocabularies('oai_pmh_record');
+    
+    foreach($taxo_all as $taxo) {
+      if ($taxo->name == 'OAI PMH '. $name) {
+        return $taxo->vid;
+      }
+    }
+
+    return NULL;
+}
+
+function oai_pmh_cron() {
+  print "<pre>";
+  set_time_limit(0);
+  oai_pmh_get_identify();
+  $repos_str = variable_get('oai_pmh_repos', '');
+  $repos = explode(',', substr($repos_str, 1));
+  foreach ($repos as $repo) {
+    $last = variable_get('oai_pmh_'.$repo.'_last_fetch', NULL);
+    $gran = variable_get('oai_pmh_'.$repo.'_granularity', NULL);
+    // Get time between fetching, default to 6hr
+    if ($gran == 'seconds') {
+      $interval = variable_get('oai_pmh_'.$repo.'_interval', 21600);
+    }
+    else if ($gran == 'days') {
+      $interval = variable_get('oai_pmh_'.$repo.'_interval', 86400);
+    }
+
+    // Based on granularity, if it hasnt been 6 or 24 hours respectively (magic num is time in sec)
+    // exit before running
+    if ($last != NULL && strtotime($last) >= (time() - $interval)) {
+      break;
+    }
+      
+    $ret = oai_pmh_main($repo);
+    ob_flush();
+    oai_pmh_insert($ret);
+  }
+  print "</pre>";
+}

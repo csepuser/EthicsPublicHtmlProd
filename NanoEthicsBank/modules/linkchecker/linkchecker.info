@@ -1,0 +1,10 @@
+name = Link checker
+description = "Periodically checks for broken links in node types, blocks and cck fields and reports the results."
+core = 6.x
+
+; Information added by drupal.org packaging script on 2013-02-14
+version = "6.x-2.7"
+core = "6.x"
+project = "linkchecker"
+datestamp = "1360848964"
+
